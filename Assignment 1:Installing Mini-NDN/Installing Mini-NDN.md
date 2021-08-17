@@ -7,5 +7,5 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
 <pre>
 
 ./install.sh -i
-
+.
 </pre>
