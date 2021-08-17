@@ -7,5 +7,12 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
 <pre>
 
 ./install.sh -i
-.
+
+</pre>
+
+<b>else if you don’t have the dependencies, the following command will install them from source along with Mini-NDN:</b>
+
+<pre>
+
+./install.sh -a
 </pre>
