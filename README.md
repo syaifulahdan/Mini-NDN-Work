@@ -2,8 +2,7 @@
 
 ##### Introduction.
 
-Mininet An Instant Virtual Network on your Laptop (or other PC
-Mininet is actively developed and supported, and is released under a permissive BSD Open Source license. We encourage you to contribute code, bug reports/fixes, documentation, and anything else that can improve the system! source : http://mininet.org/
+NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires programs to be installed onto your computer. It will not work if they are not installed. If you do not want NDN software installed onto your computer, you can use a virtual machine, which can be quite simply set up with the provided vagrantfile, and anything else that can improve the system! source : https://7th-ndn-hackathon.named-data.net/mini-ndn-documentation/manual/INSTALL.html
 
 ##### Tabel Of Content
 
