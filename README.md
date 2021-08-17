@@ -11,9 +11,9 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
    -  Assignment1:Installing Mini-NDN [[read] ](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment1.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-1)
 
       - 1.Installing Mini-NDN </b>:[Source Link](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/1.Installing%20Mini-NDN.md)
-      - 2.Installing NFD </b>:[Source Link](https://7th-ndn-hackathon.named-data.net/mini-ndn-documentation/manual/INSTALL.html)
-      - 3.Installing NLSR  </b>:[Source Link](https://7th-ndn-hackathon.named-data.net/mini-ndn-documentation/manual/INSTALL.html)
-      - 4.Installing NDN-Tools  </b>:[Source Link](https://7th-ndn-hackathon.named-data.net/mini-ndn-documentation/manual/INSTALL.html)
+      - 2.Installing NFD </b>:[Source Link](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/2.Installing%20NFD.md)
+      - 3.Installing NLSR  </b>:[Source Link](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/3.Installing%20NLSR.md)
+      - 4.Installing NDN-Tools  </b>:[Source Link](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/4.Installing%20NDN-Tools.md)
 
 
 
