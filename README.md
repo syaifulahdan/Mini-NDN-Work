@@ -10,10 +10,10 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
 
    -  Assignment1:Installing Mini-NDN [[read] ](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment1.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-1)
 
-   - 1.Installing Mini-NDN 
-   - 2.Installing NFD
-   - 3.Installing NLSR 
-   - 4.Installing NDN-Tools 
+      - 1.Installing Mini-NDN 
+      - 2.Installing NFD
+      - 3.Installing NLSR 
+      - 4.Installing NDN-Tools 
 
 
 
