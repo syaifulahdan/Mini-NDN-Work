@@ -34,7 +34,7 @@ bertopeng17-1@./waf configure
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure.png)
 
 <pre>
-bertopeng17-1@./waf configure
+bertopeng17-1@./waf
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/Screenshot%20from%202021-09-08%2010-26-58.png)
