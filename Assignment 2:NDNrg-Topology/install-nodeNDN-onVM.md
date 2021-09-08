@@ -27,8 +27,9 @@ bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$
 
 install the dependency file ndn-cxx
 
+<pre>
 bertopeng17-1@./waf configure
-
+</pre>
 
 
 
