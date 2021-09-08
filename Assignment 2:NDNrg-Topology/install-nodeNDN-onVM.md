@@ -1,5 +1,25 @@
 **Installastion Node NDN** https://named-data.net/doc/ndn-cxx/current/INSTALL.html
 
+Prerequisites
+<pre>
+Required
+
+    GCC >= 7.4 or clang >= 4.0 (on Linux and FreeBSD)
+    Xcode >= 9.0 (on macOS)
+    Python >= 3.6
+    pkg-config
+    Boost >= 1.65.1
+    OpenSSL >= 1.0.2
+    SQLite 3.x
+
+</pre>
+
+To build ndn-cxx from source, one must first install a C++ compiler and all necessary development tools and libraries:
+On Ubuntu
+<pre>
+sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
+</pre>
+
 1. Install git
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get update
