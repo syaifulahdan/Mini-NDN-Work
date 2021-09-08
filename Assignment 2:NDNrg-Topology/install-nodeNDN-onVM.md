@@ -13,7 +13,15 @@ bertopeng17-1@NDN-Node1-ITB:~$sudo apt install g++ pkg-config python3-minimal li
 </pre>
 
 <pre>
-bertopeng17-1@Clone git ndn-cxx
+bertopeng17-1@git clone https://github.com/named-data/ndn-cxx.git
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclone.png)
+
+
+
+
 </pre>
+
+
 
 3. 
