@@ -31,7 +31,7 @@ install the dependency file ndn-cxx
 bertopeng17-1@./waf configure
 </pre>
 
-![https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure.png)
 
 
 3. 
