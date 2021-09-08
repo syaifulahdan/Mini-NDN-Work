@@ -1,6 +1,6 @@
 **Installastion Node NDN** https://named-data.net/doc/ndn-cxx/current/INSTALL.html
 
-Prerequisites
+**Prerequisites**
 <pre>
 Required
 
@@ -12,6 +12,26 @@ Required
     OpenSSL >= 1.0.2
     SQLite 3.x
 
+</pre>
+
+**Optional
+**
+<pre>
+To build tutorials, manpages, and API documentation the following additional dependencies need to be installed:
+
+    doxygen
+    graphviz
+    sphinx >= 1.3
+    sphinxcontrib-doxylink
+    
+
+</pre>
+
+The following lists the steps to install these prerequisites on various common platforms.
+On Ubuntu: 
+<pre>
+sudo apt install doxygen graphviz python3-pip
+sudo pip3 install sphinx sphinxcontrib-doxylink
 </pre>
 
 To build ndn-cxx from source, one must first install a C++ compiler and all necessary development tools and libraries:
