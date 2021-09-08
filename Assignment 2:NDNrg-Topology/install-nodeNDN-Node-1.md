@@ -40,7 +40,11 @@ On Ubuntu
 sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
 </pre>
 
-1. Install git
+Install git
+<pre>
+sudo apt-get install git
+</pre>
+
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get update
 bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get install git
