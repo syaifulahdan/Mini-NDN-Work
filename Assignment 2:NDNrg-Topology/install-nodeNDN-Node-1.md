@@ -69,7 +69,20 @@ bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/cdndncxx.png)
 
-install the dependency file ndn-cxx
+** Build
+**
+These are instructions for regular builds of ndn-cxx (release mode). If you are planning to develop the ndn-cxx code itself, you should do a Development build.
+<pre>
+./waf configure   
+./waf
+sudo ./waf install
+
+By default, only the shared variant of the ndn-cxx library will be built. To build the static library, pass --enable-static to the ./waf configure command:
+./waf configure --enable-static
+
+To disable the build of the shared library and build only the static library, use the additional --disable-shared option. Note that at least one variant of the library needs to be enabled.
+./waf configure --enable-static --disable-shared
+</pre>
 
 <pre>
 bertopeng17-1@./waf configure
