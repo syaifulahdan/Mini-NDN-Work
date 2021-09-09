@@ -88,3 +88,6 @@ bertopeng17-1@./waf
 <pre>
 bertopeng17-1@sudo ./waf install
 </pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/tree/main/Assignment%202:NDNrg-Topology/NDNrg-Image)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf%20install%20succes.png)
+
