@@ -69,8 +69,8 @@ bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/cdndncxx.png)
 
-** Build
-**
+** Build **
+
 These are instructions for regular builds of ndn-cxx (release mode). If you are planning to develop the ndn-cxx code itself, you should do a Development build.
 <pre>
 ./waf configure   
