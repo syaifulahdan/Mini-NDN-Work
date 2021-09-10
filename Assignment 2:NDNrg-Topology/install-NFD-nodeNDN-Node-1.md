@@ -41,7 +41,7 @@ $ sudo ./waf install
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure-nfd.png)
 
 Noted:
-Checking for 'libsystemd'                : **not found **
+Checking for 'libsystemd'                : **not found**
  
 checking for header valgrind/valgrind.h  : **not found**
 
