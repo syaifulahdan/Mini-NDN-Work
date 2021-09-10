@@ -38,7 +38,7 @@ $ ./waf
 $ sudo ./waf install
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf-configure-nfd.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure-nfd.png)
 
 <pre>
 $sudo apt-get install nfd
