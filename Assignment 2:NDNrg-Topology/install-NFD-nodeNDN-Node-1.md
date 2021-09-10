@@ -6,7 +6,7 @@ The first step is to obtain the source code for NFD and, its main dependency, th
 
 **Download NFD**
 <pre>
-$git clone --recursive https://github.com/named-data/NFD
+$ git clone --recursive https://github.com/named-data/NFD
 </pre>
 
 
@@ -15,9 +15,17 @@ $git clone --recursive https://github.com/named-data/NFD
 **Prerequisites**
 
 <pre>
-$sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
+$ sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/nfdprequisit.png)
+
+
+<pre>
+$ sudo apt-get install doxygen graphviz python-sphinx
+</pre>
+
+
+
 
 **Install On Ubuntu 18.04**
 <pre>
