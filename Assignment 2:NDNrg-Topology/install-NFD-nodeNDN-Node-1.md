@@ -9,11 +9,6 @@ The first step is to obtain the source code for NFD and, its main dependency, th
 $git clone --recursive https://github.com/named-data/NFD
 </pre>
 
-**Install On Ubuntu 18.04**
-<pre>
-$sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
-</pre>
-
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ **git clone --recursive https://github.com/named-data/NFD**
 Cloning into 'NFD'...
@@ -32,3 +27,10 @@ Resolving deltas: 100% (7417/7417), done.
 Submodule path 'websocketpp': checked out 'ac4e021333675fc80b96eb7be45d218581c897e2'
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
+
+**Install On Ubuntu 18.04**
+<pre>
+$sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
+</pre>
+
+
