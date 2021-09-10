@@ -12,14 +12,18 @@ $git clone --recursive https://github.com/named-data/NFD
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclonenfd.png)
 
+**Prerequisites**
+
+pre>
+$sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
+</pre>
+
+
 **Install On Ubuntu 18.04**
 <pre>
 $sudo apt-get install nfd
 </pre>
 
 
-<pre>
-$sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
-</pre>
-
+<
 
