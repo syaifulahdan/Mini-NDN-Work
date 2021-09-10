@@ -26,6 +26,8 @@ $ sudo apt-get install doxygen graphviz python-sphinx
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/prequisit2nfd.png)
 
+Show document install : sudo apt-get install doxygen graphviz python-sphinx : https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-doc-Install/prerequisites-nfd.txt
+
 
 **Install On Ubuntu 18.04**
 <pre>
