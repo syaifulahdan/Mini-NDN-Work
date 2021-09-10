@@ -8,6 +8,7 @@ The first step is to obtain the source code for NFD and, its main dependency, th
 git clone --recursive https://github.com/named-data/NFD
 </pre>
 
-Install On Ubuntu 18.04
-sudo apt-get install build-essential pkg-config libboost-all-dev \
-                     libsqlite3-dev libssl-dev libpcap-dev
+**Install On Ubuntu 18.04**
+<pre>
+sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
+</pre>
