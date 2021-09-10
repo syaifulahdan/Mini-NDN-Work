@@ -14,7 +14,7 @@ $git clone --recursive https://github.com/named-data/NFD
 
 **Prerequisites**
 
-pre>
+<pre>
 $sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
 </pre>
 
