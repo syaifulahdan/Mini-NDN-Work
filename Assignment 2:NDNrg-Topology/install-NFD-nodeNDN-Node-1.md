@@ -28,6 +28,8 @@ Submodule path 'websocketpp': checked out 'ac4e021333675fc80b96eb7be45d218581c89
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
 
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclonenfd.png)
+
 **Install On Ubuntu 18.04**
 <pre>
 $sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
