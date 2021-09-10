@@ -9,3 +9,5 @@ git clone --recursive https://github.com/named-data/NFD
 </pre>
 
 Install On Ubuntu 18.04
+sudo apt-get install build-essential pkg-config libboost-all-dev \
+                     libsqlite3-dev libssl-dev libpcap-dev
