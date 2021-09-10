@@ -24,7 +24,7 @@ $ sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-d
 $ sudo apt-get install doxygen graphviz python-sphinx
 </pre>
 
-
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/prequisit2nfd.png)
 
 
 **Install On Ubuntu 18.04**
