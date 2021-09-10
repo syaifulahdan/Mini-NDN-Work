@@ -33,11 +33,14 @@ Show document install : sudo apt-get install doxygen graphviz python-sphinx : ht
 
 The following basic commands should be used to build NFD on Ubuntu:
 <pre>
-$ ./waf configure
-$ ./waf
-$ sudo ./waf install
+./waf configure
+./waf
+sudo ./waf install
 </pre>
 
+<pre>
+$ ./waf configure
+</pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure-nfd.png)
 
 Noted:
@@ -46,6 +49,20 @@ Checking for 'libsystemd'                : **not found**
 checking for header valgrind/valgrind.h  : **not found**
 
 Show Document .waf configure : https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-doc-Install/waf-configure-nfd.txt
+
+<pre>
+$ ./waf
+</pre>
+
+
+
+
+
+<pre>
+$ sudo ./waf install
+</pre>
+
+
 <pre>
 $sudo apt-get install nfd
 </pre>
