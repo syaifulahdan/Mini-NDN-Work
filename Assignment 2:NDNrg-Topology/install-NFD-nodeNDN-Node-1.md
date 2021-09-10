@@ -30,6 +30,7 @@ Show document install : sudo apt-get install doxygen graphviz python-sphinx : ht
 
 
 **Build**
+
 The following basic commands should be used to build NFD on Ubuntu:
 <pre>
 $ ./waf configure
@@ -37,7 +38,7 @@ $ ./waf
 $ sudo ./waf install
 </pre>
 
-
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf-configure-nfd.png)
 
 <pre>
 $sudo apt-get install nfd
