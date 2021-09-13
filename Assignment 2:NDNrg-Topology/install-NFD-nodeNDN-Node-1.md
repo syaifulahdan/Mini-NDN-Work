@@ -69,6 +69,8 @@ $ sudo ./waf install
  <pre>
 $  export PKG_CONFIG_PATH=/custom/lib/pkgconfig:$PKG_CONFIG_PATH
 $ ./waf configure
+$ ./waf
+$ sudo ./waf install
  </pre>
  
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/nfdexporPKG.png)
