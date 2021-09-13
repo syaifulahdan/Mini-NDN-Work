@@ -55,7 +55,7 @@ $ ./waf
 </pre>
 
 
-1[alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf-NFD.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf-NFD.png)
 
 
 <pre>
