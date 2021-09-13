@@ -75,3 +75,31 @@ $ sudo ./waf install
  
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/nfdexporPKG.png)
 
+**Debug symbols**
+The default compiler flags enable debug symbols to be included in binaries. This potentially allows more meaningful debugging if NFD or other tools happen to crash.
+
+If it is undesirable, default flags can be easily overridden. The following example shows how to completely disable debug symbols and configure NFD to be installed into** /usr** with configuration in **/etc** folder
+<pre>
+CXXFLAGS="-O2" ./waf configure --prefix=/usr --sysconfdir=/etc
+./waf
+sudo ./waf install
+</pre>
+
+
+<pre>
+$ CXXFLAGS="-O2" ./waf configure --prefix=/usr --sysconfdir=/etc
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/debugsymbol.png)
+
+**Running**
+Starting
+If you have installed NFD from source code, it is recommended to start NFD with the nfd-start script:
+<pre>
+nfd-start
+</pre>
+
+<pre>
+$ nfd-start
+</pre>
+
