@@ -29,7 +29,7 @@ $ sudo apt-get install doxygen graphviz python-sphinx
 Show document install : sudo apt-get install doxygen graphviz python-sphinx : https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-doc-Install/prerequisites-nfd.txt
 
 
-**Build**
+**Buildd**
 
 The following basic commands should be used to build NFD on Ubuntu:
 <pre>
