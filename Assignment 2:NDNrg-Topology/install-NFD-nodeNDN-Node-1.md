@@ -64,5 +64,12 @@ $ sudo ./waf install
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafinstallNFD.png)
 
+ If you have installed **ndn-cxx** library and/or other dependencies into a non-standard path, you may need to modify **PKG_CONFIG_PATH** environment variable before running **./waf configure**. For example,
  
+ <pre>
+$  export PKG_CONFIG_PATH=/custom/lib/pkgconfig:$PKG_CONFIG_PATH
+$ ./waf configure
+ </pre>
+ 
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/nfdexporPKG.png)
 
