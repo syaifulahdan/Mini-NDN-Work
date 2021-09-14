@@ -41,9 +41,10 @@ $ cd PSync
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf.png)
 
 <pre>
-$ cd PSync
 ~/PSync$ sudo ./waf install 
 </pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync%20waf-install.png)
+
 
 **2.[Optional] ChronoSync library**
 
