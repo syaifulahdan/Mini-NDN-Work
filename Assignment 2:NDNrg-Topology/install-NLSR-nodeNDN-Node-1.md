@@ -11,7 +11,7 @@ $ git clone https://github.com/named-data/PSync.git
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitpsync.png)
 
-Build
+Build 
 
 To build PSync from source:
 <pre>
@@ -51,14 +51,42 @@ $ git clone https://github.com/named-data/ChronoSync#build
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitclone%20cronosync.png)
 
 
-Getting Started with NLSR
-
 
  
-**NLSR Installation Instructions**
+**3. NLSR Installation Instructions**
+Getting Started with NLSR
 
 <pre>
-git clone https://github.com/named-data/NLSR.git</pre>
+$ git clone https://github.com/named-data/NLSR.git</pre>
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitclone-NLSR.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitclone-NLSR.png)**
+
+**Build NLSR**
+
+To build PSync from source:
+<pre>
+$ cd NLSR
+$./waf configure
+$./waf
+$ sudo ./waf install
+</pre>
+
+
+<pre>
+$ cd NLSR
+~/NLSR$./waf configure
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf-configure.png)
+
+<pre>
+~/NLSR$./waf
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf.png)
+
+<pre>
+~/NSLR$ sudo ./waf install 
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync%20waf-install.png)
