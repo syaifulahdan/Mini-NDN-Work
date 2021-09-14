@@ -15,7 +15,7 @@ Download the PSync library and build it according to the instructions available 
 $ git clone https://github.com/named-data/PSync#build
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/git-PSync.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitpsync.png)
 
 **2.[Optional] ChronoSync library**
 
