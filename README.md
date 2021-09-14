@@ -11,7 +11,7 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
    - Running a mini-NDN Sample File [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/2.Running-mini-NDN-Sample.md)  
 
 - <b>Installing NDN Nodes on Virtual Box </b>   
-   - <b>Topology NDNRg</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/1.Installing%20Mini-NDN.md)  
+   - <b>Topology NDNRg</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md)  
    - <b>Installing NFD</b>   
    - <b>Installing NLSR</b>   
 
