@@ -29,16 +29,16 @@ sudo ./waf install
 
 <pre>
 $ cd PSync
-~/PSync$ **./waf configure**
+~/PSync$./waf configure
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf-configure.png)
 
 <pre>
-~/PSync$ **./waf **
+~/PSync$./waf
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf-configure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/PSync-waf.png)
 
 <pre>
 $ cd PSync
