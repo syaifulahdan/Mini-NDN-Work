@@ -13,6 +13,17 @@ $ git clone --recursive https://github.com/named-data/NFD
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclonenfd.png)
 
 **Prerequisites**
+Install the ndn-cxx library and its prerequisites.
+On Linux, NFD needs the following dependencies to enable optional features:
+
+<pre>
+sudo apt install libpcap-dev libsystemd-dev
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/install-libcap-dev-libsystem-dev.png)
+
+
+
 
 <pre>
 $ sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-dev libssl-dev libpcap-dev
