@@ -48,7 +48,7 @@ For testing purposes, NLSR can be optionally built with Chronosync support. Down
 $ git clone https://github.com/named-data/ChronoSync#build
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-NSLR/gitclone%20cronosync.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/gitclone-chronosync.png)
 
 
 
