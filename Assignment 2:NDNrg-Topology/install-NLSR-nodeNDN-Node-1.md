@@ -42,15 +42,28 @@ $ cd PSync
 
 **2.[Optional] ChronoSync library**
 
+To build ChronoSync from source:
+<pre>
+$ cd ChronoSync
+$./waf configure
+$./waf
+$ sudo ./waf install
+</pre>
+
 For testing purposes, NLSR can be optionally built with Chronosync support. Download the ChronoSync library and build it according to the instructions available at https://github.com/named-data/ChronoSync#build
 
 <pre>
-$ git clone https://github.com/named-data/ChronoSync#build
+$ git clone https://github.com/named-data/ChronoSync
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/gitclone-chronosync.png)
 
+<pre>
+$cd ChronoSync
+$./waf configure
 
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/ChronoSync-waf-configure.png)
 
  
 **3. NLSR Installation Instructions**
