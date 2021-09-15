@@ -65,7 +65,18 @@ $./waf configure
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/ChronoSync-waf-configure.png)
 
- 
+ <pre>
+$./waf 
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/ChronoSync-waf.png)
+
+<pre>
+$.sudo /waf install
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-ChronoSync/ChronoSync-waf-install.png)
+
 **3. NLSR Installation Instructions**
 Getting Started with NLSR
 
