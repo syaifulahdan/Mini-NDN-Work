@@ -105,7 +105,7 @@ Show Progess ndn-cxx configure [[read]](https://github.com/syaifulahdan/Mini-NDN
 <pre>
 $ ./waf 
 </pre> 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/8-ndncxx-waf-configure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/9-ndncxx-waf.png)
 Show Progess ndn-cxx configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/ndncxx-waf-configure-progress.txt) 
 <pre>
 
