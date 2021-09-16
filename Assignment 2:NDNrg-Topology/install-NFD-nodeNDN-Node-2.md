@@ -5,12 +5,18 @@ Downloading from Git The first step is to obtain the source code for NFD and, it
 Download NFD
 
 
-**4. Clone NFD**
+**1. Clone & Install NFD**
 <pre>
 $ git clone — recursive https://github.com/named-data/NFD
 </pre>
 
- ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/4-gitclone-nfd.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NFD-2/1-gitclone-nfd.png)
  
 
-
+<pre>
+$ cd NFD
+$ ./waf configure
+</pre>
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NFD-2/1-gitclone-nfd.png)
+ 
+ Show Progess nfd waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nfd2-waf-configure-install-progress.txt)
