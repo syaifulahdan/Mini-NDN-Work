@@ -46,75 +46,12 @@ $ sudo apt-get install git
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/2-install-git.png)
 
-
-To build ndn-cxx from source, one must first install a C++ compiler and all necessary development tools and libraries:
-On Ubuntu
+**3. Clone ndn-cxx**
 <pre>
-sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
+$ git clone https://github.com/named-data/ndn-cxxit
 </pre>
 
-Install git
-<pre>
-sudo apt-get install git
-</pre>
-
-<pre>
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get update
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get install git
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt install python-pip
-</pre>
-
-first install the dependency file ndn-cxx 
-<pre>
-bertopeng17-1@NDN-Node1-ITB:~$sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
-</pre>
-
-<pre>
-bertopeng17-1@git clone https://github.com/named-data/ndn-cxx.git
-</pre>
-
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclone.png)
-
-<pre>
-bertopeng17-1@cd ndn-cxx
-bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$ 
-</pre>
-
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/cdndncxx.png)
-
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/3-gitclone-ndncxx.png)
  
-**Build**
-
-These are instructions for regular builds of ndn-cxx (release mode). If you are planning to develop the ndn-cxx code itself, you should do a Development build.
-<pre>
-./waf configure   
-./waf
-sudo ./waf install
-
-By default, only the shared variant of the ndn-cxx library will be built. To build the static library, pass --enable-static to the ./waf configure command:
-./waf configure --enable-static
-
-To disable the build of the shared library and build only the static library, use the additional --disable-shared option. Note that at least one variant of the library needs to be enabled.
-./waf configure --enable-static --disable-shared
-</pre>
-
-<pre>
-bertopeng17-1@./waf configure
-</pre>
-
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure.png)
-
-<pre>
-bertopeng17-1@./waf
-</pre>
-
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/Screenshot%20from%202021-09-08%2010-26-58.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf%20finish.png)
-
-
-<pre>
-bertopeng17-1@sudo ./waf install
-</pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/tree/main/Assignment%202:NDNrg-Topology/NDNrg-Image)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf%20install%20succes.png)
-
+ 
+ 
