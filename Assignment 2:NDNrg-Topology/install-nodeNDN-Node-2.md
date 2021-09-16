@@ -34,13 +34,17 @@ sudo apt install doxygen graphviz python3-pip
 sudo pip3 install sphinx sphinxcontrib-doxylink
 </pre>
 
-1. Upgrade Ubuntu
+**1. Upgrade Ubuntu**
 <pre>
 $ sudo apt update && apt-get full-upgrade -y
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/upgrade-ubuntu.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/1-upgrade-ubuntu.png)
 
-3. 
+**2. Install Git**
+<pre>
+$ sudo apt-get install git
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/2-install-git.png)
 
 
 To build ndn-cxx from source, one must first install a C++ compiler and all necessary development tools and libraries:
