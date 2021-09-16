@@ -114,7 +114,7 @@ Show Progess ndn-cxx waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/
 $ sudo ./waf install
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/11-ndncxx-waf-install-1.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/11-ndncxx-waf-install-2.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/12-ndncxx-waf-install-2.png)
 Show Progess ndn-cxx waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/ndncxx-waf-progress.txt)  
  
  
