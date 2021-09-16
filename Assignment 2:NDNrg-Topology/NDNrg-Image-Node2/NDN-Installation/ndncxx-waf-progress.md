@@ -1,3 +1,4 @@
+<pre>
 bertopeng17-2@NDN-Node2-UTI:~/ndn-cxx$ ./waf
 Waf: Entering directory `/home/bertopeng17-2/ndn-cxx/build'
 [  1/185] Compiling ndn-cxx/version.hpp.in
@@ -140,3 +141,60 @@ Waf: Entering directory `/home/bertopeng17-2/ndn-cxx/build'
      if (record != m_byKeyName.end() && record->timestamp.has_value() && timestamp <= record->timestamp) {
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+[133/185] Compiling ndn-cxx/security/pib/key-container.cpp
+[134/185] Compiling ndn-cxx/encoding/tlv.cpp
+[135/185] Compiling ndn-cxx/security/validation-policy-command-interest.cpp
+[136/185] Compiling ndn-cxx/security/pib/impl/pib-memory.cpp
+[137/185] Compiling ndn-cxx/encoding/nfd-constants.cpp
+[138/185] Compiling ndn-cxx/security/validation-error.cpp
+[139/185] Compiling ndn-cxx/security/pib/impl/key-impl.cpp
+[140/185] Compiling ndn-cxx/encoding/estimator.cpp
+[141/185] Compiling ndn-cxx/security/trust-anchor-group.cpp
+[142/185] Compiling ndn-cxx/security/pib/impl/identity-impl.cpp
+[143/185] Compiling ndn-cxx/security/transform/hex-decode.cpp
+[144/185] Compiling ndn-cxx/security/transform/private-key.cpp
+[145/185] Compiling ndn-cxx/delegation-list.cpp
+[146/185] Compiling ndn-cxx/encoding/block.cpp
+[147/185] Compiling ndn-cxx/security/transform/strip-space.cpp
+[148/185] Compiling ndn-cxx/security/transform/signer-filter.cpp
+[149/185] Compiling ndn-cxx/security/pib/certificate-container.cpp
+[150/185] Compiling ndn-cxx/encoding/block-helpers.cpp
+[151/185] Compiling ndn-cxx/security/transform/hex-encode.cpp
+[152/185] Compiling ndn-cxx/security/impl/openssl-helper.cpp
+[153/185] Compiling ndn-cxx/security/transform/stream-source.cpp
+[154/185] Compiling ndn-cxx/security/key-params.cpp
+[155/185] Compiling ndn-cxx/data.cpp
+[156/185] Compiling ndn-cxx/detail/packet-base.cpp
+[157/185] Compiling ndn-cxx/security/transform/stream-sink.cpp
+[158/185] Compiling ndn-cxx/security/validator-config/filter.cpp
+[159/185] Compiling ndn-cxx/security/certificate-fetcher-direct-fetch.cpp
+[160/185] Compiling ndn-cxx/net/network-monitor.cpp
+[161/185] Compiling ndn-cxx/net/impl/network-monitor-impl-netlink.cpp
+[162/185] Compiling ndn-cxx/mgmt/nfd/rib-entry.cpp
+[163/185] Compiling ndn-cxx/security/certificate-fetcher-from-network.cpp
+[164/185] Compiling ndn-cxx/prefix-announcement.cpp
+[165/185] Compiling ndn-cxx/util/regex/regex-pseudo-matcher.cpp
+[166/185] Compiling ndn-cxx/security/certificate-fetcher-offline.cpp
+[167/185] Compiling ndn-cxx/security/additional-description.cpp
+[168/185] Compiling ndn-cxx/security/certificate-bundle-fetcher.cpp
+[169/185] Compiling tools/ndnsec/util.cpp
+[170/185] Compiling tools/ndnsec/list.cpp
+[171/185] Compiling tools/ndnsec/unlock-tpm.cpp
+[172/185] Compiling tools/ndnsec/key-gen.cpp
+[173/185] Compiling tools/ndnsec/get-default.cpp
+[174/185] Compiling tools/ndnsec/delete.cpp
+[175/185] Compiling tools/ndnsec/import.cpp
+[176/185] Compiling tools/ndnsec/set-default.cpp
+[177/185] Linking build/libndn-cxx.so
+[178/185] Compiling tools/ndnsec/cert-install.cpp
+[179/185] Compiling tools/ndnsec/cert-gen.cpp
+[180/185] Compiling tools/ndnsec/cert-dump.cpp
+[181/185] Compiling tools/ndnsec/sign-req.cpp
+[182/185] Compiling tools/ndnsec/export.cpp
+[183/185] Compiling tools/ndnsec/main.cpp
+[184/185] Linking build/bin/ndnsec
+[185/185] Symlinking build/libndn-cxx.so
+Waf: Leaving directory `/home/bertopeng17-2/ndn-cxx/build'
+'build' finished successfully (1h19m55.927s)
+bertopeng17-2@NDN-Node2-UTI:~/ndn-cxx$ 
+</pre>
