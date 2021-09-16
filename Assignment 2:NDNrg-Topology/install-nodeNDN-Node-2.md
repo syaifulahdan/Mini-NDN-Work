@@ -96,6 +96,11 @@ $ ./waf configure
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/8-ndncxx-waf-configure.png)
 Show Progess ndn-cxx configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/ndncxx-waf-configure-progress.txt) 
+
+**Noted :** 
+-Building Static Library    : no
+-'sphinx-build'             : not found
+
  
 <pre>
 $ ./waf 
