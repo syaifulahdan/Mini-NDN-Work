@@ -47,7 +47,8 @@ $ sudo apt-get install git
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/2-install-git.png)
 
 **3. Clone & Install ndn-cxx**
- first install the dependency file ndn-cxx
+
+first install the dependency file ndn-cxx
 <pre>
 sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev -y
 sudo apt install doxygen graphviz python3-pip -y
