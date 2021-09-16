@@ -54,10 +54,22 @@ sudo apt install doxygen graphviz python3-pip -y
 sudo apt install libpcap-dev libsystemd-dev -y
 </pre>
 
+<pre>
+sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev -y
+</pre>
+
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/5-dependency-1-install.png)
 
 
+<pre>
+sudo apt install doxygen graphviz python3-pip -y
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/6-dependency-2-install.png)
+Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/dependency-2-progress.txt) 
 
-
+<pre>
+sudo apt install libpcap-dev libsystemd-dev -y
+</pre>
 
 <pre>
 $ git clone https://github.com/named-data/ndn-cxxit
