@@ -1,0 +1,27 @@
+bertopeng17-2@NDN-Node2-UTI:~$ sudo apt install libpcap-dev libsystemd-dev -y
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libpcap-dev is already the newest version (1.8.1-6ubuntu1.18.04.2).
+The following packages were automatically installed and are no longer required:
+  efibootmgr gyp libegl1-mesa libfwup1 libjs-async libjs-inherits libjs-node-uuid libllvm9 libuv1-dev libwayland-egl1-mesa node-abbrev node-ansi node-ansi-color-table node-archy
+  node-async node-balanced-match node-block-stream node-brace-expansion node-combined-stream node-concat-map node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini node-isexe
+  node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-once node-osenv
+  node-path-is-absolute node-pseudomap node-qs node-read node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libsystemd-dev
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 184 kB of archives.
+After this operation, 748 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsystemd-dev amd64 237-3ubuntu10.52 [184 kB]
+Fetched 184 kB in 2s (86.8 kB/s)         
+Selecting previously unselected package libsystemd-dev:amd64.
+(Reading database ... 200182 files and directories currently installed.)
+Preparing to unpack .../libsystemd-dev_237-3ubuntu10.52_amd64.deb ...
+Unpacking libsystemd-dev:amd64 (237-3ubuntu10.52) ...
+Setting up libsystemd-dev:amd64 (237-3ubuntu10.52) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+bertopeng17-2@NDN-Node2-UTI:~$ 
