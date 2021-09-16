@@ -46,12 +46,43 @@ $ sudo apt-get install git
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/2-install-git.png)
 
-**3. Clone ndn-cxx**
+**3. Clone & Install ndn-cxx**
+ first install the dependency file ndn-cxx
+<pre>
+sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev -y
+sudo apt install doxygen graphviz python3-pip -y
+sudo apt install libpcap-dev libsystemd-dev -y
+</pre>
+
+
+
+
+
+
 <pre>
 $ git clone https://github.com/named-data/ndn-cxxit
 </pre>
 
  ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/3-gitclone-ndncxx.png)
  
+
  
+ 
+ 
+ 
+ 
+ 
+ **4. Clone NFD**
+<pre>
+$ git clone — recursive https://github.com/named-data/NFD
+</pre>
+
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/4-gitclone-nfd.png)
+ 
+ **4. Clone NLSR**
+<pre>
+$ git clone — recursive https://github.com/named-data/NFD
+</pre>
+
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/4-gitclone-nfd.png)
  
