@@ -1,0 +1,31 @@
+bertopeng17-2@NDN-Node2-UTI:~$ cd NFD/
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ ./waf configure
+Setting top to                           : /home/bertopeng17-2/NFD 
+Setting out to                           : /home/bertopeng17-2/NFD/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking C++ compiler version            : 7.5.0 
+Checking supported CXXFLAGS              : -std=c++14 
+Checking supported LINKFLAGS             : -fuse-ld=gold 
+Checking for program 'doxygen'           : /usr/bin/doxygen 
+Checking for program 'tar'               : /bin/tar 
+Checking for program 'sphinx-build'      : not found 
+Checking for program 'bash'              : /bin/bash 
+Checking for program 'dot'               : /usr/bin/dot 
+Checking for program 'pkg-config'        : /usr/bin/pkg-config 
+Checking for 'libndn-cxx'                : yes 
+Checking for 'libsystemd'                : yes 
+Checking for librt library               : yes 
+Checking for libresolv library           : yes 
+Checking if privilege drop/elevation is supported : yes 
+Checking for header valgrind/valgrind.h           : not found 
+Checking for program 'dpkg-architecture'          : /usr/bin/dpkg-architecture 
+Checking boost includes                           : 1.65.1 
+Checking boost libs                               : boost_system boost_program_options boost_filesystem 
+Checking for boost linkage                        : ok 
+Checking if Unix sockets are supported            : yes 
+Checking for libpcap library                      : yes 
+Checking for WebSocket++ includes                 : 0.8.1 
+Checking supported CXXFLAGS                       : -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color 
+Checking supported LINKFLAGS                      : -Wl,-O1 
+'configure' finished successfully (13.463s)
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ 
