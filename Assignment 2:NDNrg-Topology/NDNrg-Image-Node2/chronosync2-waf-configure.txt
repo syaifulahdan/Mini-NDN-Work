@@ -1,1 +1,22 @@
+bertopeng17-2@NDN-Node2-UTI:~$ cd ChronoSync/
+bertopeng17-2@NDN-Node2-UTI:~/ChronoSync$ ./waf configure
+Setting top to                           : /home/bertopeng17-2/ChronoSync 
+Setting out to                           : /home/bertopeng17-2/ChronoSync/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking C++ compiler version            : 7.5.0 
+Checking supported CXXFLAGS              : -std=c++14 
+Checking supported LINKFLAGS             : -fuse-ld=gold 
+Checking for program 'doxygen'           : /usr/bin/doxygen 
+Checking for program 'tar'               : /bin/tar 
+Checking for program 'sphinx-build'      : not found 
+Checking for program 'pkg-config'        : /usr/bin/pkg-config 
+Checking for 'libndn-cxx'                : yes 
+Checking for program 'dpkg-architecture' : /usr/bin/dpkg-architecture 
+Checking boost includes                  : 1.65.1 
+Checking boost libs                      : boost_system boost_iostreams 
+Checking for boost linkage               : ok 
+Checking supported CXXFLAGS              : -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color 
+Checking supported LINKFLAGS             : -Wl,-O1 
+'configure' finished successfully (10.376s)
+bertopeng17-2@NDN-Node2-UTI:~/ChronoSync$ 
 
