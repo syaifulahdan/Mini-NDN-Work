@@ -1,1 +1,9 @@
-xx
+bertopeng17-2@NDN-Node2-UTI:~/NLSR$ sudo ./waf install
+[sudo] password for bertopeng17-2: 
+Waf: Entering directory `/home/bertopeng17-2/NLSR/build'
++ install /usr/local/bin/nlsr (from build/bin/nlsr)
++ install /usr/local/bin/nlsrc (from build/bin/nlsrc)
+- install /usr/local/etc/ndn/nlsr.conf.sample (from nlsr.conf)
+Waf: Leaving directory `/home/bertopeng17-2/NLSR/build'
+'install' finished successfully (1.779s)
+bertopeng17-2@NDN-Node2-UTI:~/NLSR
