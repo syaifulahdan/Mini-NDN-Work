@@ -1,1 +1,11 @@
 
+
+bertopeng17-2@NDN-Node2-UTI:~$ git clone https://github.com/named-data/ChronoSync
+Cloning into 'ChronoSync'...
+remote: Enumerating objects: 2990, done.
+remote: Counting objects: 100% (135/135), done.
+remote: Compressing objects: 100% (73/73), done.
+remote: Total 2990 (delta 64), reused 131 (delta 62), pack-reused 2855
+Receiving objects: 100% (2990/2990), 2.29 MiB | 465.00 KiB/s, done.
+Resolving deltas: 100% (1957/1957), done.
+bertopeng17-2@NDN-Node2-UTI:~$ 
