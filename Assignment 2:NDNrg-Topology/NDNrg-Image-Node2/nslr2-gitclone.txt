@@ -1,0 +1,11 @@
+bertopeng17-2@NDN-Node2-UTI:~$ git clone https://github.com/named-data/NLSR
+Cloning into 'NLSR'...
+remote: Enumerating objects: 7431, done.
+remote: Counting objects: 100% (219/219), done.
+remote: Compressing objects: 100% (195/195), done.
+remote: Total 7431 (delta 108), reused 133 (delta 22), pack-reused 7212
+Receiving objects: 100% (7431/7431), 6.52 MiB | 581.00 KiB/s, done.
+Resolving deltas: 100% (5294/5294), done.
+bertopeng17-2@NDN-Node2-UTI:~$ ls
+'='   Desktop   Documents   Downloads   examples.desktop   mini-ndn   Music   ndn-cxx   NFD   NLSR   Pictures   Public   snap   Templates   Videos
+bertopeng17-2@NDN-Node2-UTI:~$ 
