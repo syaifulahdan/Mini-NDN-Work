@@ -6,7 +6,7 @@ First, clone Mininet from github:
 $ git clone --depth 1 https://github.com/mininet/mininet.git
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/1-gitclone-mininet2.png)
- Show Progerss clone mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-gitclone.txt)
+ Show Progress clone mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-gitclone.txt)
 
 After Mininet source is on your system, run the following command to install Mininet core dependencies and Open vSwitch:
 <pre>
@@ -14,4 +14,4 @@ $ ./util/install.sh -nv
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/2-mininet-util-install.png)
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/2-mininet-util-install-finish.png)
-Show Progerss  Mininet core dependencies and Open vSwitch: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-util-install.txtt)
+Show Progress  Mininet core dependencies and Open vSwitch: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-util-install.txt)
