@@ -21,3 +21,16 @@ $ git clone https://github.com/named-data/PSync
 sudo ./waf install
 </pre>
 
+
+<pre>
+$ cd Psync
+$ ./waf configure
+</pre>
+
+<pre>
+$ ./waf  
+</pre>
+
+<pre>
+$ sudo ./waf install  
+</pre>
