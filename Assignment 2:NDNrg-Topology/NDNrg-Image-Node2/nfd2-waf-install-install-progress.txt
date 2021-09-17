@@ -1,1 +1,23 @@
-tes
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ sudo ./waf install
+[sudo] password for bertopeng17-2: 
+Waf: Entering directory `/home/bertopeng17-2/NFD/build'
++ install /usr/local/bin/nfd (from build/bin/nfd)
++ install /usr/local/bin/nfd-autoreg (from build/bin/nfd-autoreg)
++ install /usr/local/bin/ndn-autoconfig (from build/bin/ndn-autoconfig)
++ install /usr/local/bin/ndn-autoconfig-server (from build/bin/ndn-autoconfig-server)
++ install /usr/local/bin/nfdc (from build/bin/nfdc)
++ install /usr/local/bin/nfd-status-http-server (from build/bin/nfd-status-http-server)
++ install /usr/local/bin/nfd-start (from build/bin/nfd-start)
++ install /usr/local/bin/nfd-status (from build/bin/nfd-status)
++ install /usr/local/bin/nfd-stop (from build/bin/nfd-stop)
++ install /usr/local/share/ndn/nfd-status.xsl (from tools/nfd-status-http-server-files/nfd-status.xsl)
++ install /usr/local/etc/ndn/nfd.conf.sample (from build/nfd.conf.sample)
++ install /usr/local/share/ndn/reset.css (from tools/nfd-status-http-server-files/reset.css)
++ install /usr/local/share/ndn/robots.txt (from tools/nfd-status-http-server-files/robots.txt)
++ install /usr/local/etc/ndn/autoconfig.conf.sample (from autoconfig.conf.sample)
++ install /usr/local/share/ndn/style.css (from tools/nfd-status-http-server-files/style.css)
++ install /usr/local/share/ndn/text.css (from tools/nfd-status-http-server-files/text.css)
+Waf: Leaving directory `/home/bertopeng17-2/NFD/build'
+'install' finished successfully (4m23.126s)
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ 
+
