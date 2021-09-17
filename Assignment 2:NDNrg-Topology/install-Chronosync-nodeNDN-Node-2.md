@@ -10,7 +10,7 @@ Prerequisites
 <pre>
 $
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/1-gitclone-psync2.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/1-gitclone-chronosync2.png)
  Show Progess Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-gitclone.txt)
 
 **Build**
