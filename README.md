@@ -19,7 +19,8 @@ NOTE: Mini-NDN, while providing a high level of emulation of hosts, requires pro
     -  Install Node 2 [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-2.md)
        - <b>Installing NFD</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
        - <b>Installing NLSR</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-2.md)   
-
+       - <b>Installing PSync</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-2.md)
+       - <b>Installing ChronoSync</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-2.md)
 
 
   
