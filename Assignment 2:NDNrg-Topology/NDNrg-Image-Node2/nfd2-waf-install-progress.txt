@@ -1,1 +1,135 @@
-v
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ ./waf
+Waf: Entering directory `/home/bertopeng17-2/NFD/build'
+[  1/159] Compiling core/version.hpp.in
+[  2/159] Compiling core/common.hpp
+[  3/159] Compiling core/version.cpp.in
+[  4/159] Compiling tools/nfd-start.sh
+[  5/159] Compiling tools/nfd-status-http-server.py
+[  6/159] Compiling tools/nfd-status.sh
+[  7/159] Compiling tools/nfd-stop.sh
+[  8/159] Compiling nfd.conf.sample.in
+[  9/159] Compiling systemd/nfd-autoreg.service.in
+[ 10/159] Compiling systemd/nfd-status-http-server.service.in
+[ 11/159] Compiling systemd/nfd.service.in
+[ 12/159] Compiling systemd/ndn-autoconfig-server.service.in
+[ 13/159] Compiling systemd/ndn-autoconfig-client.service.in
+[ 14/159] Compiling core/network.cpp
+[ 15/159] Compiling build/core/version.cpp
+[ 16/159] Compiling daemon/face/udp-protocol.cpp
+[ 17/159] Compiling daemon/fw/best-route-strategy.cpp
+[ 18/159] Compiling daemon/fw/scope-prefix.cpp
+[ 19/159] Compiling daemon/table/strategy-choice-entry.cpp
+[ 20/159] Compiling daemon/face/udp-factory.cpp
+[ 21/159] Compiling daemon/face/transport.cpp
+[ 22/159] Compiling daemon/face/socket-utils.cpp
+[ 23/159] Compiling daemon/face/netdev-bound.cpp
+[ 24/159] Compiling daemon/mgmt/tables-config-section.cpp
+[ 25/159] Compiling daemon/face/unicast-udp-transport.cpp
+[ 26/159] Compiling daemon/fw/algorithm.cpp
+[ 27/159] Compiling daemon/rib/route.cpp
+[ 28/159] Compiling daemon/table/pit-out-record.cpp
+[ 29/159] Compiling daemon/fw/retx-suppression-fixed.cpp
+[ 30/159] Compiling daemon/face/multicast-udp-transport.cpp
+[ 31/159] Compiling daemon/mgmt/strategy-choice-manager.cpp
+[ 32/159] Compiling daemon/table/cs.cpp
+[ 33/159] Compiling daemon/table/pit-iterator.cpp
+[ 34/159] Compiling daemon/face/lp-reliability.cpp
+[ 35/159] Compiling daemon/face/lp-reassembler.cpp
+[ 36/159] Compiling daemon/mgmt/rib-manager.cpp
+[ 37/159] Compiling daemon/face/lp-fragmenter.cpp
+[ 38/159] Compiling daemon/face/link-service.cpp
+[ 39/159] Compiling daemon/face/internal-transport.cpp
+[ 40/159] Compiling daemon/rib/rib-entry.cpp
+[ 41/159] Compiling daemon/fw/asf-strategy.cpp
+[ 42/159] Compiling daemon/fw/retx-suppression-exponential.cpp
+[ 43/159] Compiling daemon/table/pit-in-record.cpp
+[ 44/159] Compiling daemon/mgmt/manager-base.cpp
+[ 45/159] Compiling daemon/face/internal-face.cpp
+[ 46/159] Compiling daemon/face/generic-link-service.cpp
+[ 47/159] Compiling daemon/face/face.cpp
+[ 48/159] Compiling daemon/table/cs-policy.cpp
+[ 49/159] Compiling daemon/table/pit-face-record.cpp
+[ 50/159] Compiling daemon/face/face-system.cpp
+[ 51/159] Compiling daemon/mgmt/log-config-section.cpp
+[ 52/159] Compiling daemon/face/face-counters.cpp
+[ 53/159] Compiling daemon/face/channel.cpp
+[ 54/159] Compiling daemon/common/privilege-helper.cpp
+[ 55/159] Compiling daemon/common/global.cpp
+[ 56/159] Compiling daemon/common/config-file.cpp
+[ 57/159] Compiling daemon/face/websocket-transport.cpp
+[ 58/159] Compiling daemon/common/city-hash.cpp
+[ 59/159] Compiling daemon/rib/rib.cpp
+[ 60/159] Compiling daemon/fw/random-strategy.cpp
+[ 61/159] Compiling daemon/table/pit-entry.cpp
+[ 62/159] Compiling daemon/face/websocket-factory.cpp
+[ 63/159] Compiling daemon/mgmt/general-config-section.cpp
+[ 64/159] Compiling daemon/face/websocket-channel.cpp
+[ 65/159] Compiling daemon/face/unix-stream-transport.cpp
+[ 66/159] Compiling daemon/table/cs-policy-priority-fifo.cpp
+[ 67/159] Compiling daemon/table/network-region-table.cpp
+[ 68/159] Compiling daemon/face/unix-stream-factory.cpp
+[ 69/159] Compiling daemon/mgmt/forwarder-status-manager.cpp
+[ 70/159] Compiling daemon/face/unix-stream-channel.cpp
+[ 71/159] Compiling daemon/face/pcap-helper.cpp
+[ 72/159] Compiling daemon/face/unicast-ethernet-transport.cpp
+[ 73/159] Compiling daemon/face/ethernet-transport.cpp
+[ 74/159] Compiling daemon/rib/readvertise/nfd-rib-readvertise-destination.cpp
+[ 75/159] Compiling daemon/face/ethernet-protocol.cpp
+[ 76/159] Compiling daemon/rib/readvertise/host-to-gateway-readvertise-policy.cpp
+[ 77/159] Compiling daemon/face/ethernet-factory.cpp
+[ 78/159] Compiling daemon/rib/readvertise/client-to-nlsr-readvertise-policy.cpp
+[ 79/159] Compiling daemon/face/ethernet-channel.cpp
+[ 80/159] Compiling daemon/rib/fib-updater.cpp
+[ 81/159] Compiling daemon/table/strategy-choice.cpp
+[ 82/159] Compiling daemon/rib/readvertise/readvertise-destination.cpp
+[ 83/159] Compiling daemon/rib/fib-update.cpp
+[ 84/159] Compiling daemon/fw/access-strategy.cpp
+[ 85/159] Compiling daemon/fw/asf-probing-module.cpp
+[ 86/159] Compiling daemon/fw/process-nack-traits.cpp
+[ 87/159] Compiling daemon/table/name-tree.cpp
+[ 88/159] Compiling daemon/mgmt/fib-manager.cpp
+[ 89/159] Compiling daemon/table/cs-policy-lru.cpp
+[ 90/159] Compiling daemon/table/name-tree-iterator.cpp
+[ 91/159] Compiling daemon/mgmt/face-manager.cpp
+[ 92/159] Compiling daemon/rib/rib-update.cpp
+[ 93/159] Compiling daemon/fw/multicast-strategy.cpp
+[ 94/159] Compiling daemon/table/name-tree-hashtable.cpp
+[ 95/159] Compiling daemon/mgmt/cs-manager.cpp
+[ 96/159] Compiling daemon/table/cs-entry.cpp
+[ 97/159] Compiling daemon/table/name-tree-entry.cpp
+[ 98/159] Compiling daemon/mgmt/command-authenticator.cpp
+[ 99/159] Compiling daemon/rib/readvertise/readvertise.cpp
+[100/159] Compiling daemon/fw/asf-measurements.cpp
+[101/159] Compiling daemon/table/measurements.cpp
+[102/159] Compiling daemon/fw/forwarder.cpp
+[103/159] Compiling daemon/fw/unsolicited-data-policy.cpp
+[104/159] Compiling daemon/table/cleanup.cpp
+[105/159] Compiling daemon/fw/strategy.cpp
+[106/159] Compiling daemon/face/multicast-ethernet-transport.cpp
+[107/159] Compiling daemon/rib/rib-update-batch.cpp
+[108/159] Compiling daemon/fw/face-table.cpp
+[109/159] Compiling daemon/table/measurements-accessor.cpp
+[110/159] Compiling daemon/table/fib.cpp
+[111/159] Compiling daemon/rib/service.cpp
+[112/159] Compiling daemon/fw/self-learning-strategy.cpp
+[113/159] Compiling daemon/table/fib-entry.cpp
+[114/159] Compiling daemon/face/network-predicate.cpp
+[115/159] Compiling daemon/face/null-transport.cpp
+[116/159] Compiling daemon/face/tcp-channel.cpp
+[117/159] Compiling daemon/face/null-face.cpp
+[118/159] Compiling daemon/face/protocol-factory.cpp
+[119/159] Compiling daemon/nfd.cpp
+[120/159] Compiling daemon/table/pit.cpp
+[121/159] Compiling daemon/table/dead-nonce-list.cpp
+[122/159] Compiling daemon/face/udp-channel.cpp
+[123/159] Compiling daemon/face/tcp-factory.cpp
+[124/159] Compiling daemon/face/tcp-transport.cpp
+[125/159] Compiling daemon/main.cpp
+[126/159] Compiling tools/nfd-autoreg.cpp
+[127/159] Compiling tools/ndn-autoconfig/guess-from-identity-name.cpp
+[128/159] Compiling tools/ndn-autoconfig/stage.cpp
+[129/159] Compiling tools/ndn-autoconfig/procedure.cpp
+[130/159] Compiling tools/ndn-autoconfig/multicast-discovery.cpp
+[131/159] Compiling tools/ndn-autoconfig/ndn-fch-discovery.cpp
+[132/159] Compiling tools/ndn-autoconfig/dns-srv.cpp
+[133/159] Compiling tools/ndn-autoconfig/guess-from-search-domains.cpp
