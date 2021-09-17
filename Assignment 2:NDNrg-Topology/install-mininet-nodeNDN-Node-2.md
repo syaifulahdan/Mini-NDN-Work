@@ -15,3 +15,14 @@ $ ./util/install.sh -nv
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/2-mininet-util-install.png)
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/2-mininet-util-install-finish.png)
 Show Progress  Mininet core dependencies and Open vSwitch: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-util-install.txt)
+
+To check if Mininet is working correctly, run this test:
+<pre>
+sudo mn --test pingall
+</pre>
+
+<pre>
+$ sudo mn --test pingall
+</pre> 
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/3-mininet-test-pingall.png)
+Show Progress ping-all: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/mininet2-test-pingall.txt)
