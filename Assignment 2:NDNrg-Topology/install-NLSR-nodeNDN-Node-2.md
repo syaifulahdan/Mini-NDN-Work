@@ -5,3 +5,10 @@ $ git clone https://github.com/named-data/NLSR
 
  ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2/1-gitclone-nlsr.png)
  Show Progess Cloden NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nslr2-gitclone.txt)
+ 
+<pre>
+$ cd NLSR
+& ./waf configure
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2/2-nlsr2-waf-configure.png)
+)
