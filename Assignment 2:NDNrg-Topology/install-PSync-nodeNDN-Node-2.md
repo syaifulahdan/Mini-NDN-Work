@@ -21,16 +21,24 @@ $ git clone https://github.com/named-data/PSync
 sudo ./waf install
 </pre>
 
-
 <pre>
 $ cd Psync
 $ ./waf configure
 </pre>
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
+ Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+ 
 
 <pre>
 $ ./waf  
 </pre>
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
+ Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+ 
 
 <pre>
 $ sudo ./waf install  
 </pre>
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
+ Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+ 
