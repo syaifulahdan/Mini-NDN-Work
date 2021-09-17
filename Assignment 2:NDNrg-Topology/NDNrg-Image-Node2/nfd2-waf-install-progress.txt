@@ -133,3 +133,32 @@ Waf: Entering directory `/home/bertopeng17-2/NFD/build'
 [131/159] Compiling tools/ndn-autoconfig/ndn-fch-discovery.cpp
 [132/159] Compiling tools/ndn-autoconfig/dns-srv.cpp
 [133/159] Compiling tools/ndn-autoconfig/guess-from-search-domains.cpp
+[134/159] Linking build/bin/nfd
+[135/159] Linking build/bin/nfd-autoreg
+[136/159] Compiling tools/ndn-autoconfig/main.cpp
+[137/159] Compiling tools/ndn-autoconfig-server/program.cpp
+[138/159] Compiling tools/ndn-autoconfig-server/main.cpp
+[139/159] Compiling tools/nfdc/forwarder-general-module.cpp
+[140/159] Compiling tools/nfdc/canonizer.cpp
+[141/159] Compiling tools/nfdc/status.cpp
+[142/159] Compiling tools/nfdc/command-parser.cpp
+[143/159] Linking build/bin/ndn-autoconfig
+[144/159] Linking build/bin/ndn-autoconfig-server
+[145/159] Compiling tools/nfdc/face-module.cpp
+[146/159] Compiling tools/nfdc/available-commands.cpp
+[147/159] Compiling tools/nfdc/channel-module.cpp
+[148/159] Compiling tools/nfdc/command-definition.cpp
+[149/159] Compiling tools/nfdc/find-face.cpp
+[150/159] Compiling tools/nfdc/fib-module.cpp
+[151/159] Compiling tools/nfdc/execute-command.cpp
+[152/159] Compiling tools/nfdc/format-helpers.cpp
+[153/159] Compiling tools/nfdc/cs-module.cpp
+[154/159] Compiling tools/nfdc/strategy-choice-module.cpp
+[155/159] Compiling tools/nfdc/status-report.cpp
+[156/159] Compiling tools/nfdc/rib-module.cpp
+[157/159] Compiling tools/nfdc/help.cpp
+[158/159] Compiling tools/nfdc/main.cpp
+[159/159] Linking build/bin/nfdc
+Waf: Leaving directory `/home/bertopeng17-2/NFD/build'
+'build' finished successfully (1h13m17.760s)
+bertopeng17-2@NDN-Node2-UTI:~/NFD$ 
