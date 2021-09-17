@@ -27,6 +27,7 @@ $ ./waf configure
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
  Show Progess Psync waf configure[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+ 
 **Noted** 
 Checking for program 'sphinx-build'           : not found 
 Checking for lzma support in boost iostreams  : no 
