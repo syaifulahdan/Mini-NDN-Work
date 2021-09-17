@@ -1,0 +1,8 @@
+bertopeng17-2@NDN-Node2-UTI:~$ git clone --depth 1 https://github.com/NDN-Routing/infoedit
+Cloning into 'infoedit'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 20 (delta 0), reused 13 (delta 0), pack-reused 0
+Unpacking objects: 100% (20/20), done.
+bertopeng17-2@NDN-Node2-UTI:~$ 
