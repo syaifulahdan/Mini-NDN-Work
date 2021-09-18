@@ -47,7 +47,7 @@ Show Progress mini-ndn install [[read]](https://github.com/syaifulahdan/Mini-NDN
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
 </pre>
 
-Install Mini-NDN Wifi
+##### 3.Install Mini-NDN Wifi
 <pre>
 $ cd mini-ndn
 ./install.sh -iw
@@ -56,3 +56,12 @@ $ cd mini-ndn
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/3-mini-ndn2-install-wifi.png)
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/3-mini-ndn2-install-wifi-finish.png)
 Show Progress detail mini-ndn wifi [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-instal-sh-iw.txt)
+
+##### 4. Running Example Topology
+
+<pre>
+$ sudo python examples/mnndn.pyi
+</pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/4-minindn2-running-example-topology.png)
+
+Show Progress detail mini-ndn wifi [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-running-example-topology.txt)
