@@ -10,7 +10,7 @@ $ git clone --recursive https://github.com/named-data/NFD
 </pre>
 
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclonenfd.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/gitclone-nfd1.png)
 
 **Prerequisites**
 Install the ndn-cxx library and its prerequisites.
@@ -20,7 +20,7 @@ On Linux, NFD needs the following dependencies to enable optional features:
 sudo apt install libpcap-dev libsystemd-dev
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/install-libcap-dev-libsystem-dev.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/install-libcap-dev-libsystem-dev.png)
 
 
 
@@ -35,9 +35,9 @@ $ sudo apt-get install build-essential pkg-config libboost-all-dev \libsqlite3-d
 $ sudo apt-get install doxygen graphviz python-sphinx
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/prequisit2nfd.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/prequisit2nfd.png)
 
-Show document install : sudo apt-get install doxygen graphviz python-sphinx : https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-doc-Install/prerequisites-nfd.txt
+Show document install : sudo apt-get install doxygen graphviz python-sphinx :![[read]] (https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/prequisite2nfd.txt) 
 
 
 **Build**
@@ -52,28 +52,28 @@ sudo ./waf install
 <pre>
 $ ./waf configure
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure-nfd.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/nfd1-waf-configure.png)
 
 Noted:
 Checking for 'libsystemd'                : **not found**
  
 checking for header valgrind/valgrind.h  : **not found**
 
-Show Document .waf configure : https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-doc-Install/waf-configure-nfd.txt
+Show Document .waf configure : ![[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfd1-waf-configure.txt)
 
 <pre>
 $ ./waf
 </pre>
 
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf-NFD.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/nfd1-waf.png)
 
 
 <pre>
 $ sudo ./waf install
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafinstallNFD.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/nfd1-waf-install.png)
 
  If you have installed **ndn-cxx** library and/or other dependencies into a non-standard path, you may need to modify **PKG_CONFIG_PATH** environment variable before running **./waf configure**. For example,
  
@@ -84,7 +84,7 @@ $ ./waf
 $ sudo ./waf install
  </pre>
  
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/nfdexporPKG.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/nfd1-exporPKG.png)
 
 **Debug symbols**
 The default compiler flags enable debug symbols to be included in binaries. This potentially allows more meaningful debugging if NFD or other tools happen to crash.
@@ -101,7 +101,7 @@ sudo ./waf install
 $ CXXFLAGS="-O2" ./waf configure --prefix=/usr --sysconfdir=/etc
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/debugsymbol.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1/debugsymbol.png)
 
 **Running**
 Starting
