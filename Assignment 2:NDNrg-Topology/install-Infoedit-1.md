@@ -16,9 +16,9 @@ $ cd infoedit
 $ make
 </pre>
 
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Infoedit2/2-infoedit2-make.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-Infoedit1/2-infoedit1-make.png)
 
-Show Progress infoedit make [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/infoedit2-make.txt)
+Show Progress infoedit make [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/infoedit1-make.txt)
 
 
 <pre>
