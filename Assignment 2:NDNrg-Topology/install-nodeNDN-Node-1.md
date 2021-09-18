@@ -60,14 +60,14 @@ bertopeng17-1@NDN-Node1-ITB:~$sudo apt install g++ pkg-config python3-minimal li
 bertopeng17-1@git clone https://github.com/named-data/ndn-cxx.git
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/gitclone.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/gitclone.png)
 
 <pre>
 bertopeng17-1@cd ndn-cxx
 bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$ 
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/cdndncxx.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/cdndncxx.png)
 
  
 **Build**
@@ -89,19 +89,19 @@ To disable the build of the shared library and build only the static library, us
 bertopeng17-1@./waf configure
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/wafconfigure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/wafconfigure.png)
 
 <pre>
 bertopeng17-1@./waf
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/Screenshot%20from%202021-09-08%2010-26-58.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf%20finish.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/ndncxx-waf.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20finish.png)
 
 
 <pre>
 bertopeng17-1@sudo ./waf install
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/tree/main/Assignment%202:NDNrg-Topology/NDNrg-Image)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image/waf%20install%20succes.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20install.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20install%20succes.png)
 
