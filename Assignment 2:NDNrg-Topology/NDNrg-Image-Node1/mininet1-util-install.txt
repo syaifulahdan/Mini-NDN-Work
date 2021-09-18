@@ -1,1 +1,155 @@
+bertopeng17-1@NDN-Node1-ITB:~/mininet$ ./util/install.sh -nv
+Detected Linux distribution: Ubuntu 18.04 bionic amd64
+sys.version_info(major=3, minor=6, micro=9, releaselevel='final', serial=0)
+Detected Python (python) version 3
+Installing Mininet dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ethtool is already the newest version (1:4.15-0ubuntu1).
+make is already the newest version (4.1-9.1ubuntu1).
+net-tools is already the newest version (1.60+git20161116.90da8a0-1ubuntu1).
+python3-pexpect is already the newest version (4.2.1-1).
+python3-pexpect set to manually installed.
+socat is already the newest version (1.7.3.2-2ubuntu2).
+telnet is already the newest version (0.17-41).
+help2man is already the newest version (1.47.6).
+pep8 is already the newest version (1.7.1-1ubuntu1).
+pyflakes is already the newest version (1.6.0-1).
+pylint is already the newest version (1.8.3-1).
+gcc is already the newest version (4:7.4.0-1ubuntu2.3).
+psmisc is already the newest version (23.1-1ubuntu0.1).
+ssh is already the newest version (1:7.6p1-4ubuntu0.5).
+iperf is already the newest version (2.0.10+dfsg1-1ubuntu0.18.04.2).
+xterm is already the newest version (330-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  tix python3-tk-dbg
+The following NEW packages will be installed:
+  python3-tk
+0 upgraded, 1 newly installed, 0 to remove and 400 not upgraded.
+Need to get 119 kB of archives.
+After this operation, 1,324 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-tk amd64 3.6.9-1~18.04 [119 kB]
+Fetched 119 kB in 3s (38.7 kB/s)
+Selecting previously unselected package python3-tk:amd64.
+(Reading database ... 163494 files and directories currently installed.)
+Preparing to unpack .../python3-tk_3.6.9-1~18.04_amd64.deb ...
+Unpacking python3-tk:amd64 (3.6.9-1~18.04) ...
+Setting up python3-tk:amd64 (3.6.9-1~18.04) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.5).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+iproute2 is already the newest version (4.15.0-2ubuntu1.3).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cgroup-tools is already the newest version (0.41-8ubuntu2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Installing Mininet core
+~/mininet ~/mininet
+cc -Wall -Wextra  \
+-DVERSION=\"`PYTHONPATH=. python -B bin/mn --version 2>&1`\" mnexec.c -o mnexec
+install -D mnexec /usr/bin/mnexec
+PYTHONPATH=. help2man -N -n "create a Mininet network." \
+--no-discard-stderr "python -B bin/mn" -o mn.1
+help2man -N -n "execution utility for Mininet." \
+-h "-h" -v "-v" --no-discard-stderr ./mnexec -o mnexec.1
+install -D -t /usr/share/man/man1 mn.1 mnexec.1
+python -m pip uninstall -y mininet || true
+The directory '/home/bertopeng17-1/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Cannot uninstall requirement mininet, not installed
+python -m pip install .
+The directory '/home/bertopeng17-1/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/bertopeng17-1/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Processing /home/bertopeng17-1/mininet
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from mininet==2.3.0)
+Installing collected packages: mininet
+  Running setup.py install for mininet ... done
+Successfully installed mininet-2.3.0
+~/mininet
+Installing Open vSwitch...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openvswitch-switch is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package openvswitch-controller
+Attempting to install openvswitch-testcontroller
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openvswitch-testcontroller is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Stopped running controller
+bertopeng17-1@NDN-Node1-ITB:~/mininet$ 
 
