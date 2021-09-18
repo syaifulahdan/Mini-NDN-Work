@@ -7,9 +7,9 @@ To install infoedit:https://github.com/NDN-Routing/infoedit
 <pre>
 $ git clone — depth 1 https://github.com/NDN-Routing/infoedit
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Infoedit2/1-gitclone-infoedit2.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-Infoedit1/1-gitclone-infoedit1.png)
 
-Show Progress clone infoedit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Infoedit2/1-gitclone-infoedit2.png)
+Show Progress clone infoedit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/infoedit1-gitclone.txt)
 
 <pre>
 $ cd infoedit
