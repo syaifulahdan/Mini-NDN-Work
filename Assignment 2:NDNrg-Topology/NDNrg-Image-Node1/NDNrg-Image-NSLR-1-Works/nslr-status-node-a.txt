@@ -1,1 +1,78 @@
+mini-ndn> a nlsrc status
+NLSR Status
+LSDB:
+  OriginRouter: /ndn/a-site/%C1.Router/cs/a
+
+    ADJACENCY LSA:
+      Origin Router      : /ndn/a-site/%C1.Router/cs/a
+      Sequence Number    : 18
+      Expires in         : 3014571 milliseconds
+      Adjacent(s):
+        Adjacent 0: (name=/ndn/b-site/%C1.Router/cs/b, uri=udp4://10.0.0.2:6363, cost=10)
+        Adjacent 1: (name=/ndn/c-site/%C1.Router/cs/c, uri=udp4://10.0.0.6:6363, cost=10)
+
+    NAME LSA:
+      Origin Router      : /ndn/a-site/%C1.Router/cs/a
+      Sequence Number    : 18
+      Expires in         : 2998551 milliseconds
+      Names:
+        Name 0: /ndn/a-site/a
+
+  OriginRouter: /ndn/b-site/%C1.Router/cs/b
+
+    ADJACENCY LSA:
+      Origin Router      : /ndn/b-site/%C1.Router/cs/b
+      Sequence Number    : 18
+      Expires in         : 3015571 milliseconds
+      Adjacent(s):
+        Adjacent 0: (name=/ndn/a-site/%C1.Router/cs/a, uri=udp4://10.0.0.1:6363, cost=10)
+        Adjacent 1: (name=/ndn/d-site/%C1.Router/cs/d, uri=udp4://10.0.0.10:6363, cost=10)
+
+    NAME LSA:
+      Origin Router      : /ndn/b-site/%C1.Router/cs/b
+      Sequence Number    : 18
+      Expires in         : 3001552 milliseconds
+      Names:
+        Name 0: /ndn/b-site/b
+
+  OriginRouter: /ndn/c-site/%C1.Router/cs/c
+
+    ADJACENCY LSA:
+      Origin Router      : /ndn/c-site/%C1.Router/cs/c
+      Sequence Number    : 18
+      Expires in         : 3014571 milliseconds
+      Adjacent(s):
+        Adjacent 0: (name=/ndn/a-site/%C1.Router/cs/a, uri=udp4://10.0.0.5:6363, cost=10)
+
+    NAME LSA:
+      Origin Router      : /ndn/c-site/%C1.Router/cs/c
+      Sequence Number    : 18
+      Expires in         : 3002552 milliseconds
+      Names:
+        Name 0: /ndn/c-site/c
+
+  OriginRouter: /ndn/d-site/%C1.Router/cs/d
+
+    ADJACENCY LSA:
+      Origin Router      : /ndn/d-site/%C1.Router/cs/d
+      Sequence Number    : 18
+      Expires in         : 3015572 milliseconds
+      Adjacent(s):
+        Adjacent 0: (name=/ndn/b-site/%C1.Router/cs/b, uri=udp4://10.0.0.9:6363, cost=10)
+
+    NAME LSA:
+      Origin Router      : /ndn/d-site/%C1.Router/cs/d
+      Sequence Number    : 18
+      Expires in         : 3004552 milliseconds
+      Names:
+        Name 0: /ndn/d-site/d
+
+Routing Table:
+  Destination: /ndn/d-site/%C1.Router/cs/d
+    NextHop(Uri: udp4://10.0.0.2:6363, Cost: 20)
+  Destination: /ndn/b-site/%C1.Router/cs/b
+    NextHop(Uri: udp4://10.0.0.2:6363, Cost: 10)
+  Destination: /ndn/c-site/%C1.Router/cs/c
+    NextHop(Uri: udp4://10.0.0.6:6363, Cost: 10)
+mini-ndn> 
 
