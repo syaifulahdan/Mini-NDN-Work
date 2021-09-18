@@ -1,1 +1,2033 @@
+bertopeng17-1@NDN-Node1-ITB:~/mini-ndn$ ./install.sh -iw
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libigraph0-dev is already the newest version (0.7.1-2.1+deb9u1build0.18.04.1).
+tshark is already the newest version (2.6.10-1~ubuntu18.04.0).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1
+  libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid
+  liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0
+  libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules
+  node-combined-stream node-concat-map node-cookie-jar node-delayed-stream node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini node-is-builtin-module node-isexe
+  node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request
+  node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse node-spdx-license-ids node-tar node-tunnel-agent
+  node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Traceback (most recent call last):
+  File "/usr/local/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+ModuleNotFoundError: No module named 'pip._internal'
+Hit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease                                                                     
+Hit:2 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic InRelease                                                                      
+Hit:3 http://us.archive.ubuntu.com/ubuntu bionic InRelease                                                      
+Hit:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease                                  
+Hit:5 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic InRelease   
+Hit:6 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease    
+Reading package lists... Done                     
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python-setuptools is already the newest version (39.0.1-2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+cp: cannot stat 'topologies/minindn.testbed.conf': No such file or directory
+cp: cannot stat 'topologies/current-testbed.conf': No such file or directory
+running develop
+running egg_info
+writing Mini_NDN.egg-info/PKG-INFO
+writing dependency_links to Mini_NDN.egg-info/dependency_links.txt
+writing top-level names to Mini_NDN.egg-info/top_level.txt
+reading manifest file 'Mini_NDN.egg-info/SOURCES.txt'
+writing manifest file 'Mini_NDN.egg-info/SOURCES.txt'
+running build_ext
+Creating /usr/local/lib/python3.6/dist-packages/Mini-NDN.egg-link (link to .)
+Mini-NDN 0.5.0 is already the active version in easy-install.pth
 
+Installed /home/bertopeng17-1/mini-ndn
+Processing dependencies for Mini-NDN==0.5.0
+Finished processing dependencies for Mini-NDN==0.5.0
+['minindn', 'minindn.wifi', 'minindn.apps', 'minindn.helpers']
+Hit:1 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic InRelease                            
+Hit:2 http://us.archive.ubuntu.com/ubuntu bionic InRelease                                                                                             
+Hit:3 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic InRelease                                                                                       
+Hit:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease                                                                                          
+Hit:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease                                       
+Hit:6 http://security.ubuntu.com/ubuntu bionic-security InRelease                                          
+Reading package lists... Done                      
+Cloning into 'mininet-wifi'...
+remote: Enumerating objects: 275, done.
+remote: Counting objects: 100% (275/275), done.
+remote: Compressing objects: 100% (245/245), done.
+remote: Total 275 (delta 33), reused 141 (delta 10), pack-reused 0
+Receiving objects: 100% (275/275), 955.25 KiB | 389.00 KiB/s, done.
+Resolving deltas: 100% (33/33), done.
+~/mini-ndn/mininet-wifi ~/mini-ndn
+Detected Linux distribution: Ubuntu 18.04 bionic amd64
+Ubuntu
+sys.version_info(major=3, minor=6, micro=9, releaselevel='final', serial=0)
+Detected Python (python) version 3
+Installing Mininet dependencies
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+ethtool is already the newest version (1:4.15-0ubuntu1).
+make is already the newest version (4.1-9.1ubuntu1).
+net-tools is already the newest version (1.60+git20161116.90da8a0-1ubuntu1).
+python3-pexpect is already the newest version (4.2.1-1).
+socat is already the newest version (1.7.3.2-2ubuntu2).
+telnet is already the newest version (0.17-41).
+help2man is already the newest version (1.47.6).
+pep8 is already the newest version (1.7.1-1ubuntu1).
+pyflakes is already the newest version (1.6.0-1).
+pylint is already the newest version (1.8.3-1).
+gcc is already the newest version (4:7.4.0-1ubuntu2.3).
+psmisc is already the newest version (23.1-1ubuntu0.1).
+python3-tk is already the newest version (3.6.9-1~18.04).
+ssh is already the newest version (1:7.6p1-4ubuntu0.5).
+iperf is already the newest version (2.0.10+dfsg1-1ubuntu0.18.04.2).
+xterm is already the newest version (330-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python3-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.5).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+iproute2 is already the newest version (4.15.0-2ubuntu1.3).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+cgroup-tools is already the newest version (0.41-8ubuntu2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Installing Mininet-WiFi dependencies
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libevent-dev is already the newest version (2.1.8-stable-4build1).
+libnl-3-dev is already the newest version (3.2.29-0ubuntu3).
+libnl-genl-3-dev is already the newest version (3.2.29-0ubuntu3).
+make is already the newest version (4.1-9.1ubuntu1).
+pkg-config is already the newest version (0.29.1-0ubuntu2).
+wireless-tools is already the newest version (30~pre9-12ubuntu1).
+libdbus-1-dev is already the newest version (1.12.2-1ubuntu1.2).
+libssl-dev is already the newest version (1.1.1-1ubuntu2.1~18.04.13).
+patch is already the newest version (2.7.6-2ubuntu1.1).
+rfkill is already the newest version (2.31.1-0.4ubuntu3.7).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  gfortran python-numpy-doc python3-nose python3-numpy-dbg python-psutil-doc
+The following NEW packages will be installed:
+  python3-numpy python3-psutil
+0 upgraded, 2 newly installed, 0 to remove and 400 not upgraded.
+Need to get 2,079 kB of archives.
+After this operation, 11.8 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-numpy amd64 1:1.13.3-2ubuntu1 [1,943 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-psutil amd64 5.4.2-1ubuntu0.1 [136 kB]
+Fetched 2,079 kB in 6s (340 kB/s)                                                                                                                                                                                       
+Selecting previously unselected package python3-numpy.
+(Reading database ... 163548 files and directories currently installed.)
+Preparing to unpack .../python3-numpy_1%3a1.13.3-2ubuntu1_amd64.deb ...
+Unpacking python3-numpy (1:1.13.3-2ubuntu1) ...
+Selecting previously unselected package python3-psutil.
+Preparing to unpack .../python3-psutil_5.4.2-1ubuntu0.1_amd64.deb ...
+Unpacking python3-psutil (5.4.2-1ubuntu0.1) ...
+Setting up python3-numpy (1:1.13.3-2ubuntu1) ...
+Setting up python3-psutil (5.4.2-1ubuntu0.1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  fonts-lyx libjs-jquery-ui python-matplotlib-data python3-cycler python3-pyparsing ttf-bitstream-vera
+Suggested packages:
+  libjs-jquery-ui-docs python-cycler-doc dvipng ffmpeg inkscape ipython3 python-matplotlib-doc python3-cairocffi python3-gobject python3-nose python3-pyqt4 python3-scipy python3-sip python3-tornado
+  texlive-extra-utils texlive-latex-extra ttf-staypuft python-pyparsing-doc
+The following NEW packages will be installed:
+  fonts-lyx libjs-jquery-ui python-matplotlib-data python3-cycler python3-matplotlib python3-pyparsing ttf-bitstream-vera
+0 upgraded, 7 newly installed, 0 to remove and 400 not upgraded.
+Need to get 8,480 kB of archives.
+After this operation, 26.8 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 fonts-lyx all 2.2.4-0ubuntu0.18.04.1 [155 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libjs-jquery-ui all 1.12.1+dfsg-5 [232 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 ttf-bitstream-vera all 1.10-8 [352 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python-matplotlib-data all 2.1.1-2ubuntu3 [3,774 kB]                                                                                                    
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-cycler all 0.10.0-1 [7,622 B]                                                                                                                   
+Get:6 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-pyparsing all 2.2.0+dfsg1-2 [52.2 kB]                                                                                                               
+Get:7 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-matplotlib amd64 2.1.1-2ubuntu3 [3,907 kB]                                                                                                      
+Fetched 8,480 kB in 23s (364 kB/s)                                                                                                                                                                                      
+Selecting previously unselected package fonts-lyx.
+(Reading database ... 163967 files and directories currently installed.)
+Preparing to unpack .../0-fonts-lyx_2.2.4-0ubuntu0.18.04.1_all.deb ...
+Unpacking fonts-lyx (2.2.4-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libjs-jquery-ui.
+Preparing to unpack .../1-libjs-jquery-ui_1.12.1+dfsg-5_all.deb ...
+Unpacking libjs-jquery-ui (1.12.1+dfsg-5) ...
+Selecting previously unselected package ttf-bitstream-vera.
+Preparing to unpack .../2-ttf-bitstream-vera_1.10-8_all.deb ...
+Unpacking ttf-bitstream-vera (1.10-8) ...
+Selecting previously unselected package python-matplotlib-data.
+Preparing to unpack .../3-python-matplotlib-data_2.1.1-2ubuntu3_all.deb ...
+Unpacking python-matplotlib-data (2.1.1-2ubuntu3) ...
+Selecting previously unselected package python3-cycler.
+Preparing to unpack .../4-python3-cycler_0.10.0-1_all.deb ...
+Unpacking python3-cycler (0.10.0-1) ...
+Selecting previously unselected package python3-pyparsing.
+Preparing to unpack .../5-python3-pyparsing_2.2.0+dfsg1-2_all.deb ...
+Unpacking python3-pyparsing (2.2.0+dfsg1-2) ...
+Selecting previously unselected package python3-matplotlib.
+Preparing to unpack .../6-python3-matplotlib_2.1.1-2ubuntu3_amd64.deb ...
+Unpacking python3-matplotlib (2.1.1-2ubuntu3) ...
+Setting up python3-pyparsing (2.2.0+dfsg1-2) ...
+Setting up python3-cycler (0.10.0-1) ...
+Setting up libjs-jquery-ui (1.12.1+dfsg-5) ...
+Setting up ttf-bitstream-vera (1.10-8) ...
+Setting up fonts-lyx (2.2.4-0ubuntu0.18.04.1) ...
+Setting up python-matplotlib-data (2.1.1-2ubuntu3) ...
+Setting up python3-matplotlib (2.1.1-2ubuntu3) ...
+Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
+~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Submodule 'hostap' (http://w1.fi/hostap.git) registered for path 'hostap'
+Cloning into '/home/bertopeng17-1/mini-ndn/mininet-wifi/hostap'...
+Submodule path 'hostap': checked out 'f1843376050e787fbcea8eb5f61e617ebd658430'
+~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+patching file hostapd/defconfig
+patching file wpa_supplicant/bgscan_learn.c
+patching file wpa_supplicant/defconfig
+patching file wpa_supplicant/p2p_supplicant.c
+~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+  CC  main.c
+  CC  config_file.c
+  CC  ../src/ap/hostapd.c
+  CC  ../src/ap/wpa_auth_glue.c
+  CC  ../src/ap/drv_callbacks.c
+  CC  ../src/ap/ap_drv_ops.c
+  CC  ../src/ap/utils.c
+  CC  ../src/ap/authsrv.c
+  CC  ../src/ap/ieee802_1x.c
+  CC  ../src/ap/ap_config.c
+  CC  ../src/ap/eap_user_db.c
+  CC  ../src/ap/ieee802_11_auth.c
+  CC  ../src/ap/sta_info.c
+  CC  ../src/ap/wpa_auth.c
+  CC  ../src/ap/tkip_countermeasures.c
+  CC  ../src/ap/ap_mlme.c
+  CC  ../src/ap/wpa_auth_ie.c
+  CC  ../src/ap/preauth_auth.c
+  CC  ../src/ap/pmksa_cache_auth.c
+  CC  ../src/ap/ieee802_11_shared.c
+  CC  ../src/ap/beacon.c
+  CC  ../src/ap/bss_load.c
+  CC  ../src/ap/neighbor_db.c
+  CC  ../src/ap/rrm.c
+  CC  ../src/drivers/drivers.c
+  CC  ../src/utils/eloop.c
+  CC  ../src/utils/common.c
+  CC  ../src/utils/wpa_debug.c
+  CC  ../src/utils/wpabuf.c
+  CC  ../src/utils/os_unix.c
+  CC  ../src/utils/ip_addr.c
+  CC  ../src/utils/crc32.c
+  CC  ../src/common/ieee802_11_common.c
+  CC  ../src/common/wpa_common.c
+  CC  ../src/common/hw_features_common.c
+  CC  ../src/eapol_auth/eapol_auth_sm.c
+  CC  ../src/eapol_auth/eapol_auth_dump.c
+  CC  ../src/radius/radius.c
+  CC  ../src/radius/radius_client.c
+  CC  ../src/radius/radius_das.c
+  CC  ../src/ap/accounting.c
+  CC  ../src/ap/vlan_init.c
+  CC  ../src/ap/vlan_ifconfig.c
+  CC  ../src/ap/vlan.c
+  CC  ../src/common/ctrl_iface_common.c
+  CC  ctrl_iface.c
+  CC  ../src/ap/ctrl_iface_ap.c
+  CC  ../src/ap/wpa_auth_ft.c
+  CC  ../src/ap/eth_p_oui.c
+  CC  ../src/common/sae.c
+  CC  ../src/ap/wnm_ap.c
+  CC  ../src/ap/ieee802_11_he.c
+  CC  ../src/drivers/driver_hostap.c
+  CC  ../src/drivers/driver_nl80211.c
+  CC  ../src/drivers/driver_nl80211_capa.c
+  CC  ../src/drivers/driver_nl80211_event.c
+  CC  ../src/drivers/driver_nl80211_monitor.c
+  CC  ../src/drivers/driver_nl80211_scan.c
+  CC  ../src/drivers/netlink.c
+  CC  ../src/drivers/rfkill.c
+  CC  ../src/utils/radiotap.c
+  CC  ../src/drivers/linux_ioctl.c
+  CC  ../src/l2_packet/l2_packet_linux.c
+  CC  ../src/eap_server/eap_server_md5.c
+  CC  ../src/eap_server/eap_server_tls.c
+  CC  ../src/eap_server/eap_server_peap.c
+  CC  ../src/eap_common/eap_peap_common.c
+  CC  ../src/eap_server/eap_server_ttls.c
+  CC  ../src/eap_server/eap_server_mschapv2.c
+  CC  ../src/eap_server/eap_server_gtc.c
+  CC  ../src/utils/uuid.c
+  CC  ../src/ap/wps_hostapd.c
+  CC  ../src/eap_server/eap_server_wsc.c
+  CC  ../src/eap_common/eap_wsc_common.c
+  CC  ../src/wps/wps.c
+  CC  ../src/wps/wps_common.c
+  CC  ../src/wps/wps_attr_parse.c
+  CC  ../src/wps/wps_attr_build.c
+  CC  ../src/wps/wps_attr_process.c
+  CC  ../src/wps/wps_dev_attr.c
+  CC  ../src/wps/wps_enrollee.c
+  CC  ../src/wps/wps_registrar.c
+  CC  ../src/wps/ndef.c
+  CC  ../src/wps/wps_upnp.c
+  CC  ../src/wps/wps_upnp_ssdp.c
+  CC  ../src/wps/wps_upnp_web.c
+  CC  ../src/wps/wps_upnp_event.c
+  CC  ../src/wps/wps_upnp_ap.c
+  CC  ../src/wps/upnp_xml.c
+  CC  ../src/wps/httpread.c
+  CC  ../src/wps/http_client.c
+  CC  ../src/wps/http_server.c
+  CC  eap_register.c
+  CC  ../src/eap_server/eap_server.c
+  CC  ../src/eap_common/eap_common.c
+  CC  ../src/eap_server/eap_server_methods.c
+  CC  ../src/eap_server/eap_server_identity.c
+  CC  ../src/common/dragonfly.c
+  CC  ../src/crypto/ms_funcs.c
+  CC  ../src/eap_common/chap.c
+  CC  ../src/eap_server/eap_server_tls_common.c
+  CC  ../src/crypto/tls_openssl.c
+  CC  ../src/crypto/tls_openssl_ocsp.c
+  CC  ../src/crypto/crypto_openssl.c
+  CC  ../src/crypto/aes-siv.c
+  CC  ../src/crypto/aes-ctr.c
+  CC  ../src/crypto/aes-omac1.c
+  CC  ../src/crypto/sha1-prf.c
+  CC  ../src/crypto/sha1-tlsprf.c
+  CC  ../src/crypto/sha256-prf.c
+  CC  ../src/crypto/sha256-tlsprf.c
+  CC  ../src/crypto/sha256-kdf.c
+  CC  ../src/crypto/dh_groups.c
+  CC  ../src/crypto/random.c
+  CC  ../src/radius/radius_server.c
+  CC  ../src/utils/base64.c
+  CC  ../src/ap/wmm.c
+  CC  ../src/ap/ap_list.c
+  CC  ../src/ap/ieee802_11.c
+  CC  ../src/ap/hw_features.c
+  CC  ../src/ap/dfs.c
+  CC  ../src/ap/ieee802_11_ht.c
+  CC  ../src/ap/ieee802_11_vht.c
+  CC  ../src/ap/hs20.c
+  CC  ../src/common/gas.c
+  CC  ../src/ap/gas_serv.c
+  CC  ../src/ap/x_snoop.c
+  CC  ../src/ap/dhcp_snoop.c
+  CC  ../src/ap/ndisc_snoop.c
+  CC  ../src/drivers/driver_common.c
+  CC  ../src/ap/acs.c
+  CC  ../src/fst/fst.c
+  CC  ../src/fst/fst_group.c
+  CC  ../src/fst/fst_iface.c
+  CC  ../src/fst/fst_session.c
+  CC  ../src/fst/fst_ctrl_aux.c
+  CC  ../src/fst/fst_ctrl_iface.c
+  LD  hostapd
+  CC  hostapd_cli.c
+  CC  ../src/common/wpa_ctrl.c
+  CC  ../src/common/cli.c
+  CC  ../src/utils/edit.c
+  LD  hostapd_cli
+install -D hostapd /usr/local/bin//hostapd
+install -D hostapd_cli /usr/local/bin//hostapd_cli
+~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+  CC  config.c
+  CC  notify.c
+  CC  bss.c
+  CC  eap_register.c
+  CC  ../src/utils/common.c
+  CC  ../src/utils/config.c
+  CC  ../src/utils/wpa_debug.c
+  CC  ../src/utils/wpabuf.c
+  CC  ../src/utils/bitfield.c
+  CC  ../src/utils/ip_addr.c
+  CC  ../src/utils/crc32.c
+  CC  op_classes.c
+  CC  rrm.c
+  CC  twt.c
+  CC  robust_av.c
+  CC  wmm_ac.c
+  CC  ../src/utils/os_unix.c
+  CC  ../src/utils/eloop.c
+  CC  config_file.c
+  CC  ../src/rsn_supp/wpa_ft.c
+  CC  mesh.c
+  CC  mesh_mpm.c
+  CC  mesh_rsn.c
+  CC  ../src/common/sae.c
+  CC  ../src/common/dpp.c
+  CC  ../src/common/dpp_auth.c
+  CC  ../src/common/dpp_backup.c
+  CC  ../src/common/dpp_crypto.c
+  CC  ../src/common/dpp_pkex.c
+  CC  ../src/common/dpp_reconfig.c
+  CC  ../src/common/dpp_tcp.c
+  CC  dpp_supplicant.c
+  CC  wnm_sta.c
+  CC  ../src/rsn_supp/tdls.c
+  CC  ../src/rsn_supp/wpa.c
+  CC  ../src/rsn_supp/preauth.c
+  CC  ../src/rsn_supp/pmksa_cache.c
+  CC  ../src/rsn_supp/wpa_ie.c
+  CC  ../src/common/wpa_common.c
+  CC  ibss_rsn.c
+  CC  p2p_supplicant.c
+  CC  p2p_supplicant_sd.c
+  CC  ../src/p2p/p2p.c
+  CC  ../src/p2p/p2p_utils.c
+  CC  ../src/p2p/p2p_parse.c
+  CC  ../src/p2p/p2p_build.c
+  CC  ../src/p2p/p2p_go_neg.c
+  CC  ../src/p2p/p2p_sd.c
+  CC  ../src/p2p/p2p_pd.c
+  CC  ../src/p2p/p2p_invitation.c
+  CC  ../src/p2p/p2p_dev_disc.c
+  CC  ../src/p2p/p2p_group.c
+  CC  ../src/ap/p2p_hostapd.c
+  CC  wifi_display.c
+  CC  hs20_supplicant.c
+  CC  interworking.c
+  CC  ../src/eap_peer/eap_tls.c
+  CC  ../src/eap_peer/eap_peap.c
+  CC  ../src/eap_common/eap_peap_common.c
+  CC  ../src/eap_peer/eap_ttls.c
+  CC  ../src/eap_peer/eap_md5.c
+  CC  ../src/eap_peer/eap_mschapv2.c
+  CC  ../src/eap_peer/mschapv2.c
+  CC  ../src/eap_peer/eap_gtc.c
+  CC  ../src/eap_peer/eap_otp.c
+  CC  ../src/eap_peer/eap_leap.c
+  CC  ../src/eap_peer/eap_fast.c
+  CC  ../src/eap_peer/eap_fast_pac.c
+  CC  ../src/eap_common/eap_fast_common.c
+  CC  ../src/eap_peer/eap_pax.c
+  CC  ../src/eap_common/eap_pax_common.c
+  CC  ../src/eap_peer/eap_sake.c
+  CC  ../src/eap_common/eap_sake_common.c
+  CC  ../src/eap_peer/eap_gpsk.c
+  CC  ../src/eap_common/eap_gpsk_common.c
+  CC  ../src/eap_peer/eap_pwd.c
+  CC  ../src/eap_common/eap_pwd_common.c
+  CC  wps_supplicant.c
+  CC  ../src/utils/uuid.c
+  CC  ../src/eap_peer/eap_wsc.c
+  CC  ../src/eap_common/eap_wsc_common.c
+  CC  ../src/wps/wps.c
+  CC  ../src/wps/wps_common.c
+  CC  ../src/wps/wps_attr_parse.c
+  CC  ../src/wps/wps_attr_build.c
+  CC  ../src/wps/wps_attr_process.c
+  CC  ../src/wps/wps_dev_attr.c
+  CC  ../src/wps/wps_enrollee.c
+  CC  ../src/wps/wps_registrar.c
+  CC  ../src/wps/ndef.c
+  CC  ../src/wps/wps_er.c
+  CC  ../src/wps/wps_er_ssdp.c
+  CC  ../src/wps/wps_upnp.c
+  CC  ../src/wps/wps_upnp_ssdp.c
+  CC  ../src/wps/wps_upnp_web.c
+  CC  ../src/wps/wps_upnp_event.c
+  CC  ../src/wps/wps_upnp_ap.c
+  CC  ../src/wps/upnp_xml.c
+  CC  ../src/wps/httpread.c
+  CC  ../src/wps/http_client.c
+  CC  ../src/wps/http_server.c
+  CC  ../src/eap_peer/eap_ikev2.c
+  CC  ../src/eap_peer/ikev2.c
+  CC  ../src/eap_common/eap_ikev2_common.c
+  CC  ../src/eap_common/ikev2_common.c
+  CC  ../src/eap_peer/eap_tnc.c
+  CC  ../src/eap_peer/tncc.c
+  CC  wpas_kay.c
+  CC  ../src/pae/ieee802_1x_cp.c
+  CC  ../src/pae/ieee802_1x_kay.c
+  CC  ../src/pae/ieee802_1x_key.c
+  CC  ../src/pae/ieee802_1x_secy_ops.c
+  CC  ../src/ap/wpa_auth_kay.c
+  CC  ../src/eapol_supp/eapol_supp_sm.c
+  CC  ../src/eap_peer/eap.c
+  CC  ../src/eap_peer/eap_methods.c
+  CC  ap.c
+  CC  ../src/ap/hostapd.c
+  CC  ../src/ap/wpa_auth_glue.c
+  CC  ../src/ap/utils.c
+  CC  ../src/ap/authsrv.c
+  CC  ../src/ap/ap_config.c
+  CC  ../src/ap/sta_info.c
+  CC  ../src/ap/tkip_countermeasures.c
+  CC  ../src/ap/ap_mlme.c
+  CC  ../src/ap/ieee802_1x.c
+  CC  ../src/eapol_auth/eapol_auth_sm.c
+  CC  ../src/ap/ieee802_11_auth.c
+  CC  ../src/ap/ieee802_11_shared.c
+  CC  ../src/ap/drv_callbacks.c
+  CC  ../src/ap/ap_drv_ops.c
+  CC  ../src/ap/beacon.c
+  CC  ../src/ap/bss_load.c
+  CC  ../src/ap/eap_user_db.c
+  CC  ../src/ap/neighbor_db.c
+  CC  ../src/ap/rrm.c
+  CC  ../src/ap/ieee802_11_ht.c
+  CC  ../src/ap/ieee802_11_vht.c
+  CC  ../src/ap/ctrl_iface_ap.c
+  CC  ../src/eap_server/eap_server.c
+  CC  ../src/eap_server/eap_server_identity.c
+  CC  ../src/eap_server/eap_server_methods.c
+  CC  ../src/ap/wmm.c
+  CC  ../src/ap/ap_list.c
+  CC  ../src/ap/ieee802_11.c
+  CC  ../src/ap/hw_features.c
+  CC  ../src/ap/dfs.c
+  CC  ../src/ap/wps_hostapd.c
+  CC  ../src/eap_server/eap_server_wsc.c
+  CC  ../src/ap/dpp_hostapd.c
+  CC  ../src/ap/gas_query_ap.c
+  CC  ../src/ap/gas_serv.c
+  CC  ../src/ap/hs20.c
+  CC  ../src/ap/wpa_auth.c
+  CC  ../src/ap/wpa_auth_ie.c
+  CC  ../src/ap/pmksa_cache_auth.c
+  CC  ../src/ap/acs.c
+  CC  ../src/common/dragonfly.c
+  CC  ../src/crypto/ms_funcs.c
+  CC  ../src/eap_common/chap.c
+  CC  ../src/eap_peer/eap_tls_common.c
+  CC  ../src/crypto/tls_openssl.c
+  CC  ../src/crypto/tls_openssl_ocsp.c
+  CC  ../src/crypto/crypto_openssl.c
+  CC  ../src/crypto/aes-siv.c
+  CC  ../src/crypto/aes-ctr.c
+  CC  ../src/crypto/aes-encblock.c
+  CC  ../src/crypto/aes-omac1.c
+  CC  ../src/crypto/sha256-kdf.c
+  CC  ../src/crypto/sha384-kdf.c
+  CC  ../src/crypto/sha512-kdf.c
+  CC  ../src/crypto/sha256-prf.c
+  CC  ../src/crypto/sha256-tlsprf.c
+  CC  ../src/crypto/sha384-prf.c
+  CC  ../src/crypto/sha512-prf.c
+  CC  ../src/tls/asn1.c
+  CC  ../src/crypto/dh_groups.c
+  CC  ../src/crypto/random.c
+  CC  ../src/common/ctrl_iface_common.c
+  CC  ctrl_iface.c
+  CC  ctrl_iface_unix.c
+  CC  dbus/dbus_dict_helpers.c
+  CC  dbus/dbus_new_helpers.c
+  CC  dbus/dbus_new.c
+  CC  dbus/dbus_new_handlers.c
+  CC  dbus/dbus_common.c
+  CC  dbus/dbus_new_handlers_wps.c
+  CC  dbus/dbus_new_handlers_p2p.c
+  CC  dbus/dbus_new_introspect.c
+  CC  ../src/utils/base64.c
+  CC  sme.c
+  CC  ../src/common/ieee802_11_common.c
+  CC  ../src/common/hw_features_common.c
+  CC  ../src/eap_common/eap_common.c
+  CC  ../src/crypto/sha1-prf.c
+  CC  ../src/crypto/sha1-tprf.c
+  CC  ../src/crypto/sha1-tlsprf.c
+  CC  bgscan_simple.c
+  CC  bgscan_learn.c
+  CC  bgscan.c
+  CC  ../src/common/gas_server.c
+  CC  ../src/common/gas.c
+  CC  gas_query.c
+  CC  offchannel.c
+  CC  ../src/utils/json.c
+  CC  ../src/drivers/driver_common.c
+  CC  wpa_supplicant.c
+  CC  events.c
+  CC  bssid_ignore.c
+  CC  wpas_glue.c
+  CC  scan.c
+  CC  main.c
+  CC  ../src/drivers/driver_wired.c
+  CC  ../src/drivers/driver_macsec_linux.c
+  CC  ../src/drivers/driver_wired_common.c
+  CC  ../src/drivers/driver_nl80211.c
+  CC  ../src/drivers/driver_nl80211_capa.c
+  CC  ../src/drivers/driver_nl80211_event.c
+  CC  ../src/drivers/driver_nl80211_monitor.c
+  CC  ../src/drivers/driver_nl80211_scan.c
+  CC  ../src/drivers/netlink.c
+  CC  ../src/drivers/rfkill.c
+  CC  ../src/utils/radiotap.c
+  CC  ../src/drivers/linux_ioctl.c
+  CC  ../src/drivers/driver_wext.c
+  CC  ../src/drivers/drivers.c
+  CC  ../src/l2_packet/l2_packet_linux.c
+/usr/bin/ld: cannot find -lnl-route-3
+collect2: error: ld returned 1 exit status
+Makefile:1893: recipe for target 'wpa_supplicant' failed
+make: *** [wpa_supplicant] Error 1
+~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Cloning into 'iw'...
+remote: Enumerating objects: 52, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 52 (delta 2), reused 37 (delta 0), pack-reused 0
+Unpacking objects: 100% (52/52), done.
+~/mini-ndn/mininet-wifi/iw ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+ GEN  nl80211-commands.inc
+ CC   ap.o
+ CC   bitrate.o
+ CC   bloom.o
+ CC   coalesce.o
+ CC   connect.o
+ CC   cqm.o
+ CC   event.o
+ CC   ftm.o
+ CC   genl.o
+ CC   hwsim.o
+ CC   ibss.o
+ CC   info.o
+ CC   interface.o
+ CC   iw.o
+ CC   link.o
+ CC   measurements.o
+ CC   mesh.o
+ CC   mgmt.o
+ CC   mpath.o
+ CC   mpp.o
+ CC   nan.o
+ CC   ocb.o
+ CC   offch.o
+ CC   p2p.o
+ CC   phy.o
+ CC   ps.o
+ CC   reason.o
+ CC   reg.o
+ CC   roc.o
+ CC   scan.o
+ CC   sections.o
+ CC   sha256.o
+ CC   station.o
+ CC   status.o
+ CC   survey.o
+ CC   util.o
+ CC   vendor.o
+ CC   wowlan.o
+ GEN  version.c
+ CC   version.o
+ CC   iw
+ GZIP iw.8
+ INST iw
+ INST iw.8
+Cloning into 'mac80211_hwsim_mgmt'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 19 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (19/19), done.
+~/mini-ndn/mac80211_hwsim_mgmt ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+make all in hwsim_mgmt...
+make[1]: Entering directory '/home/bertopeng17-1/mini-ndn/mac80211_hwsim_mgmt/hwsim_mgmt'
+cc -g -Wall -Wextra -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3   -c -o hwsim_mgmt_cli.o hwsim_mgmt_cli.c
+cc -g -Wall -Wextra -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3   -c -o hwsim_mgmt_func.o hwsim_mgmt_func.c
+cc -g -Wall -Wextra -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3   -c -o hwsim_mgmt_event.o hwsim_mgmt_event.c
+cc -o hwsim_mgmt hwsim_mgmt_cli.o hwsim_mgmt_func.o hwsim_mgmt_event.o -lpthread -levent -lnl-genl-3 -lnl-3
+make[1]: Leaving directory '/home/bertopeng17-1/mini-ndn/mac80211_hwsim_mgmt/hwsim_mgmt'
+install -m 0755 hwsim_mgmt/hwsim_mgmt /usr/bin
+Installing wmediumd sources into /home/bertopeng17-1/mini-ndn/wmediumd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libevent-dev is already the newest version (2.1.8-stable-4build1).
+libnl-3-dev is already the newest version (3.2.29-0ubuntu3).
+libnl-genl-3-dev is already the newest version (3.2.29-0ubuntu3).
+make is already the newest version (4.1-9.1ubuntu1).
+libconfig-dev is already the newest version (1.5-0.4).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following packages will be upgraded:
+  git
+1 upgraded, 0 newly installed, 0 to remove and 399 not upgraded.
+Need to get 0 B/3,923 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... 165019 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.17.1-1ubuntu0.9_amd64.deb ...
+Unpacking git (1:2.17.1-1ubuntu0.9) over (1:2.17.1-1ubuntu0.8) ...
+Setting up git (1:2.17.1-1ubuntu0.9) ...
+Cloning into 'wmediumd'...
+remote: Enumerating objects: 39, done.
+remote: Counting objects: 100% (39/39), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 39 (delta 13), reused 9 (delta 3), pack-reused 0
+Unpacking objects: 100% (39/39), done.
+~/mini-ndn/wmediumd ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+make all in wmediumd...
+make[1]: Entering directory '/home/bertopeng17-1/mini-ndn/wmediumd/wmediumd'
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o wmediumd.o wmediumd.c
+wmediumd.c: In function ‘timer_cb’:
+wmediumd.c:879:2: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+  read(fd, &u, sizeof(u));
+  ^~~~~~~~~~~~~~~~~~~~~~~
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o wserver.o wserver.c
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o config.o config.c
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o per.o per.c
+per.c:150:15: warning: ‘rate_len_SGI_40’ defined but not used [-Wunused-variable]
+ static size_t rate_len_SGI_40 = ARRAY_SIZE(rateset_SGI_40);
+               ^~~~~~~~~~~~~~~
+per.c:126:15: warning: ‘rate_len_GI_40’ defined but not used [-Wunused-variable]
+ static size_t rate_len_GI_40 = ARRAY_SIZE(rateset_GI_40);
+               ^~~~~~~~~~~~~~
+per.c:102:15: warning: ‘rate_len_SGI_20’ defined but not used [-Wunused-variable]
+ static size_t rate_len_SGI_20 = ARRAY_SIZE(rateset_SGI_20);
+               ^~~~~~~~~~~~~~~
+per.c:78:15: warning: ‘rate_len_GI_20’ defined but not used [-Wunused-variable]
+ static size_t rate_len_GI_20 = ARRAY_SIZE(rateset_GI_20);
+               ^~~~~~~~~~~~~~
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o wmediumd_dynamic.o wmediumd_dynamic.c
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o wserver_messages.o wserver_messages.c
+cc -g -std=gnu11 -Wall -Wextra -Wno-unused-parameter -O2 -DCONFIG_LIBNL30 -I/usr/include/libnl3 -DVERSION_STR="\"0.5\""   -c -o wserver_messages_network.o wserver_messages_network.c
+cc -o wmediumd wmediumd.o wserver.o config.o per.o wmediumd_dynamic.o wserver_messages.o wserver_messages_network.o -levent -lm -lnl-genl-3 -lnl-3 -lconfig -lpthread 
+make[1]: Leaving directory '/home/bertopeng17-1/mini-ndn/wmediumd/wmediumd'
+make all in tests...
+make[1]: Entering directory '/home/bertopeng17-1/mini-ndn/wmediumd/tests'
+cc -g -Wall -O2   -c -o client_snr.o client_snr.c
+cc -o client_snr client_snr.o ../wmediumd/wserver_messages.o ../wmediumd/wserver_messages_network.o 
+cc -g -Wall -O2   -c -o client_errprob.o client_errprob.c
+cc -o client_errprob client_errprob.o ../wmediumd/wserver_messages.o ../wmediumd/wserver_messages_network.o 
+make[1]: Leaving directory '/home/bertopeng17-1/mini-ndn/wmediumd/tests'
+install -m 0755 wmediumd/wmediumd /usr/bin
+~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Installing OpenFlow reference implementation...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+autoconf is already the newest version (2.69-11).
+automake is already the newest version (1:1.15.1-3ubuntu2).
+libtool is already the newest version (2.4.6-2).
+make is already the newest version (4.1-9.1ubuntu1).
+gcc is already the newest version (4:7.4.0-1ubuntu2.3).
+patch is already the newest version (2.7.6-2ubuntu1.1).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 399 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Note, selecting 'git' instead of 'git-core'
+autotools-dev is already the newest version (20180224.1).
+pkg-config is already the newest version (0.29.1-0ubuntu2).
+git is already the newest version (1:2.17.1-1ubuntu0.9).
+libc6-dev is already the newest version (2.27-3ubuntu1.4).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 399 not upgraded.
+Cloning into 'openflow'...
+remote: Enumerating objects: 946, done.
+remote: Counting objects: 100% (946/946), done.
+remote: Compressing objects: 100% (706/706), done.
+remote: Total 946 (delta 236), reused 645 (delta 131), pack-reused 0
+Receiving objects: 100% (946/946), 2.04 MiB | 572.00 KiB/s, done.
+Resolving deltas: 100% (236/236), done.
+patching file controller/controller.c
+configure.ac:42: installing 'build-aux/compile'
+configure.ac:40: installing 'build-aux/install-sh'
+configure.ac:40: installing 'build-aux/missing'
+Makefile.am: installing 'build-aux/depcomp'
+parallel-tests: installing 'build-aux/test-driver'
+checking build number... none
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for ranlib... ranlib
+checking for perl... /usr/bin/perl
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for linux/netlink.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for dladdr in -ldl... yes
+checking for connect in -lsocket... no
+checking for library containing gethostbyname... none required
+checking whether libc supports hooks for malloc and related functions... yes
+checking for strlcpy... no
+checking net/if_packet.h usability... yes
+checking net/if_packet.h presence... yes
+checking for net/if_packet.h... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for strsignal... yes
+checking for dpkg-buildpackage... yes
+checking whether gcc accepts -Wall... yes
+checking whether gcc accepts -Wno-sign-compare... yes
+checking whether gcc accepts -Wpointer-arith... yes
+checking whether gcc accepts -Wdeclaration-after-statement... yes
+checking whether gcc accepts -Wformat-security... yes
+checking whether gcc accepts -Wswitch-enum... yes
+checking whether gcc accepts -Wunused-parameter... yes
+checking whether gcc accepts -Wstrict-aliasing... yes
+checking whether gcc accepts -Wbad-function-cast... yes
+checking whether gcc accepts -Wcast-align... yes
+checking whether gcc accepts -Wstrict-prototypes... yes
+checking whether gcc accepts -Wold-style-definition... yes
+checking whether gcc accepts -Wmissing-prototypes... yes
+checking whether gcc accepts -Wmissing-field-initializers... yes
+checking whether gcc accepts -Wno-override-init... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/home/bertopeng17-1/mini-ndn/openflow'
+make[2]: Entering directory '/home/bertopeng17-1/mini-ndn/openflow'
+depbase=`echo lib/backtrace.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/backtrace.o -MD -MP -MF $depbase.Tpo -c -o lib/backtrace.o lib/backtrace.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/backtrace.c: In function ‘get_max_stack’:
+lib/backtrace.c:63:30: warning: use of assignment suppression and length modifier together in gnu_scanf format [-Wformat=]
+             if (sscanf(line, "%*"SCNxPTR"-%"SCNxPTR, &end) != 1) {
+                              ^~~~
+lib/backtrace.c: In function ‘stack_low’:
+lib/backtrace.c:98:12: warning: function returns address of local variable [-Wreturn-local-addr]
+     return (uintptr_t) &dummy;
+            ^~~~~~~~~~~~~~~~~~
+lib/backtrace.c: In function ‘backtrace_capture’:
+lib/backtrace.c:126:30: warning: passing argument 1 of ‘backtrace’ from incompatible pointer type [-Wincompatible-pointer-types]
+     bt->n_frames = backtrace(bt->frames, BACKTRACE_MAX_FRAMES);
+                              ^~
+In file included from lib/backtrace.c:41:0:
+/usr/include/execinfo.h:27:12: note: expected ‘void **’ but argument is of type ‘uintptr_t * {aka long unsigned int *}’
+ extern int backtrace (void **__array, int __size) __nonnull ((1));
+            ^~~~~~~~~
+At top level:
+lib/backtrace.c:103:1: warning: ‘in_stack’ defined but not used [-Wunused-function]
+ in_stack(void *p)
+ ^~~~~~~~
+depbase=`echo lib/bitmap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/bitmap.o -MD -MP -MF $depbase.Tpo -c -o lib/bitmap.o lib/bitmap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/command-line.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/command-line.o -MD -MP -MF $depbase.Tpo -c -o lib/command-line.o lib/command-line.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/csum.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/csum.o -MD -MP -MF $depbase.Tpo -c -o lib/csum.o lib/csum.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/daemon.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/daemon.o -MD -MP -MF $depbase.Tpo -c -o lib/daemon.o lib/daemon.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/daemon.c: In function ‘daemonize’:
+lib/daemon.c:226:13: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+             write(fds[1], &c, 1);
+             ^~~~~~~~~~~~~~~~~~~~
+lib/daemon.c:229:13: warning: ignoring return value of ‘chdir’, declared with attribute warn_unused_result [-Wunused-result]
+             chdir("/");
+             ^~~~~~~~~~
+depbase=`echo lib/dhcp-client.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/dhcp-client.o -MD -MP -MF $depbase.Tpo -c -o lib/dhcp-client.o lib/dhcp-client.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/dhcp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/dhcp.o -MD -MP -MF $depbase.Tpo -c -o lib/dhcp.o lib/dhcp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+(echo '/* -*- mode: c; buffer-read-only: t -*- */' && \
+ echo 'const char ofp_pkgdatadir[] = "/usr/local/share/openflow";' && \
+ echo 'const char ofp_rundir[] = "/usr/local/var/run";' && \
+ echo 'const char ofp_logdir[] = "/usr/local/var/log/openflow";') > lib/dirs.c.tmp
+mv lib/dirs.c.tmp lib/dirs.c
+depbase=`echo lib/dirs.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/dirs.o -MD -MP -MF $depbase.Tpo -c -o lib/dirs.o lib/dirs.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/dynamic-string.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/dynamic-string.o -MD -MP -MF $depbase.Tpo -c -o lib/dynamic-string.o lib/dynamic-string.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/fatal-signal.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/fatal-signal.o -MD -MP -MF $depbase.Tpo -c -o lib/fatal-signal.o lib/fatal-signal.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/fault.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/fault.o -MD -MP -MF $depbase.Tpo -c -o lib/fault.o lib/fault.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/flow.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/flow.o -MD -MP -MF $depbase.Tpo -c -o lib/flow.o lib/flow.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/flow.c: In function ‘pull_arp’:
+lib/flow.c:51:32: warning: unused variable ‘arp’ [-Wunused-variable]
+         struct arp_eth_header *arp = packet->data;
+                                ^~~
+lib/flow.c: In function ‘flow_extract’:
+lib/flow.c:213:48: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+             const struct arp_eth_header *arp = pull_arp(&b);
+                                                ^~~~~~~~
+depbase=`echo lib/hash.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/hash.o -MD -MP -MF $depbase.Tpo -c -o lib/hash.o lib/hash.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/hmap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/hmap.o -MD -MP -MF $depbase.Tpo -c -o lib/hmap.o lib/hmap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/leak-checker.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/leak-checker.o -MD -MP -MF $depbase.Tpo -c -o lib/leak-checker.o lib/leak-checker.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/leak-checker.c: In function ‘get_hooks’:
+lib/leak-checker.c:94:5: warning: ‘__malloc_hook’ is deprecated [-Wdeprecated-declarations]
+     hooks->malloc_hook_func = __malloc_hook;
+     ^~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:146:39: note: declared here
+ extern void *(*__MALLOC_HOOK_VOLATILE __malloc_hook)(size_t __size,
+                                       ^~~~~~~~~~~~~
+lib/leak-checker.c:95:5: warning: ‘__realloc_hook’ is deprecated [-Wdeprecated-declarations]
+     hooks->realloc_hook_func = __realloc_hook;
+     ^~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:149:39: note: declared here
+ extern void *(*__MALLOC_HOOK_VOLATILE __realloc_hook)(void *__ptr,
+                                       ^~~~~~~~~~~~~~
+lib/leak-checker.c:96:5: warning: ‘__free_hook’ is deprecated [-Wdeprecated-declarations]
+     hooks->free_hook_func = __free_hook;
+     ^~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:143:38: note: declared here
+ extern void (*__MALLOC_HOOK_VOLATILE __free_hook) (void *__ptr,
+                                      ^~~~~~~~~~~
+lib/leak-checker.c: In function ‘set_hooks’:
+lib/leak-checker.c:102:5: warning: ‘__malloc_hook’ is deprecated [-Wdeprecated-declarations]
+     __malloc_hook = hooks->malloc_hook_func;
+     ^~~~~~~~~~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:146:39: note: declared here
+ extern void *(*__MALLOC_HOOK_VOLATILE __malloc_hook)(size_t __size,
+                                       ^~~~~~~~~~~~~
+lib/leak-checker.c:103:5: warning: ‘__realloc_hook’ is deprecated [-Wdeprecated-declarations]
+     __realloc_hook = hooks->realloc_hook_func;
+     ^~~~~~~~~~~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:149:39: note: declared here
+ extern void *(*__MALLOC_HOOK_VOLATILE __realloc_hook)(void *__ptr,
+                                       ^~~~~~~~~~~~~~
+lib/leak-checker.c:104:5: warning: ‘__free_hook’ is deprecated [-Wdeprecated-declarations]
+     __free_hook = hooks->free_hook_func;
+     ^~~~~~~~~~~
+In file included from lib/leak-checker.c:68:0:
+/usr/include/malloc.h:143:38: note: declared here
+ extern void (*__MALLOC_HOOK_VOLATILE __free_hook) (void *__ptr,
+                                      ^~~~~~~~~~~
+lib/leak-checker.c: In function ‘log_callers’:
+lib/leak-checker.c:161:28: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘uintptr_t {aka long unsigned int}’ [-Wformat=]
+         fprintf(file, " 0x%x", backtrace.frames[i]);
+                           ~^   ~~~~~~~~~~~~~~~~~~~
+                           %lx
+depbase=`echo lib/learning-switch.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/learning-switch.o -MD -MP -MF $depbase.Tpo -c -o lib/learning-switch.o lib/learning-switch.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/list.o -MD -MP -MF $depbase.Tpo -c -o lib/list.o lib/list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/mac-learning.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/mac-learning.o -MD -MP -MF $depbase.Tpo -c -o lib/mac-learning.o lib/mac-learning.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/netdev.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/netdev.o -MD -MP -MF $depbase.Tpo -c -o lib/netdev.o lib/netdev.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/netdev.c: In function ‘do_remove_qdisc’:
+lib/netdev.c:417:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+     system(command);
+     ^~~~~~~~~~~~~~~
+depbase=`echo lib/ofp-print.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/ofp-print.o -MD -MP -MF $depbase.Tpo -c -o lib/ofp-print.o lib/ofp-print.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/ofpbuf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/ofpbuf.o -MD -MP -MF $depbase.Tpo -c -o lib/ofpbuf.o lib/ofpbuf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/ofpstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/ofpstat.o -MD -MP -MF $depbase.Tpo -c -o lib/ofpstat.o lib/ofpstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/pcap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/pcap.o -MD -MP -MF $depbase.Tpo -c -o lib/pcap.o lib/pcap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+In file included from lib/pcap.c:44:0:
+lib/pcap.c: In function ‘pcap_read’:
+lib/pcap.c:148:23: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 4 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+             VLOG_WARN("bad packet length %"PRIu32" or %"PRIu32" "
+                       ^
+lib/vlog.h:193:38: note: in definition of macro ‘VLOG’
+             vlog(THIS_MODULE, LEVEL, __VA_ARGS__);      \
+                                      ^~~~~~~~~~~
+lib/pcap.c:148:13: note: in expansion of macro ‘VLOG_WARN’
+             VLOG_WARN("bad packet length %"PRIu32" or %"PRIu32" "
+             ^~~~~~~~~
+In file included from lib/pcap.c:38:0:
+/usr/include/inttypes.h:104:19: note: format string is defined here
+ # define PRIu32  "u"
+depbase=`echo lib/poll-loop.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/poll-loop.o -MD -MP -MF $depbase.Tpo -c -o lib/poll-loop.o lib/poll-loop.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/poll-loop.c: In function ‘log_wakeup’:
+lib/poll-loop.c:140:37: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘uintptr_t {aka const long unsigned int}’ [-Wformat=]
+             ds_put_format(&ds, " 0x%x", backtrace->frames[i]);
+                                    ~^   ~~~~~~~~~~~~~~~~~~~~
+                                    %lx
+depbase=`echo lib/port-array.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/port-array.o -MD -MP -MF $depbase.Tpo -c -o lib/port-array.o lib/port-array.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/process.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/process.o -MD -MP -MF $depbase.Tpo -c -o lib/process.o lib/process.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/process.c: In function ‘sigchld_handler’:
+lib/process.c:370:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+     write(fds[1], "", 1);
+     ^~~~~~~~~~~~~~~~~~~~
+lib/process.c: In function ‘process_exited’:
+lib/process.c:266:9: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+         read(fds[0], buf, sizeof buf);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo lib/queue.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/queue.o -MD -MP -MF $depbase.Tpo -c -o lib/queue.o lib/queue.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/random.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/random.o -MD -MP -MF $depbase.Tpo -c -o lib/random.o lib/random.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/rconn.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/rconn.o -MD -MP -MF $depbase.Tpo -c -o lib/rconn.o lib/rconn.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/shash.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/shash.o -MD -MP -MF $depbase.Tpo -c -o lib/shash.o lib/shash.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/signals.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/signals.o -MD -MP -MF $depbase.Tpo -c -o lib/signals.o lib/signals.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/signals.c: In function ‘signal_handler’:
+lib/signals.c:142:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+         write(fds[1], "", 1);
+         ^~~~~~~~~~~~~~~~~~~~
+lib/signals.c: In function ‘signal_poll’:
+lib/signals.c:118:5: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+     read(fds[0], buf, sizeof buf);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo lib/socket-util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/socket-util.o -MD -MP -MF $depbase.Tpo -c -o lib/socket-util.o lib/socket-util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+lib/socket-util.c: In function ‘make_unix_socket’:
+lib/socket-util.c:275:16: warning: implicit declaration of function ‘fchmod’; did you mean ‘fchdir’? [-Wimplicit-function-declaration]
+             || fchmod(fd, S_IRWXU)) {
+                ^~~~~~
+                fchdir
+depbase=`echo lib/stp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/stp.o -MD -MP -MF $depbase.Tpo -c -o lib/stp.o lib/stp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/svec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/svec.o -MD -MP -MF $depbase.Tpo -c -o lib/svec.o lib/svec.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/tag.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/tag.o -MD -MP -MF $depbase.Tpo -c -o lib/tag.o lib/tag.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/timeval.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/timeval.o -MD -MP -MF $depbase.Tpo -c -o lib/timeval.o lib/timeval.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/util.o -MD -MP -MF $depbase.Tpo -c -o lib/util.o lib/util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vconn-stream.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vconn-stream.o -MD -MP -MF $depbase.Tpo -c -o lib/vconn-stream.o lib/vconn-stream.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vconn-tcp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vconn-tcp.o -MD -MP -MF $depbase.Tpo -c -o lib/vconn-tcp.o lib/vconn-tcp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vconn-unix.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vconn-unix.o -MD -MP -MF $depbase.Tpo -c -o lib/vconn-unix.o lib/vconn-unix.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vconn.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vconn.o -MD -MP -MF $depbase.Tpo -c -o lib/vconn.o lib/vconn.c &&\
+mv -f $depbase.Tpo $depbase.Po
+In file included from lib/vconn.c:53:0:
+lib/vconn.c: In function ‘check_ofp_message’:
+lib/vconn.c:1038:19: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+         VLOG_WARN("received %s message of length %"PRIu16" (expected %zu)",
+                   ^
+lib/vlog.h:193:38: note: in definition of macro ‘VLOG’
+             vlog(THIS_MODULE, LEVEL, __VA_ARGS__);      \
+                                      ^~~~~~~~~~~
+lib/vconn.c:1038:9: note: in expansion of macro ‘VLOG_WARN’
+         VLOG_WARN("received %s message of length %"PRIu16" (expected %zu)",
+         ^~~~~~~~~
+In file included from lib/vconn.c:38:0:
+/usr/include/inttypes.h:103:19: note: format string is defined here
+ # define PRIu16  "u"
+In file included from lib/vconn.c:53:0:
+lib/vconn.c: In function ‘check_ofp_message_array’:
+lib/vconn.c:1070:19: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+         VLOG_WARN("received %s message of length %"PRIu16" "
+                   ^
+lib/vlog.h:193:38: note: in definition of macro ‘VLOG’
+             vlog(THIS_MODULE, LEVEL, __VA_ARGS__);      \
+                                      ^~~~~~~~~~~
+lib/vconn.c:1070:9: note: in expansion of macro ‘VLOG_WARN’
+         VLOG_WARN("received %s message of length %"PRIu16" "
+         ^~~~~~~~~
+In file included from lib/vconn.c:38:0:
+/usr/include/inttypes.h:103:19: note: format string is defined here
+ # define PRIu16  "u"
+In file included from lib/vconn.c:53:0:
+lib/vconn.c:1078:19: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 5 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+         VLOG_WARN("received %s message of bad length %"PRIu16": the "
+                   ^
+lib/vlog.h:193:38: note: in definition of macro ‘VLOG’
+             vlog(THIS_MODULE, LEVEL, __VA_ARGS__);      \
+                                      ^~~~~~~~~~~
+lib/vconn.c:1078:9: note: in expansion of macro ‘VLOG_WARN’
+         VLOG_WARN("received %s message of bad length %"PRIu16": the "
+         ^~~~~~~~~
+In file included from lib/vconn.c:38:0:
+/usr/include/inttypes.h:103:19: note: format string is defined here
+ # define PRIu16  "u"
+depbase=`echo lib/vlog-socket.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vlog-socket.o -MD -MP -MF $depbase.Tpo -c -o lib/vlog-socket.o lib/vlog-socket.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vlog.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vlog.o -MD -MP -MF $depbase.Tpo -c -o lib/vlog.o lib/vlog.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/dpif.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/dpif.o -MD -MP -MF $depbase.Tpo -c -o lib/dpif.o lib/dpif.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/netlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/netlink.o -MD -MP -MF $depbase.Tpo -c -o lib/netlink.o lib/netlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo lib/vconn-netlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT lib/vconn-netlink.o -MD -MP -MF $depbase.Tpo -c -o lib/vconn-netlink.o lib/vconn-netlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f lib/libopenflow.a
+ar cru lib/libopenflow.a lib/backtrace.o lib/bitmap.o lib/command-line.o lib/csum.o lib/daemon.o lib/dhcp-client.o lib/dhcp.o lib/dirs.o lib/dynamic-string.o lib/fatal-signal.o lib/fault.o lib/flow.o lib/hash.o lib/hmap.o lib/leak-checker.o lib/learning-switch.o lib/list.o lib/mac-learning.o lib/netdev.o lib/ofp-print.o lib/ofpbuf.o lib/ofpstat.o lib/pcap.o lib/poll-loop.o lib/port-array.o lib/process.o lib/queue.o lib/random.o lib/rconn.o lib/shash.o lib/signals.o lib/socket-util.o lib/stp.o lib/svec.o lib/tag.o lib/timeval.o lib/util.o lib/vconn-stream.o lib/vconn-tcp.o lib/vconn-unix.o lib/vconn.o lib/vlog-socket.o lib/vlog.o lib/dpif.o lib/netlink.o lib/vconn-netlink.o   
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib lib/libopenflow.a
+depbase=`echo secchan/discovery.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/discovery.o -MD -MP -MF $depbase.Tpo -c -o secchan/discovery.o secchan/discovery.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/emerg-flow.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/emerg-flow.o -MD -MP -MF $depbase.Tpo -c -o secchan/emerg-flow.o secchan/emerg-flow.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/fail-open.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/fail-open.o -MD -MP -MF $depbase.Tpo -c -o secchan/fail-open.o secchan/fail-open.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/failover.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/failover.o -MD -MP -MF $depbase.Tpo -c -o secchan/failover.o secchan/failover.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/in-band.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/in-band.o -MD -MP -MF $depbase.Tpo -c -o secchan/in-band.o secchan/in-band.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/port-watcher.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/port-watcher.o -MD -MP -MF $depbase.Tpo -c -o secchan/port-watcher.o secchan/port-watcher.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/protocol-stat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/protocol-stat.o -MD -MP -MF $depbase.Tpo -c -o secchan/protocol-stat.o secchan/protocol-stat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/ratelimit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/ratelimit.o -MD -MP -MF $depbase.Tpo -c -o secchan/ratelimit.o secchan/ratelimit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/secchan.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/secchan.o -MD -MP -MF $depbase.Tpo -c -o secchan/secchan.o secchan/secchan.c &&\
+mv -f $depbase.Tpo $depbase.Po
+secchan/secchan.c: In function ‘usage’:
+secchan/secchan.c:852:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("\nController discovery options:\n"
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo secchan/status.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/status.o -MD -MP -MF $depbase.Tpo -c -o secchan/status.o secchan/status.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo secchan/stp-secchan.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT secchan/stp-secchan.o -MD -MP -MF $depbase.Tpo -c -o secchan/stp-secchan.o secchan/stp-secchan.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o secchan/ofprotocol secchan/discovery.o secchan/emerg-flow.o secchan/fail-open.o secchan/failover.o secchan/in-band.o secchan/port-watcher.o secchan/protocol-stat.o secchan/ratelimit.o secchan/secchan.o secchan/status.o secchan/stp-secchan.o lib/libopenflow.a -ldl  
+depbase=`echo controller/controller.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT controller/controller.o -MD -MP -MF $depbase.Tpo -c -o controller/controller.o controller/controller.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o controller/controller controller/controller.o lib/libopenflow.a -ldl  
+depbase=`echo utilities/vlogconf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT utilities/vlogconf.o -MD -MP -MF $depbase.Tpo -c -o utilities/vlogconf.o utilities/vlogconf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o utilities/vlogconf utilities/vlogconf.o lib/libopenflow.a 
+depbase=`echo utilities/dpctl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT utilities/dpctl.o -MD -MP -MF $depbase.Tpo -c -o utilities/dpctl.o utilities/dpctl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+utilities/dpctl.c: In function ‘do_monitor’:
+utilities/dpctl.c:1308:17: warning: variable ‘name’ set but not used [-Wunused-but-set-variable]
+     const char *name;
+                 ^~~~
+utilities/dpctl.c: In function ‘do_ping’:
+utilities/dpctl.c:1490:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+         printf("%d bytes from %s: xid=%08"PRIx32" time=%.1f ms\n",
+                 ~^
+                 %ld
+                reply->size - sizeof *rpy_hdr, argv[1], rpy_hdr->xid,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o utilities/dpctl utilities/dpctl.o lib/libopenflow.a -ldl  
+depbase=`echo utilities/ofp-discover.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT utilities/ofp-discover.o -MD -MP -MF $depbase.Tpo -c -o utilities/ofp-discover.o utilities/ofp-discover.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o utilities/ofp-discover utilities/ofp-discover.o lib/libopenflow.a 
+depbase=`echo utilities/ofp-kill.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT utilities/ofp-kill.o -MD -MP -MF $depbase.Tpo -c -o utilities/ofp-kill.o utilities/ofp-kill.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o utilities/ofp-kill utilities/ofp-kill.o lib/libopenflow.a 
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-chain.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-chain.Tpo -c -o udatapath/udatapath_ofdatapath-chain.o `test -f 'udatapath/chain.c' || echo './'`udatapath/chain.c
+mv -f udatapath/.deps/udatapath_ofdatapath-chain.Tpo udatapath/.deps/udatapath_ofdatapath-chain.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-crc32.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-crc32.Tpo -c -o udatapath/udatapath_ofdatapath-crc32.o `test -f 'udatapath/crc32.c' || echo './'`udatapath/crc32.c
+mv -f udatapath/.deps/udatapath_ofdatapath-crc32.Tpo udatapath/.deps/udatapath_ofdatapath-crc32.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-datapath.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-datapath.Tpo -c -o udatapath/udatapath_ofdatapath-datapath.o `test -f 'udatapath/datapath.c' || echo './'`udatapath/datapath.c
+udatapath/datapath.c: In function ‘dump_port_stats’:
+udatapath/datapath.c:1736:34: warning: unused parameter ‘dp’ [-Wunused-parameter]
+ dump_port_stats(struct datapath *dp, struct sw_port *port,
+                                  ^~
+mv -f udatapath/.deps/udatapath_ofdatapath-datapath.Tpo udatapath/.deps/udatapath_ofdatapath-datapath.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-dp_act.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-dp_act.Tpo -c -o udatapath/udatapath_ofdatapath-dp_act.o `test -f 'udatapath/dp_act.c' || echo './'`udatapath/dp_act.c
+mv -f udatapath/.deps/udatapath_ofdatapath-dp_act.Tpo udatapath/.deps/udatapath_ofdatapath-dp_act.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-of_ext_msg.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-of_ext_msg.Tpo -c -o udatapath/udatapath_ofdatapath-of_ext_msg.o `test -f 'udatapath/of_ext_msg.c' || echo './'`udatapath/of_ext_msg.c
+mv -f udatapath/.deps/udatapath_ofdatapath-of_ext_msg.Tpo udatapath/.deps/udatapath_ofdatapath-of_ext_msg.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-udatapath.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-udatapath.Tpo -c -o udatapath/udatapath_ofdatapath-udatapath.o `test -f 'udatapath/udatapath.c' || echo './'`udatapath/udatapath.c
+mv -f udatapath/.deps/udatapath_ofdatapath-udatapath.Tpo udatapath/.deps/udatapath_ofdatapath-udatapath.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-private-msg.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-private-msg.Tpo -c -o udatapath/udatapath_ofdatapath-private-msg.o `test -f 'udatapath/private-msg.c' || echo './'`udatapath/private-msg.c
+udatapath/private-msg.c: In function ‘flush_working’:
+udatapath/private-msg.c:56:6: warning: variable ‘num_deleted’ set but not used [-Wunused-but-set-variable]
+  int num_deleted = 0;
+      ^~~~~~~~~~~
+udatapath/private-msg.c: In function ‘do_protection’:
+udatapath/private-msg.c:103:6: warning: variable ‘error’ set but not used [-Wunused-but-set-variable]
+  int error = 0;
+      ^~~~~
+mv -f udatapath/.deps/udatapath_ofdatapath-private-msg.Tpo udatapath/.deps/udatapath_ofdatapath-private-msg.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-switch-flow.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-switch-flow.Tpo -c -o udatapath/udatapath_ofdatapath-switch-flow.o `test -f 'udatapath/switch-flow.c' || echo './'`udatapath/switch-flow.c
+mv -f udatapath/.deps/udatapath_ofdatapath-switch-flow.Tpo udatapath/.deps/udatapath_ofdatapath-switch-flow.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-table-hash.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-table-hash.Tpo -c -o udatapath/udatapath_ofdatapath-table-hash.o `test -f 'udatapath/table-hash.c' || echo './'`udatapath/table-hash.c
+mv -f udatapath/.deps/udatapath_ofdatapath-table-hash.Tpo udatapath/.deps/udatapath_ofdatapath-table-hash.Po
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib    -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT udatapath/udatapath_ofdatapath-table-linear.o -MD -MP -MF udatapath/.deps/udatapath_ofdatapath-table-linear.Tpo -c -o udatapath/udatapath_ofdatapath-table-linear.o `test -f 'udatapath/table-linear.c' || echo './'`udatapath/table-linear.c
+mv -f udatapath/.deps/udatapath_ofdatapath-table-linear.Tpo udatapath/.deps/udatapath_ofdatapath-table-linear.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o udatapath/ofdatapath udatapath/udatapath_ofdatapath-chain.o udatapath/udatapath_ofdatapath-crc32.o udatapath/udatapath_ofdatapath-datapath.o udatapath/udatapath_ofdatapath-dp_act.o udatapath/udatapath_ofdatapath-of_ext_msg.o udatapath/udatapath_ofdatapath-udatapath.o udatapath/udatapath_ofdatapath-private-msg.o udatapath/udatapath_ofdatapath-switch-flow.o udatapath/udatapath_ofdatapath-table-hash.o udatapath/udatapath_ofdatapath-table-linear.o lib/libopenflow.a  -ldl  
+depbase=`echo tests/test-flows.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-flows.o -MD -MP -MF $depbase.Tpo -c -o tests/test-flows.o tests/test-flows.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-flows tests/test-flows.o lib/libopenflow.a 
+depbase=`echo tests/test-hmap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-hmap.o -MD -MP -MF $depbase.Tpo -c -o tests/test-hmap.o tests/test-hmap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-hmap tests/test-hmap.o lib/libopenflow.a 
+depbase=`echo tests/test-list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-list.o -MD -MP -MF $depbase.Tpo -c -o tests/test-list.o tests/test-list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-list tests/test-list.o lib/libopenflow.a 
+depbase=`echo tests/test-type-props.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-type-props.o -MD -MP -MF $depbase.Tpo -c -o tests/test-type-props.o tests/test-type-props.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-type-props tests/test-type-props.o  
+depbase=`echo tests/test-dhcp-client.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-dhcp-client.o -MD -MP -MF $depbase.Tpo -c -o tests/test-dhcp-client.o tests/test-dhcp-client.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-dhcp-client tests/test-dhcp-client.o lib/libopenflow.a -ldl 
+depbase=`echo tests/test-stp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I.   -g -I ./include -I ./lib   -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -MT tests/test-stp.o -MD -MP -MF $depbase.Tpo -c -o tests/test-stp.o tests/test-stp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wstrict-prototypes  -g -O2 -Wall -Wno-sign-compare -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wswitch-enum -Wunused-parameter -Wstrict-aliasing -Wbad-function-cast -Wcast-align -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-field-initializers -Wno-override-init -export-dynamic  -o tests/test-stp tests/test-stp.o lib/libopenflow.a 
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-pki.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-pki
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-pki-cgi.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-pki-cgi
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-parse-leaks.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-parse-leaks
+/usr/bin/perl ./soexpand.pl -I. < secchan/ofprotocol.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > secchan/ofprotocol.8
+/usr/bin/perl ./soexpand.pl -I. < controller/controller.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > controller/controller.8
+/usr/bin/perl ./soexpand.pl -I. < utilities/dpctl.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/dpctl.8
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-discover.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-discover.8
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-kill.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-kill.8
+/usr/bin/perl ./soexpand.pl -I. < utilities/ofp-pki.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/ofp-pki.8
+/usr/bin/perl ./soexpand.pl -I. < utilities/vlogconf.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > utilities/vlogconf.8
+/usr/bin/perl ./soexpand.pl -I. < udatapath/ofdatapath.8.in | \
+    sed -e 's,[@]LOGDIR[@],/usr/local/var/log/openflow,g' \
+	-e 's,[@]PKIDIR[@],/usr/local/share/openflow/pki,g' \
+                -e 's,[@]RUNDIR[@],/usr/local/var/run,g' \
+                -e 's,[@]pkgdatadir[@],/usr/local/share/openflow,g' \
+                -e 's,[@]PERL[@],/usr/bin/perl,g' > udatapath/ofdatapath.8
+make[2]: Leaving directory '/home/bertopeng17-1/mini-ndn/openflow'
+make[1]: Leaving directory '/home/bertopeng17-1/mini-ndn/openflow'
+make[1]: Entering directory '/home/bertopeng17-1/mini-ndn/openflow'
+make[2]: Entering directory '/home/bertopeng17-1/mini-ndn/openflow'
+ /bin/mkdir -p '/usr/local/bin'
+  /usr/bin/install -c secchan/ofprotocol controller/controller utilities/vlogconf utilities/dpctl utilities/ofp-discover utilities/ofp-kill udatapath/ofdatapath '/usr/local/bin'
+ /bin/mkdir -p '/usr/local/bin'
+ /usr/bin/install -c utilities/ofp-pki '/usr/local/bin'
+/bin/mkdir -p /usr/local/var/run
+/bin/mkdir -p /usr/local/share/openflow/pki
+/bin/mkdir -p /usr/local/var/log/openflow
+ /bin/mkdir -p '/usr/local/share/openflow/commands'
+ /usr/bin/install -c secchan/commands/reboot '/usr/local/share/openflow/commands'
+ /bin/mkdir -p '/usr/local/share/man/man8'
+ /usr/bin/install -c -m 644 secchan/ofprotocol.8 controller/controller.8 utilities/dpctl.8 utilities/ofp-discover.8 utilities/ofp-kill.8 utilities/ofp-pki.8 utilities/vlogconf.8 udatapath/ofdatapath.8 '/usr/local/share/man/man8'
+make[2]: Leaving directory '/home/bertopeng17-1/mini-ndn/openflow'
+make[1]: Leaving directory '/home/bertopeng17-1/mini-ndn/openflow'
+Installing Mininet core
+~/mini-ndn/mininet-wifi ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Cloning into 'mininet'...
+remote: Enumerating objects: 159, done.
+remote: Counting objects: 100% (159/159), done.
+remote: Compressing objects: 100% (146/146), done.
+remote: Total 159 (delta 7), reused 43 (delta 0), pack-reused 0
+Receiving objects: 100% (159/159), 267.66 KiB | 833.00 KiB/s, done.
+Resolving deltas: 100% (7/7), done.
+~/mini-ndn/mininet-wifi/mininet ~/mini-ndn/mininet-wifi ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+cc -Wall -Wextra  \
+-DVERSION=\"`PYTHONPATH=. python -B bin/mn --version 2>&1`\" mnexec.c -o mnexec
+install -D mnexec /usr/bin/mnexec
+PYTHONPATH=. help2man -N -n "create a Mininet network." \
+--no-discard-stderr "python -B bin/mn" -o mn.1
+help2man -N -n "execution utility for Mininet." \
+-h "-h" -v "-v" --no-discard-stderr ./mnexec -o mnexec.1
+install -D -t /usr/share/man/man1 mn.1 mnexec.1
+python -m pip uninstall -y mininet || true
+The directory '/home/bertopeng17-1/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Uninstalling mininet-2.3.0:
+  Successfully uninstalled mininet-2.3.0
+python -m pip install .
+The directory '/home/bertopeng17-1/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/bertopeng17-1/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Processing /home/bertopeng17-1/mini-ndn/mininet-wifi/mininet
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from mininet==2.3.0)
+Installing collected packages: mininet
+  Running setup.py install for mininet ... done
+Successfully installed mininet-2.3.0
+~/mini-ndn/mininet-wifi ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Installing Mininet-wifi core
+~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+cc -Wall -Wextra  -DVERSION=\"`PYTHONPATH=. python -B bin/mn --version`\" mnexec.c -o mnexec
+2.6
+install -D mnexec /usr/bin/mnexec
+PYTHONPATH=. help2man -N -n "create a Mininet network." \
+--no-discard-stderr "python -B bin/mn" -o mn.1
+help2man -N -n "execution utility for Mininet." \
+-h "-h" -v "-v" --no-discard-stderr ./mnexec -o mnexec.1
+install -D -t /usr/share/man/man1 mn.1 mnexec.1
+python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating mininet_wifi.egg-info
+writing mininet_wifi.egg-info/PKG-INFO
+writing dependency_links to mininet_wifi.egg-info/dependency_links.txt
+writing requirements to mininet_wifi.egg-info/requires.txt
+writing top-level names to mininet_wifi.egg-info/top_level.txt
+writing manifest file 'mininet_wifi.egg-info/SOURCES.txt'
+package init file 'mn_wifi/data/__init__.py' not found (or not a regular file)
+package init file 'mn_wifi/examples/eap-tls/__init__.py' not found (or not a regular file)
+package init file 'mn_wifi/examples/eap-tls/CA/__init__.py' not found (or not a regular file)
+package init file 'util/__init__.py' not found (or not a regular file)
+reading manifest file 'mininet_wifi.egg-info/SOURCES.txt'
+writing manifest file 'mininet_wifi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/mn_wifi
+copying mn_wifi/energy.py -> build/lib/mn_wifi
+copying mn_wifi/__init__.py -> build/lib/mn_wifi
+copying mn_wifi/propagationModels.py -> build/lib/mn_wifi
+copying mn_wifi/wmediumdConnector.py -> build/lib/mn_wifi
+copying mn_wifi/replaying.py -> build/lib/mn_wifi
+copying mn_wifi/module.py -> build/lib/mn_wifi
+copying mn_wifi/plot.py -> build/lib/mn_wifi
+copying mn_wifi/link.py -> build/lib/mn_wifi
+copying mn_wifi/devices.py -> build/lib/mn_wifi
+copying mn_wifi/mobility.py -> build/lib/mn_wifi
+copying mn_wifi/topo.py -> build/lib/mn_wifi
+copying mn_wifi/nodelib.py -> build/lib/mn_wifi
+copying mn_wifi/vanet.py -> build/lib/mn_wifi
+copying mn_wifi/bmv2.py -> build/lib/mn_wifi
+copying mn_wifi/associationControl.py -> build/lib/mn_wifi
+copying mn_wifi/manetRoutingProtocols.py -> build/lib/mn_wifi
+copying mn_wifi/telemetry.py -> build/lib/mn_wifi
+copying mn_wifi/clean.py -> build/lib/mn_wifi
+copying mn_wifi/cli.py -> build/lib/mn_wifi
+copying mn_wifi/node.py -> build/lib/mn_wifi
+copying mn_wifi/net.py -> build/lib/mn_wifi
+creating build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/__init__.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/util.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/module.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/link.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/clean.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/node.py -> build/lib/mn_wifi/sixLoWPAN
+copying mn_wifi/sixLoWPAN/net.py -> build/lib/mn_wifi/sixLoWPAN
+creating build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/__init__.py -> build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/module.py -> build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/link.py -> build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/clean.py -> build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/node.py -> build/lib/mn_wifi/wwan
+copying mn_wifi/wwan/net.py -> build/lib/mn_wifi/wwan
+creating build/lib/mn_wifi/examples
+copying mn_wifi/examples/wwan.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/position.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/__init__.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/physicalMesh.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/wmediumd_interference.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/ieee80211p.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/userap_managed_mode.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/coherenceModel.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/vanet-sumo.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/socket_client.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/mobilityModel.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/handover_bgscan.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/clustercli.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/socket_server.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/active_scan.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/authentication.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/meshAP.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/4address.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/adhoc.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/wmediumd_error_prob.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/handover.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/sflow.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/wmediumd_mobility.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/miniedit.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/mobility.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/vanet.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/physicalWifiDirect.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/wps_auth.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/6LoWPan.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/forwardingBySSID.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/associationControl.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/multipleWlan.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/cluster.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/telemetry.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/propagationModel.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/simplewifitopology.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/sta_ap_mode.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/battery.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/mesh.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/wifiDirect.py -> build/lib/mn_wifi/examples
+copying mn_wifi/examples/6GHz.py -> build/lib/mn_wifi/examples
+creating build/lib/mn_wifi/examples/eap-tls
+copying mn_wifi/examples/eap-tls/eap-tls-auth.py -> build/lib/mn_wifi/examples/eap-tls
+creating build/lib/mn_wifi/examples/p4
+copying mn_wifi/examples/p4/__init__.py -> build/lib/mn_wifi/examples/p4
+copying mn_wifi/examples/p4/p4.py -> build/lib/mn_wifi/examples/p4
+creating build/lib/mn_wifi/sumo
+copying mn_wifi/sumo/__init__.py -> build/lib/mn_wifi/sumo
+copying mn_wifi/sumo/runner.py -> build/lib/mn_wifi/sumo
+copying mn_wifi/sumo/function.py -> build/lib/mn_wifi/sumo
+creating build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/__init__.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/geomhelper.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/sumolib.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/miscutils.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/poi.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/color.py -> build/lib/mn_wifi/sumo/sumolib
+copying mn_wifi/sumo/sumolib/options.py -> build/lib/mn_wifi/sumo/sumolib
+creating build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_route.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/__init__.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/traciToHex.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_junction.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_polygon.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_multientryexit.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/constants.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_vehicletype.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_gui.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_inductionloop.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/exceptions.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/rebuildConstants.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/storage.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_vehicle.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/main.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_poi.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_lane.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/domain.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_edge.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_simulation.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/connection.py -> build/lib/mn_wifi/sumo/traci
+copying mn_wifi/sumo/traci/_trafficlight.py -> build/lib/mn_wifi/sumo/traci
+creating build/lib/mn_wifi/sumo/data
+copying mn_wifi/sumo/data/__init__.py -> build/lib/mn_wifi/sumo/data
+creating build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/__init__.py -> build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/roundabout.py -> build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/edge.py -> build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/connection.py -> build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/node.py -> build/lib/mn_wifi/sumo/sumolib/net
+copying mn_wifi/sumo/sumolib/net/lane.py -> build/lib/mn_wifi/sumo/sumolib/net
+creating build/lib/mn_wifi/sumo/sumolib/output
+copying mn_wifi/sumo/sumolib/output/__init__.py -> build/lib/mn_wifi/sumo/sumolib/output
+copying mn_wifi/sumo/sumolib/output/inductionloop.py -> build/lib/mn_wifi/sumo/sumolib/output
+copying mn_wifi/sumo/sumolib/output/dump.py -> build/lib/mn_wifi/sumo/sumolib/output
+creating build/lib/mn_wifi/sumo/sumolib/shapes
+copying mn_wifi/sumo/sumolib/shapes/__init__.py -> build/lib/mn_wifi/sumo/sumolib/shapes
+copying mn_wifi/sumo/sumolib/shapes/poi.py -> build/lib/mn_wifi/sumo/sumolib/shapes
+copying mn_wifi/sumo/sumolib/shapes/polygon.py -> build/lib/mn_wifi/sumo/sumolib/shapes
+creating build/lib/util
+copying util/versioncheck.py -> build/lib/util
+copying util/doxify.py -> build/lib/util
+creating build/lib/mn_wifi/data
+copying mn_wifi/data/signal_table_ieee80211ax -> build/lib/mn_wifi/data
+copying mn_wifi/data/signal_table_ieee80211n_gi20 -> build/lib/mn_wifi/data
+copying mn_wifi/data/signal_table_ieee80211n_gi40 -> build/lib/mn_wifi/data
+copying mn_wifi/data/signal_table_ieee80211n_sgi20 -> build/lib/mn_wifi/data
+copying mn_wifi/data/signal_table_ieee80211n_sgi40 -> build/lib/mn_wifi/data
+copying mn_wifi/examples/eap-tls/eap_users -> build/lib/mn_wifi/examples/eap-tls
+creating build/lib/mn_wifi/examples/eap-tls/CA
+copying mn_wifi/examples/eap-tls/CA/gencerts.sh -> build/lib/mn_wifi/examples/eap-tls/CA
+copying mn_wifi/examples/eap-tls/CA/clean.sh -> build/lib/mn_wifi/examples/eap-tls/CA
+copying mn_wifi/examples/p4/basic.json -> build/lib/mn_wifi/examples/p4
+copying mn_wifi/examples/p4/ap-runtime.json -> build/lib/mn_wifi/examples/p4
+copying mn_wifi/sumo/data/new-york.rou.xml -> build/lib/mn_wifi/sumo/data
+copying mn_wifi/sumo/data/new-york.net.xml -> build/lib/mn_wifi/sumo/data
+copying mn_wifi/sumo/data/new-york.poly.xml -> build/lib/mn_wifi/sumo/data
+copying mn_wifi/sumo/data/map.sumocfg -> build/lib/mn_wifi/sumo/data
+copying util/m -> build/lib/util
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/energy.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/propagationModels.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/wmediumdConnector.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/replaying.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/module.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/plot.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/link.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/devices.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/mobility.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/topo.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/nodelib.py -> build/bdist.linux-x86_64/egg/mn_wifi
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo
+copying build/lib/mn_wifi/sumo/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo
+copying build/lib/mn_wifi/sumo/runner.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_route.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/traciToHex.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_junction.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_polygon.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_multientryexit.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/constants.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_vehicletype.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_gui.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_inductionloop.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/exceptions.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/rebuildConstants.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/storage.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_vehicle.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/main.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_poi.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_lane.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/domain.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_edge.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_simulation.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/connection.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+copying build/lib/mn_wifi/sumo/traci/_trafficlight.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+copying build/lib/mn_wifi/sumo/sumolib/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+copying build/lib/mn_wifi/sumo/sumolib/geomhelper.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+copying build/lib/mn_wifi/sumo/sumolib/sumolib.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/roundabout.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/edge.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/connection.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/node.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/net/lane.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net
+copying build/lib/mn_wifi/sumo/sumolib/miscutils.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes
+copying build/lib/mn_wifi/sumo/sumolib/shapes/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes
+copying build/lib/mn_wifi/sumo/sumolib/shapes/poi.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes
+copying build/lib/mn_wifi/sumo/sumolib/shapes/polygon.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes
+copying build/lib/mn_wifi/sumo/sumolib/poi.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output
+copying build/lib/mn_wifi/sumo/sumolib/output/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output
+copying build/lib/mn_wifi/sumo/sumolib/output/inductionloop.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output
+copying build/lib/mn_wifi/sumo/sumolib/output/dump.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output
+copying build/lib/mn_wifi/sumo/sumolib/color.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+copying build/lib/mn_wifi/sumo/sumolib/options.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib
+copying build/lib/mn_wifi/sumo/function.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo
+creating build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/sumo/data/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/sumo/data/map.sumocfg -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/sumo/data/new-york.rou.xml -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/sumo/data/new-york.net.xml -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/sumo/data/new-york.poly.xml -> build/bdist.linux-x86_64/egg/mn_wifi/sumo/data
+copying build/lib/mn_wifi/vanet.py -> build/bdist.linux-x86_64/egg/mn_wifi
+creating build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/util.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/module.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/link.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/clean.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/node.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/sixLoWPAN/net.py -> build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN
+copying build/lib/mn_wifi/bmv2.py -> build/bdist.linux-x86_64/egg/mn_wifi
+creating build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wwan.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/position.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+creating build/bdist.linux-x86_64/egg/mn_wifi/examples/p4
+copying build/lib/mn_wifi/examples/p4/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples/p4
+copying build/lib/mn_wifi/examples/p4/basic.json -> build/bdist.linux-x86_64/egg/mn_wifi/examples/p4
+copying build/lib/mn_wifi/examples/p4/ap-runtime.json -> build/bdist.linux-x86_64/egg/mn_wifi/examples/p4
+copying build/lib/mn_wifi/examples/p4/p4.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples/p4
+copying build/lib/mn_wifi/examples/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/physicalMesh.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wmediumd_interference.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/ieee80211p.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/userap_managed_mode.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/coherenceModel.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/vanet-sumo.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/socket_client.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+creating build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls
+copying build/lib/mn_wifi/examples/eap-tls/eap-tls-auth.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls
+creating build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls/CA
+copying build/lib/mn_wifi/examples/eap-tls/CA/gencerts.sh -> build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls/CA
+copying build/lib/mn_wifi/examples/eap-tls/CA/clean.sh -> build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls/CA
+copying build/lib/mn_wifi/examples/eap-tls/eap_users -> build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls
+copying build/lib/mn_wifi/examples/mobilityModel.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/handover_bgscan.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/clustercli.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/socket_server.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/active_scan.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/authentication.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/meshAP.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/4address.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/adhoc.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wmediumd_error_prob.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/handover.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/sflow.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wmediumd_mobility.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/miniedit.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/mobility.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/vanet.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/physicalWifiDirect.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wps_auth.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/6LoWPan.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/forwardingBySSID.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/associationControl.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/multipleWlan.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/cluster.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/telemetry.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/propagationModel.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/simplewifitopology.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/sta_ap_mode.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/battery.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/mesh.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/wifiDirect.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/examples/6GHz.py -> build/bdist.linux-x86_64/egg/mn_wifi/examples
+copying build/lib/mn_wifi/associationControl.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/manetRoutingProtocols.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/telemetry.py -> build/bdist.linux-x86_64/egg/mn_wifi
+creating build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/__init__.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/module.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/link.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/clean.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/node.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+copying build/lib/mn_wifi/wwan/net.py -> build/bdist.linux-x86_64/egg/mn_wifi/wwan
+creating build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/data/signal_table_ieee80211n_gi20 -> build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/data/signal_table_ieee80211n_sgi40 -> build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/data/signal_table_ieee80211n_sgi20 -> build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/data/signal_table_ieee80211ax -> build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/data/signal_table_ieee80211n_gi40 -> build/bdist.linux-x86_64/egg/mn_wifi/data
+copying build/lib/mn_wifi/clean.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/cli.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/node.py -> build/bdist.linux-x86_64/egg/mn_wifi
+copying build/lib/mn_wifi/net.py -> build/bdist.linux-x86_64/egg/mn_wifi
+creating build/bdist.linux-x86_64/egg/util
+copying build/lib/util/versioncheck.py -> build/bdist.linux-x86_64/egg/util
+copying build/lib/util/doxify.py -> build/bdist.linux-x86_64/egg/util
+copying build/lib/util/m -> build/bdist.linux-x86_64/egg/util
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/energy.py to energy.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/propagationModels.py to propagationModels.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wmediumdConnector.py to wmediumdConnector.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/replaying.py to replaying.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/module.py to module.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/plot.py to plot.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/link.py to link.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/devices.py to devices.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/mobility.py to mobility.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/topo.py to topo.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/nodelib.py to nodelib.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/runner.py to runner.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_route.py to _route.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/traciToHex.py to traciToHex.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_junction.py to _junction.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_polygon.py to _polygon.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_multientryexit.py to _multientryexit.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/constants.py to constants.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_vehicletype.py to _vehicletype.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_gui.py to _gui.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_inductionloop.py to _inductionloop.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/exceptions.py to exceptions.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/rebuildConstants.py to rebuildConstants.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/storage.py to storage.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_vehicle.py to _vehicle.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/main.py to main.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_poi.py to _poi.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_lane.py to _lane.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/domain.py to domain.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_edge.py to _edge.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_simulation.py to _simulation.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/connection.py to connection.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/traci/_trafficlight.py to _trafficlight.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/geomhelper.py to geomhelper.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/sumolib.py to sumolib.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/roundabout.py to roundabout.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/edge.py to edge.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/connection.py to connection.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/node.py to node.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/net/lane.py to lane.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/miscutils.py to miscutils.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes/poi.py to poi.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/shapes/polygon.py to polygon.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/poi.py to poi.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output/inductionloop.py to inductionloop.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/output/dump.py to dump.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/color.py to color.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/sumolib/options.py to options.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/function.py to function.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sumo/data/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/vanet.py to vanet.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/util.py to util.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/module.py to module.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/link.py to link.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/clean.py to clean.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/node.py to node.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/sixLoWPAN/net.py to net.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/bmv2.py to bmv2.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wwan.py to wwan.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/position.py to position.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/p4/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/p4/p4.py to p4.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/physicalMesh.py to physicalMesh.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wmediumd_interference.py to wmediumd_interference.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/ieee80211p.py to ieee80211p.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/userap_managed_mode.py to userap_managed_mode.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/coherenceModel.py to coherenceModel.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/vanet-sumo.py to vanet-sumo.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/socket_client.py to socket_client.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/eap-tls/eap-tls-auth.py to eap-tls-auth.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/mobilityModel.py to mobilityModel.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/handover_bgscan.py to handover_bgscan.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/clustercli.py to clustercli.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/socket_server.py to socket_server.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/active_scan.py to active_scan.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/authentication.py to authentication.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/meshAP.py to meshAP.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/4address.py to 4address.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/adhoc.py to adhoc.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wmediumd_error_prob.py to wmediumd_error_prob.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/handover.py to handover.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/sflow.py to sflow.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wmediumd_mobility.py to wmediumd_mobility.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/miniedit.py to miniedit.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/mobility.py to mobility.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/vanet.py to vanet.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/physicalWifiDirect.py to physicalWifiDirect.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wps_auth.py to wps_auth.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/6LoWPan.py to 6LoWPan.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/forwardingBySSID.py to forwardingBySSID.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/associationControl.py to associationControl.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/multipleWlan.py to multipleWlan.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/cluster.py to cluster.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/telemetry.py to telemetry.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/propagationModel.py to propagationModel.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/simplewifitopology.py to simplewifitopology.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/sta_ap_mode.py to sta_ap_mode.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/battery.py to battery.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/mesh.py to mesh.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/wifiDirect.py to wifiDirect.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/examples/6GHz.py to 6GHz.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/associationControl.py to associationControl.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/manetRoutingProtocols.py to manetRoutingProtocols.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/telemetry.py to telemetry.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/module.py to module.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/link.py to link.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/clean.py to clean.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/node.py to node.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/wwan/net.py to net.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/clean.py to clean.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/cli.py to cli.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/node.py to node.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mn_wifi/net.py to net.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/util/versioncheck.py to versioncheck.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/util/doxify.py to doxify.cpython-36.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.6
+copying and adjusting bin/mn -> build/scripts-3.6
+changing mode of build/scripts-3.6/mn from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.6/mn -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/mn to 755
+copying mininet_wifi.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mininet_wifi.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mininet_wifi.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mininet_wifi.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mininet_wifi.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+mn_wifi.__pycache__.bmv2.cpython-36: module references __file__
+mn_wifi.__pycache__.telemetry.cpython-36: module references __file__
+mn_wifi.examples.p4.__pycache__.p4.cpython-36: module references __file__
+mn_wifi.sumo.__pycache__.runner.cpython-36: module references __file__
+mn_wifi.sumo.sumolib.__pycache__.sumolib.cpython-36: module references __file__
+mn_wifi.sumo.traci.__pycache__.rebuildConstants.cpython-36: module references __file__
+creating dist
+creating 'dist/mininet_wifi-2.6-py3.6.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing mininet_wifi-2.6-py3.6.egg
+creating /usr/local/lib/python3.6/dist-packages/mininet_wifi-2.6-py3.6.egg
+Extracting mininet_wifi-2.6-py3.6.egg to /usr/local/lib/python3.6/dist-packages
+Adding mininet-wifi 2.6 to easy-install.pth file
+Installing mn script to /usr/local/bin
+
+Installed /usr/local/lib/python3.6/dist-packages/mininet_wifi-2.6-py3.6.egg
+Processing dependencies for mininet-wifi==2.6
+Searching for setuptools==39.0.1
+Best match: setuptools 39.0.1
+Adding setuptools 39.0.1 to easy-install.pth file
+Installing easy_install script to /usr/local/bin
+
+Using /usr/lib/python3/dist-packages
+Searching for matplotlib==2.1.1
+Best match: matplotlib 2.1.1
+Adding matplotlib 2.1.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Finished processing dependencies for mininet-wifi==2.6
+~/mini-ndn/mininet-wifi ~/mini-ndn ~/mini-ndn ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi/hostap/wpa_supplicant ~/mini-ndn/mininet-wifi/hostap/hostapd ~/mini-ndn/mininet-wifi/hostap ~/mini-ndn/mininet-wifi ~/mini-ndn/mininet-wifi
+Installing Open vSwitch...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+openvswitch-switch is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 399 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package openvswitch-controller
+Attempting to install openvswitch-testcontroller
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+openvswitch-testcontroller is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 399 not upgraded.
+Stopped running controller
+~/mini-ndn
+bertopeng17-1@NDN-Node1-ITB:~/mini-ndn$
