@@ -1,1 +1,7 @@
+bertopeng17-1@NDN-Node1-ITB:~/infoedit$ sudo make install
+[sudo] password for bertopeng17-1: 
+install -d /usr/local/bin
+install infoconv /usr/local/bin/infoconv
+install infoedit /usr/local/bin/infoedit
+bertopeng17-1@NDN-Node1-ITB:~/infoedit$ 
 
