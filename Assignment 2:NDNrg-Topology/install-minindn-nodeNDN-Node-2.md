@@ -13,3 +13,8 @@ else if you don’t have the dependencies, the following command will install th
 ./install.sh -a
 </pre>
 
+##### Clone Mini-NDN form Github.
+
+<pre>
+$ git clone https://github.com/named-data/mini-ndn
+</pre>
