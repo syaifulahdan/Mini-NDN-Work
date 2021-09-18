@@ -3,7 +3,7 @@ To see the status of the forwarder on the node:
 [node-name] <b>nfdc status report</b>
 </pre>
 
-1. Running Example Topology
+--1. Running Example Topology
 <pre>
 $ sudo python examples/mnndn.py
 </pre>
