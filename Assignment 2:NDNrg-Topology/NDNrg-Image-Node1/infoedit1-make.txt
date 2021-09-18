@@ -1,1 +1,5 @@
-
+bertopeng17-1@NDN-Node1-ITB:~$ cd infoedit/
+bertopeng17-1@NDN-Node1-ITB:~/infoedit$ make
+g++ -o infoconv -std=c++11 infoconv.cpp
+g++ -o infoedit -std=c++11 infoedit.cpp -lboost_program_options
+bertopeng17-1@NDN-Node1-ITB:~/infoedit$
