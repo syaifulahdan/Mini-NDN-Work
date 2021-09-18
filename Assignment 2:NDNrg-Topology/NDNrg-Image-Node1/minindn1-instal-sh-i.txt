@@ -1,1 +1,64 @@
 
+bertopeng17-1@NDN-Node1-ITB:~/mini-ndn$ ./install.sh -i
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libigraph0-dev is already the newest version (0.7.1-2.1+deb9u1build0.18.04.1).
+tshark is already the newest version (2.6.10-1~ubuntu18.04.0).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+Traceback (most recent call last):
+  File "/usr/local/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+ModuleNotFoundError: No module named 'pip._internal'
+Hit:1 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic InRelease
+Hit:2 http://us.archive.ubuntu.com/ubuntu bionic InRelease                                          
+Hit:3 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease                                          
+Hit:4 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic InRelease                                       
+Hit:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease                                        
+Hit:6 http://security.ubuntu.com/ubuntu bionic-security InRelease                     
+Reading package lists... Done                                                   
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python-setuptools is already the newest version (39.0.1-2).
+python-setuptools set to manually installed.
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls
+  libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0 librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream node-brace-expansion node-builtin-modules node-combined-stream node-concat-map node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info node-inflight node-inherits node-ini
+  node-is-builtin-module node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-normalize-package-data node-npmlog
+  node-once node-osenv node-path-is-absolute node-pseudomap node-qs node-read node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 400 not upgraded.
+cp: cannot stat 'topologies/minindn.testbed.conf': No such file or directory
+cp: cannot stat 'topologies/current-testbed.conf': No such file or directory
+running develop
+running egg_info
+creating Mini_NDN.egg-info
+writing Mini_NDN.egg-info/PKG-INFO
+writing dependency_links to Mini_NDN.egg-info/dependency_links.txt
+writing top-level names to Mini_NDN.egg-info/top_level.txt
+writing manifest file 'Mini_NDN.egg-info/SOURCES.txt'
+reading manifest file 'Mini_NDN.egg-info/SOURCES.txt'
+writing manifest file 'Mini_NDN.egg-info/SOURCES.txt'
+running build_ext
+Creating /usr/local/lib/python3.6/dist-packages/Mini-NDN.egg-link (link to .)
+Adding Mini-NDN 0.5.0 to easy-install.pth file
+
+Installed /home/bertopeng17-1/mini-ndn
+Processing dependencies for Mini-NDN==0.5.0
+Finished processing dependencies for Mini-NDN==0.5.0
+['minindn', 'minindn.wifi', 'minindn.a
