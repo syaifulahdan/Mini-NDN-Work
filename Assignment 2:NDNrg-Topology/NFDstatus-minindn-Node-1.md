@@ -1,14 +1,15 @@
 To see the status of the forwarder on the node:
+
 <pre>
-[node-name] <b>nfdc status report</b>
+[node-name] nfdc status report
 </pre>
 
---1. Running Example Topology
+<b>1. Running Example Topology</b>
 <pre>
 $ sudo python examples/mnndn.py
 </pre>
 
-2.  see the status of the forwarder on the node
+<b>2.  see the status of the forwarder on the node</b>
 
 <pre>
 mini-ndn> a nfdc status report
