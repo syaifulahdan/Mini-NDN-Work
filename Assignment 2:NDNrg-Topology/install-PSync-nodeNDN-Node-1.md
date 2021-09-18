@@ -8,8 +8,8 @@ Prerequisites
 $ git clone https://github.com/named-data/PSync
 </pre>
 
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/1-gitclone-psync2.png)
- Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-gitclone.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-PSync-1/gitclone-PSync1.png)
+  
 
 
 
@@ -25,12 +25,10 @@ sudo ./waf install
 $ cd Psync
 $ ./waf configure
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
- Show Progess Psync waf configure[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-PSync-1/PSync1-waf-configure.png)
+ 
  
 **Noted :** 
-
-Checking for program 'sphinx-build'           : not found 
 
 Checking for lzma support in boost iostreams  : no 
 
@@ -39,13 +37,12 @@ Checking for zstd support in boost iostreams  : no
 <pre>
 $ ./waf  
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/3-psync-2-waf.png)
- Show Progess Psync waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf.txt)
- 
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-PSync-1/PSync1-waf.png)
+  
 
 <pre>
 $ sudo ./waf install  
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/4-psync-2-waf-install.png)
- Show Progess Psync waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-install.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-PSync-1/PSync1%20waf-install.png)
+ 
  
