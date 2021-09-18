@@ -1,0 +1,10 @@
+bertopeng17-2@NDN-Node2-UTI:~$ git clone https://github.com/named-data/mini-ndn
+Cloning into 'mini-ndn'...
+remote: Enumerating objects: 1332, done.
+remote: Counting objects: 100% (38/38), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 1332 (delta 17), reused 23 (delta 2), pack-reused 1294
+Receiving objects: 100% (1332/1332), 820.74 KiB | 401.00 KiB/s, done.
+Resolving deltas: 100% (746/746), done.
+bertopeng17-2@NDN-Node2-UTI:~$ 
+
