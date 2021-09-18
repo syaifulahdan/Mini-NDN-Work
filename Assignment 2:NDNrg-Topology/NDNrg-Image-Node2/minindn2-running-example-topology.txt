@@ -1,0 +1,20 @@
+bertopeng17-2@NDN-Node2-UTI:~/mini-ndn$ sudo python examples/mnndn.py 
+Using topology file /usr/local/etc/mini-ndn/default-topology.conf
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+a b c d 
+*** Adding switches:
+
+*** Adding links:
+(10ms delay) (10ms delay) (a, b) (10ms delay) (10ms delay) (a, c) (10ms delay) (10ms delay) (b, d) 
+*** Configuring hosts
+a b c d 
+*** Starting controller
+c0 
+*** Starting 0 switches
+
+Starting NFD on nodes
+Starting NLSR on nodes
+*** Starting CLI:
+mini-ndn> 
