@@ -38,9 +38,9 @@ $ cd mini-ndn
 ./install.sh -iw
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/3-mini-ndn2-install-wifi.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/3-mini-ndn2-install-wifi-finish.png)
-Show Progress detail mini-ndn wifi [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-instal-sh-iw.txt)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-minindn1/3-minindn1-install-wifi.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-minindn1/3-minindn1-install-wifi-finish.png)
+Show Progress detail mini-ndn wifi [[read]]https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/minindn1-instal-sh-iw.txt)
 
 ##### 4. Running Example Topology
 
