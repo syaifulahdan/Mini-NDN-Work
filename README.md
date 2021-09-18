@@ -23,7 +23,7 @@ Mini-NDN-Works
         - Installing ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Chronosync-nodeNDN-Node-2.md)
         - Installing Mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-mininet-nodeNDN-Node-2.md)
         - Installing InfoeEdit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Infoedit-2.md)
-        - Installing Mini-NDN [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-2.md)
+        - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-2.md)
 
 
 
