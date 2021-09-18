@@ -21,6 +21,14 @@ $ git clone https://github.com/named-data/mini-ndn
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/1-gitclone-minindn2.png)
 Show Progress clone mini-ndn [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-gitclone.txt)
 
+
+<pre>
+$ cd mini-ndn
+$ ./install.sh -i
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/2-mini-ndn2-instal-sh-1.png)
+Show Progress mini-ndn install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-instal-sh-i.txt)
 **noted**
 <pre>
 
@@ -37,11 +45,3 @@ Show Progress clone mini-ndn [[read]](https://github.com/syaifulahdan/Mini-NDN-W
     ----------------------------------------
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
 </pre>
-
-<pre>
-$ cd mini-ndn
-$ ./install.sh -i
-</pre>
-
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/2-mini-ndn2-instal-sh-1.png)
-Show Progress mini-ndn install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-instal-sh-i.txt)
