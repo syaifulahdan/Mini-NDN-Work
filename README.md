@@ -8,7 +8,7 @@ Mini-NDN-Works
    - Installing Mini-NDN [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/1.Installing%20Mini-NDN.md)  
    - Running a mini-NDN Sample File [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/2.Running-mini-NDN-Sample.md)  
 
--<b>Installing NDN Nodes on Virtual Box </b>   
+-<b>NDN Nodes on Virtual Box </b>   
    - <b>Topology NDNRg</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md) 
    - 
       -  **Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
