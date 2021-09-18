@@ -18,3 +18,5 @@ else if you don’t have the dependencies, the following command will install th
 <pre>
 $ git clone https://github.com/named-data/mini-ndn
 </pre>
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-minindn2/1-gitclone-minindn2.png)
+Show Progress clone mini-ndn [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/minindn2-gitclone.txt)
