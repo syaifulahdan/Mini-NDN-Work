@@ -8,10 +8,11 @@ Prerequisites
 
 **Clone ChronoSync**
 <pre>
-$
+$ git clone https://github.com/named-data/ChronoSync 
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/1-gitclone-chronosync2.png)
- Show Progress Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-gitclone.txt)
+
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-ChronoSync-1/gitclone-chronosync.png)
+  
 
 **Build**
 <pre>
@@ -24,17 +25,17 @@ sudo ./waf install
 $ cd Chronosync
 $./waf configure
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/2-chronosync2-waf-configure.png)
- Show Progerss ChronoSync waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-waf-configure.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-ChronoSync-1/ChronoSync-waf-configure.png)
+  
 
 <pre>
 $./waf
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/3-chronosync2-waf.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-ChronoSync-1/ChronoSync-waf.png)
  Show Progress ChronoSync waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-waf.txt)
 
 <pre>
 $sudo ./waf install
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/4-chronosync2-waf-install.png)
- Show Progress ChronoSync waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-waf-install.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-ChronoSync-1/ChronoSync-waf-install.png)
+ 
