@@ -1,6 +1,6 @@
 To see the status of the forwarder on the node:
 <pre>
-[node-name] <b>nfdc status report<b>
+[node-name] <b>nfdc status report</b>
 </pre>
 
 1. Running Example Topology
