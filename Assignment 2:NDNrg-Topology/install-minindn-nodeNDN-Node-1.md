@@ -45,7 +45,7 @@ Show Progress detail mini-ndn wifi [[read]](https://github.com/syaifulahdan/Mini
 ##### 4. Running Example Topology
 
 <pre>
-$ sudo python examples/mnndn.pyi
+$ sudo python examples/mnndn.py
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-minindn1/4-minindn1-running-example-topology.png)
 
