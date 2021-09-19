@@ -1,14 +1,25 @@
 
 Mini-NDN-Custom Topology
  
-##### Tabel Of Content
 <b>1. Create Custom Topology</b>   
-   - <b>Topology 5 Node</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md)   
-      -  **Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
-         - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
-  - <b>Topology 10 Node</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md)   
-      -  **Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
-         - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
-    - <b>Topology 15 Node</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md)   
-      -  **Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
-         - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)       
+
+<pre>
+[nodes]
+makasar: _ radius=119.3300154 angle=357.532005
+balikpapan: _ radius=116.8375735 angle=359.392869
+surabaya: _ radius=112.9854148 angle=356.317153
+jayapura: _ radius=140.6399641 angle=358.944101
+manado: _ radius=124.849872 angle=0.67717960
+
+[links]
+surabaya:makasar delay=12ms
+makasar:balikpapan delay=13ms
+balikpapan:manado delay=10ms
+manado:jayapura delay=15ms
+jayapura:surabaya delay=17ms
+surabaya:manado delay=13ms
+surabaya:balikpapan delay=16ms
+makasar:jayapura delay=15ms
+makasar:manado delay=17ms
+balikpapan:jayapura delay=13ms
+</pre>
