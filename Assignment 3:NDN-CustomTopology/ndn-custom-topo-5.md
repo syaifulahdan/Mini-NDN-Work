@@ -23,3 +23,5 @@ makasar:jayapura delay=15ms
 makasar:manado delay=17ms
 balikpapan:jayapura delay=13ms
 </pre>
+
+[[Topology 5 node]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-5.conf)
