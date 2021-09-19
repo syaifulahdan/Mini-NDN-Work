@@ -1,7 +1,10 @@
 
 Mini-NDN-Custom Topology
+Tabel Of Content
+###<b>1. Create Custom Topology</b> 
+###<b>2. Running Topology</b>  
  
-<b>1. Create Custom Topology</b>   
+###<b>1. Create Custom Topology</b>   
 
 <pre>
 [nodes]
@@ -28,7 +31,7 @@ Download : [[minindn.topo-custom-5.conf]](https://github.com/syaifulahdan/Mini-N
 
 Next, copy the topology file: **minindn.topo-custom-5.conf** into the mini-ndn/topologies directory.
 
-<b>1. Running Topology</b>   
+###<b>2. Running Topology</b>   
 
 run mini-ndn with the following command
 
