@@ -46,7 +46,7 @@ run mini-ndn with the following command
 <pre>
 mini-ndn> surabaya ndnping makasar
 </pre>
-![[alt image](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/ct5nodes-ping-surabaya-makasar.png)
+![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/ct5nodes-ping-surabaya-makasar.png)
 <pre>
 mini-ndn> surabaya ndnping makasar
 PING /10.0.0.30
