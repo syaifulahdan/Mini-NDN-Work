@@ -38,6 +38,11 @@ Next, copy the topology file: **minindn.topo-custom-5.conf** into the mini-ndn/t
 run mini-ndn with the following command
 
 <pre>
-sudo python examples/mnndn.py topologies/minindn.topo-custom-5.conf
+& sudo python examples/mnndn.py topologies/minindn.topo-custom-5.conf
 </pre>
 ![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/running-ct5nodes.png)
+
+### <b>3. Ping Node</b>   
+
+
+
