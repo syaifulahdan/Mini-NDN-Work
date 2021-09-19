@@ -2,8 +2,8 @@
 Mini-NDN-Custom Topology
 Tabel Of Content
 
-### 1. Create Custom Topology 
-### 2. Running Topology   
+1. Create Custom Topology [Inline Formatting](#inline-formatting)
+2. Running Topology [Inline Formatting](### <b>2. Running Topology</b>) 
  
 ### <b>1. Create Custom Topology</b>   
 
