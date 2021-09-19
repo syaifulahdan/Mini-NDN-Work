@@ -1,14 +1,7 @@
 Mini-NDN-Works
  
-
-
 ##### Tabel Of Content
-<b>1. Installing Mini-NDN</b>
-
-   - Installing Mini-NDN [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/1.Installing%20Mini-NDN.md)  
-   - Running a mini-NDN Sample File [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%201:Installing%20Mini-NDN/2.Running-mini-NDN-Sample.md)  
-
-<b>2. NDN Nodes on Virtual Box </b>   
+<b>1. Install NDN on Virtual Box </b>   
    - <b>Topology NDNRg</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md) 
    
       -  **Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
@@ -33,6 +26,7 @@ Mini-NDN-Works
         - Installing InfoeEdit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Infoedit-2.md)
         - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-2.md)
 
-
+<b>2. Custom Topology </b>   
+      -  **Custom Topology 6 Node** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
 
   
