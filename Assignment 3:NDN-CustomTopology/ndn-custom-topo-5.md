@@ -25,3 +25,13 @@ balikpapan:jayapura delay=13ms
 </pre>
 
 Download : [[minindn.topo-custom-5.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-5.conf)
+
+Next, copy the topology file: **minindn.topo-custom-5.conf** into the mini-ndn/topologies directory.
+
+<b>1. Running Topology</b>   
+
+run mini-ndn with the following command
+
+<pre>
+sudo python examples/mnndn.py topologies/minindn.topo-custom-5.conf
+</pre>
