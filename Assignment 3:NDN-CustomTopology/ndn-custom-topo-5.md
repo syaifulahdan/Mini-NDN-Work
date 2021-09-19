@@ -3,7 +3,7 @@ Mini-NDN-Custom Topology
 Tabel Of Content
 
 1. Create Custom Topology [Inline Formatting](#inline-formatting)
-2. Running Topology [Inline Formatting](### <b>2. Running Topology</b>) 
+2. [[Running Topology]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
  
 ### <b>1. Create Custom Topology</b>   
 
