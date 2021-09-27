@@ -2,8 +2,8 @@ Mini-NDN-Works
  
  # Chapter 1. Install NDN on Virtual Box   
    
- ## 1.1.Install Node 1 [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
-        - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
+ ## 1.1. Install Node 1 [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
+       - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
         - Installing NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-1.md)  
             -  Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFDstatus-minindn-Node-1.md)
          - Installing PSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-PSync-nodeNDN-Node-1.md)
