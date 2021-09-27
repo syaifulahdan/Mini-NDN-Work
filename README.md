@@ -5,7 +5,6 @@ Mini-NDN-Works
 <b>I. Install NDN on Virtual Box </b>   
 ***
    - <b>1. Topology NDNRg</b>   [[read] ](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-topology.md) 
-   - <b>Custom Topology 5 Node</b>   [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md) 
 
    
       -  **1.1.Install Node 1** [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
