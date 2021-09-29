@@ -38,3 +38,10 @@ $ cd NLSR
 ~/NSLR$ sudo ./waf install 
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NSLR-1/NLSR-Waf-Install.png)
+
+If ChronoSync support is desired, NLSR needs to be configured with the following option:
+<pre>
+$./waf configure --with-chronosync
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NSLR-1/NLSR-Waf-Install.png)
