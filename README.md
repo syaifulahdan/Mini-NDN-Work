@@ -3,7 +3,7 @@
  ## Chapter 1. Node on Virtual Box
    ## Chapter 2. Install NDN on Node  
    ### 2.1. Install Node 1 [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
-     - NDNRg Topology [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/topology.png)
+    - NDNRg Topology [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/topology.png)
       - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
       - Installing PSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-PSync-nodeNDN-Node-1.md)
       - Installing ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Chronosync-nodeNDN-Node-1.md)
