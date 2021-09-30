@@ -120,7 +120,7 @@ fib
   ; the max-faces-per-prefix is used to limit the number of faces for each name prefixes
   ; by NLSR in ndn FIB
 
-  <b>max-faces-per-prefix 3   ; default value 0. Valid value 0-60. By default (value 0) NLSR adds
+  max-faces-per-prefix 3   ; default value 0. Valid value 0-60. By default (value 0) NLSR adds
                            ; all available faces for each reachable name prefixes in NDN FIB
 
   ; routing-calc-interval is the time to wait in seconds after a routing table calculation is
