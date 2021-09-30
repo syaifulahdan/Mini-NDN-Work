@@ -87,10 +87,10 @@ neighbor
 
   neighbor
   {
-    <b>name /ndn/edu/memphis/%C1.Router/cs/mira  ; name prefix of the neighbor router consists
+    <b>name /ndn/edu/memphis/%C1.Router/cs/mira</b>  ; name prefix of the neighbor router consists
                                               ; of network, site-name and router-name
 
-    <b>face-uri  udp://mira.cs.memphis.edu       ; face uri of the face connected to the neighbor
+    <b>face-uri  udp://mira.cs.memphis.edu</b>       ; face uri of the face connected to the neighbor
    link-cost 30                              ; cost of the connecting link to neighbor
   }
 }
