@@ -17,14 +17,14 @@ Assume that three routers in the same network, but at three different sites (mem
 
 general
 {
-  ; mandatory configuration command section network, site and router
+                                      ; mandatory configuration command section network, site and router
 
-  network /ndn/         ; name of the network the router belongs to in ndn URI format
-  site /edu/memphis    ; name of the site the router belongs to in ndn URI format
-  router /%C1.Router/cs/pollux    ; name of the router in ndn URI format
+  network /ndn/                       ; <b>name of the network the router belongs to in ndn URI format</b>
+  site /edu/memphis                   ; name of the site the router belongs to in ndn URI format
+  router /%C1.Router/cs/pollux        ; name of the router in ndn URI format
 
-  ; lsa-refresh-time is the time in seconds, after which router will refresh its LSAs
-  lsa-refresh-time 1800      ; default value 1800. Valid values 240-7200
+                                      ; lsa-refresh-time is the time in seconds, after which router will refresh its LSAs
+  lsa-refresh-time 1800               ; default value 1800. Valid values 240-7200
 
   ; router-dead-interval is the time in seconds after which an inactive routers
   ; LSAs are removed
