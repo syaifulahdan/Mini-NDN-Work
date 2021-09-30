@@ -15,10 +15,10 @@ Assume that three routers in the same network, but at three different sites (mem
 <pre>
                                                 ; the general section contains all the general settings for router
 
-<b>general</b>
-<b>{</b>
+general
+{
                                                 ; mandatory configuration command section network, site and router
-<b>network /ndn/</b>                          ; name of the network the router belongs to in ndn URI format
+<b>network /ndn/</b>                         ; name of the network the router belongs to in ndn URI format
 <b>site /edu/memphis</b>                      ; name of the site the router belongs to in ndn URI format
  <b>router /%C1.Router/cs/pollux</b>           ; name of the router in ndn URI format
 
@@ -76,7 +76,7 @@ face-dataset-fetch-interval 3600 ; default is 3600. Valid values 1800-5400.
                                                ; neighbor command is used to configure router's neighbor. Each neighbor will need
                                                ; one block of neighbor command
 
-neighbor</b> 
+neighbor
   {
     <b>name /ndn/edu/memphis/%C1.Router/cs/castor</b>   ; name prefix of the neighbor router consists
                                                         ; of network, site-name and router-name
