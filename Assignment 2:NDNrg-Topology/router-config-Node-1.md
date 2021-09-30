@@ -13,23 +13,23 @@ Assume that three routers in the same network, but at three different sites (mem
   Step 4: Running NLSR on /ndn/memphis.edu/router1
 
 <pre>
-; the general section contains all the general settings for router
+                                             ; the general section contains all the general settings for router
 
-general
-{
-                                      ; mandatory configuration command section network, site and router
+<b>general</b>
+<b>{</b>
+                                             ; mandatory configuration command section network, site and router
 
-  network /ndn/                       ; <b>name of the network the router belongs to in ndn URI format</b>
-  site /edu/memphis                   ; <b>name of the site the router belongs to in ndn URI format</b></b>
-  router /%C1.Router/cs/pollux        ; <b>name of the router in ndn URI format</b>
+  <b>network /ndn/</b>                       ; name of the network the router belongs to in ndn URI format
+  <b>site /edu/memphis</b>                   ; name of the site the router belongs to in ndn URI format
+  <b>router /%C1.Router/cs/pollux</b>        ; name of the router in ndn URI format
 
-                                      ; <b>lsa-refresh-time is the time in seconds, after which router will refresh its LSAs</b>
-  lsa-refresh-time 1800               ; <b>default value 1800. Valid values 240-7200</b>
+                                             ; lsa-refresh-time is the time in seconds, after which router will refresh its LSAs
+  <b>lsa-refresh-time 1800</b>               ; default value 1800. Valid values 240-7200
 
-                                      ; <b>router-dead-interval is the time in seconds after which an inactive routers</b>
-                                      ;<b>LSAs are removed</b>
-                                      ;<b>router-dead-interval 3600 ; default value: 2*lsa-refresh-time. Value must be larger</b>
-                                      ;<b>than lsa-refresh-time</b>
+                                             ; router-dead-interval is the time in seconds after which an inactive routers
+                                             ; LSAs are removed
+                                             ; router-dead-interval 3600 ; default value: 2*lsa-refresh-time. Value must be larger
+                                             ; than lsa-refresh-time
 
   ; InterestLifetime (in seconds) for LSA fetching
   lsa-interest-lifetime 4    ; default value 4. Valid values 1-60
