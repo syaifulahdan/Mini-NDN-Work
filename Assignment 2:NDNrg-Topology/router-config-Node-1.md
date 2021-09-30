@@ -16,10 +16,10 @@ Assume that three routers in the same network, but at three different sites (mem
                                                            ; the general section contains all the general settings for router
 general
 {
-                                                           ; mandatory configuration command section network, site and router
-<b>network /ndn/</b>                                       ; name of the network the router belongs to in ndn URI format
-<b>site /edu/memphis</b>                                   ; name of the site the router belongs to in ndn URI format
-<b>router /%C1.Router/cs/pollux</b>                        ; name of the router in ndn URI format
+                                                              ; mandatory configuration command section network, site and router
+<b>network /ndn/</b>                                          ; name of the network the router belongs to in ndn URI format
+<b>site /ndnrg/itb</b>                                      ; name of the site the router belongs to in ndn URI format
+<b>router /%C1.Router/cs/citb</b>                           ; name of the router in ndn URI format
 
                                                            ; lsa-refresh-time is the time in seconds, after which router will refresh its LSAs
  lsa-refresh-time 1800                                     ; default value 1800. Valid values 240-7200
@@ -75,19 +75,19 @@ face-dataset-fetch-interval 3600 ; default is 3600. Valid values 1800-5400.
 
 neighbor
   {
-    <b>name /ndn/edu/memphis/%C1.Router/cs/castor</b>      ; name prefix of the neighbor router consists
+    <b>name /ndn/ndnrg/itb/%C1.Router/cs/cuti</b>      ; name prefix of the neighbor router consists
                                                            ; of network, site-name and router-name
 
-    <b>face-uri  udp://castor.cs.memphis.edu</b>           ; face uri of the face connected to the neighbor
+    <b>face-uri  udp://cuti.cs.memphis.edu</b>           ; face uri of the face connected to the neighbor
     link-cost 25                                           ; cost of the connecting link to neighbor
   } 
 
   neighbor
   {
-    <b>name /ndn/edu/memphis/%C1.Router/cs/mira</b>        ; name prefix of the neighbor router consists
+    <b>name /ndn/ndnrg/itb/%C1.Router/cs/ctelu</b>        ; name prefix of the neighbor router consists
                                                            ; of network, site-name and router-name
 
-    <b>face-uri  udp://mira.cs.memphis.edu</b>             ; face uri of the face connected to the neighbor
+    <b>face-uri  udp://ctelu.cs.memphis.edu</b>             ; face uri of the face connected to the neighbor
    link-cost 30                                            ; cost of the connecting link to neighbor
   }
 }
@@ -135,8 +135,8 @@ advertising
                                                          ; the ndnname is used to advertised name from the router. To advertise each name prefix
                                                          ; configure one block of ndnname configuration command for every name prefix.
 
-  <b>prefix /ndn/edu/memphis/cs/netlab</b>               ; name in ndn URI format
-  <b>prefix /ndn/edu/memphis/sports/basketball</b> 
+  <b>prefix /ndn/ndnrg/itb/cs/netlab</b>               ; name in ndn URI format
+  <b>prefix /ndn/ndnrg/itb/sports/basketball</b> 
 }
 
 security
