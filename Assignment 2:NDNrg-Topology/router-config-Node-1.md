@@ -38,7 +38,7 @@ Assume that three routers in the same network, but at three different sites (mem
    <b>sync-protocol psync</b>
 
                                                 ; sync interest lifetime of ChronoSync/PSync in milliseconds
-   <b>sync-interest-lifetime 60000              ; default value 60000. Valid values 1000-120,000
+   <b>sync-interest-lifetime 60000</b>              ; default value 60000. Valid values 1000-120,000
 
    <b>state-dir       /var/lib/nlsr</b>         ; path for intermediate state files including sequence directory (Absolute path)
 <b>}</b>
