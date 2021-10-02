@@ -66,7 +66,7 @@ state-dir       /var/lib/nlsr                              ; path for intermedia
                                                            ; variable too high, because it could cause
                                                            ; congestion for NFD.
  
-face-dataset-fetch-interval 3600 ; default is 3600. Valid values 1800-5400.
+face-dataset-fetch-interval 3600                           ; default is 3600. Valid values 1800-5400.
                                                            ; This controls how often (in seconds) NLSR will attempt to
                                                            ; fetch a FaceStatus dataset from NFD.
 
@@ -75,19 +75,19 @@ face-dataset-fetch-interval 3600 ; default is 3600. Valid values 1800-5400.
 
 neighbor
   {
-    <b>name /ndn/ndnrg/itb/%C1.Router/cs/cuti</b>      ; name prefix of the neighbor router consists
+    <b>name /ndn/ndnrg/itb/%C1.Router/cs/cuti</b>          ; name prefix of the neighbor router consists
                                                            ; of network, site-name and router-name
 
-    <b>face-uri  udp://cuti.cs.memphis.edu</b>           ; face uri of the face connected to the neighbor
+    <b>face-uri  udp://cuti.cs.memphis.edu</b>             ; face uri of the face connected to the neighbor
     link-cost 25                                           ; cost of the connecting link to neighbor
   } 
 
   neighbor
   {
-    <b>name /ndn/ndnrg/itb/%C1.Router/cs/ctelu</b>        ; name prefix of the neighbor router consists
+    <b>name /ndn/ndnrg/itb/%C1.Router/cs/ctelu</b>         ; name prefix of the neighbor router consists
                                                            ; of network, site-name and router-name
 
-    <b>face-uri  udp://ctelu.cs.memphis.edu</b>             ; face uri of the face connected to the neighbor
+    <b>face-uri  udp://ctelu.cs.memphis.edu</b>            ; face uri of the face connected to the neighbor
    link-cost 30                                            ; cost of the connecting link to neighbor
   }
 }
@@ -97,45 +97,47 @@ neighbor
 
 hyperbolic
 {
-                                                          ; commands in this section follows a strict order
-                                                          ; the switch is used to set hyperbolic routing calculation in NLSR
+                                                           ; commands in this section follows a strict order
+                                                           ; the switch is used to set hyperbolic routing calculation in NLSR
 
-  state off                                               ; default value 'off', set value 'on' to enable hyperbolic routing table
-                                                          ; calculation which turns link state routing 'off'. set value to 'dry-run'
-                                                          ; to test hyperbolic routing and compare with link state routing.
+  state off                                                ; default value 'off', set value 'on' to enable hyperbolic routing table
+                                                           ; calculation which turns link state routing 'off'. set value to 'dry-run'
+                                                           ; to test hyperbolic routing and compare with link state routing.
 
 
- radius   123.456                                         ; radius of the router in hyperbolic coordinate system
- angle    1.45,2.36                                       ; angle of the router in hyperbolic coordinate system
+ radius   123.456                                          ; radius of the router in hyperbolic coordinate system
+ angle    1.45,2.36                                        ; angle of the router in hyperbolic coordinate system
 }
 
 
-                                                          ; the fib section is used to configure fib entrys type to ndn FIB updated by NLSR
+                                                           ; the fib section is used to configure fib entrys type to ndn FIB updated by NLSR
 
 fib
 {
-                                                          ; the max-faces-per-prefix is used to limit the number of faces for each name prefixes
-                                                          ; by NLSR in ndn FIB
+                                                           ; the max-faces-per-prefix is used to limit the number of faces for each name prefixes
+                                                           ; by NLSR in ndn FIB
 
-   max-faces-per-prefix 3                                 ; default value 0. Valid value 0-60. By default (value 0) NLSR adds
-                                                          ; all available faces for each reachable name prefixes in NDN FIB
+   max-faces-per-prefix 3                                  ; default value 0. Valid value 0-60. By default (value 0) NLSR adds
+                                                           ; all available faces for each reachable name prefixes in NDN FIB
 
-                                                          ; routing-calc-interval is the time to wait in seconds after a routing table calculation is
-                                                          ; scheduled before actually performing the routing table calculation
+                                                           ; routing-calc-interval is the time to wait in seconds after a routing table calculation is
+                                                           ; scheduled before actually performing the routing table calculation
 
-  routing-calc-interval 15                                ; default value 15. Valid values 0-15. It is recommended that
-                                                          ; routing-calc-interval have a higher value than adj-lsa-build-interval
+  routing-calc-interval 15                                 ; default value 15. Valid values 0-15. It is recommended that
+                                                           ; routing-calc-interval have a higher value than adj-lsa-build-interval
 }
 
-                                                          ; the advertising section contains the configuration settings of the name prefixes
-                                                          ; hosted by this router
+                                                           ; the advertising section contains the configuration settings of the name prefixes
+                                                           ; hosted by this router
 
 advertising
 {
-                                                         ; the ndnname is used to advertised name from the router. To advertise each name prefix
-                                                         ; configure one block of ndnname configuration command for every name prefix.
+                                                          ; the ndnname is used to advertised name from the router. To advertise each name prefix
+                                                          ; configure one block of ndnname configuration command for every name prefix.
+                                                          
+                                                          
 
-  <b>prefix /ndn/ndnrg/itb/cs/netlab</b>               ; name in ndn URI format
+  <b>prefix /ndn/ndnrg/itb/cs/netlab</b>                  ; name in ndn URI format
   <b>prefix /ndn/ndnrg/itb/sports/basketball</b> 
 }
 
@@ -298,19 +300,19 @@ security
       file-name "site.cert"
     }
   }
+ 
+  ; cert-to-publish "root.cert"                           ; optional, a file containing the root certificate
+                                                          ; Only the router that is designated to publish the root cert
+                                                          ; needs to specify this
 
-  ; cert-to-publish "root.cert"  ; optional, a file containing the root certificate
-                                 ; Only the router that is designated to publish the root cert
-                                 ; needs to specify this
+  ; cert-to-publish "site.cert"                           ; optional, a file containing the site certificate
+                                                          ; Only the router that is designated to publish the site cert
+                                                          ; needs to specify this
 
-  ; cert-to-publish "site.cert"  ; optional, a file containing the site certificate
-                                 ; Only the router that is designated to publish the site cert
-                                 ; needs to specify this
+  ; cert-to-publish "operator.cert"                       ; optional, a file containing the operator certificate
+                                                          ; Only the router that is designated to publish the operator
+                                                          ; cert needs to specify this
 
-  ; cert-to-publish "operator.cert" ; optional, a file containing the operator certificate
-                                    ; Only the router that is designated to publish the operator
-                                    ; cert needs to specify this
-
-  cert-to-publish "router.cert"  ; required, a file containing the router certificate.
+  cert-to-publish "router.cert"                           ; required, a file containing the router certificate.
 }
 </pre>
