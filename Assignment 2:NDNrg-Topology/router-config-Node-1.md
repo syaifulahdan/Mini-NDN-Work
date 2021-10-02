@@ -1,6 +1,6 @@
 Assume that three routers in the same network, but at three different sites (memphis.edu, arizona.edu, and colostate.edu), are connected to each other to construct the following topology:
 ***
- 1. network and sample configuration
+ ###1. Network and sample configuration
  
   Step 1. Ensuring nfd is running
   
