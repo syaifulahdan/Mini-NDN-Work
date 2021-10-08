@@ -108,3 +108,12 @@ root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f routerX.cert
 OK: certificate with name [/ndn/ndnrg/itb/%C1.Router/routerX/KEY/%F2%5E%CF%AF%E5%19%CBq/NA/v=1633692289610] has been successfully installed
 root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
 </pre>
+
+In the previous step, the labels %C1.Router and %C1.Operator were NDN keywords and should not be changed. This label will also be used by the configuration file (§ 5.4)
+
+The following command may be used to verify that the certificates have been installed in a computer:
+<pre>
+$ ndnsec-list
+</pre>
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ndnsec-list-node1.png)
