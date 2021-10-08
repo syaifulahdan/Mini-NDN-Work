@@ -117,3 +117,12 @@ $ ndnsec-list
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ndnsec-list-node1.png)
+
+<pre>
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-list
+  /ndn
+  /ndn/ndnrg/itb
+* /ndn/ndnrg/itb/%C1.Router/routerX
+  /ndn/ndnrg/itb/%C1.Operator/op
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+</pre>
