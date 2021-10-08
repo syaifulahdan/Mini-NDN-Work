@@ -180,7 +180,7 @@ Once the physical network and network cards have been configured, it is necessar
 $ ping <remote-ip-address>
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ping-remote-pc2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-ping-remote-pc1.png)
 
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ ping 192.168.56.103
