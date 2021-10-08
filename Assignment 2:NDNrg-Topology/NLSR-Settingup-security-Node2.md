@@ -155,11 +155,12 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list
 * /ndn/ndnrg/uti/%C1.Router/routerX2
   /ndn/ndnrg/uti/%C1.Operator/op
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+</pre>
+
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/all-configuration-nlsr-security.png)
 
 
 
-</pre>
 This guide recommends that one machine functions as the root, site, operator and router1, while a different computer only functions as router2. Figure 2 shows this configuration. For router1, the twelve steps described before need to be executed except for exchanging files between computers. For the router2, only steps 10 to 12 are needed to generate this router’s certificate.
 
 Additionally, the following command may be used to print a list and a brief description of all the ndnsec commands:
