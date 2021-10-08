@@ -103,13 +103,14 @@ ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
 <pre>
 ndnsec-cert-install -f routerX.cert
 </pre>
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-install-routertcert-node1.png.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-routertcert-node2.png)
 <pre>
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f routerX.cert
-OK: certificate with name [/ndn/ndnrg/itb/%C1.Router/routerX/KEY/%F2%5E%CF%AF%E5%19%CBq/NA/v=1633692289610] has been successfully installed
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
+OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+
 </pre>
 
 In the previous step, the labels %C1.Router and %C1.Operator were NDN keywords and should not be changed. This label will also be used by the configuration file (§ 5.4)
