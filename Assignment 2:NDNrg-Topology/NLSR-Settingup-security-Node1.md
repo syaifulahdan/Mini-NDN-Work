@@ -134,7 +134,7 @@ Additionally, the following command may be used to print a list and a brief desc
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design.png)
 
-Configuring the network
+<b>Configuring the network</b>
 
 The first step is to configure the physical network. If two computers are going to get connected using a single Ethernet cable, it is necessary to verify that this cable is a crossover. The other option is to employ a switch between two computers that are then connected using two regular Ethernet cables.
 
@@ -167,3 +167,5 @@ PING 192.168.56.103 (192.168.56.103) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.313/0.950/1.813/0.207 ms
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
+
+<b>Starting and configuring NFD</b>
