@@ -13,14 +13,15 @@ Instructions on how to use the configuration file are already provided at the NL
 }
 </pre>
 
+
+<b>AT neighbors SECTION:</b>
 <pre>
-;AT neighbors SECTION:
 neighbors
 {
   neighbor
   {
     <b>name /ndn/ndnrg/itb/%C1.Router/RouterX2</b>   ; Neighbor router: router2-UTI
-    <b>face-uri  udp://192.168.56.103</b>	            ; face to the neighbor (IP Router UTI)
+    <b>face-uri  udp://192.168.56.103</b>	          ; face to the neighbor (IP Router UTI)
     <b>link-cost 25</b>                               ; cost of the link Router UTI
   }
 }
