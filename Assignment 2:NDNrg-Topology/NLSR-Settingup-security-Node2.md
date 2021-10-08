@@ -40,7 +40,7 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR#
 
 4. At the site server, generate the site key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb > site.key
+$ ndnsec-key-gen /ndn/ndnrg/uti > site.key
 </pre>
 
 5. Copy the site key to the root server and generate the certificate for the site server:
@@ -54,13 +54,13 @@ $ ndnsec-cert-gen -s /ndn/ site.key > site.cert
 $ ndnsec-cert-install -f site.cert
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-install-sitecert-node1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-sitecert-node2.png)
 <pre>
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ndnrg/itb > site.key
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f site.cert 
-OK: certificate with name [/ndn/ndnrg/itb/KEY/%E9%F8%81%C1S~%93%21/NA/v=1633688444541] has been successfully installed
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
+OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473] has been successfully installed
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
 </pre>
 
 7. At the operator server, generate the operator key:
