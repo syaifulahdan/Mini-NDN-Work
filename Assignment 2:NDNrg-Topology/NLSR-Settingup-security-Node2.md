@@ -131,7 +131,7 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR
 </pre>
 
-show all configuration NLSR Security Node 2
+<b>show all configuration NLSR Security Node 2</b>
 <pre>
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
@@ -155,7 +155,7 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list
 * /ndn/ndnrg/uti/%C1.Router/routerX2
   /ndn/ndnrg/uti/%C1.Operator/op
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
-
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/all-configuration-nlsr-security.png)
 
 
 
