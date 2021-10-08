@@ -3,8 +3,9 @@
 Source : https://named-data.net/doc/NLSR/current/beginners-guide.html#ndnnfdusage
 Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router1 <b>(RouterX)</b>:
 
+
+<b>AT general SECTION:</b>
 <pre>
-; AT general SECTION:
 {
   <b>network /ndn/</b>                              ; name of the network ITB
   <b>site /ndnrg/itb</b>                            ; name of the site ITB
