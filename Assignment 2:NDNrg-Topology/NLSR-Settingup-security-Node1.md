@@ -62,4 +62,17 @@ OK: certificate with name [/ndn/ndnrg/itb/KEY/%E9%F8%81%C1S~%93%21/NA/v=16336884
 root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
 </pre>
 
+7. At the operator server, generate the operator key:
+<pre>
+$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Operator/op > op.key
+</pre>
 
+8.Copy the operator key to the site server and generate the certificate for the operator server:
+<pre>
+$ ndnsec-cert-gen -s /ndn/ndnrg/itb op.key > op.cert
+</pre>
+
+9. Copy the operator certificate to the operator server and install it:
+<pre>
+$ ndnsec-cert-install -f op.cert
+</pre>
