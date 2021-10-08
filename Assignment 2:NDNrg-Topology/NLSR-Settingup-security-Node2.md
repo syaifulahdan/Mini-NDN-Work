@@ -183,24 +183,26 @@ $ ping <remote-ip-address>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-ping-remote-pc1.png)
 
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$ ping 192.168.56.103
-PING 192.168.56.103 (192.168.56.103) 56(84) bytes of data.
-64 bytes from 192.168.56.103: icmp_seq=1 ttl=64 time=1.81 ms
-64 bytes from 192.168.56.103: icmp_seq=2 ttl=64 time=1.00 ms
-64 bytes from 192.168.56.103: icmp_seq=3 ttl=64 time=1.10 ms
-64 bytes from 192.168.56.103: icmp_seq=4 ttl=64 time=0.981 ms
-64 bytes from 192.168.56.103: icmp_seq=5 ttl=64 time=0.896 ms
-64 bytes from 192.168.56.103: icmp_seq=6 ttl=64 time=1.01 ms
-64 bytes from 192.168.56.103: icmp_seq=7 ttl=64 time=1.02 ms
-64 bytes from 192.168.56.103: icmp_seq=8 ttl=64 time=0.919 ms
-64 bytes from 192.168.56.103: icmp_seq=9 ttl=64 time=0.751 ms
-64 bytes from 192.168.56.103: icmp_seq=10 ttl=64 time=0.988 ms
-64 bytes from 192.168.56.103: icmp_seq=11 ttl=64 time=1.06 ms
+bertopeng17-2@NDN-Node2-UTI:~$  ping 192.168.56.101
+PING 192.168.56.101 (192.168.56.101) 56(84) bytes of data.
+64 bytes from 192.168.56.101: icmp_seq=1 ttl=64 time=1.68 ms
+64 bytes from 192.168.56.101: icmp_seq=2 ttl=64 time=0.972 ms
+64 bytes from 192.168.56.101: icmp_seq=3 ttl=64 time=0.878 ms
+64 bytes from 192.168.56.101: icmp_seq=4 ttl=64 time=0.886 ms
+64 bytes from 192.168.56.101: icmp_seq=5 ttl=64 time=0.392 ms
+64 bytes from 192.168.56.101: icmp_seq=6 ttl=64 time=1.07 ms
+64 bytes from 192.168.56.101: icmp_seq=7 ttl=64 time=1.05 ms
+64 bytes from 192.168.56.101: icmp_seq=8 ttl=64 time=0.985 ms
+64 bytes from 192.168.56.101: icmp_seq=9 ttl=64 time=1.07 ms
+64 bytes from 192.168.56.101: icmp_seq=10 ttl=64 time=0.976 ms
+64 bytes from 192.168.56.101: icmp_seq=11 ttl=64 time=0.303 ms
+64 bytes from 192.168.56.101: icmp_seq=12 ttl=64 time=1.00 ms
 
---- 192.168.56.103 ping statistics ---
-72 packets transmitted, 72 received, 0% packet loss, time 71633ms
-rtt min/avg/max/mdev = 0.313/0.950/1.813/0.207 ms
-bertopeng17-1@NDN-Node1-ITB:~$ 
+--- 192.168.56.101 ping statistics ---
+44 packets transmitted, 44 received, 0% packet loss, time 43408ms
+rtt min/avg/max/mdev = 0.282/0.863/1.688/0.295 ms
+bertopeng17-2@NDN-Node2-UTI:~$ 
+
 </pre>
 
 <b>Starting and configuring NFD</b>
