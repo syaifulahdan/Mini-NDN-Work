@@ -130,4 +130,4 @@ root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR#
 This guide recommends that one machine functions as the root, site, operator and router1, while a different computer only functions as router2. Figure 2 shows this configuration. For router1, the twelve steps described before need to be executed except for exchanging files between computers. For the router2, only steps 10 to 12 are needed to generate this router’s certificate.
 
 Additionally, the following command may be used to print a list and a brief description of all the ndnsec commands:
-
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design.png)
