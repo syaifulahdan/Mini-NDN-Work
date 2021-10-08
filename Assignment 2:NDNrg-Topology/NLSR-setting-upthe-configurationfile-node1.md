@@ -6,9 +6,9 @@ Instructions on how to use the configuration file are already provided at the NL
 <pre>
 ; AT general SECTION:
 {
-  network /ndn/                    ; name of the network
-  site /ndnrg/itb                  ; name of the site
-  router /%C1.Router/routerX       ; name of the router: router1
+  <b>network /ndn/</b>                    ; name of the network ITB
+  <b>site /ndnrg/itb</b>                  ; name of the site ITB
+  <b>router /%C1.Router/routerX</b>       ; name of the router: router1-ITB
 }
 
 ;AT neighbors SECTION:
@@ -16,9 +16,9 @@ neighbors
 {
   neighbor
   {
-    name /ndn/ndnrg/itb/%C1.Router/router2   ; Neighbor router: router2
-    face-uri  udp://192.168.56.103	     ; face to the neighbor (IP Router UTI)
-    link-cost 25                             ; cost of the link Router UTI
+    <b>name /ndn/ndnrg/itb/%C1.Router/router2</b>   ; Neighbor router: router2-UTI
+    <b>face-uri  udp://192.168.56.103</b>	          ; face to the neighbor (IP Router UTI)
+    <b>link-cost 25</b>                             ; cost of the link Router UTI
   }
 }
 
