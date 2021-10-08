@@ -17,8 +17,8 @@ mini-ndn> a nlsrc status
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslrc-status-node-a-1.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslrc-status-node-a-2.png
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslrc-status-node-a-3.png
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslrc-status-node-a-2.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslrc-status-node-a-3.png)
 
 
 will show the results as below
