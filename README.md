@@ -5,7 +5,7 @@
    - NDNRg Topology [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/topology.png)
 
    ## Chapter 2. Install NDN on Node  
-   ### 2.1. Install Node 1 
+   ### 2.1. Install Node 1 (ITB) 
    - Installing ndn-cxx [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
    - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-1.md)
    - Sync libraries 
@@ -27,7 +27,7 @@
       - Check status of routing (NLSR) on the node: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NSLRstatus-minindn-Node-1.md)
 
 
-   ### 2.2. Install Node 2   
+   ### 2.2. Install Node 2 (UTI)   
    - Installing ndn-cxx [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
    - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
       - Sync libraries 
