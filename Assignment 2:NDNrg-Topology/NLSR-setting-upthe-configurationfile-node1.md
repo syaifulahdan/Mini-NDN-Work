@@ -2,12 +2,13 @@
 
 Source : https://named-data.net/doc/NLSR/current/beginners-guide.html#ndnnfdusage
 Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router1 <b>(RouterX)</b>:
+
 <pre>
 ; AT general SECTION:
 {
   network /ndn/                    ; name of the network
-  site /edu/uaslp                  ; name of the site
-  router /%C1.Router/router1       ; name of the router: router1
+  site /ndnrg/itb                  ; name of the site
+  router /%C1.Router/routerX       ; name of the router: router1
 }
 
 ;AT neighbors SECTION:
@@ -15,17 +16,17 @@ neighbors
 {
   neighbor
   {
-    name /ndn/edu/uaslp/%C1.Router/router2   ; Neighbor router: router2
-    face-uri  udp://140.220.80.124           ; face to the neighbor
-    link-cost 30                             ; cost of the link
+    name /ndn/ndnrg/itb/%C1.Router/router2   ; Neighbor router: router2
+    face-uri  udp://192.168.56.103	     ; face to the neighbor (IP Router UTI)
+    link-cost 25                             ; cost of the link Router UTI
   }
 }
 
 ; AT advertising SECTION:
 advertising
 {
-  prefix /ndn/edu/uaslp/office/bldg1         ; Advertising destinations
-  prefix /ndn/edu/uaslp/office/bldg2         ; for router1
+  prefix /ndn/ndnrg/itb/telmat/residen       ; Advertising destinations
+  prefix /ndn/ndnrg/itb/telmat/labipnet      ; for router1
 }
 
 ; AT security SECTION:
@@ -57,6 +58,62 @@ security
 
   cert-to-publish "op.cert"        ; operator certificate file
 
-  cert-to-publish "router1.cert"   ; router1 certificate file
+  cert-to-publish "routerX.cert"   ; router1 certificate file
 }
+
+The following text shows the modified instructions for router2:
+
+; AT general SECTION:
+{
+  network /ndn/                    ; name of the network
+  site /edu/uaslp                  ; name of the site
+  router /%C1.Router/router2       ; name of the router: router2
+}
+
+;AT neighbors SECTION:
+neighbors
+{
+  neighbor
+  {
+    name /ndn/edu/uaslp/%C1.Router/router1   ; Neighbor router: router1
+    face-uri  udp://140.220.80.121           ; face to the neighbor
+    link-cost 30                             ; cost of the link
+  }
+}
+
+; AT advertising SECTION:
+advertising
+{
+  prefix /ndn/edu/uaslp/labs/networks        ; Advertising destinations
+  prefix /ndn/edu/uaslp/labs/hardware        ; for router2
+}
+
+; AT security SECTION:
+security
+{
+  validator
+  {
+    ...
+    trust-anchor
+    {
+      type file
+      file-name "root.cert"        ; root certificate file
+    }                              ; this file needs to be copied to
+  }                                ; router2
+
+  prefix-update-validator
+  {
+    ...
+    trust-anchor
+    {
+      type file
+      file-name "site.cert"        ; site certificate file
+    }                              ; this file needs to be copied to
+  }                                ; router2
+
+  ...
+  cert-to-publish "router2.cert"   ; router2 certificate file
+}
+
+
 </pre>
