@@ -85,3 +85,26 @@ root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f op.cert
 OK: certificate with name [/ndn/ndnrg/itb/%C1.Operator/op/KEY/o%1D%1D%E6%AF%C5%FDk/NA/v=1633689386465] has been successfully installed
 root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
 </pre>
+
+10. At the router, generate the router key:
+<pre>
+$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
+</pre>
+
+11. Copy the router key to the operator server and generate the certificate for the router:
+<pre>
+ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
+</pre>
+
+12. Copy the router certificate to the router and install it:
+<pre>
+ndnsec-cert-install -f routerX.cert
+</pre>
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-install-routertcert-node1.png.png)
+<pre>
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f routerX.cert
+OK: certificate with name [/ndn/ndnrg/itb/%C1.Router/routerX/KEY/%F2%5E%CF%AF%E5%19%CBq/NA/v=1633692289610] has been successfully installed
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+</pre>
