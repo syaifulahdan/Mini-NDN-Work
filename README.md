@@ -46,7 +46,7 @@
    - Installing InfoeEdit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Infoedit-2.md)
    - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-2.md)
     - Check NFD status on node  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFDstatus-minindn-Node-2.md)
-    - Check status of routing (NLSR) on the node: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NSLRstatus-minindn-Node-1.md)
+    - Check status of routing (NLSR) on the node: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NSLRstatus-minindn-Node-2.md)
  ## Chapter 3. Mini-NDN Custom Topology   
 
    - <b>Custom Topology 5 Node</b>   [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md) 
@@ -71,7 +71,7 @@
       -  Running Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
       -  Ping Node[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
 
- #
+ 
 
 
  
