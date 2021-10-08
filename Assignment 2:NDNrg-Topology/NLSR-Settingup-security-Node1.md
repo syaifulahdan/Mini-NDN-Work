@@ -36,3 +36,19 @@ root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f root.cert
 OK: certificate with name [/ndn/KEY/%16%D0%E4%8E%950R4/self/v=1633687187749] has been successfully installed
 root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR#
 </pre>
+
+4. At the site server, generate the site key:
+<pre>
+$ ndnsec-key-gen /ndn/ndnrg/itb > site.key
+</pre>
+
+5. Copy the site key to the root server and generate the certificate for the site server:
+<pre>
+$ ndnsec-cert-gen -s /ndn/ site.key > site.cert
+</pre>
+
+6. Copy the site certificate to the site server and install it:
+<pre>
+$ ndnsec-cert-install -f site.cert
+</pre>
+
