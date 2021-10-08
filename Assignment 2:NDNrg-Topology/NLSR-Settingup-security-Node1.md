@@ -147,3 +147,23 @@ $ ping <remote-ip-address>
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ping-remote-pc2.png)
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~$ ping 192.168.56.103
+PING 192.168.56.103 (192.168.56.103) 56(84) bytes of data.
+64 bytes from 192.168.56.103: icmp_seq=1 ttl=64 time=1.81 ms
+64 bytes from 192.168.56.103: icmp_seq=2 ttl=64 time=1.00 ms
+64 bytes from 192.168.56.103: icmp_seq=3 ttl=64 time=1.10 ms
+64 bytes from 192.168.56.103: icmp_seq=4 ttl=64 time=0.981 ms
+64 bytes from 192.168.56.103: icmp_seq=5 ttl=64 time=0.896 ms
+64 bytes from 192.168.56.103: icmp_seq=6 ttl=64 time=1.01 ms
+64 bytes from 192.168.56.103: icmp_seq=7 ttl=64 time=1.02 ms
+64 bytes from 192.168.56.103: icmp_seq=8 ttl=64 time=0.919 ms
+64 bytes from 192.168.56.103: icmp_seq=9 ttl=64 time=0.751 ms
+64 bytes from 192.168.56.103: icmp_seq=10 ttl=64 time=0.988 ms
+64 bytes from 192.168.56.103: icmp_seq=11 ttl=64 time=1.06 ms
+
+--- 192.168.56.103 ping statistics ---
+72 packets transmitted, 72 received, 0% packet loss, time 71633ms
+rtt min/avg/max/mdev = 0.313/0.950/1.813/0.207 ms
+bertopeng17-1@NDN-Node1-ITB:~$ 
+</pre>
