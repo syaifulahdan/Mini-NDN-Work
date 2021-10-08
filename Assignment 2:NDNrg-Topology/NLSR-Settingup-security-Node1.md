@@ -11,3 +11,19 @@ Configuring security in an NDN network requires to generate, exchange and instal
 
 ![alt img](https://named-data.net/doc/NLSR/current/_images/security_comp.png)
 
+
+1. At the root server, generate the root key:
+
+<pre>
+$ ndnsec-key-gen /ndn/ > root.key
+</pre>
+
+2. Generate the certificate for the root key at the root server:
+<pre>
+$ ndnsec-cert-dump -i /ndn/ > root.cert
+</pre>
+
+3. Install the root certificate at the root server:
+<pre>
+$ ndnsec-cert-install -f root.cert
+<pre>
