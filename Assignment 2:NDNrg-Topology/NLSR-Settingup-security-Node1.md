@@ -47,8 +47,19 @@ $ ndnsec-key-gen /ndn/ndnrg/itb > site.key
 $ ndnsec-cert-gen -s /ndn/ site.key > site.cert
 </pre>
 
+
 6. Copy the site certificate to the site server and install it:
 <pre>
 $ ndnsec-cert-install -f site.cert
 </pre>
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-install-sitecert-node1.png)
+<pre>
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ndnrg/itb > site.key
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f site.cert 
+OK: certificate with name [/ndn/ndnrg/itb/KEY/%E9%F8%81%C1S~%93%21/NA/v=1633688444541] has been successfully installed
+root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+</pre>
+
 
