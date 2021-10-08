@@ -7,7 +7,7 @@ Instructions on how to use the configuration file are already provided at the NL
 <b>AT general SECTION:</b>
 <pre>
 {
-  <b>network /ndn/</b>                              ; name of the network ITB
+  <b>network /ndn/</b>                              <i>; name of the network ITB</i>
   <b>site /ndnrg/itb</b>                            ; name of the site ITB
   <b>router /%C1.Router/RouterX</b>                 ; name of the router: router1-ITB
 }
