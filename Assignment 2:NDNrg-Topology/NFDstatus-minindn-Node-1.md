@@ -22,8 +22,6 @@ mini-ndn> nfdc status report
 
 
 will show the results as below
-<pre>
- .......
-</pre>
+
 [[Detail Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-a.txt)
 
