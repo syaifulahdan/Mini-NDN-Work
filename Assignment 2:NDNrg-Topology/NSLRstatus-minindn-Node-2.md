@@ -22,8 +22,6 @@ mini-ndn> a nlsrc status
 
 
 will show the results as below
-<pre>
- .......
-</pre>
+
 [[Detail Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2-Works/nslr-status-node-a.txt)
 
