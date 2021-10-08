@@ -79,12 +79,14 @@ $ ndnsec-cert-install -f op.cert
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-operatorcert-node2.png)
+
 <pre>
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ndnrg/itb/%C1.Operator/op > op.key
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/itb/ op.key > op.cert
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f op.cert
-OK: certificate with name [/ndn/ndnrg/itb/%C1.Operator/op/KEY/o%1D%1D%E6%AF%C5%FDk/NA/v=1633689386465] has been successfully installed
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# 
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Operator/op > op.key
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti op.key > op.cert
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068] has been successfully installed
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+
 </pre>
 
 10. At the router, generate the router key:
