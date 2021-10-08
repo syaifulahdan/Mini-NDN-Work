@@ -30,10 +30,19 @@
  ### 2.2. Install Node 2   
  - Installing ndn-cxx [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
  - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
-   - NLSR Installation Instructions [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-2.md)   
+ - Sync libraries 
    - Installing PSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-PSync-nodeNDN-Node-2.md)
    - Installing ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Chronosync-nodeNDN-Node-2.md)
-   - Installing Mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-mininet-nodeNDN-Node-2.md)
+ - NLSR
+   - NLSR Installation Instructions [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NLSR-nodeNDN-Node-2.md)    - Router Configuration [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/router-config-Node-1.md)
+   - Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Configuring-Node1.md)
+   - Configuring & Testing NLSR
+   - Setup the Security [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Settingup-security-Node1.md)
+   - Configuring The Network
+   - Setting Up the Configuration
+   - Starting NLSR  
+
+- Installing Mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-mininet-nodeNDN-Node-2.md)
    - Installing InfoeEdit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Infoedit-2.md)
    - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-2.md)
 
