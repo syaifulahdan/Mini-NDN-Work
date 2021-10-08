@@ -8,8 +8,8 @@ Instructions on how to use the configuration file are already provided at the NL
 <pre>
 {
   <b>network /ndn/</b>                              <i>; name of the network ITB</i>
-  <b>site /ndnrg/itb</b>                            ; name of the site ITB
-  <b>router /%C1.Router/RouterX</b>                 ; name of the router: router1-ITB
+  <b>site /ndnrg/itb</b>                            <i>; name of the site ITB</i>
+  <b>router /%C1.Router/RouterX</b>                 <i>; name of the router: router1-ITB</i>
 }
 </pre>
 
