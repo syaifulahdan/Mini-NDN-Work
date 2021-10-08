@@ -166,7 +166,7 @@ This guide recommends that one machine functions as the root, site, operator and
 Additionally, the following command may be used to print a list and a brief description of all the ndnsec commands:
 
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design2.png)
 
 <b>Configuring the network</b>
 
@@ -180,7 +180,8 @@ Once the physical network and network cards have been configured, it is necessar
 $ ping <remote-ip-address>
 </pre>
 
-![alt img] (https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ping-remote-pc2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-ping-remote-pc2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design.png)
 
 
 <pre>
