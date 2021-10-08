@@ -26,7 +26,7 @@ $ ndnsec-cert-dump -i /ndn/ > root.cert
 3. Install the root certificate at the root server:
 <pre>
 $ ndnsec-cert-install -f root.cert
-<pre>
+</pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/nslr-install-rootcert-node1.png.png)
 <pre>
