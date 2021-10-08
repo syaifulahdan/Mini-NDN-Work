@@ -30,11 +30,12 @@ $ ndnsec-cert-install -f root.cert
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-rootcert-node2.png)
 <pre>
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-key-gen /ndn/ > root.key
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR# ndnsec-cert-install -f root.cert
-OK: certificate with name [/ndn/KEY/%16%D0%E4%8E%950R4/self/v=1633687187749] has been successfully installed
-root@NDN-Node1-ITB:/home/bertopeng17-1/NLSR#
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f root.cert
+OK: certificate with name [/ndn/KEY/%C7%96%E1%E8w%C8-%0B/self/v=1633716835538] has been successfully installed
+root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+
 </pre>
 
 4. At the site server, generate the site key:
