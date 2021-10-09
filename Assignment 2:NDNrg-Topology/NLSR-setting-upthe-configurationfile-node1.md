@@ -80,11 +80,13 @@ The following text shows the modified instructions for router2: <b>(RouterX2)</b
 <pre>
 {
   network /ndn/                    ; name of the network
-  site /edu/uaslp                  ; name of the site
-  router /%C1.Router/router2       ; name of the router: router2
+  site /ndnrg/uti                  ; name of the site
+  router /%C1.Router/routerX2      ; name of the router: router2
 }
+</pre>
 
-;AT neighbors SECTION:
+<b>AT neighbors SECTION:</b>
+<pre>
 neighbors
 {
   neighbor
@@ -94,6 +96,7 @@ neighbors
     link-cost 30                             ; cost of the link
   }
 }
+</pre>
 
 ; AT advertising SECTION:
 advertising
