@@ -1,8 +1,8 @@
 ### Setting up the configuration file <b>nlsr.conf</b> Router ITB
-
+***
 Source : https://named-data.net/doc/NLSR/current/beginners-guide.html#ndnnfdusage
 Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router1 <b>(RouterX)</b>:
-
+***
 
 <b>AT general SECTION:</b>
 <pre>
