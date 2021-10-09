@@ -28,15 +28,17 @@ neighbors
 
 </pre>
 
+<b>AT advertising SECTION:</b>
 <pre>
-; AT advertising SECTION:
 advertising
 {
   prefix /ndn/ndnrg/itb/telmat/residen       ; Advertising destinations
   prefix /ndn/ndnrg/itb/telmat/labipnet      ; for router1
 }
+</pre>
 
-; AT security SECTION:
+<b>AT security SECTION:</b>
+<pre>
 security
 {
   validator
@@ -67,10 +69,12 @@ security
 
   cert-to-publish "routerX.cert"   ; router1 certificate file
 }
+</pre>
 
 The following text shows the modified instructions for router2:
 
-; AT general SECTION:
+<b>AT general SECTION:</b>
+<pre>
 {
   network /ndn/                    ; name of the network
   site /edu/uaslp                  ; name of the site
