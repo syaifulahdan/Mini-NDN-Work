@@ -91,9 +91,9 @@ neighbors
 {
   neighbor
   {
-    name /ndn/edu/uaslp/%C1.Router/router1   <i>; Neighbor router: router1-ITB<i/>
-    face-uri  udp://192.168.56.101          <i>; face to the neighbor (IP Router ITB)<i/>
-    link-cost 30                             <i>; cost of the link<i/>
+    name /ndn/edu/uaslp/%C1.Router/router1   <i>; Neighbor router: router1-ITB</i>
+    face-uri  udp://192.168.56.101          <i>; face to the neighbor (IP Router ITB)</i>
+    link-cost 30                             <i>; cost of the link</i>
   }
 }
 </pre>
