@@ -20,9 +20,9 @@ neighbors
 {
   neighbor
   {
-    <b>name /ndn/ndnrg/itb/%C1.Router/RouterX2</b>   ; Neighbor router: router2-UTI
-    <b>face-uri  udp://192.168.56.103</b>	        ; face to the neighbor (IP Router UTI)
-    <b>link-cost 25</b>                           ; cost of the link Router UTI
+    <b>name /ndn/ndnrg/itb/%C1.Router/RouterX2</b>   <i>; Neighbor router: router2-UTI</i>
+    <b>face-uri  udp://192.168.56.103</b>	          <i>; face to the neighbor (IP Router UTI)</i>
+    <b>link-cost 25</b>                           <i>; cost of the link Router UTI</i>
   }
 }
 
@@ -79,9 +79,9 @@ The following text shows the modified instructions for router2: <b>(RouterX2)</b
 <b>AT general SECTION:</b>
 <pre>
 {
-  network /ndn/                    ; name of the network
-  site /ndnrg/uti                  ; name of the site
-  router /%C1.Router/routerX2      ; name of the router: router2
+  network /ndn/                    <i>; name of the network UTI</i>
+  site /ndnrg/uti                  <i>; name of the site UTI</i>
+  router /%C1.Router/routerX2      <i>; name of the router: router2-UTI</i>
 }
 </pre>
 
@@ -91,14 +91,15 @@ neighbors
 {
   neighbor
   {
-    name /ndn/edu/uaslp/%C1.Router/router1   ; Neighbor router: router1
-    face-uri  udp://140.220.80.121           ; face to the neighbor
-    link-cost 30                             ; cost of the link
+    name /ndn/edu/uaslp/%C1.Router/router1   <i>; Neighbor router: router1-ITB<i/>
+    face-uri  udp://192.168.56.101          <i>; face to the neighbor (IP Router ITB)<i/>
+    link-cost 30                             <i>; cost of the link<i/>
   }
 }
 </pre>
 
-; AT advertising SECTION:
+<b>AT advertising SECTION:</b>
+<pre>
 advertising
 {
   prefix /ndn/edu/uaslp/labs/networks        ; Advertising destinations
