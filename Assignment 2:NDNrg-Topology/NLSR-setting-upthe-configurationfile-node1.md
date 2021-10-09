@@ -67,7 +67,7 @@ security
 
   cert-to-publish "op.cert"        ; operator certificate file
 
-  cert-to-publish "routerX.cert"   ; router1 certificate file
+  <b>cert-to-publish "routerX.cert"</b>   ; router1 certificate file
 }
 </pre>
 
@@ -134,7 +134,7 @@ security
   }                                ; router2
 
   ...
-  cert-to-publish "router2.cert"   ; router2 certificate file
+  <b>cert-to-publish "routerX2.cert</b>"   ; router2 certificate file
 }
 
 
