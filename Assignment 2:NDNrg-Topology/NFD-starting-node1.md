@@ -9,3 +9,4 @@ The second terminal will be used to monitor the NFD status:
 <pre>
 $ nfd-status
 </pre>
+c
