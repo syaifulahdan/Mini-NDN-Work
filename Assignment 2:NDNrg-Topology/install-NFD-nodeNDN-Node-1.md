@@ -59,6 +59,8 @@ Checking for 'libsystemd'                : **not found**
  
 checking for header valgrind/valgrind.h  : **not found**
 
+Valgrint Not Found <b>Solution</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFD-ErrorSolution-Notfound-valgrint-Node-1.md)
+
 Show Document .waf configure : [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfd1-waf-configure.txt)
 
 <pre>
