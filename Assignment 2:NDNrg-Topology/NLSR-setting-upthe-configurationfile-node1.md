@@ -70,9 +70,12 @@ security
   cert-to-publish "routerX.cert"   ; router1 certificate file
 }
 </pre>
-***
-The following text shows the modified instructions for router2:
 
+***
+### Setting up the configuration file <b>nlsr.conf</b> Router UTI
+
+The following text shows the modified instructions for router2: <b>(RouterX2)</b>:
+***
 <b>AT general SECTION:</b>
 <pre>
 {
