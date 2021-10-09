@@ -32,8 +32,8 @@ neighbors
 <pre>
 advertising
 {
-  prefix /ndn/ndnrg/itb/telmat/residen       ; Advertising destinations
-  prefix /ndn/ndnrg/itb/telmat/labipnet      ; for router1
+  <b>prefix /ndn/ndnrg/itb/telmat/residen</b>       ; Advertising destinations
+  <b>prefix /ndn/ndnrg/itb/telmat/labipnet</b>      ; for router1-ITB
 }
 </pre>
 
@@ -91,22 +91,26 @@ neighbors
 {
   neighbor
   {
-    name /ndn/edu/uaslp/%C1.Router/router1   <i>; Neighbor router: router1-ITB</i>
-    face-uri  udp://192.168.56.101          <i>; face to the neighbor (IP Router ITB)</i>
-    link-cost 30                             <i>; cost of the link</i>
+    <b>name /ndn/edu/uaslp/%C1.Router/routerX</b>   <i>; Neighbor router: router1-ITB</i>
+    <b>face-uri  udp://192.168.56.101</b>          <i>; face to the neighbor (IP Router ITB)</i>
+    <b>link-cost 30</b>                             <i>; cost of the link</i>
   }
 }
 </pre>
 
 <b>AT advertising SECTION:</b>
+
 <pre>
 advertising
 {
-  prefix /ndn/edu/uaslp/labs/networks        ; Advertising destinations
-  prefix /ndn/edu/uaslp/labs/hardware        ; for router2
+  <b>prefix /ndn/edu/uaslp/labs/networks</b>        ; Advertising destinations
+  <b>prefix /ndn/edu/uaslp/labs/hardware</b>        ; for router2-UTI
 }
+</pre>
 
-; AT security SECTION:
+<b>AT security SECTION:</b>
+
+<pre>
 security
 {
   validator
@@ -117,7 +121,7 @@ security
       type file
       file-name "root.cert"        ; root certificate file
     }                              ; this file needs to be copied to
-  }                                ; router2
+  }                                ; router2-UTI
 
   prefix-update-validator
   {
