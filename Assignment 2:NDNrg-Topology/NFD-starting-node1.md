@@ -11,3 +11,8 @@ $ nfd-status
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Opentwoterminal-node1.png)
+
+Employ the following command to configure each face that a computer uses to connect to a neighboring computer:
+<pre>
+$ nfdc face create udp4://<remote-ip-address>
+</pre>
