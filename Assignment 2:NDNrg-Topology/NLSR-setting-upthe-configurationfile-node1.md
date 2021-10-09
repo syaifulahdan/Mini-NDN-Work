@@ -103,8 +103,8 @@ neighbors
 <pre>
 advertising
 {
-  <b>prefix /ndn/edu/uaslp/labs/networks</b>        ; Advertising destinations
-  <b>prefix /ndn/edu/uaslp/labs/hardware</b>        ; for router2-UTI
+  <b>prefix /ndn/ndnrg/uti/ftik/labnetwokr</b>        ; Advertising destinations
+  <b>prefix /ndn/edu/uaslp/ftik/labict</b>            ; for router2-UTI
 }
 </pre>
 
