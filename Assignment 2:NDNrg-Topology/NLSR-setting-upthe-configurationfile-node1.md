@@ -70,7 +70,7 @@ security
   cert-to-publish "routerX.cert"   ; router1 certificate file
 }
 </pre>
-
+***
 The following text shows the modified instructions for router2:
 
 <b>AT general SECTION:</b>
