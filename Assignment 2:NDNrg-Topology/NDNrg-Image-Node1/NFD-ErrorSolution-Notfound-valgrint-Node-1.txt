@@ -1,0 +1,66 @@
+bertopeng17-1@NDN-Node1-ITB:~/NFD$  sudo apt-get update -y 
+Hit:1 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic InRelease
+Hit:2 http://us.archive.ubuntu.com/ubuntu bionic InRelease                                     
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease                              
+Hit:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease                                            
+Hit:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease               
+Hit:6 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic InRelease
+Reading package lists... Done                 
+bertopeng17-1@NDN-Node1-ITB:~/NFD$ sudo apt-get install -y valgrind
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  efibootmgr fonts-liberation2 fonts-opensymbol gstreamer1.0-gtk3 gyp libabw-0.1-1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libexttextcat-2.0-0 libexttextcat-data
+  libfreehand-0.1-1 libfwup1 libgpgmepp6 libjs-async libjs-inherits libjs-node-uuid liblangtag-common liblangtag1 libllvm9 libmhash2 libmspub-0.1-1 libmwaw-0.3-3 libmythes-1.2-0 libneon27-gnutls libodfgen-0.1-1 liborcus-0.13-0 libpagemaker-0.0-0 libraptor2-0
+  librasqal3 librdf0 librevenge-0.0-0 libuv1-dev libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1-nss libyajl2 lp-solve node-abbrev node-ansi node-ansi-color-table node-archy node-async node-balanced-match node-block-stream
+  node-brace-expansion node-combined-stream node-concat-map node-cookie-jar node-delayed-stream node-forever-agent node-form-data node-fs.realpath node-fstream node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-hosted-git-info
+  node-inflight node-inherits node-ini node-isexe node-json-stringify-safe node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-once node-osenv node-path-is-absolute node-pseudomap node-qs
+  node-read node-request node-retry node-rimraf node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse node-spdx-license-ids node-tar node-tunnel-agent node-underscore node-validate-npm-package-license node-which node-wrappy node-yallist
+  uno-libs3 ure
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  valgrind-dbg valgrind-mpi kcachegrind alleyoop valkyrie
+The following NEW packages will be installed:
+  valgrind
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 14.3 MB of archives.
+After this operation, 74.0 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 valgrind amd64 1:3.13.0-2ubuntu2.3 [14.3 MB]
+Fetched 14.3 MB in 18s (798 kB/s)                                                                                                                                                                                                                                     
+Selecting previously unselected package valgrind.
+(Reading database ... 198461 files and directories currently installed.)
+Preparing to unpack .../valgrind_1%3a3.13.0-2ubuntu2.3_amd64.deb ...
+Unpacking valgrind (1:3.13.0-2ubuntu2.3) ...
+Setting up valgrind (1:3.13.0-2ubuntu2.3) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+bertopeng17-1@NDN-Node1-ITB:~/NFD$ ./waf configure
+Setting top to                           : /home/bertopeng17-1/NFD 
+Setting out to                           : /home/bertopeng17-1/NFD/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking C++ compiler version            : 7.5.0 
+Checking supported CXXFLAGS              : -std=c++14 
+Checking supported LINKFLAGS             : -fuse-ld=gold 
+Checking for program 'doxygen'           : /usr/bin/doxygen 
+Checking for program 'tar'               : /bin/tar 
+Checking for program 'sphinx-build'      : /home/bertopeng17-1/.local/bin/sphinx-build 
+Checking for program 'bash'              : /bin/bash 
+Checking for program 'dot'               : /usr/bin/dot 
+Checking for program 'pkg-config'        : /usr/bin/pkg-config 
+Checking for 'libndn-cxx'                : yes 
+Checking for 'libsystemd'                : yes 
+Checking for librt library               : yes 
+Checking for libresolv library           : yes 
+Checking if privilege drop/elevation is supported : yes 
+Checking for header valgrind/valgrind.h           : yes 
+Checking for program 'dpkg-architecture'          : /usr/bin/dpkg-architecture 
+Checking boost includes                           : 1.65.1 
+Checking boost libs                               : boost_system boost_program_options boost_filesystem 
+Checking for boost linkage                        : ok 
+Checking if Unix sockets are supported            : yes 
+Checking for libpcap library                      : yes 
+Checking for WebSocket++ includes                 : 0.8.1 
+Checking supported CXXFLAGS                       : -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color 
+Checking supported LINKFLAGS                      : -Wl,-O1 
+'configure' finished successfully (1.577s)
+bertopeng17-1@NDN-Node1-ITB:~/NFD$ 
