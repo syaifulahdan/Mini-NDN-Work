@@ -9,4 +9,5 @@ The second terminal will be used to monitor the NFD status:
 <pre>
 $ nfd-status
 </pre>
-c
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Opentwoterminal-node1.png)
