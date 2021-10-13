@@ -135,7 +135,7 @@ faceid=260 remote=udp4://224.0.23.170:56363 local=udp4://10.0.2.15:56312 congest
 faceid=263 remote=udp6://[ff02::1234%enp0s3]:56363 local=udp6://[fe80::b71f:eb9e:f52:20d%enp0s3]:32935 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
 faceid=264 remote=udp6://[ff02::1234%enp0s8]:56363 local=udp6://[fe80::8087:517a:6a1a:6c59%enp0s8]:39559 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
 faceid=265 remote=udp6://[ff02::1234%enp0s9]:56363 local=udp6://[fe80::31e9:8e5d:fcec:171f%enp0s9]:59101 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-faceid=268 remote=udp4://192.168.56.103:6363 local=udp4://192.168.56.104:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local persistent point-to-point congestion-marking}
+<b>faceid=268 remote=udp4://192.168.56.103:6363 local=udp4://192.168.56.104:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800</b> counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local persistent point-to-point congestion-marking}
 faceid=269 remote=fd://47 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={1i 0d 0n 43B} out={0i 0d 0n 0B}} flags={local on-demand point-to-point congestion-marking}
 bertopeng17-2@NDN-Node2-UTI:~$ 
 
