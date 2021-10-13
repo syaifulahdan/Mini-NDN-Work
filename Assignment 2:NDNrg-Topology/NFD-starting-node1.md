@@ -178,10 +178,7 @@ In order to stop NLSR and NFD, the following sequence of events is recommended:
 $ nfdc face destroy <face-id>
 $ nfdc face destroy udp4://<remote-ip-address>
 </pre>
-3. Stop NFD by entering the following command at the second terminal window:
-<pre>
-$ nfd-stop
-</pre>
+
 
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face destroy 261</b>
@@ -192,3 +189,8 @@ bertopeng17-1@NDN-Node1-ITB:~$
 </pre>
 
 ![img alt](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-facedestroy-node1.png)
+
+3. Stop NFD by entering the following command at the second terminal window:
+<pre>
+$ nfd-stop
+</pre>
