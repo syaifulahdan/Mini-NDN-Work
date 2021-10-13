@@ -17,10 +17,6 @@ $ nfd-start
 This command does not properly allow to employ the command window to enter new commands; however it displays the NFD logs. Therefore, it is recommended to open a new command window. This second window may be used to verify NDF’s status and then stop NFD by using the following commands:
 
 
-
-
-
-
 $ nfd-status
 </pre>
 
@@ -30,3 +26,5 @@ Employ the following command to configure each face that a computer uses to conn
 <pre>
 $ nfdc face create udp4://<remote-ip-address>
 </pre>
+
+
