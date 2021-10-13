@@ -113,5 +113,5 @@ bertopeng17-2@NDN-Node2-UTI:~$
 
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/ndn-face-create-node1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NFD-Image-Node2/ndn-face-create-node2.png)
 .
