@@ -94,6 +94,8 @@ Strategy choices:
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
 
+View FIle Otuput [[NFD Status]](https://github.com/syaifulahdan/Mini-NDN-Work/tree/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1)
+
 4.Employ the following command to configure each face that a computer uses to connect to a neighboring computer:
 <pre>
 $ nfdc face create udp4://<remote-ip-address>
