@@ -190,3 +190,5 @@ bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face destroy udp4://192.168.56.101</b>
 face-destroyed id=267 local=udp4://192.168.56.101:6363 remote=udp4://192.168.56.101:6363 persistency=persistent reliability=off congestion-marking=off
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
+
+![img alt](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-facedestroy-node1.png)
