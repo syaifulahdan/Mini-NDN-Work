@@ -145,3 +145,16 @@ View FIle Otuput [[NFD Face List]](https://github.com/syaifulahdan/Mini-NDN-Work
 <pre>
 $ nfdc face show id <face-id>
 </pre>
+
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~$ nfdc face show id 261
+faceid=261
+    remote=udp4://224.0.23.170:56363
+     local=udp4://192.168.56.101:57542
+congestion={base-marking-interval=100ms default-threshold=65536B}
+       mtu=8800
+  counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}}
+     flags={non-local permanent multi-access congestion-marking}
+</pre>
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/nfdc-faceshowid-node1.png)
