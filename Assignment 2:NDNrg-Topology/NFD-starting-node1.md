@@ -33,7 +33,5 @@ $ nfd-status
 $ nfdc face create udp4://<remote-ip-address>
 </pre>
 
-<pre>
-$ nfd-stop
-</pre>
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/network%20ITB.png)
 
