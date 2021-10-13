@@ -168,3 +168,18 @@ bertopeng17-1@NDN-Node1-ITB:~$
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/nfdc-faceshowid-node1.png)
+
+#### 6. Turning everything off:
+In order to stop NLSR and NFD, the following sequence of events is recommended:
+1. Stop NLSR / NFD by pressing the Ctrl+C keys at the third terminal window.
+2. Destroy the face to the remote computers using either of the following two commands at the second terminal window:
+
+<pre>
+$ nfdc face destroy <face-id>
+$ nfdc face destroy udp4://<remote-ip-address>
+</pre>
+3. Stop NFD by entering the following command at the second terminal window:
+<pre>
+$ nfd-stop
+</pre>
+
