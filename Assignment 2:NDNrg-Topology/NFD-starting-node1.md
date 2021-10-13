@@ -8,7 +8,7 @@ $ cp /usr/local/etc/ndn/nfd.conf.sample /usr/local/etc/ndn/nfd.conf
 </pre>
 
 
-2. After the configuration file has been created, NFD’s behavior may be changed by modifying this file. Once the configuration file has been created, it is recommended to start NFD by using the following command:
+#### 2. After the cIn order to stop NLSR and NFD, the following sequence of events is recommended:onfiguration file has been created, NFD’s behavior may be changed by modifying this file. Once the configuration file has been created, it is recommended to start NFD by using the following command:
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Opentwoterminal-node1.png)
 
@@ -19,7 +19,7 @@ $ nfd-start
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Start-node1.png)
 
-3.This command does not properly allow to employ the command window to enter new commands; however it displays the NFD logs. Therefore, it is recommended to open a new command window. This second window may be used to verify NDF’s status and then stop NFD by using the following commands:
+#### 3.This command does not properly allow to employ the command window to enter new commands; however it displays the NFD logs. Therefore, it is recommended to open a new command window. This second window may be used to verify NDF’s status and then stop NFD by using the following commands:
 
 <pre>
 $ nfd-status
@@ -96,7 +96,7 @@ bertopeng17-1@NDN-Node1-ITB:~$
 
 View FIle Otuput [[NFD Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfd-status-node1.txt)
 
-4.Employ the following command to configure each face that a computer uses to connect to a neighboring computer:
+#### 4.Employ the following command to configure each face that a computer uses to connect to a neighboring computer:
 <pre>
 $ nfdc face create udp4://<remote-ip-address>
 </pre>
@@ -113,7 +113,7 @@ bertopeng17-1@NDN-Node1-ITB:~$
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/ndn-face-create-node1.png)
 
-5. The face id may be displayed by running either nfd-status or:
+#### 5. The face id may be displayed by running either nfd-status or:
 <pre>
 $ nfdc face list
 </pre>
