@@ -33,4 +33,7 @@ $ nfd-status
 $ nfdc face create udp4://<remote-ip-address>
 </pre>
 
+<pre>
+$ nfd-stop
+</pre>
 
