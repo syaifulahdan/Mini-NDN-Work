@@ -39,7 +39,7 @@
      - Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Configuring-Node2.md)
      - Setup the Security [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Settingup-security-Node2.md)
      - Configuring The Network
-     - Setting Up the Configuration
+     - Setting Up the Configuration file : nlsr-uti.conf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node2.md)
      - Starting NLSR  
    - NFD
       - Configuring the Network [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFD-configuring-network-node2.md)
