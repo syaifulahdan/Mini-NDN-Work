@@ -148,23 +148,23 @@ $ nfdc face show id <face-id>
 </pre>
 
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face show id 261</b>
+bertopeng17-2@NDN-Node2-UTI:~$ nfdc face show id 261
     faceid=261
     remote=udp4://224.0.23.170:56363
-     <b>local=udp4://192.168.56.101:57542</b>
+     <b>local=udp4://192.168.56.103:53387</b>
 congestion={base-marking-interval=100ms default-threshold=65536B}
        mtu=8800
   counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}}
      flags={non-local permanent multi-access congestion-marking}
-bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face show id 262</b>
+bertopeng17-2@NDN-Node2-UTI:~$ nfdc face show id 262
     faceid=262
     remote=udp4://224.0.23.170:56363
-     <b>local=udp4://192.168.59.3:35940</b>
+     <b>local=udp4://192.168.57.4:34371</b>
 congestion={base-marking-interval=100ms default-threshold=65536B}
        mtu=8800
   counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}}
      flags={non-local permanent multi-access congestion-marking}
-bertopeng17-1@NDN-Node1-ITB:~$ 
+bertopeng17-2@NDN-Node2-UTI:~$ 
 
 </pre>
 
