@@ -183,3 +183,10 @@ $ nfdc face destroy udp4://<remote-ip-address>
 $ nfd-stop
 </pre>
 
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face destroy 261</b>
+face-destroyed id=261 local=udp4://192.168.56.101:57542 remote=udp4://224.0.23.170:56363 persistency=permanent reliability=off congestion-marking=off
+bertopeng17-1@NDN-Node1-ITB:~$ <b>nfdc face destroy udp4://192.168.56.101</b>
+face-destroyed id=267 local=udp4://192.168.56.101:6363 remote=udp4://192.168.56.101:6363 persistency=persistent reliability=off congestion-marking=off
+bertopeng17-1@NDN-Node1-ITB:~$ 
+</pre>
