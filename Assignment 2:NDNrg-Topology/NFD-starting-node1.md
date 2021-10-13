@@ -25,7 +25,7 @@ $ nfd-start
 $ nfd-status
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Status-node1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-Start-node1.png)
 
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ nfd-status
