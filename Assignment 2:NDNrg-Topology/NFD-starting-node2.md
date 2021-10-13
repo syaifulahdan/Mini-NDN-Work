@@ -103,7 +103,7 @@ $ nfdc face create udp4://<remote-ip-address>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NFD-Image-Node2/NetworkUTI.png)
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$ nfdc face create udp://192.168.56.103
+bertopeng17-2@NDN-Node2-UTI:~$ nfdc face create udp://192.168.56.103
 </pre>
 
 <pre>
