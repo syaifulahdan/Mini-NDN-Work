@@ -94,7 +94,7 @@ bertopeng17-2@NDN-Node2-UTI:~$
 
 </pre>
 
-View FIle Otuput [[NFD Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfd-status-node2.txt)
+View FIle Otuput [[NFD Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nfd-status-node2.txt)
 
 4.Employ the following command to configure each face that a computer uses to connect to a neighboring computer:
 <pre>
