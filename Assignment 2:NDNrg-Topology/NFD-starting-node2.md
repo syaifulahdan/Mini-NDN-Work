@@ -121,24 +121,24 @@ $ nfdc face list
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-nfdc-facelist-node1.png)
 
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$ nfdc face list
-faceid=1 remote=internal:// local=internal:// congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 104d 0n 122368B} out={412i 0d 0n 24405B}} flags={local permanent point-to-point local-fields}
+bertopeng17-2@NDN-Node2-UTI:~$ nfdc face list
+faceid=1 remote=internal:// local=internal:// congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 63d 0n 55302B} out={212i 0d 0n 12532B}} flags={local permanent point-to-point local-fields}
 faceid=254 remote=contentstore:// local=contentstore:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
 faceid=255 remote=null:// local=null:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
 faceid=256 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s3 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
 faceid=257 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s8 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
 faceid=258 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s9 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
-faceid=259 remote=fd://36 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={403i 1d 0n 19930B} out={1i 84d 0n 114620B}} flags={local on-demand point-to-point local-fields congestion-marking}
-faceid=260 remote=udp4://224.0.23.170:56363 local=udp4://10.0.2.15:34860 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-<b>faceid=261 remote=udp4://224.0.23.170:56363 local=udp4://192.168.56.101:57542 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800</b> counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-<b>faceid=262 remote=udp4://224.0.23.170:56363 local=udp4://192.168.59.3:35940 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800</b>
-counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-faceid=263 remote=udp6://[ff02::1234%enp0s3]:56363 local=udp6://[fe80::58ac:acc1:5451:d1f5%enp0s3]:56910 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-faceid=264 remote=udp6://[ff02::1234%enp0s8]:56363 local=udp6://[fe80::2bf0:93fb:9782:15a4%enp0s8]:41852 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-faceid=265 remote=udp6://[ff02::1234%enp0s9]:56363 local=udp6://[fe80::5dc4:8d00:8779:3369%enp0s9]:38523 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
-faceid=267 remote=udp4://192.168.56.101:6363 local=udp4://192.168.56.101:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local persistent point-to-point congestion-marking}
-faceid=270 remote=fd://49 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={1i 0d 0n 43B} out={0i 0d 0n 0B}} flags={local on-demand point-to-point congestion-marking}
-bertopeng17-1@NDN-Node1-ITB:~$ 
+faceid=259 remote=fd://34 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={204i 1d 0n 10103B} out={1i 45d 0n 50218B}} flags={local on-demand point-to-point local-fields congestion-marking}
+faceid=260 remote=udp4://224.0.23.170:56363 local=udp4://10.0.2.15:56312 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=261 remote=udp4://224.0.23.170:56363 local=udp4://192.168.56.104:41431 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=262 remote=udp4://224.0.23.170:56363 local=udp4://192.168.57.6:48022 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=263 remote=udp6://[ff02::1234%enp0s3]:56363 local=udp6://[fe80::b71f:eb9e:f52:20d%enp0s3]:32935 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=264 remote=udp6://[ff02::1234%enp0s8]:56363 local=udp6://[fe80::8087:517a:6a1a:6c59%enp0s8]:39559 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=265 remote=udp6://[ff02::1234%enp0s9]:56363 local=udp6://[fe80::31e9:8e5d:fcec:171f%enp0s9]:59101 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+faceid=268 remote=udp4://192.168.56.103:6363 local=udp4://192.168.56.104:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local persistent point-to-point congestion-marking}
+faceid=269 remote=fd://47 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={1i 0d 0n 43B} out={0i 0d 0n 0B}} flags={local on-demand point-to-point congestion-marking}
+bertopeng17-2@NDN-Node2-UTI:~$ 
+
 </pre>
 View FIle Otuput [[NFD Face List]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfdc-facelist.txt)
 
