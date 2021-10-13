@@ -138,4 +138,5 @@ faceid=267 remote=udp4://192.168.56.101:6363 local=udp4://192.168.56.101:6363 co
 faceid=270 remote=fd://49 local=unix:///run/nfd.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={1i 0d 0n 43B} out={0i 0d 0n 0B}} flags={local on-demand point-to-point congestion-marking}
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
+View FIle Otuput [[NFD Face List]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nfdc-facelist.txt)
 
