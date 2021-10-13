@@ -118,7 +118,7 @@ bertopeng17-2@NDN-Node2-UTI:~$
 <pre>
 $ nfdc face list
 </pre>
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/NFD-nfdc-facelist-node1.png)
+![https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NFD-Image-Node2/NFD-nfdc-facelist-node2.png)
 
 <pre>
 bertopeng17-2@NDN-Node2-UTI:~$ nfdc face list
