@@ -16,8 +16,8 @@ $ export NDN_LOG=nlsr.*=TRACE && nlsr -f <configuration-file>
 bertopeng17-1@NDN-Node1-ITB:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-1/NLSR/nlsr-itb.conf 
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/NLSR-start-node2-1.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/NLSR-start-node2-2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/NLSR-start-node1-1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NLSR-Image-Node1/NLSR-start-node1-2.png)
 
 
 <pre>
