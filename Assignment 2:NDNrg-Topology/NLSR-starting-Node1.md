@@ -21,92 +21,93 @@ bertopeng17-1@NDN-Node1-ITB:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bert
 
 
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-2/NLSR/nlsr-uti.conf 
-Wrong configuration section: hello-retries
-Wrong configuration section: hello-timeout
-Wrong configuration section: hello-interval
-Wrong configuration section: adj-lsa-build-interval
-Wrong configuration section: face-dataset-fetch-tries
-Wrong configuration section: face-dataset-fetch-interval
-1634157068.615748 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/KEY/%C7%96%E1%E8w%C8-%0B/self/v=1633716835538
-1634157068.616029 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473
-1634157068.616320 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068
-1634157068.616504 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400
-1634157068.616637  INFO: [nlsr.ConfParameter] Router Name: /%C1.Router/RouterX2
-1634157068.616675  INFO: [nlsr.ConfParameter] Site Name: /ndnrg/uti
-1634157068.616684  INFO: [nlsr.ConfParameter] Network: /ndn
-1634157068.616690  INFO: [nlsr.ConfParameter] Router Prefix: /ndn/ndnrg/uti/%C1.Router/RouterX2
-1634157068.616702  INFO: [nlsr.ConfParameter] Sync Prefix: /localhop/ndn/nlsr/sync/v=10
-1634157068.616713  INFO: [nlsr.ConfParameter] Sync LSA prefix: /localhop/ndn/nlsr/LSA
-1634157068.616721  INFO: [nlsr.ConfParameter] Hello Interest retry number: 3
-1634157068.616728  INFO: [nlsr.ConfParameter] Hello Interest resend second: 1
-1634157068.616734  INFO: [nlsr.ConfParameter] Info Interest interval: 60
-1634157068.616740  INFO: [nlsr.ConfParameter] LSA refresh time: 1800
-1634157068.616746  INFO: [nlsr.ConfParameter] FIB Entry refresh time: 3600
-1634157068.616752  INFO: [nlsr.ConfParameter] LSA Interest lifetime: 4 seconds
-1634157068.616800  INFO: [nlsr.ConfParameter] Router dead interval: 3600
-1634157068.616818  INFO: [nlsr.ConfParameter] Max Faces Per Prefix: 3
-1634157068.616823  INFO: [nlsr.ConfParameter] State Directory: /var/lib/nlsr
-1634157068.616890  INFO: [nlsr.ConfParameter] Adjacency LSA build interval:  10
-1634157068.616901  INFO: [nlsr.ConfParameter] Routing calculation interval:  15
-1634157068.616909 DEBUG: [nlsr.ConfParameter] Initializing Key ...
-1634157068.617667  WARN: [nlsr.ConfParameter] Identity /ndn/ndnrg/uti/%C1.Router/RouterX2/nlsr does not exist
-1634157068.618327 ERROR: [nlsr.ConfParameter] Cannot set non-existing identity `/ndn/ndnrg/uti/%C1.Router/RouterX2/nlsr` as default
-1634157068.618362 ERROR: [nlsr.ConfParameter] Unable to create identity, NLSR will run without security!
-1634157068.618372 ERROR: [nlsr.ConfParameter] Can be ignored if running in non-production environments.
-1634157068.618413 TRACE: [nlsr.SyncProtocolAdapter] SyncProtocol value: 0
-1634157068.618430 DEBUG: [nlsr.SyncProtocolAdapter] Using PSync
-1634157068.620973 DEBUG: [nlsr.SequencingManager] Seq File Name: /var/lib/nlsr/nlsrSeqNo.txt
-1634157068.621198 DEBUG: [nlsr.SequencingManager] Adj LSA seq no: 30
-1634157068.621221 DEBUG: [nlsr.SequencingManager] Name LSA Seq no: 33
-1634157068.621257 DEBUG: [nlsr.Lsdb] Setting interest filter for LsaPrefix: /localhop/ndn/nlsr/LSA
-1634157068.621672 DEBUG: [nlsr.SequencingManager] Adj LSA seq no: 30
-1634157068.621712 DEBUG: [nlsr.SequencingManager] Name LSA Seq no: 34
-1634157068.623015 DEBUG: [nlsr.Lsdb] Adding NAME LSA
-1634157068.623054 DEBUG: [nlsr.Lsdb]     NAME LSA:
-      Origin Router      : /ndn/ndnrg/uti/%C1.Router/RouterX2
-      Sequence Number    : 34
-      Expires in         : 3599998 milliseconds
+bertopeng17-1@NDN-Node1-ITB:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-1/NLSR/nlsr-itb.conf
+1634228310.857014 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/KEY/%B7%BCm%3E%15%F0%05n/self/v=1633706199529
+1634228310.857171 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/itb/KEY/t%89%2F%A0%BF%DB%05s/NA/v=1633706270792
+1634228310.857246 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/itb/%C1.Operator/op/KEY/%A7%C6%0B%90%E0%5E%E0%C5/NA/v=1633706306471
+1634228310.857314 TRACE: [nlsr.ConfParameter] Loading Certificate Name: /ndn/ndnrg/itb/%C1.Router/routerX/KEY/%D0%0A%B0%B3%14R%A3%DB/NA/v=1633706338642
+1634228310.857361  INFO: [nlsr.ConfParameter] Router Name: /%C1.Router/routerX
+1634228310.857378  INFO: [nlsr.ConfParameter] Site Name: /ndnrg/itb
+1634228310.857386  INFO: [nlsr.ConfParameter] Network: /ndn
+1634228310.857390  INFO: [nlsr.ConfParameter] Router Prefix: /ndn/ndnrg/itb/%C1.Router/routerX
+1634228310.857398  INFO: [nlsr.ConfParameter] Sync Prefix: /localhop/ndn/nlsr/sync/v=10
+1634228310.857406  INFO: [nlsr.ConfParameter] Sync LSA prefix: /localhop/ndn/nlsr/LSA
+1634228310.857413  INFO: [nlsr.ConfParameter] Hello Interest retry number: 3
+1634228310.857417  INFO: [nlsr.ConfParameter] Hello Interest resend second: 1
+1634228310.857421  INFO: [nlsr.ConfParameter] Info Interest interval: 60
+1634228310.857425  INFO: [nlsr.ConfParameter] LSA refresh time: 1800
+1634228310.857429  INFO: [nlsr.ConfParameter] FIB Entry refresh time: 3600
+1634228310.857434  INFO: [nlsr.ConfParameter] LSA Interest lifetime: 4 seconds
+1634228310.857471  INFO: [nlsr.ConfParameter] Router dead interval: 3600
+1634228310.857485  INFO: [nlsr.ConfParameter] Max Faces Per Prefix: 3
+1634228310.857524  INFO: [nlsr.ConfParameter] State Directory: /var/lib/nlsr
+1634228310.857531  INFO: [nlsr.ConfParameter] Adjacency LSA build interval:  10
+1634228310.857538  INFO: [nlsr.ConfParameter] Routing calculation interval:  15
+1634228310.857545 DEBUG: [nlsr.ConfParameter] Initializing Key ...
+1634228310.857981  WARN: [nlsr.ConfParameter] Identity /ndn/ndnrg/itb/%C1.Router/routerX/nlsr does not exist
+1634228310.858413 ERROR: [nlsr.ConfParameter] Cannot set non-existing identity `/ndn/ndnrg/itb/%C1.Router/routerX/nlsr` as default
+1634228310.858438 ERROR: [nlsr.ConfParameter] Unable to create identity, NLSR will run without security!
+1634228310.858442 ERROR: [nlsr.ConfParameter] Can be ignored if running in non-production environments.
+1634228310.858465 TRACE: [nlsr.SyncProtocolAdapter] SyncProtocol value: 0
+1634228310.858471 DEBUG: [nlsr.SyncProtocolAdapter] Using PSync
+1634228310.860454 DEBUG: [nlsr.SequencingManager] Seq File Name: /var/lib/nlsr/nlsrSeqNo.txt
+1634228310.860525 DEBUG: [nlsr.SequencingManager] Adj LSA seq no: 40
+1634228310.860532 DEBUG: [nlsr.SequencingManager] Name LSA Seq no: 48
+1634228310.860564 DEBUG: [nlsr.Lsdb] Setting interest filter for LsaPrefix: /localhop/ndn/nlsr/LSA
+1634228310.860797 DEBUG: [nlsr.SequencingManager] Adj LSA seq no: 40
+1634228310.860820 DEBUG: [nlsr.SequencingManager] Name LSA Seq no: 49
+1634228310.861021 DEBUG: [nlsr.Lsdb] Adding NAME LSA
+1634228310.861033 DEBUG: [nlsr.Lsdb]     NAME LSA:
+      Origin Router      : /ndn/ndnrg/itb/%C1.Router/routerX
+      Sequence Number    : 49
+      Expires in         : 3599999 milliseconds
       Names:
-        Name 0: /ndn/ndnrg/uti/ftik/labnetwork
-        Name 1: /ndn/ndnrg/uti/ftik/labict
+        Name 0: /ndn/ndnrg/itb/telmat/residen
+        Name 1: /ndn/ndnrg/itb/telmat/labipnet
 
-1634157068.623116 DEBUG: [nlsr.Lsdb] Scheduling expiration in: 1810 seconds for /ndn/ndnrg/uti/%C1.Router/RouterX2
-1634157068.623183 DEBUG: [nlsr.HelloProtocol] Setting interest filter for Hello interest: /ndn/ndnrg/uti/%C1.Router/RouterX2/nlsr/INFO
-1634157068.623582 DEBUG: [nlsr.update.PrefixUpdateProcessor] Setting dispatcher to capture Interests for: /localhost/nlsr/prefix-update
-1634157068.623793 DEBUG: [nlsr.Nlsr] Initializing Nlsr
-1634157068.624435 DEBUG: [nlsr.Nlsr] Default NLSR identity: /
-1634157068.625910 DEBUG: [nlsr.Nlsr] Enabling incoming face id indication for local face.
-1634157068.626248 TRACE: [nlsr.Nlsr] Initializing Faces...
-1634157068.626436 DEBUG: [nlsr.AdjacencyList] -------Adjacency List--------
-1634157068.626470 DEBUG: [nlsr.Nlsr] Name prefix list: {
-/ndn/ndnrg/uti/ftik/labnetwork
+1634228310.861080 DEBUG: [nlsr.Lsdb] Scheduling expiration in: 1810 seconds for /ndn/ndnrg/itb/%C1.Router/routerX
+1634228310.861117 DEBUG: [nlsr.HelloProtocol] Setting interest filter for Hello interest: /ndn/ndnrg/itb/%C1.Router/routerX/nlsr/INFO
+1634228310.861334 DEBUG: [nlsr.update.PrefixUpdateProcessor] Setting dispatcher to capture Interests for: /localhost/nlsr/prefix-update
+1634228310.861397 DEBUG: [nlsr.Nlsr] Initializing Nlsr
+1634228310.861730 DEBUG: [nlsr.Nlsr] Default NLSR identity: /
+1634228310.862134 DEBUG: [nlsr.Nlsr] Enabling incoming face id indication for local face.
+1634228310.862253 TRACE: [nlsr.Nlsr] Initializing Faces...
+1634228310.862326 DEBUG: [nlsr.AdjacencyList] -------Adjacency List--------
+1634228310.862349 DEBUG: [nlsr.AdjacencyList] Adjacent: /ndn/ndnrg/uti/%C1.Router/routerX2
+		Connecting FaceUri: udp4://192.168.56.103:6363
+		Link cost: 30
+		Status: 0
+		Interest Timed Out: 0
+
+1634228310.862384 DEBUG: [nlsr.Nlsr] Name prefix list: {
+/ndn/ndnrg/itb/telmat/residen
 Sources:
   
-/ndn/ndnrg/uti/ftik/labict
+/ndn/ndnrg/itb/telmat/labipnet
 Sources:
   
 }
 
-1634157068.626770 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
-1634157068.626920 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
-1634157068.627819 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
-1634157068.628027 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
-FATAL: 1634157068.629551 DEBUG: [nlsr.route.Fib] Clean called
-../ndn-cxx/transport/detail/stream-transport-impl.hpp(143): Throw in function connectHandler
-Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<ndn::Transport::Error> >
-std::exception::what: error while connecting to the forwarder (No such file or directory)
-===== Stacktrace =====
- 0# ndn::detail::StreamTransportImpl<ndn::UnixTransport, boost::asio::local::stream_protocol>::connectHandler(boost::system::error_code const&) at ../ndn-cxx/transport/detail/stream-transport-impl.hpp:143
- 1# boost::asio::detail::reactive_socket_connect_op<ndn::detail::StreamTransportImpl<ndn::UnixTransport, boost::asio::local::stream_protocol>::connect(boost::asio::local::basic_endpoint<boost::asio::local::stream_protocol> const&)::{lambda(auto:1 const&)#2}>::do_complete(boost::asio::detail::task_io_service*, boost::asio::detail::task_io_service_operation*, boost::system::error_code const&, unsigned long) at /usr/include/boost/asio/detail/reactive_socket_connect_op.hpp:84
- 2# boost::asio::detail::task_io_service::run(boost::system::error_code&) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
- 3# ndn::Face::doProcessEvents(boost::chrono::duration<long, boost::ratio<1l, 1000l> >, bool) at ../ndn-cxx/face.cpp:286
- 4# main at ../src/main.cpp:98
- 5# 0x00007F7CA24C5BF7 in /lib/x86_64-linux-gnu/libc.so.6
- 6# 0x000055D2CD87040A in nlsr
-======================
+1634228310.862477 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
+1634228310.862606 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
+1634228310.862674 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
+1634228310.862715 TRACE: [nlsr.CertificateStore] Certificate inserted successfully
+1634228310.864658 TRACE: [nlsr.Nlsr] onFaceEventNotification called
+1634228310.865853 DEBUG: [nlsr.Lsdb] Successfully registered prefix: /localhop/ndn/nlsr/LSA
+1634228310.866114 DEBUG: [nlsr.route.Fib] Successfully set strategy choice: /localhost/nfd/strategy/multicast/v=4 for name: /localhop/ndn/nlsr/LSA
+1634228310.866260 DEBUG: [nlsr.route.Fib] Successfully set strategy choice: /localhost/nfd/strategy/multicast/v=4 for name: /localhop/ndn/nlsr/sync/v=10
+1634228310.866334 DEBUG: [nlsr.Nlsr] Successfully enabled incoming face id indicationfor face id 269
+1634228310.866532 DEBUG: [nlsr.Nlsr] Processing face dataset
+1634228310.866554  WARN: [nlsr.Nlsr] The adjacency /ndn/ndnrg/uti/%C1.Router/routerX2 has no Face information in this dataset.
+1634228310.866559 DEBUG: [nlsr.Nlsr] Scheduling Dataset Fetch in 3600 seconds
+1634228310.866677 DEBUG: [nlsr.HelloProtocol] Successfully registered prefix: /ndn/ndnrg/itb/%C1.Router/routerX/nlsr/INFO
+1634228310.866737 DEBUG: [nlsr.Nlsr] Successfully registered prefix: /ndn/ndnrg/itb/%C1.Router/routerX/nlsr
+1634228310.866804 DEBUG: [nlsr.Nlsr] Successfully registered prefix: /localhost/nlsr
+1634228310.867449 DEBUG: [nlsr.CertificateStore] KEY prefix: /ndn/ndnrg/itb/%C1.Router/routerX/nlsr/KEY registration is successful
+1634228310.867506 DEBUG: [nlsr.CertificateStore] KEY prefix: /ndn/ndnrg/itb/%C1.Router/routerX/KEY registration is successful
+1634228310.867541 DEBUG: [nlsr.CertificateStore] KEY prefix: /ndn/ndnrg/itb/%C1.Operator registration is successful
+1634228310.867802 DEBUG: [nlsr.CertificateStore] KEY prefix: /ndn/ndnrg/itb/KEY registration is successful
 
-bertopeng17-2@NDN-Node2-UTI:~$ 
 </pre>
 
 
