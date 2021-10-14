@@ -10,11 +10,13 @@
  Video Memory : 256 MB
  OS           : Linux (Ubuntu 20.04)
  
+ 
  Host         : UTI
  Base Memory  : 5120 MB
  Processors   : 4 CPUs
  Video Memory : 128 MB
  OS           : Linux (Ubuntu 20.04)
+ 
  
  Host         : TELU
  Base Memory  : 5120 MB
@@ -22,11 +24,13 @@
  Video Memory : 128 MB
  OS           : Linux (Ubuntu 20.04)
  
+ 
  Host         : LIPI
  Base Memory  : 5120 MB
  Processors   : 4 CPUs
  Video Memory : 128 MB
  OS           : Linux (Ubuntu 20.04)
+ 
  
  Host         : ITTJ
  Base Memory  : 5120 MB
