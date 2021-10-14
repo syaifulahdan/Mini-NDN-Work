@@ -228,4 +228,4 @@ security
 
 </pre>
 
-View Detail file Configuration : [[nlsr-itb.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nlsr-uti.conf)
+View Detail file Configuration : [[nlsr-itb.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nlsr-itb.conf)
