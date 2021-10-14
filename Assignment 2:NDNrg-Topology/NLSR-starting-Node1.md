@@ -13,7 +13,7 @@ $ export NDN_LOG=nlsr.*=TRACE && nlsr -f <configuration-file>
 </pre>
 
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-2/NLSR/nlsr-uti.conf 
+bertopeng17-1@NDN-Node1-ITB:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-1/NLSR/nlsr-itb.conf 
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/NLSR-start-node2-1.png)
