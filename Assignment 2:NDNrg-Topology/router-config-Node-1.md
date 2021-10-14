@@ -1,7 +1,7 @@
 Assume that three routers in the same network, but at three different sites (memphis.edu, arizona.edu, and colostate.edu), are connected to each other to construct the following topology:
 ***
  ### 1. Network and sample configuration
- 
+ ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/example-router-config-node1.png)
   #### Step 1. Ensuring nfd is running
   
   #### Step 2. Determining FaceUri
