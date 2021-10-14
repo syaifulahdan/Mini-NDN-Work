@@ -13,6 +13,7 @@ Assume that three routers in the same network, but at three different sites (mem
   nfd-status
   </pre>
   #### Step 2. Determining FaceUri
+ Assume that <b>/ndn/edu/arizona/%C1.Router/router3</b> has hostname <b>router3.arizona.edu</b> and <b>/ndn/edu/colostate/%C1.Router/router2</b> has IP address <b>79.123.10.145</b>. <b>/ndn/edu/memphis/%C1.Router/router1</b> will consider <b>FaceUri udp4://router3.arizona.edu</b> for router <b>/ndn/edu/arizona/%C1.Router/router3 </b>and <b>FaceUri udp4://79.123.10.145</b> for router <b>/ndn/edu/colostate/%C1.Router/router2</b>.
   
  ####  Step 3: Creating configuration file
   
