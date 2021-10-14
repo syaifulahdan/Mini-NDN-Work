@@ -5,60 +5,60 @@
  ### 1.2. Preparation of NDN Nodes on Virtualbox
  
  ***
- - Host           : ITB
- - Base Memory    : 8192 MB
- - Processors     :  8 CPUs
- - Video Memory   : 256 MB
- - OS             : Linux (Ubuntu 20.04)
- - Adapter 1      : NAT
- - Adapter 2      : Vboxnet0 : 192.168.56.101
- - Adapter 3      : Vboxnet3 : 192.168.59.3
+ - Host           : <b>ITB
+ - Base Memory    : <b>8192 MB
+ - Processors     : <b>8 CPUs
+ - Video Memory   : <b>256 MB
+ - OS             : <b>Linux (Ubuntu 20.04)
+ - Adapter 1      : <b>NAT
+ - Adapter 2      : <b>Vboxnet0 : 192.168.56.101
+ - Adapter 3      : <b>Vboxnet3 : 192.168.59.3
 
 
  ***
  
  ***
-  - Host          : UTI
-  - Base Memory   : 5120 MB
-  - Processors    : 4 CPUs
-  - Video Memory  : 128 MB
-  - OS            : Linux (Ubuntu 20.04)
-  - Adapter 1     : NAT
-  - Adapter 2     : Vboxnet0 : 192.168.56.103
-  - Adapter 3     : Vboxnet3 : 192.168.57.4
+  - Host          : <b>UTI</b>
+  - Base Memory   : <b>5120 MB</b>
+  - Processors    : <b>4 CPUs</b>
+  - Video Memory  : <b>128 MB</b>
+  - OS            : <b>Linux (Ubuntu 20.04)</b>
+  - Adapter 1     : <b>NAT</b>
+  - Adapter 2     : <b>Vboxnet0 : 192.168.56.103</b>
+  - Adapter 3     : <b>Vboxnet3 : 192.168.57.4</b>
  ***
  
  ***
-  - Host          : TELU
-  - Base Memory   : 5120 MB
-  - Processors    : 4 CPUs
-  - Video Memory  : 128 MB
-  - OS            : Linux (Ubuntu 20.04)
-  - Adapter 1     : NAT
-  - Adapter 2     : Vboxnet2 : 192.168.58.3
-  - Adapter 3     : Vboxnet3 : 192.168.59.4
+  - Host          : <b>TELU</b>
+  - Base Memory   : <b>5120 MB</b>
+  - Processors    : <b>4 CPUs</b>
+  - Video Memory  : <b>128 MB</b>
+  - OS            : <b>Linux (Ubuntu 20.04)</b>
+  - Adapter 1     : <b>NAT</b>
+  - Adapter 2     : <b>Vboxnet2 : 192.168.58.3</b>
+  - Adapter 3     : <b>Vboxnet3 : 192.168.59.4</b>
  ***
  
  ***
-  - Host          : LIPI
-  - Base Memory   : 5120 MB
-  - Processors    : 4 CPUs
-  - Video Memory  : 128 MB
-  - OS            : Linux (Ubuntu 20.04)
-  - Adapter 1     : NAT
-  - Adapter 2     : Vboxnet2 : 192.168.58.4
-  - Adapter 3     : Vboxnet4 : 192.168.60.4
+  - Host          : <b>LIPI</b>
+  - Base Memory   : <b>5120 MB</b>
+  - Processors    : <b>4 CPUs</b>
+  - Video Memory  : <b>128 MB</b>
+  - OS            : <b>Linux (Ubuntu 20.04)</b>
+  - Adapter 1     : <b>NAT</b>
+  - Adapter 2     : <b>Vboxnet2 : 192.168.58.4</b>
+  - Adapter 3     : <b>Vboxnet4 : 192.168.60.4</b>
  ***
  
  ***
-  - Host          : ITTJ
-  - Base Memory   : 5120 MB
-  - Processors    : 4 CPUs
-  - Video Memory  : 128 MB
-  - OS            : Linux (Ubuntu 20.04)
-  - Adapter 1     : NAT
-  - Adapter 2     : Vboxnet1 : 192.168.57.7
-  - Adapter 3     : Vboxnet4 : 192.168.60.3
+  - Host          : <b>ITTJ</b>
+  - Base Memory   : <b>5120 MB</b>
+  - Processors    : <b>4 CPUs</b>
+  - Video Memory  : <b>128 MB</b>
+  - OS            : <b>Linux (Ubuntu 20.04)</b>
+  - Adapter 1     : <b>NAT</b>
+  - Adapter 2     : <b>Vboxnet1 : 192.168.57.7</b>
+  - Adapter 3     : <b>Vboxnet4 : 192.168.60.3</b>
  ***
  
   <img src="https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/ndnrg-node-virtualbox.png" width="1000">
