@@ -68,7 +68,7 @@ fib
 
 advertising
 {
-	prefix /ndn/memphis/sports/basketball/grizzlies
-    	prefix /ndn/memphis/entertainment/blues
-    	prefix /ndn/news/memphis/politics/lutherking
+	<b>prefix /ndn/memphis/sports/basketball/grizzlies</b>
+    	<b>prefix /ndn/memphis/entertainment/blues</b>
+    	<b>prefix /ndn/news/memphis/politics/lutherking</b>
 </pre>
