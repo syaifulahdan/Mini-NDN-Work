@@ -7,9 +7,9 @@ Instructions on how to use the configuration file are already provided at the NL
 <pre>
 general
 {
-  network /ndn/                             
-  site /ndnrg/uti                         
-  router /%C1.Router/RouterX2   
+  <b>network /ndn/</b>                             
+  <b>site /ndnrg/uti</b>                         
+  <b>router /%C1.Router/RouterX2</b>   
 
   lsa-refresh-time 1800         
   lsa-interest-lifetime 4      
@@ -28,9 +28,8 @@ face-dataset-fetch-interval 3600
 {
   neighbor
   {
-    name /ndn/ndnrg/itb/%C1.Router/routerX  
-    ;face-uri  udp://192.168.56.101          
-    face-uri  udp://resident.telmat.itb/ndnrg          
+    <b>name /ndn/ndnrg/itb/%C1.Router/routerX</b>  
+    <b>face-uri  udp://192.168.56.101</b>           
     link-cost 30                             
   }
 }
@@ -51,10 +50,9 @@ routing-calc-interval 15
 
 advertising
 {
-  prefix /ndn/ndnrg/uti/ftik/labnetwork 
-  prefix /ndn/ndnrg/uti/ftik/labict   
-  ;prefix /ndn/ndnrg/uti/cs/labnetwok   
-  ;prefix /ndn/ndnrg/uti/ftik/labict   
+  <b>prefix /ndn/ndnrg/itb/telmat/residen</b>  
+  <b>prefix /ndn/ndnrg/itb/telmat/labipnet</b>    
+ 
 }
 
 security
@@ -221,9 +219,9 @@ security
 
   cert-to-publish "site.cert"     
 
-  cert-to-publish "op.cert"        
+  <b>cert-to-publish "op.cert"</b>        
 
-  cert-to-publish "routerX2.cert"  
+  <b>cert-to-publish "routerX2.cert"</b>  
 }
 
 </pre>
