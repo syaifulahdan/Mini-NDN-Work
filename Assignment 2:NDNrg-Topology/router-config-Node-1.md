@@ -3,6 +3,13 @@ Assume that three routers in the same network, but at three different sites (mem
  ### 1. Network and sample configuration
  ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/example-router-config-node1.png)
  Source : https://named-data.net/doc/NLSR/current/ROUTER-CONFIG.html
+ 
+ he number represents the connecting face id. For example, /ndn/edu/memphis/%C1.Router/router1 is connected to /ndn/edu/arizona/%C1.Router/router3 via face 11 and the route cost is 25. To reach /ndn/edu/colostate/%C1.Router/router2 via face 12, the route cost is 30.
+
+We will walk through setting up the faces and creating the configuration file for /ndn/edu/memphis/%C1.Router/router1.
+
+It is recommended to configure security as described at Security Configuration, before starting router configuration.
+
   #### Step 1. Ensuring nfd is running
   
   #### Step 2. Determining FaceUri
