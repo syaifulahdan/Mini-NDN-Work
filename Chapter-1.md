@@ -5,11 +5,11 @@
  ### 1.2. Preparation of NDN Nodes on Virtualbox
  
  ***
- - Host         : ITB
- - Base Memory  : 8192 MB
- - Processors   : 8 CPUs
- - Video Memory : 256 MB
- - OS           : Linux (Ubuntu 20.04)
+ - Host          : ITB
+ - Base Memory   : 8192 MB
+ - Processors    :  8 CPUs
+ - Video Memory  : 256 MB
+ - OS            : Linux (Ubuntu 20.04)
  - Adapter 1      : NAT
  - Adapter 2      : Vboxnet0 : 192.168.56.101
  - Adapter 3      : Vboxnet3 : 192.168.59.3
