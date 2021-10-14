@@ -20,8 +20,9 @@ Assume that three routers in the same network, but at three different sites (mem
  ####  Step 3: Creating configuration file
   
   
-  Now, assume that /ndn/memphis.edu/router1 wants to advertise three name prefixes (/ndn/memphis/sports/basketball/grizzlies, /ndn/memphis/entertainment/blues, /ndn/news/memphis/politics/lutherking). The configuration file with the necessary configuration commands follows
-  Step 4: Running NLSR on /ndn/memphis.edu/router1
+  Now, assume that <b>/ndn/memphis.edu/router1</b> wants to advertise three name prefixes <b>/ndn/memphis/sports/basketball/grizzlies, /ndn/memphis/entertainment/blues, /ndn/news/memphis/politics/lutherking)</b>. The configuration file with the necessary configuration commands follows
+  
+ Step 4: Running NLSR on /ndn/memphis.edu/router1
 
 <pre>
 general
