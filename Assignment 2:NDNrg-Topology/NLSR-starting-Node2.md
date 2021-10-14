@@ -1,4 +1,4 @@
-### Starting NLSR (Router UTI-1) enp0s8:192.168.56.103
+### Starting NLSR (UTI)
 It is recommended to open a third command terminal and run NLSR in this window. After the NLSR configuration file has been edited and saved as nlsr.conf, it is possible to start NLSR by running either of the following two commands:
 ***
 <pre>
