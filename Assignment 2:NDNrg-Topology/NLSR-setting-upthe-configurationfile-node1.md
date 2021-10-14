@@ -4,140 +4,228 @@ Source : https://named-data.net/doc/NLSR/current/beginners-guide.html#ndnnfdusag
 Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router1 <b>(RouterX)</b>:
 ***
 
-<b>AT general SECTION:</b>
 <pre>
+general
 {
-  <b>network /ndn/</b>                              <i>; name of the network ITB</i>
-  <b>site /ndnrg/itb</b>                            <i>; name of the site ITB</i>
-  <b>router /%C1.Router/RouterX</b>                 <i>; name of the router: router1-ITB</i>
+  network /ndn/                             
+  site /ndnrg/itb                         
+  router /%C1.Router/RouterX   
+
+  lsa-refresh-time 1800         
+  lsa-interest-lifetime 4      
+  sync-protocol psync    
+  sync-interest-lifetime 60000 
+  state-dir       /var/lib/nlsr 
 }
-</pre>
 
-
-<b>AT neighbors SECTION:</b>
-<pre>
 neighbors
+hello-retries 3 
+hello-timeout 1
+hello-interval  60  
+adj-lsa-build-interval 10   
+face-dataset-fetch-tries 3 
+face-dataset-fetch-interval 3600
 {
   neighbor
   {
-    <b>name /ndn/ndnrg/itb/%C1.Router/RouterX2</b>   <i>; Neighbor router: router2-UTI</i>
-    <b>face-uri  udp://192.168.56.103</b>	          <i>; face to the neighbor (IP Router UTI)</i>
-    <b>link-cost 25</b>                           <i>; cost of the link Router UTI</i>
+    name /ndn/ndnrg/itb/%C1.Router/routerX2  
+    ;face-uri  udp://192.168.56.103          
+    face-uri  udp://labnetwork.ftik.uti/ndnrg          
+    link-cost 30                             
   }
 }
 
-</pre>
+hyperbolic
+{
+state off 
+radius   123.456
+angle    1.45,2.36
+}
 
-<b>AT advertising SECTION:</b>
-<pre>
+fib
+{
+
+max-faces-per-prefix 3
+routing-calc-interval 15
+}
+
 advertising
 {
-  <b>prefix /ndn/ndnrg/itb/telmat/residen</b>       ; Advertising destinations
-  <b>prefix /ndn/ndnrg/itb/telmat/labipnet</b>      ; for router1-ITB
+  prefix /ndn/ndnrg/itb/telmat/residen 
+  prefix /ndn/ndnrg/itb/telmat/labipnet   
+    
 }
-</pre>
 
-<b>AT security SECTION:</b>
-<pre>
 security
 {
   validator
   {
-    ...
+    rule
+	{
+	  id "NLSR Hello Rule"
+      for data
+      filter
+      {
+        type name
+        regex ^[^<nlsr><INFO>]*<nlsr><INFO><><>$
+      }
+      checker
+      {
+        type customized
+        sig-type ecdsa-sha256
+        key-locator
+        {
+          type name
+          hyper-relation
+          {
+            k-regex ^([^<KEY><nlsr>]*)<nlsr><KEY><>$
+            k-expand \\1
+            h-relation equal
+            p-regex ^([^<nlsr><INFO>]*)<nlsr><INFO><><>$
+            p-expand \\1
+          }
+        }
+      }
+    }
+
+    rule
+    {
+      id "NLSR LSA Rule"
+      for data
+      filter
+      {
+        type name
+        regex ^[^<nlsr><LSA>]*<nlsr><LSA>
+      }
+      checker
+      {
+        type customized
+        sig-type ecdsa-sha256
+        key-locator
+        {
+          type name
+          hyper-relation
+          {
+            k-regex ^([^<KEY><nlsr>]*)<nlsr><KEY><>$
+            k-expand \\1
+            h-relation equal
+            ; the last four components in the prefix should be <lsaType><seqNo><version><segmentNo>
+            p-regex ^<localhop>([^<nlsr><LSA>]*)<nlsr><LSA>(<>*)<><><><>$
+            p-expand \\1\\2
+          }
+        }
+      }
+    }
+
+    rule
+    {
+      id "NLSR Hierarchy Exception Rule"
+      for data
+      filter
+      {
+        type name
+        regex ^[^<KEY><%C1.Router>]*<%C1.Router>[^<KEY><nlsr>]*<KEY><><><>$
+      }
+      checker
+      {
+        type customized
+        sig-type ecdsa-sha256
+        key-locator
+        {
+          type name
+          hyper-relation
+          {
+            k-regex ^([^<KEY><%C1.Operator>]*)<%C1.Operator>[^<KEY>]*<KEY><>$
+            k-expand \\1
+            h-relation equal
+            p-regex ^([^<KEY><%C1.Router>]*)<%C1.Router>[^<KEY>]*<KEY><><><>$
+            p-expand \\1
+          }
+        }
+      }
+    }
+
+    rule
+    {
+      id "NLSR Hierarchical Rule"
+      for data
+      filter
+      {
+        type name
+        regex ^[^<KEY>]*<KEY><><><>$
+      }
+      checker
+      {
+        type hierarchical
+        sig-type ecdsa-sha256
+      }
+    }
+
     trust-anchor
     {
       type file
-      file-name "root.cert"        ; root certificate file
+      file-name "root.cert"
     }
   }
 
   prefix-update-validator
   {
-    ...
+    rule
+    {
+      id "NLSR ControlCommand Rule"
+      for interest
+      filter
+      {
+        type name
+        ; /<prefix>/<management-module>/<command-verb>/<control-parameters>
+        ; /<timestamp>/<random-value>/<signed-interests-components>
+        regex ^<localhost><nlsr><prefix-update>[<advertise><withdraw>]<><><>$
+      }
+      checker
+      {
+        type customized
+        sig-type ecdsa-sha256
+        key-locator
+        {
+          type name
+          regex ^([^<KEY><%C1.Operator>]*)<%C1.Operator>[^<KEY>]*<KEY><>$
+        }
+      }
+    }
+
+    rule
+    {
+      id "NLSR Hierarchy Rule"
+      for data
+      filter
+      {
+        type name
+        regex ^[^<KEY>]*<KEY><><><>$
+      }
+      checker
+      {
+        type hierarchical
+        sig-type ecdsa-sha256
+      }
+    }
+
     trust-anchor
     {
       type file
-      file-name "site.cert"        ; site certificate file
+      file-name "site.cert"
     }
   }
 
-  cert-to-publish "root.cert"      ; root certificate file
+  cert-to-publish "root.cert"      
 
-  cert-to-publish "site.cert"      ; site certificate file
+  cert-to-publish "site.cert"     
 
-  cert-to-publish "op.cert"        ; operator certificate file
+  cert-to-publish "op.cert"        
 
-  <b>cert-to-publish "routerX.cert"</b>   ; router1 certificate file
-}
-</pre>
-
-***
-### Setting up the configuration file <b>nlsr.conf</b> Router UTI
-
-The following text shows the modified instructions for router2: <b>(RouterX2)</b>:
-***
-<b>AT general SECTION:</b>
-<pre>
-{
-  network /ndn/                    <i>; name of the network UTI</i>
-  site /ndnrg/uti                  <i>; name of the site UTI</i>
-  router /%C1.Router/routerX2      <i>; name of the router: router2-UTI</i>
-}
-</pre>
-
-<b>AT neighbors SECTION:</b>
-<pre>
-neighbors
-{
-  neighbor
-  {
-    <b>name /ndn/edu/uaslp/%C1.Router/routerX</b>   <i>; Neighbor router: router1-ITB</i>
-    <b>face-uri  udp://192.168.56.101</b>          <i>; face to the neighbor (IP Router ITB)</i>
-    <b>link-cost 30</b>                             <i>; cost of the link</i>
-  }
-}
-</pre>
-
-<b>AT advertising SECTION:</b>
-
-<pre>
-advertising
-{
-  <b>prefix /ndn/ndnrg/uti/ftik/labnetwokr</b>        ; Advertising destinations
-  <b>prefix /ndn/edu/uaslp/ftik/labict</b>            ; for router2-UTI
-}
-</pre>
-
-<b>AT security SECTION:</b>
-
-<pre>
-security
-{
-  validator
-  {
-    ...
-    trust-anchor
-    {
-      type file
-      file-name "root.cert"        ; root certificate file
-    }                              ; this file needs to be copied to
-  }                                ; router2-UTI
-
-  prefix-update-validator
-  {
-    ...
-    trust-anchor
-    {
-      type file
-      file-name "site.cert"        ; site certificate file
-    }                              ; this file needs to be copied to
-  }                                ; router2
-
-  ...
-  <b>cert-to-publish "routerX2.cert</b>"   ; router2 certificate file
+  cert-to-publish "routerX.cert"  
 }
 
 
 </pre>
 
-View Detail file Configuration : [[nlsr-uti.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nlsr-uti.conf)
+View Detail file Configuration : [[nlsr-itb.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nlsr-uti.conf)
