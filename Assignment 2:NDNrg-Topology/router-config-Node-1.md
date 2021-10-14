@@ -27,9 +27,9 @@ Assume that three routers in the same network, but at three different sites (mem
 <pre>
 general
 {
-	network /ndn/
-	site /edu/memphis/
-	router /%C1.Router/router1
+	<b>network /ndn/</b>
+	<b>site /edu/memphis/</b>
+	<b>router /%C1.Router/router1</b>
 
 	lsa-refresh-time 1800
 	lsa-interest-lifetime 4
@@ -44,14 +44,14 @@ neighbors
 	first-hello-interval  10
 	neighbor
 	{
-		name /ndn/edu/arizona/%C1.Router/router3
-		face-uri  udp4://router3.arizona.edu
+		<b>name /ndn/edu/arizona/%C1.Router/router3</b>
+		<b>face-uri  udp4://router3.arizona.edu</b>
 		link-cost 25
 	}
 	neighbor
 	{
-		name /ndn/edu/colostate/%C1.Router/router2
-		face-uri  udp4://79.123.10.14
+		<b>name /ndn/edu/colostate/%C1.Router/router2</b>
+		<b>face-uri  udp4://79.123.10.14</b>
 		link-cost 30
 	}
 }
