@@ -5,7 +5,6 @@
  ### 1.2. Preparation of NDN Nodes on Virtualbox
  
  ***
- 
  Host         : ITB
  Base Memory  : 8192 MB
  Processors   : 8 CPUs
