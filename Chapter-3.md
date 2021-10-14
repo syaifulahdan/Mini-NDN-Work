@@ -11,7 +11,7 @@
       - Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Configuring-Node1.md)
       - Setup the Security [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Settingup-security-Node1.md)
       - Configuring The Network
-      - Setting Up the Configuration file : nlsr.conf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node1.md)
+      - Setting Up the Configuration file : <b>nlsr-itb.conf</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node1.md)
       - Starting NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-starting-Node1.md)
    - NFD
       - Configuring the Network [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFD-configuring-network-node1.md)
@@ -30,7 +30,7 @@
      - Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Configuring-Node2.md)
      - Setup the Security [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Settingup-security-Node2.md)
      - Configuring The Network
-     - Setting Up the Configuration file : nlsr-uti.conf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node2.md)
+     - Setting Up the Configuration file : <b>nlsr-uti.conf</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node2.md)
      - Starting NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-starting-Node2.md)
    - NFD
       - Configuring the Network [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFD-configuring-network-node2.md)
