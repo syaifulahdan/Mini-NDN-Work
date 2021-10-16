@@ -1,0 +1,9 @@
+bertopeng17-3@NDN-Node3-TELU:~$ git clone --depth 1 https://github.com/mininet/mininet.git
+Cloning into 'mininet'...
+remote: Enumerating objects: 159, done.
+remote: Counting objects: 100% (159/159), done.
+remote: Compressing objects: 100% (146/146), done.
+remote: Total 159 (delta 6), reused 40 (delta 0), pack-reused 0
+Receiving objects: 100% (159/159), 267.81 KiB | 546.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+bertopeng17-3@NDN-Node3-TELU:~$
