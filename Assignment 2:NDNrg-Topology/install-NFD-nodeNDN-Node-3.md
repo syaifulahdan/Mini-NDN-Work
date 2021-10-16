@@ -22,7 +22,7 @@ $ ./waf configure
  Show Progess nfd waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NFD-3/nfd3-waf-configure.txt)
 
 Noted:
-Checking for 'libsystemd'                : **not found**
+Checking for 'sphinx-build'                : **not found**
  
 checking for header valgrind/valgrind.h  : **not found**
 
