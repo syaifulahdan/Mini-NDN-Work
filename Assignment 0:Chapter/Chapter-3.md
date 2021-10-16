@@ -38,7 +38,7 @@
 ***
 ### 3.3. Install Node 3 (Tel-U) 
 ***
-   - Installing ndn-cxx [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-2.md)
+   - Installing ndn-cxx [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-3.md)
    - Installing NFD [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-NFD-nodeNDN-Node-2.md)
    - Sync libraries 
      - Installing PSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-PSync-nodeNDN-Node-2.md)
