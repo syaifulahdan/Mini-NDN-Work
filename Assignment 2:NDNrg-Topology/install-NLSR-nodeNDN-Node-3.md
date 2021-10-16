@@ -12,8 +12,8 @@ $ git clone https://github.com/named-data/NLSR
 $ cd NLSR
 & ./waf configure
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2/2-nlsr2-waf-configure.png)
- Show Progress nslr waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nslr2-waf-configure-install-progress.txt)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/2-nlsr3-waf-configure.png)
+ Show Progress nslr waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/nslr3-waf-configure-install-progress.txt)
 
 <pre>
 & ./waf
