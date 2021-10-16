@@ -20,7 +20,7 @@ $ cd NLSR
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/3-nlsr3-waf.png)
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/3-nlsr2-waf-finish.png)
- Show Progerss nslr waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/nslr3-waf-install-progress.txt)
+ Show Progerss nslr waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NSLR-3/nslr3-waf-configure-install-progress.txt)
 
 <pre>
 & sudo ./waf install  
