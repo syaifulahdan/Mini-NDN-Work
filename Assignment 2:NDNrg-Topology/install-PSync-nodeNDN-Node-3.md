@@ -37,8 +37,8 @@ Checking for zstd support in boost iostreams  : no
 <pre>
 $ ./waf  
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/3-psync-2-waf.png)
- Show Progess Psync waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3/3-psync-3-waf.png)
+ Show Progess Psync waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3/psync3-waf.txt)
  
 
 <pre>
