@@ -1,0 +1,9 @@
+bertopeng17-3@NDN-Node3-TELU:~$ git clone https://github.com/named-data/PSync
+Cloning into 'PSync'...
+remote: Enumerating objects: 671, done.
+remote: Counting objects: 100% (124/124), done.
+remote: Compressing objects: 100% (101/101), done.
+remote: Total 671 (delta 53), reused 92 (delta 21), pack-reused 547
+Receiving objects: 100% (671/671), 820.43 KiB | 286.00 KiB/s, done.
+Resolving deltas: 100% (405/405), done.
+bertopeng17-3@NDN-Node3-TELU:~$ 
