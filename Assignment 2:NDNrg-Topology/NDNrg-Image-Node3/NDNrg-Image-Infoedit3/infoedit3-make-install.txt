@@ -1,0 +1,5 @@
+bertopeng17-3@NDN-Node3-TELU:~/infoedit$ sudo make install
+install -d /usr/local/bin
+install infoconv /usr/local/bin/infoconv
+install infoedit /usr/local/bin/infoedit
+bertopeng17-3@NDN-Node3-TELU:~/infoedit$ 
