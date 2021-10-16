@@ -10,4 +10,4 @@ Show document install : Valgrint :[[read]](https://github.com/syaifulahdan/Mini-
 <pre>
 $ ./waf configure
 </pre>
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/waf-configure-success.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NFD-3/waf-configure-success.png)
