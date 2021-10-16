@@ -94,7 +94,7 @@ $ sudo apt install libpcap-dev libsystemd-dev -y
 Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/5-dependency-5-install.txt) 
 
 <pre>
-$ git clone https://github.com/named-data/ndn-cxxit
+$ git clone https://github.com/named-data/ndn-cxx
 </pre>
 
  ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/3-gitclone-ndncxx.png)
