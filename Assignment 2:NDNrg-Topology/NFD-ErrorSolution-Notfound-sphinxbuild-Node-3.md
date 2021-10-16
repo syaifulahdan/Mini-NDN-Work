@@ -20,6 +20,7 @@ Location: /home/bertopeng17-3/.local/lib/python2.7/site-packages
 Requires: alabaster, typing, snowballstemmer, Jinja2, packaging, requests, sphinxcontrib-websupport, imagesize, Pygments, docutils, setuptools, babel, six
 Required-by: 
 bertopeng17-3@NDN-Node3-TELU:~/NFD$ 
+</pre>
 <pre>
 
 $ ./waf configure
