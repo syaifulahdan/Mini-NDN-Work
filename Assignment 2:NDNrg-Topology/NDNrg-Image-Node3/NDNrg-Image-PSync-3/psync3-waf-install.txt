@@ -1,0 +1,21 @@
+bertopeng17-3@NDN-Node3-TELU:~/PSync$ sudo ./waf install
+[sudo] password for bertopeng17-3: 
+Waf: Entering directory `/home/bertopeng17-3/PSync/build'
+- symlink /usr/local/lib/libPSync.so (to libPSync.so.0.3.0)
++ install /usr/local/lib/libPSync.so.0.3.0 (from build/libPSync.so)
++ install /usr/local/lib/pkgconfig/PSync.pc (from build/PSync.pc)
++ install /usr/local/include/PSync/common.hpp (from PSync/common.hpp)
++ install /usr/local/include/PSync/detail/config.hpp (from build/PSync/detail/config.hpp)
++ install /usr/local/include/PSync/consumer.hpp (from PSync/consumer.hpp)
++ install /usr/local/include/PSync/detail/access-specifiers.hpp (from PSync/detail/access-specifiers.hpp)
++ install /usr/local/include/PSync/detail/bloom-filter.hpp (from PSync/detail/bloom-filter.hpp)
++ install /usr/local/include/PSync/detail/iblt.hpp (from PSync/detail/iblt.hpp)
++ install /usr/local/include/PSync/detail/state.hpp (from PSync/detail/state.hpp)
++ install /usr/local/include/PSync/detail/util.hpp (from PSync/detail/util.hpp)
++ install /usr/local/include/PSync/full-producer.hpp (from PSync/full-producer.hpp)
++ install /usr/local/include/PSync/partial-producer.hpp (from PSync/partial-producer.hpp)
++ install /usr/local/include/PSync/producer-base.hpp (from PSync/producer-base.hpp)
++ install /usr/local/include/PSync/segment-publisher.hpp (from PSync/segment-publisher.hpp)
+Waf: Leaving directory `/home/bertopeng17-3/PSync/build'
+'install' finished successfully (0.166s)
+bertopeng17-3@NDN-Node3-TELU:~/PSync$ 
