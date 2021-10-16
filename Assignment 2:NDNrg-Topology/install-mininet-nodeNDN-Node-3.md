@@ -10,6 +10,7 @@ $ git clone --depth 1 https://github.com/mininet/mininet.git
 
 After Mininet source is on your system, run the following command to install Mininet core dependencies and Open vSwitch:
 <pre>
+$ cd mininet/
 $ ./util/install.sh -nv
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Mininet2/2-mininet-util-install.png)
