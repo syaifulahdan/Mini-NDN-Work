@@ -89,9 +89,9 @@ Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob
 <pre>
 $ sudo apt install libpcap-dev libsystemd-dev -y
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/7-dependency-3-install.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/5-dependency-5-install.png)
 
-Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/dependency-3-progress.txt) 
+Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/5-dependency-5-install.txt) 
 
 <pre>
 $ git clone https://github.com/named-data/ndn-cxxit
