@@ -1,0 +1,16 @@
+bertopeng17-3@NDN-Node3-TELU:~/ChronoSync$ ./waf
+Waf: Entering directory `/home/bertopeng17-3/ChronoSync/build'
+[ 1/11] Compiling src/socket.cpp
+[ 2/11] Compiling src/detail/bzip2-helper.cpp
+[ 3/11] Compiling src/state.cpp
+[ 4/11] Compiling src/leaf.cpp
+[ 5/11] Compiling src/diff-state.cpp
+[ 6/11] Compiling src/interest-container.cpp
+[ 7/11] Compiling src/logic.cpp
+[ 8/11] Compiling src/interest-table.cpp
+[ 9/11] Compiling ChronoSync.pc.in
+[10/11] Linking build/libChronoSync.so
+[11/11] Symlinking build/libChronoSync.so
+Waf: Leaving directory `/home/bertopeng17-3/ChronoSync/build'
+'build' finished successfully (24.078s)
+bertopeng17-3@NDN-Node3-TELU:~/ChronoSync$ 
