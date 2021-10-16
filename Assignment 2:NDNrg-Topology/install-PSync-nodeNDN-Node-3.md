@@ -26,7 +26,7 @@ $ cd Psync
 $ ./waf configure
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-PSync-2/2-psync-2-waf-configure.png)
- Show Progess Psync waf configure[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/psync2-waf-configure.txt)
+ Show Progess Psync waf configure[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3/psync3-gitclone.txt)
  
 **Noted :** 
 
