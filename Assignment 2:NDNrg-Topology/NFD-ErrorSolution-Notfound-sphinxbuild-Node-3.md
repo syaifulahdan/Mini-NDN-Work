@@ -24,15 +24,18 @@ bertopeng17-3@NDN-Node3-TELU:~/NFD$
 
 if it doesn't work, do the following steps :
 
-For Python 3:
+**For Python 3:**
 <pre>
 $ apt-get install python3-sphinx
-<pre>
+</pre>
 
-For Python 2:
+**For Python 2:**
 <pre>
 $ apt-get install python-sphinx
 </pre>
+
+<pre>
 $ ./waf configure
 </pre>
+
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NFD-3/waf-configure-success.png)
