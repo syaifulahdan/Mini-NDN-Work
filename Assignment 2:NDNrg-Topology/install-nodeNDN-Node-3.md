@@ -125,7 +125,7 @@ Show Progess ndn-cxx waf configure [[read]](https://github.com/syaifulahdan/Mini
 <pre>
 apt-get install python3-sphinx
 </pre>
-[alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/python3-sphinx.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/python3-sphinx.png)
 
  
 <pre>
