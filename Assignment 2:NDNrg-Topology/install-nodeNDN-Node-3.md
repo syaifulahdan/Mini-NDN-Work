@@ -55,7 +55,7 @@ sudo pip3 install sphinx sphinxcontrib-doxylink
 <pre>
 $ sudo apt update && apt-get full-upgrade -y
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/1-upgrade-ubuntu.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/1-upgrade-ubuntu.png)
 
 ### 3. Install Git
 <pre>
