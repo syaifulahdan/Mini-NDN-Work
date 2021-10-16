@@ -1,0 +1,17 @@
+bertopeng17-3@NDN-Node3-TELU:~/PSync$ ./waf
+Waf: Entering directory `/home/bertopeng17-3/PSync/build'
+[ 1/12] Compiling PSync/partial-producer.cpp
+[ 2/12] Compiling PSync/detail/iblt.cpp
+[ 3/12] Compiling PSync/full-producer.cpp
+[ 4/12] Compiling PSync/detail/util.cpp
+[ 5/12] Compiling PSync/detail/bloom-filter.cpp
+[ 6/12] Compiling PSync/segment-publisher.cpp
+[ 7/12] Compiling PSync/consumer.cpp
+[ 8/12] Compiling PSync/detail/state.cpp
+[ 9/12] Compiling PSync/producer-base.cpp
+[10/12] Compiling PSync.pc.in
+[11/12] Linking build/libPSync.so
+[12/12] Symlinking build/libPSync.so
+Waf: Leaving directory `/home/bertopeng17-3/PSync/build'
+'build' finished successfully (27.608s)
+bertopeng17-3@NDN-Node3-TELU:~/PSync$ 
