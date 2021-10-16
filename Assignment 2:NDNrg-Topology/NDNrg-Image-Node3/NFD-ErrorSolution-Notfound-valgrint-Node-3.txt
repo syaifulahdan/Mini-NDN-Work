@@ -1,0 +1,138 @@
+bertopeng17-3@NDN-Node3-TELU:~/NFD$ sudo apt-get update -y 
+[sudo] password for bertopeng17-3: 
+Get:1 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic InRelease [15.4 kB]
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]                                                
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic InRelease [242 kB]                                                        
+Get:4 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [1,906 kB]                                                                                                                                              
+Get:5 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic/main i386 Packages [6,160 B]                                                                                                                                            
+Get:6 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic/main amd64 Packages [6,136 B]                                                                                                                                           
+Get:7 http://ppa.launchpad.net/named-data/ppa/ubuntu bionic/main Translation-en [2,268 B]                                                                                                                                           
+Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]                                                                                                                                                        
+Get:9 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]                                                                                                                                                      
+Get:10 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 Packages [1,019 kB]                                                                                                                                                    
+Get:11 http://us.archive.ubuntu.com/ubuntu bionic/main i386 Packages [1,007 kB]                                                                                                                                                     
+Get:12 http://us.archive.ubuntu.com/ubuntu bionic/main Translation-en [516 kB]                                                                                                                                                      
+Get:13 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [1,055 kB]                                                                                                                                              
+Get:14 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 DEP-11 Metadata [477 kB]                                                                                                                                               
+Get:15 http://us.archive.ubuntu.com/ubuntu bionic/main DEP-11 48x48 Icons [118 kB]                                                                                                                                                  
+Get:16 http://us.archive.ubuntu.com/ubuntu bionic/main DEP-11 64x64 Icons [245 kB]                                                                                                                                                  
+Get:17 http://us.archive.ubuntu.com/ubuntu bionic/restricted i386 Packages [9,156 B]                                                                                                                                                
+Get:18 http://us.archive.ubuntu.com/ubuntu bionic/restricted amd64 Packages [9,184 B]                                                                                                                                               
+Get:19 http://us.archive.ubuntu.com/ubuntu bionic/restricted Translation-en [3,584 B]                                                                                                                                               
+Get:20 http://us.archive.ubuntu.com/ubuntu bionic/universe i386 Packages [8,531 kB]                                                                                                                                                 
+Get:21 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [346 kB]                                                                                                                                               
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [50.4 kB]                                                                                                                                       
+Get:23 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [28.9 kB]                                                                                                                                          
+Get:24 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [65.2 kB]                                                                                                                                          
+Get:25 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [469 kB]                                                                                                                                         
+Get:26 http://security.ubuntu.com/ubuntu bionic-security/restricted i386 Packages [22.0 kB]                                                                                                                                         
+Get:27 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [63.2 kB]                                                                                                                                        
+Get:28 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [989 kB]                                                                                                                                            
+Get:29 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1,141 kB]                                                                                                                                         
+Get:30 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [8,570 kB]                                                                                                                                                
+Get:31 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [261 kB]                                                                                                                                           
+Get:32 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [58.0 kB]                                                                                                                                   
+Get:33 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [25.0 kB]                                                                                                                                      
+Get:34 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [132 kB]                                                                                                                                       
+Get:35 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [6,480 B]                                                                                                                                         
+Get:36 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [20.9 kB]                                                                                                                                        
+Get:37 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [4,732 B]                                                                                                                                        
+Get:38 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,468 B]                                                                                                                                 
+Get:39 http://security.ubuntu.com/ubuntu bionic-security/multiverse DEP-11 48x48 Icons [29 B]                                                                                                                                       
+Get:40 http://security.ubuntu.com/ubuntu bionic-security/multiverse DEP-11 64x64 Icons [2,638 B]                                                                                                                                    
+Get:41 http://us.archive.ubuntu.com/ubuntu bionic/universe Translation-en [4,941 kB]                                                                                                                                                
+Get:42 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 DEP-11 Metadata [3,287 kB]                                                                                                                                         
+Get:43 http://us.archive.ubuntu.com/ubuntu bionic/universe DEP-11 48x48 Icons [2,151 kB]                                                                                                                                            
+Get:44 http://us.archive.ubuntu.com/ubuntu bionic/universe DEP-11 64x64 Icons [8,420 kB]                                                                                                                                            
+Get:45 http://us.archive.ubuntu.com/ubuntu bionic/multiverse i386 Packages [144 kB]                                                                                                                                                 
+Get:46 http://us.archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [151 kB]                                                                                                                                                
+Get:47 http://us.archive.ubuntu.com/ubuntu bionic/multiverse Translation-en [108 kB]                                                                                                                                                
+Get:48 http://us.archive.ubuntu.com/ubuntu bionic/multiverse amd64 DEP-11 Metadata [49.7 kB]                                                                                                                                        
+Get:49 http://us.archive.ubuntu.com/ubuntu bionic/multiverse DEP-11 48x48 Icons [8,931 B]                                                                                                                                           
+Get:50 http://us.archive.ubuntu.com/ubuntu bionic/multiverse DEP-11 64x64 Icons [225 kB]                                                                                                                                            
+Get:51 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [1,360 kB]                                                                                                                                             
+Get:52 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [2,251 kB]                                                                                                                                            
+Get:53 http://us.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [438 kB]                                                                                                                                              
+Get:54 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [292 kB]                                                                                                                                       
+Get:55 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [82.9 kB]                                                                                                                                         
+Get:56 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [154 kB]                                                                                                                                          
+Get:57 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [493 kB]                                                                                                                                        
+Get:58 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [28.6 kB]                                                                                                                                        
+Get:59 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [66.9 kB]                                                                                                                                       
+Get:60 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1,581 kB]                                                                                                                                         
+Get:61 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,756 kB]                                                                                                                                        
+Get:62 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [377 kB]                                                                                                                                          
+Get:63 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [299 kB]                                                                                                                                   
+Get:64 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [226 kB]                                                                                                                                      
+Get:65 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [501 kB]                                                                                                                                      
+Get:66 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [27.3 kB]                                                                                                                                       
+Get:67 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [11.6 kB]                                                                                                                                        
+Get:68 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [6,808 B]                                                                                                                                       
+Get:69 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]                                                                                                                                
+Get:70 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse DEP-11 48x48 Icons [29 B]                                                                                                                                      
+Get:71 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse DEP-11 64x64 Icons [2,638 B]                                                                                                                                   
+Get:72 http://us.archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [10.0 kB]                                                                                                                                           
+Get:73 http://us.archive.ubuntu.com/ubuntu bionic-backports/main i386 Packages [10.0 kB]                                                                                                                                            
+Get:74 http://us.archive.ubuntu.com/ubuntu bionic-backports/main Translation-en [4,764 B]                                                                                                                                           
+Get:75 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [10.3 kB]                                                                                                                                       
+Get:76 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [10.3 kB]                                                                                                                                        
+Get:77 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [4,588 B]                                                                                                                                       
+Get:78 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [9,272 B]                                                                                                                                
+Get:79 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe DEP-11 48x48 Icons [2,809 B]                                                                                                                                   
+Get:80 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe DEP-11 64x64 Icons [3,943 B]                                                                                                                                   
+Fetched 57.2 MB in 4min 40s (204 kB/s)                                                                                                                                                                                              
+Reading package lists... Done
+bertopeng17-3@NDN-Node3-TELU:~/NFD$ sudo apt-get install -y valgrind
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  valgrind-dbg valgrind-mpi kcachegrind alleyoop valkyrie
+The following NEW packages will be installed:
+  valgrind
+0 upgraded, 1 newly installed, 0 to remove and 396 not upgraded.
+Need to get 14.3 MB of archives.
+After this operation, 74.0 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 valgrind amd64 1:3.13.0-2ubuntu2.3 [14.3 MB]
+Fetched 14.3 MB in 1min 32s (155 kB/s)                                                                                                                                                                                              
+Selecting previously unselected package valgrind.
+(Reading database ... 163950 files and directories currently installed.)
+Preparing to unpack .../valgrind_1%3a3.13.0-2ubuntu2.3_amd64.deb ...
+Unpacking valgrind (1:3.13.0-2ubuntu2.3) ...
+Setting up valgrind (1:3.13.0-2ubuntu2.3) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+bertopeng17-3@NDN-Node3-TELU:~/NFD$ ./waf configure
+Setting top to                           : /home/bertopeng17-3/NFD 
+Setting out to                           : /home/bertopeng17-3/NFD/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking C++ compiler version            : 7.5.0 
+Checking supported CXXFLAGS              : -std=c++14 
+Checking supported LINKFLAGS             : -fuse-ld=gold 
+Checking for program 'doxygen'           : /usr/bin/doxygen 
+Checking for program 'tar'               : /bin/tar 
+Checking for program 'sphinx-build'      : not found 
+Checking for program 'bash'              : /bin/bash 
+Checking for program 'dot'               : /usr/bin/dot 
+Checking for program 'pkg-config'        : /usr/bin/pkg-config 
+Checking for 'libndn-cxx'                : yes 
+Checking for 'libsystemd'                : yes 
+Checking for librt library               : yes 
+Checking for libresolv library           : yes 
+Checking if privilege drop/elevation is supported : yes 
+Checking for header valgrind/valgrind.h           : yes 
+Checking for program 'dpkg-architecture'          : /usr/bin/dpkg-architecture 
+Checking boost includes                           : 1.65.1 
+Checking boost libs                               : boost_system boost_program_options boost_filesystem 
+Checking for boost linkage                        : ok 
+Checking if Unix sockets are supported            : yes 
+Checking for libpcap library                      : yes 
+Checking for WebSocket++ includes                 : 0.8.1 
+Checking supported CXXFLAGS                       : -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color 
+Checking supported LINKFLAGS                      : -Wl,-O1 
+'configure' finished successfully (1.545s)
+bertopeng17-3@NDN-Node3-TELU:~/NFD$ 
