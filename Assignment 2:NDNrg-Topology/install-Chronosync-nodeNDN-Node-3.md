@@ -10,8 +10,8 @@ Prerequisites
 <pre>
 $ git clone https://github.com/named-data/ChronoSync
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/1-gitclone-chronosync2.png)
- Show Progress Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-gitclone.txt)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-ChronoSync-3/1-gitclone-chronosync3.png)
+ Show Progress Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-ChronoSync-3/chronosync3-gitclone.txt)
 
 **Build**
 <pre>
