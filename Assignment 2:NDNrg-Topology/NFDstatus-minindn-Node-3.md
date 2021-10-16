@@ -8,7 +8,7 @@ nfdc status report
 <pre>
 $ sudo python examples/mnndn.py
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NFD-2-Works/running-example%20topology.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-minindn3/4-minindn3-running-example-topology.png)
 
 <b>2. see the status of routing on the node:</b>
 
