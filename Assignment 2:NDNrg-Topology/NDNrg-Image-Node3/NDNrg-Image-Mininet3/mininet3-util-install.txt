@@ -1,0 +1,120 @@
+bertopeng17-3@NDN-Node3-TELU:~$ cd mininet/
+bertopeng17-3@NDN-Node3-TELU:~/mininet$ ./util/install.sh -nv
+Detected Linux distribution: Ubuntu 18.04 bionic amd64
+sys.version_info(major=2, minor=7, micro=17, releaselevel='final', serial=0)
+Detected Python (python) version 2
+Installing Mininet dependencies
+[sudo] password for bertopeng17-3: 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ethtool is already the newest version (1:4.15-0ubuntu1).
+make is already the newest version (4.1-9.1ubuntu1).
+net-tools is already the newest version (1.60+git20161116.90da8a0-1ubuntu1).
+socat is already the newest version (1.7.3.2-2ubuntu2).
+telnet is already the newest version (0.17-41).
+help2man is already the newest version (1.47.6).
+pep8 is already the newest version (1.7.1-1ubuntu1).
+pyflakes is already the newest version (1.6.0-1).
+pylint is already the newest version (1.8.3-1).
+python-pexpect is already the newest version (4.2.1-1).
+gcc is already the newest version (4:7.4.0-1ubuntu2.3).
+psmisc is already the newest version (23.1-1ubuntu0.1).
+python-tk is already the newest version (2.7.17-1~18.04).
+ssh is already the newest version (1:7.6p1-4ubuntu0.5).
+iperf is already the newest version (2.0.10+dfsg1-1ubuntu0.18.04.2).
+xterm is already the newest version (330-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.5).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+pip 20.3.4 from /usr/local/lib/python2.7/dist-packages/pip (python 2.7)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+iproute2 is already the newest version (4.15.0-2ubuntu1.3).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cgroup-tools is already the newest version (0.41-8ubuntu2).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Installing Mininet core
+~/mininet ~/mininet
+cc -Wall -Wextra  \
+-DVERSION=\"`PYTHONPATH=. python -B bin/mn --version 2>&1`\" mnexec.c -o mnexec
+install -D mnexec /usr/bin/mnexec
+PYTHONPATH=. help2man -N -n "create a Mininet network." \
+--no-discard-stderr "python -B bin/mn" -o mn.1
+help2man -N -n "execution utility for Mininet." \
+-h "-h" -v "-v" --no-discard-stderr ./mnexec -o mnexec.1
+install -D -t /usr/share/man/man1 mn.1 mnexec.1
+python -m pip uninstall -y mininet || true
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+WARNING: The directory '/home/bertopeng17-3/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Found existing installation: mininet 2.3.0
+Uninstalling mininet-2.3.0:
+  Successfully uninstalled mininet-2.3.0
+python -m pip install .
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+WARNING: The directory '/home/bertopeng17-3/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Processing /home/bertopeng17-3/mininet
+Requirement already satisfied: setuptools in /usr/lib/python2.7/dist-packages (from mininet==2.3.0) (39.0.1)
+Building wheels for collected packages: mininet
+  Building wheel for mininet (setup.py) ... done
+  Created wheel for mininet: filename=mininet-2.3.0-py2-none-any.whl size=159510 sha256=a0afa358ee84b6d3a2e3bdcb4e6bc2b3ae5250f4eba32394f1ec09aebdcee4e6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-vnpjKC/wheels/90/33/93/d296ad7a83aa2e99bb15aacb9a46366b2418399924ee1c7847
+Successfully built mininet
+Installing collected packages: mininet
+Successfully installed mininet-2.3.0
+~/mininet
+Installing Open vSwitch...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openvswitch-switch is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package openvswitch-controller
+Attempting to install openvswitch-testcontroller
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openvswitch-testcontroller is already the newest version (2.9.8-0ubuntu0.18.04.2).
+The following packages were automatically installed and are no longer required:
+  gyp libjs-async libjs-node-uuid libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async node-block-stream node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent node-form-data
+  node-fstream node-fstream-ignore node-github-url-from-git node-ini node-isexe node-json-stringify-safe node-lockfile node-mime node-mkdirp node-mute-stream node-node-uuid node-nopt node-npmlog node-osenv node-qs node-read
+  node-request node-retry node-rimraf node-sha node-slide node-tar node-tunnel-agent node-underscore node-which
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Stopped running controller
+bertopeng17-3@NDN-Node3-TELU:~/mininet$ 
