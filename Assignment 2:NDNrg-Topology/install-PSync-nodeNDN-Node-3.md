@@ -9,7 +9,7 @@ $ git clone https://github.com/named-data/PSync
 </pre>
 
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3/1-gitclone-psync3.png)
- Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/tree/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3)
+ Show Progess Clone Psync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-PSync-3/psync3-gitclone.txt)
 
 
 
