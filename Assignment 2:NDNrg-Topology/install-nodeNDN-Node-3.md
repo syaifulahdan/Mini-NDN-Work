@@ -121,6 +121,12 @@ Show Progess ndn-cxx waf configure [[read]](https://github.com/syaifulahdan/Mini
 -Building Static Library    : no
 -'sphinx-build'             : not found
 
+**problem solution** : Shinx-Build : not found, see : https://www.sphinx-doc.org/en/master/usage/installation.html
+<pre>
+apt-get install python3-sphinx
+</pre>
+[alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/python3-sphinx.png)
+
  
 <pre>
 $ ./waf 
