@@ -28,3 +28,4 @@ $ sudo make install
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-Infoedit2/3-infoedit2-make-install.png)
 Show Progress infoedit make install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/infoedit2-make-install.txt)
 
+.
