@@ -82,9 +82,9 @@ $ sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev li
 <pre>
 $ sudo apt install doxygen graphviz python3-pip -y
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/6-dependency-2-install.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/4-dependency-4-install.png)
 
-Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/dependency-2-progress.txt) 
+Show Progess Install [[read]]https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/dependency-4-progress.txt) 
 
 <pre>
 $ sudo apt install libpcap-dev libsystemd-dev -y
