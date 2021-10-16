@@ -21,8 +21,18 @@ Requires: alabaster, typing, snowballstemmer, Jinja2, packaging, requests, sphin
 Required-by: 
 bertopeng17-3@NDN-Node3-TELU:~/NFD$ 
 </pre>
+
+if it doesn't work, do the following steps :
+
+For Python 3:
+<pre>
+$ apt-get install python3-sphinx
 <pre>
 
+For Python 2:
+<pre>
+$ apt-get install python-sphinx
+</pre>
 $ ./waf configure
 </pre>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NFD-3/waf-configure-success.png)
