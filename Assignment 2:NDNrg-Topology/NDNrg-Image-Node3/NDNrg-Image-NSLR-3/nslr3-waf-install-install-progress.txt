@@ -1,0 +1,13 @@
+bertopeng17-3@NDN-Node3-TELU:~/NLSR$ sudo ./waf install
+[sudo] password for bertopeng17-3: 
+Waf: Entering directory `/home/bertopeng17-3/NLSR/build'
+Extension 'sphinxcontrib.doxylink' not found. Some documentation may not build correctly.
++ install /usr/local/bin/nlsr (from build/bin/nlsr)
++ install /usr/local/bin/nlsrc (from build/bin/nlsrc)
++ install /usr/local/etc/ndn/nlsr.conf.sample (from nlsr.conf)
++ install /usr/local/share/man/man1/nlsr.1 (from build/docs/manpages/nlsr.1)
++ install /usr/local/share/man/man1/nlsrc.1 (from build/docs/manpages/nlsrc.1)
++ install /usr/local/share/man/man5/nlsr.conf.5 (from build/docs/manpages/nlsr.conf.5)
+Waf: Leaving directory `/home/bertopeng17-3/NLSR/build'
+'install' finished successfully (0.577s)
+bertopeng17-3@NDN-Node3-TELU:~/NLSR$ 
