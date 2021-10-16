@@ -40,4 +40,3 @@ $ ./waf configure
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-NFD-3/waf-configure-success.png)
 
-.
