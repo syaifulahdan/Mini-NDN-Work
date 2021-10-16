@@ -36,5 +36,5 @@ $./waf
 <pre>
 $sudo ./waf install
 </pre>
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-ChronoSync-2/4-chronosync2-waf-install.png)
- Show Progress ChronoSync waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-waf-install.txt)
+![[alt tag]]https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-ChronoSync-3/4-chronosync3-waf-install.png)
+ Show Progress ChronoSync waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-ChronoSync-3/chronosync3-waf-install.txt)
