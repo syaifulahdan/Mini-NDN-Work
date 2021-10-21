@@ -165,7 +165,7 @@ root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-list</b>
 root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/all-configuration-nlsr-security.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/all-configuration-nlsr-security.png)
 
 
 
