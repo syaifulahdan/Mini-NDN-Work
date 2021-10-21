@@ -187,18 +187,22 @@ $ ping <remote-ip-address>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-ping-remote-node-itb.png)
 
 <pre>
-bertopeng17-3@NDN-Node3-TELU:~$ ping 192.168.58.4
-PING 192.168.58.4 (192.168.58.4) 56(84) bytes of data.
-64 bytes from 192.168.58.4: icmp_seq=1 ttl=64 time=1.90 ms
-64 bytes from 192.168.58.4: icmp_seq=2 ttl=64 time=1.00 ms
-64 bytes from 192.168.58.4: icmp_seq=3 ttl=64 time=0.530 ms
-64 bytes from 192.168.58.4: icmp_seq=4 ttl=64 time=1.03 ms
-64 bytes from 192.168.58.4: icmp_seq=5 ttl=64 time=1.02 ms
-64 bytes from 192.168.58.4: icmp_seq=6 ttl=64 time=0.915 ms
---- 192.168.58.4 ping statistics ---
-106 packets transmitted, 106 received, 0% packet loss, time 106402ms
-rtt min/avg/max/mdev = 0.257/0.885/4.581/0.457 ms
+bertopeng17-3@NDN-Node3-TELU:~$ ping 192.168.59.3
+PING 192.168.59.3 (192.168.59.3) 56(84) bytes of data.
+64 bytes from 192.168.59.3: icmp_seq=1 ttl=64 time=0.909 ms
+64 bytes from 192.168.59.3: icmp_seq=2 ttl=64 time=1.08 ms
+64 bytes from 192.168.59.3: icmp_seq=3 ttl=64 time=0.595 ms
+64 bytes from 192.168.59.3: icmp_seq=4 ttl=64 time=0.985 ms
+64 bytes from 192.168.59.3: icmp_seq=5 ttl=64 time=1.20 ms
+64 bytes from 192.168.59.3: icmp_seq=6 ttl=64 time=0.879 ms
+64 bytes from 192.168.59.3: icmp_seq=7 ttl=64 time=1.09 ms
+64 bytes from 192.168.59.3: icmp_seq=8 ttl=64 time=1.21 ms
+64 bytes from 192.168.59.3: icmp_seq=9 ttl=64 time=1.11 ms
+--- 192.168.59.3 ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8081ms
+rtt min/avg/max/mdev = 0.595/1.008/1.211/0.185 ms
 bertopeng17-3@NDN-Node3-TELU:~$ 
+
 </pre>
 
 
