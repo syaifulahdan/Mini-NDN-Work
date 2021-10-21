@@ -122,7 +122,7 @@ The following command may be used to verify that the certificates have been inst
 $ ndnsec-list
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-ndnsec-list-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-ndnsec-list-node3.png)
 
 <pre>
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list 
