@@ -136,33 +136,29 @@ root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR#
 
 <b>show all configuration NLSR Security Node 3</b>
 <pre>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-key-gen /ndn/ > root.key</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-dump -i /ndn/ > root.cert</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-install -f root.cert</b>
-OK: certificate with name [/ndn/KEY/%D6%D9l%10%D9%FA%BF%1C/self/v=1634799970312] has been successfully installed
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-key-gen /ndn/ndnrg/telu > site.key</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-gen -s /ndn/ site.key > site.cert</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-install -f site.cert</b>
-OK: certificate with name [/ndn/ndnrg/telu/KEY/%7B%D2%B6%E3%EF%89i%BD/NA/v=1634800639586] has been successfully installed
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-key-gen /ndn/ndnrg/telu/%C1.Operator/op > op.key</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-gen -s /ndn/ndnrg/telu op.key > op.cert</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-install -f op.cert</b>
-OK: certificate with name [/ndn/ndnrg/telu/%C1.Operator/op/KEY/%7D%9B%BF%0E%5E%40%AEF/NA/v=1634801042061] has been successfully installed
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
-root@Nroot@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-key-gen /ndn/ndnrg/telu/%C1.Router/routerX3 > routerX3.key</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-gen -s /ndn/ndnrg/telu/%C1.Operator/op routerX3.key > routerX3.cert</b>
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-cert-install -f routerX3.cert</b>
-OK: certificate with name [/ndn/ndnrg/telu/%C1.Router/routerX3/KEY/%CF%12R%E9%BEBMi/NA/v=1634801347281] has been successfully installed
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# <b>ndnsec-list</b>
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ > root.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f root.cert
+OK: certificate with name [/ndn/KEY/M%EA%A3Y%9A%C9%AA%F1/self/v=1634802511208] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ndnrg/telu > site.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f site.cert
+OK: certificate with name [/ndn/ndnrg/telu/KEY/%89%FE%D3%FE%86%B2%B3%0E/NA/v=1634802573311] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ndnrg/telu/%C1.Operator/op > op.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/telu op.key > op.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/telu/%C1.Operator/op/KEY/%0Bv%85%C3z%F7%FA%60/NA/v=1634802606760] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ndnrg/telu/%C1.Router/routerX3 > routerX3.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/telu/%C1.Operator/op routerX3.key > routerX3.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f routerX3.cert
+OK: certificate with name [/ndn/ndnrg/telu/%C1.Router/routerX3/KEY/%A4o%0A%85%0C%A8%01%60/NA/v=1634802653122] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-list
   /ndn
   /ndn/ndnrg/uti
   /ndn/ndnrg/telu
 * /ndn/ndnrg/telu/%C1.Router/routerX3
   /ndn/ndnrg/telu/%C1.Operator/op
-root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR#
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/all-configuration-nlsr-security.png)
