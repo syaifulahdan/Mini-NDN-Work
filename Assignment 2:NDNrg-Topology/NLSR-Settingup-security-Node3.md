@@ -106,11 +106,12 @@ ndnsec-cert-install -f routerX.cert
 </pre>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-install-routertcert-node3.png)
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@Nroot@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ndnrg/telu/%C1.Router/routerX3 > routerX3.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/telu/%C1.Operator/op routerX3.key > routerX3.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f routerX3.cert
+OK: certificate with name [/ndn/ndnrg/telu/%C1.Router/routerX3/KEY/%CF%12R%E9%BEBMi/NA/v=1634801347281] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
+
 
 </pre>
 
