@@ -184,30 +184,43 @@ Once the physical network and network cards have been configured, it is necessar
 $ ping <remote-ip-address>
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-ping-remote-pc1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-ping-remote-node-itb.png)
 
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$  ping 192.168.56.101
-PING 192.168.56.101 (192.168.56.101) 56(84) bytes of data.
-64 bytes from 192.168.56.101: icmp_seq=1 ttl=64 time=1.68 ms
-64 bytes from 192.168.56.101: icmp_seq=2 ttl=64 time=0.972 ms
-64 bytes from 192.168.56.101: icmp_seq=3 ttl=64 time=0.878 ms
-64 bytes from 192.168.56.101: icmp_seq=4 ttl=64 time=0.886 ms
-64 bytes from 192.168.56.101: icmp_seq=5 ttl=64 time=0.392 ms
-64 bytes from 192.168.56.101: icmp_seq=6 ttl=64 time=1.07 ms
-64 bytes from 192.168.56.101: icmp_seq=7 ttl=64 time=1.05 ms
-64 bytes from 192.168.56.101: icmp_seq=8 ttl=64 time=0.985 ms
-64 bytes from 192.168.56.101: icmp_seq=9 ttl=64 time=1.07 ms
-64 bytes from 192.168.56.101: icmp_seq=10 ttl=64 time=0.976 ms
-64 bytes from 192.168.56.101: icmp_seq=11 ttl=64 time=0.303 ms
-64 bytes from 192.168.56.101: icmp_seq=12 ttl=64 time=1.00 ms
-
---- 192.168.56.101 ping statistics ---
-44 packets transmitted, 44 received, 0% packet loss, time 43408ms
-rtt min/avg/max/mdev = 0.282/0.863/1.688/0.295 ms
-bertopeng17-2@NDN-Node2-UTI:~$ 
-
+bertopeng17-3@NDN-Node3-TELU:~$ ping 192.168.58.4
+PING 192.168.58.4 (192.168.58.4) 56(84) bytes of data.
+64 bytes from 192.168.58.4: icmp_seq=1 ttl=64 time=1.90 ms
+64 bytes from 192.168.58.4: icmp_seq=2 ttl=64 time=1.00 ms
+64 bytes from 192.168.58.4: icmp_seq=3 ttl=64 time=0.530 ms
+64 bytes from 192.168.58.4: icmp_seq=4 ttl=64 time=1.03 ms
+64 bytes from 192.168.58.4: icmp_seq=5 ttl=64 time=1.02 ms
+64 bytes from 192.168.58.4: icmp_seq=6 ttl=64 time=0.915 ms
+--- 192.168.58.4 ping statistics ---
+106 packets transmitted, 106 received, 0% packet loss, time 106402ms
+rtt min/avg/max/mdev = 0.257/0.885/4.581/0.457 ms
+bertopeng17-3@NDN-Node3-TELU:~$ 
 </pre>
+
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-ping-remote-node-lipi.png)
+
+<pre>
+bertopeng17-3@NDN-Node3-TELU:~$ ping 192.168.58.4
+PING 192.168.58.4 (192.168.58.4) 56(84) bytes of data.
+64 bytes from 192.168.58.4: icmp_seq=1 ttl=64 time=1.90 ms
+64 bytes from 192.168.58.4: icmp_seq=2 ttl=64 time=1.00 ms
+64 bytes from 192.168.58.4: icmp_seq=3 ttl=64 time=0.530 ms
+64 bytes from 192.168.58.4: icmp_seq=4 ttl=64 time=1.03 ms
+64 bytes from 192.168.58.4: icmp_seq=5 ttl=64 time=1.02 ms
+64 bytes from 192.168.58.4: icmp_seq=6 ttl=64 time=0.915 ms
+--- 192.168.58.4 ping statistics ---
+106 packets transmitted, 106 received, 0% packet loss, time 106402ms
+rtt min/avg/max/mdev = 0.257/0.885/4.581/0.457 ms
+bertopeng17-3@NDN-Node3-TELU:~$ 
+</pre>
+
+
+
 
 <b>Starting and configuring NFD</b>
 
