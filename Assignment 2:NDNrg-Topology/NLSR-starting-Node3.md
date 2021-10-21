@@ -13,7 +13,7 @@ $ export NDN_LOG=nlsr.*=TRACE && nlsr -f <configuration-file>
 </pre>
 
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-2/NLSR/nlsr-uti.conf 
+bertopeng17-3@NDN-Node3-TELU:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-3/NLSR/nlsr-telu.conf 
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/NLSR-start-node2-1.png)
@@ -21,7 +21,7 @@ bertopeng17-2@NDN-Node2-UTI:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bert
 
 
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-2/NLSR/nlsr-uti.conf 
+bertopeng17-3@NDN-Node3-TELU:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/bertopeng17-3/NLSR/nlsr-telu.conf 
 Wrong configuration section: hello-retries
 Wrong configuration section: hello-timeout
 Wrong configuration section: hello-interval
