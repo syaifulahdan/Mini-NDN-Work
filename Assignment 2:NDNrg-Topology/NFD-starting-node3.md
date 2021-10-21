@@ -102,7 +102,9 @@ $ nfdc face create udp4://<remote-ip-address>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/raw/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NFD-Image-Node3/network-telu.png)
 <pre>
-bertopeng17-2@NDN-Node2-UTI:~$ nfdc face create udp://192.168.56.103
+bertopeng17-3@NDN-Node3-TELU:~$ nfdc face create udp://192.168.59.4
+bertopeng17-3@NDN-Node3-TELU:~$ nfdc face create udp://192.168.58.3
+
 </pre>
 
 <pre>
