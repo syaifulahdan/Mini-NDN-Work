@@ -101,7 +101,7 @@ View FIle Otuput [[NFD Status]](https://github.com/syaifulahdan/Mini-NDN-Work/bl
 $ nfdc face create udp4://<remote-ip-address>
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/network%20ITB.png)
+![alt img](https://raw.githubusercontent.com/syaifulahdan/Mini-NDN-Work/main/Assignment%202%3ANDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/network-itb.png)
 <pre>
 bertopeng17-1@NDN-Node1-ITB:~$ nfdc face create udp://192.168.56.101
 </pre>
