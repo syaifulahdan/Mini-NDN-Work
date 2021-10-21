@@ -78,14 +78,15 @@ $ ndnsec-cert-gen -s /ndn/ndnrg/itb op.key > op.cert
 $ ndnsec-cert-install -f op.cert
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-operatorcert-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-install-operatorcert-node3.png)
 
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Operator/op > op.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti op.key > op.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-key-gen /ndn/ndnrg/telu/%C1.Operator/op > op.key
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/telu op.key > op.cert
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/telu/%C1.Operator/op/KEY/%7D%9B%BF%0E%5E%40%AEF/NA/v=1634801042061] has been successfully installed
+root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR# 
+
 
 </pre>
 
