@@ -92,17 +92,17 @@ root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR#
 
 10. At the router, generate the router key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
+$ ndnsec-key-gen /ndn/ndnrg/telu/%C1.Router/routerX3 > routerX3.key
 </pre>
 
 11. Copy the router key to the operator server and generate the certificate for the router:
 <pre>
-ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
+ndnsec-cert-gen -s /ndn/ndnrg/telu/%C1.Operator/op routerX3.key > routerX3.cert
 </pre>
 
 12. Copy the router certificate to the router and install it:
 <pre>
-ndnsec-cert-install -f routerX.cert
+ndnsec-cert-install -f routerX3.cert
 </pre>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NLSR-Image-Node3/nslr-install-routertcert-node3.png)
 <pre>
