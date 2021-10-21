@@ -65,12 +65,12 @@ root@NDN-Node3-TELU:/home/bertopeng17-3/NLSR#
 
 7. At the operator server, generate the operator key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Operator/op > op.key
+$ ndnsec-key-gen /ndn/ndnrg/telu/%C1.Operator/op > op.key
 </pre>
 
 8.Copy the operator key to the site server and generate the certificate for the operator server:
 <pre>
-$ ndnsec-cert-gen -s /ndn/ndnrg/itb op.key > op.cert
+$ ndnsec-cert-gen -s /ndn/ndnrg/telu op.key > op.cert
 </pre>
 
 9. Copy the operator certificate to the operator server and install it:
