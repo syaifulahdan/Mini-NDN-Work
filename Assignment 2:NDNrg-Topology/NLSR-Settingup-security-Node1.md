@@ -132,7 +132,7 @@ This guide recommends that one machine functions as the root, site, operator and
 Additionally, the following command may be used to print a list and a brief description of all the ndnsec commands:
 
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-design1.png)
+![alt img](https://raw.githubusercontent.com/syaifulahdan/Mini-NDN-Work/main/Assignment%202%3ANDNrg-Topology/NDNrg-Image-Node1/NFD-Image-Node1/network-itb.png)
 
 <b>Configuring the network</b>
 
