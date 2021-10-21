@@ -238,4 +238,4 @@ security
 
 </pre>
 
-View Detail file Configuration : [[nlsr-uti-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nlsr-itb-5-node.conf)
+View Detail file Configuration : [[nlsr-itb-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/nlsr-itb-5-node.conf)
