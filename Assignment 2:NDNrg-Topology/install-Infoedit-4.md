@@ -9,7 +9,7 @@ $ git clone — depth 1 https://github.com/NDN-Routing/infoedit
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-Infoedit4/1-gitclone-infoedit4.png)
 
-Show Progress clone infoedit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-Infoedit3/infoedit3-gitclone.txt)
+Show Progress clone infoedit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-Infoedit4/infoedit4-gitclone.txt)
 
 <pre>
 $ cd infoedit
