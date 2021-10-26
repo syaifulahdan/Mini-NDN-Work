@@ -25,7 +25,7 @@ $ cd Chronosync
 $./waf configure
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-ChronoSync-4/2-chronosync4-waf-configure.png)
- Show Progerss ChronoSync waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-waf-configure.txt)
+ Show Progerss ChronoSync waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-ChronoSync-4/chronosync4-waf-configure.txt)
 
 <pre>
 $./waf
