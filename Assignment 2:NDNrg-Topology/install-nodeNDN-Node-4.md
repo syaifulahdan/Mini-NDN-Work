@@ -61,7 +61,7 @@ $ sudo apt update && apt-get full-upgrade -y
 <pre>
 $ sudo apt-get install git
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDN-Installation/2-install-git.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDN-Installation/2-installl-git.png)
 
 ### 4. Git Clone ndn-cxx
 
