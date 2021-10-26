@@ -13,7 +13,7 @@ $ cd NLSR
 & ./waf configure
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-NSLR-4/2-nlsr4-waf-configure.png)
- Show Progress nslr waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nslr2-waf-configure-install-progress.txt)
+ Show Progress nslr waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-NSLR-4/nslr4-waf-configure-install-progress.txt)
 
 <pre>
 & ./waf
