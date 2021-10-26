@@ -1,0 +1,6 @@
+bertopeng17-4@NDN-Node4-LIPI:~/infoedit$ sudo make install
+[sudo] password for bertopeng17-4: 
+install -d /usr/local/bin
+install infoconv /usr/local/bin/infoconv
+install infoedit /usr/local/bin/infoedit
+bertopeng17-4@NDN-Node4-LIPI:~/infoedit$ 
