@@ -1,4 +1,4 @@
-### Install NLSR : Node 2 UTI
+### Install NLSR : Node 4 LIPI
 ***
  **4. Clone NLSR**
 <pre>
