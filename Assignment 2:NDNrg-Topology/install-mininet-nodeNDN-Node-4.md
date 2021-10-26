@@ -25,5 +25,5 @@ sudo mn --test pingall
 <pre>
 $ sudo mn --test pingall
 </pre> 
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-Mininet3/3-mininet3-test-pingall.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-Mininet4/3-mininet4-test-pingall.png)
 Show Progress ping-all: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-Mininet3/mininet3-test-pingall.txt)
