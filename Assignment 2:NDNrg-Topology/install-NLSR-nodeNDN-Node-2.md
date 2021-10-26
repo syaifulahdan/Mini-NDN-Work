@@ -5,7 +5,7 @@
 $ git clone https://github.com/named-data/NLSR
 </pre>
 
- ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-NSLR-4/1-gitclone-nlsr.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2/1-gitclone-nlsr.png)
  Show Progress Clone NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nslr2-gitclone.txt)
  
 <pre>
