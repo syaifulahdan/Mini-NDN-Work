@@ -26,4 +26,4 @@ $ cd NLSR
 & sudo ./waf install  
 </pre>
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NSLR-2/4-nlsr2-waf-install.png)
- Show Progress NLSR waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nslr2-waf-install-install-progress.txt)
+ Show Progress NLSR waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-NSLR-4/nslr4-waf-install-progress.txt)
