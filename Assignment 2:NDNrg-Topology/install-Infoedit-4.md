@@ -25,7 +25,7 @@ Show Progress infoedit make [[read]](https://github.com/syaifulahdan/Mini-NDN-Wo
 $ sudo make install
 </pre>
 
-![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-Infoedit3/3-infoedit3-make-install.png)
+![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-Infoedit4/3-infoedit4-make-install.png)
 Show Progress infoedit make install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDNrg-Image-Infoedit3/infoedit3-make-install.txt)
 
 .
