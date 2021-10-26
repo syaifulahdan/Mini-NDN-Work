@@ -11,7 +11,7 @@ Prerequisites
 $ git clone https://github.com/named-data/ChronoSync
 </pre>
 ![[alt tag]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-ChronoSync-4/1-gitclone-chronosync4.png)
- Show Progress Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/chronosync2-gitclone.txt)
+ Show Progress Clone ChronoSync [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-ChronoSync-4/chronosync4-gitclone.txt)
 
 **Build**
 <pre>
