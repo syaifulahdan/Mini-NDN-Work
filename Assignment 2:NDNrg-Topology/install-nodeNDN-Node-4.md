@@ -97,7 +97,7 @@ Show Progess Install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob
 $ git clone https://github.com/named-data/ndn-cxx
 </pre>
 
- ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/6-gitclone-ndncxx.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDN-Installation/6-gitclone-ndncxx.png)
 
 
 ### 5. Install ndn-cxx
