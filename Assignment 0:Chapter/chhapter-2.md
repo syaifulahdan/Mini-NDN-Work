@@ -25,7 +25,7 @@
   ### 2.4. Install Node 4 (LIPI)      
 - Installing Mininet [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-mininet-nodeNDN-Node-4.md)
    - Installing InfoeEdit [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Infoedit-3.md)
-   - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-Chronosync-nodeNDN-Node-3.md)
+   - Installing Mini-NDN & Running Example Topology[[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-minindn-nodeNDN-Node-4.md)
     - Check NFD status on node  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFDstatus-minindn-Node-3.md)
     - Check status of routing (NLSR) on the node: [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NSLRstatus-minindn-Node-3.md)
 *** 
