@@ -10,7 +10,7 @@ Download NFD
 $ git clone — recursive https://github.com/named-data/NFD
 </pre>
 
- ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NFD-2/1-gitclone-nfd.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NDNrg-Image-NFD-4/1-gitclone-nfd.png)
  
 
 <pre>
