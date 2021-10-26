@@ -1,0 +1,61 @@
+bertopeng17-4@NDN-Node4-LIPI:~/NLSR$ ./waf
+Waf: Entering directory `/home/bertopeng17-4/NLSR/build'
+[ 1/40] Compiling src/version.hpp.in
+[ 2/40] Compiling systemd/nlsr.service.in
+[ 3/40] Processing sphinx_build [man]: docs/manpages/nlsr.conf.rst docs/manpages/nlsr.rst docs/manpages/nlsrc.rst docs/conf.py -> build/docs/manpages/nlsr.1 build/docs/manpages/nlsr.conf.5 build/docs/manpages/nlsrc.1
+
+[ 4/40] Compiling src/nlsr.cpp
+[ 5/40] Compiling src/publisher/dataset-interest-handler.cpp
+[ 6/40] Compiling src/route/routing-table-calculator.cpp
+Extension 'sphinxcontrib.doxylink' not found. Some documentation may not build correctly.
+
+[ 7/40] Compiling src/communication/sync-logic-handler.cpp
+[ 8/40] Compiling src/name-prefix-list.cpp
+../src/route/routing-table-calculator.cpp: In member function ‘void nlsr::RoutingTableCalculator::makeAdjMatrix(const nlsr::Lsdb&, nlsr::Map&)’:
+../src/route/routing-table-calculator.cpp:81:19: warning: ‘*((void*)& row +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         adjMatrix[*row][*col] = cost;
+                   ^~~~
+../src/route/routing-table-calculator.cpp: In member function ‘void nlsr::LinkStateRoutingTableCalculator::calculatePath(nlsr::Map&, nlsr::RoutingTable&, nlsr::ConfParameter&, const nlsr::Lsdb&)’:
+../src/route/routing-table-calculator.cpp:243:26: warning: ‘*((void*)& sourceRouter +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ndn::optional<int32_t> sourceRouter =
+                          ^~~~~~~~~~~~
+../src/route/routing-table-calculator.cpp: In member function ‘void nlsr::HyperbolicRoutingCalculator::calculatePath(nlsr::Map&, nlsr::RoutingTable&, nlsr::Lsdb&, nlsr::AdjacencyList&)’:
+../src/route/routing-table-calculator.cpp:475:22: warning: ‘*((void*)& thisRouter +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if (thisRouter && dest != *thisRouter && dest != *src) {
+           ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+
+[ 9/40] Compiling src/update/manager-base.cpp
+[10/40] Compiling src/lsa/lsa.cpp
+[11/40] Compiling src/conf-parameter.cpp
+[12/40] Compiling src/route/routing-table-pool-entry.cpp
+[13/40] Compiling src/conf-file-processor.cpp
+[14/40] Compiling src/communication/sync-protocol-adapter.cpp
+[15/40] Compiling src/route/map.cpp
+[16/40] Compiling src/adjacent.cpp
+[17/40] Compiling src/route/routing-table-entry.cpp
+[18/40] Compiling src/adjacency-list.cpp
+[19/40] Compiling src/route/nexthop.cpp
+[20/40] Compiling src/route/name-prefix-table.cpp
+[21/40] Compiling src/route/name-prefix-table-entry.cpp
+[22/40] Compiling src/route/routing-table.cpp
+[23/40] Compiling src/route/fib.cpp
+[24/40] Compiling src/update/prefix-update-processor.cpp
+[25/40] Compiling src/update/prefix-update-commands.cpp
+[26/40] Compiling src/security/certificate-store.cpp
+[27/40] Compiling src/update/nfd-rib-command-processor.cpp
+[28/40] Compiling src/hello-protocol.cpp
+[29/40] Compiling src/sequencing-manager.cpp
+[30/40] Compiling src/lsa/adj-lsa.cpp
+[31/40] Compiling src/statistics.cpp
+[32/40] Compiling src/lsa/coordinate-lsa.cpp
+[33/40] Compiling src/stats-collector.cpp
+[34/40] Compiling src/lsa/name-lsa.cpp
+[35/40] Compiling src/lsdb.cpp
+[36/40] Compiling src/update/nfd-rib-commands.cpp
+[37/40] Compiling src/main.cpp
+[38/40] Compiling tools/nlsrc.cpp
+[39/40] Linking build/bin/nlsr
+[40/40] Linking build/bin/nlsrc
+Waf: Leaving directory `/home/bertopeng17-4/NLSR/build'
+'build' finished successfully (1m21.987s)
+bertopeng17-4@NDN-Node4-LIPI:~/NLSR$ 
