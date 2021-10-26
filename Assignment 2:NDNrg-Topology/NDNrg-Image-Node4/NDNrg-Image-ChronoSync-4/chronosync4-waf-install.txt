@@ -1,0 +1,23 @@
+bertopeng17-4@NDN-Node4-LIPI:~/ChronoSync$ sudo ./waf install
+[sudo] password for bertopeng17-4: 
+Waf: Entering directory `/home/bertopeng17-4/ChronoSync/build'
++ install /usr/local/lib/libChronoSync.so.0.5.4 (from build/libChronoSync.so)
+- symlink /usr/local/lib/libChronoSync.so (to libChronoSync.so.0.5.4)
++ install /usr/local/lib/pkgconfig/ChronoSync.pc (from build/ChronoSync.pc)
++ install /usr/local/include/ChronoSync/detail/bzip2-helper.hpp (from src/detail/bzip2-helper.hpp)
++ install /usr/local/include/ChronoSync/detail/config.hpp (from build/src/detail/config.hpp)
++ install /usr/local/include/ChronoSync/detail/common.hpp (from src/detail/common.hpp)
++ install /usr/local/include/ChronoSync/detail/mi-tag.hpp (from src/detail/mi-tag.hpp)
++ install /usr/local/include/ChronoSync/detail/tlv.hpp (from src/detail/tlv.hpp)
++ install /usr/local/include/ChronoSync/diff-state-container.hpp (from src/diff-state-container.hpp)
++ install /usr/local/include/ChronoSync/diff-state.hpp (from src/diff-state.hpp)
++ install /usr/local/include/ChronoSync/interest-container.hpp (from src/interest-container.hpp)
++ install /usr/local/include/ChronoSync/interest-table.hpp (from src/interest-table.hpp)
++ install /usr/local/include/ChronoSync/leaf-container.hpp (from src/leaf-container.hpp)
++ install /usr/local/include/ChronoSync/leaf.hpp (from src/leaf.hpp)
++ install /usr/local/include/ChronoSync/logic.hpp (from src/logic.hpp)
++ install /usr/local/include/ChronoSync/socket.hpp (from src/socket.hpp)
++ install /usr/local/include/ChronoSync/state.hpp (from src/state.hpp)
+Waf: Leaving directory `/home/bertopeng17-4/ChronoSync/build'
+'install' finished successfully (0.125s)
+bertopeng17-4@NDN-Node4-LIPI:~/ChronoSync$ 
