@@ -171,9 +171,7 @@ root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
  ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-rootcert-node4.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-sitecert-node4.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-operatorcert-node4.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-routertcert-node2.png)
-
-
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-sitecert-node4.png)
 
 
 
