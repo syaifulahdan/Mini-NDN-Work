@@ -64,7 +64,7 @@ $ ndnsec-cert-install -f site.cert
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi > site.key
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f site.cert
-OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%1C%8D%7Bc%83%EE%B1/NA/v=1635358814559] has been successfully installed
+OK: certificate with name [/ndn/ndnrg/lipi/KEY/%16%D9%40%8F%DAI%5C%A1/NA/v=1635359359491] has been successfully installed
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# 
 
 </pre>
