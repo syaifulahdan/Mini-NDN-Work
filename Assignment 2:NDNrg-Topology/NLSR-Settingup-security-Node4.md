@@ -110,20 +110,20 @@ $ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
 
 11. Copy the router key to the operator server and generate the certificate for the router:
 <pre>
-ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
+ndnsec-cert-gen -s /ndn/ndnrg/lipi/%C1.Operator/op routerX4.key > routerX4.cert
 </pre>
 
 12. Copy the router certificate to the router and install it:
 <pre>
-ndnsec-cert-install -f routerX.cert
+ndnsec-cert-install -f routerX4.cert
 </pre>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-routertcert-node2.png)
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Router/routerX4 > routerX4.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/lipi/%C1.Operator/op routerX4.key > routerX4.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f routerX4.cert
+OK: certificate with name [/ndn/ndnrg/lipi/%C1.Router/routerX4/KEY/%C2%C1%28%14.%23%D8%94/NA/v=1635360239898] has been successfully installed
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# 
 
 </pre>
 
