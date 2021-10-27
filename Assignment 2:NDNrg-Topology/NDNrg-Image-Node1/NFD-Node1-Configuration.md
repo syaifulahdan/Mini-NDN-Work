@@ -1,7 +1,7 @@
 The configuration file consists of rules and trust-anchors that will be used in validation. Rules tell the validator how to validate a packet, while trust-anchors tell the validator which certificates are valid immediately. Here is an example of configuration file containing two rules and a trust anchor.
 https://named-data.net/doc/ndn-cxx/current/tutorials/security-validator-config.html
 
-
+<pre>
 ; The general section contains global settings for the nfd process.
 general
 {
@@ -374,7 +374,7 @@ rib
   ;   ; checking part of a rule consists of `checker`, which defines the conditions that a
   ;   ; VALID packet MUST have. See comments in checker section for more details.
   ;
-  <pre>
+  <b>
   ;   rule
   ;   {
   ;     id "RIB Command Interest"
@@ -446,9 +446,9 @@ rib
   ;     type any
   ;   }
   ; }
-</pre>
+</b>
 
-<pre>
+ 
   ; The following prefix_announcement_validation accepts any prefix announcement
   prefix_announcement_validation
   {
