@@ -12,6 +12,9 @@ Configuring security in an NDN network requires to generate, exchange and instal
 ![alt img](https://named-data.net/doc/NLSR/current/_images/security_comp.png)
 
 ***
+
+### Create Certificate : Root
+***
 1. At the root server, generate the root key:
 
 <pre>
