@@ -45,7 +45,7 @@ root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
 ***
 4. At the site server, generate the site key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/uti > site.key
+$ ndnsec-key-gen /ndn/ndnrg/lipi > site.key
 </pre>
 
 5. Copy the site key to the root server and generate the certificate for the site server:
@@ -61,7 +61,7 @@ $ ndnsec-cert-install -f site.cert
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-sitecert-node4.png)
 <pre>
-root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi > site.key
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f site.cert
 OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%1C%8D%7Bc%83%EE%B1/NA/v=1635358814559] has been successfully installed
