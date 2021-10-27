@@ -105,7 +105,7 @@ root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
 
 10. At the router, generate the router key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
+$ ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Router/routerX4 > routerX.key
 </pre>
 
 11. Copy the router key to the operator server and generate the certificate for the router:
