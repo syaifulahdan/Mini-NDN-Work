@@ -7,13 +7,12 @@ To test the NLSR, the first step is
 3. Finally, the NLSR configuration file must be edited before running NLSR. The following subsections are provided as a guide for defining and configuring a simple computer network between two computers: router1 and router2.
 
 Setting up the security
-Configuring security in an NDN network requires to generate, exchange and install, keys and certificates between the root, site, operator and router computers that form the network [NLSRsecconf], [NLSRdevguide], although in practice, it is possible to keep more than one of these entities in a single machine. The following example and Figure 1 show how to configure security for a single router, called Router X. In this example, the root, site, operator and Router X are in different computers:
+Configuring security in an NDN network requires to generate, exchange and install, keys and certificates between the root, site, operator and router computers that form the network [NLSRsecconf], [NLSRdevguide], although in practice, it is possible to keep more than one of these entities in a single machine. The following example and Figure 1 show how to configure security for a single router, called Router X. In this example, the root, site, operator and <b>Router X4</b> are in different computers:
 
 ![alt img](https://named-data.net/doc/NLSR/current/_images/security_comp.png)
 
 ***
-
-### Create Certificate : Root
+### Create Certificate : Root Server
 ***
 1. At the root server, generate the root key:
 
@@ -41,6 +40,9 @@ root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
 
 </pre>
 
+***
+### Create Certificate : Site Server
+***
 4. At the site server, generate the site key:
 <pre>
 $ ndnsec-key-gen /ndn/ndnrg/uti > site.key
@@ -65,6 +67,10 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
 OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473] has been successfully installed
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
 </pre>
+
+***
+### Create Certificate : Operator Server
+***
 
 7. At the operator server, generate the operator key:
 <pre>
@@ -91,6 +97,10 @@ OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%F
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
 
 </pre>
+
+***
+### Create Certificate : Router
+***
 
 10. At the router, generate the router key:
 <pre>
