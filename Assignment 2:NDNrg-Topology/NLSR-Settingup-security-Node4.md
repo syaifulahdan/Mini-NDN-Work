@@ -91,11 +91,11 @@ $ ndnsec-cert-install -f op.cert
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-operatorcert-node2.png)
 
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Operator/op > op.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti op.key > op.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Operator/op > op.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/lipi op.key > op.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/lipi/%C1.Operator/op/KEY/%11a%1C%7Dnz%01%EB/NA/v=1635359715442] has been successfully installed
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
 
 </pre>
 
