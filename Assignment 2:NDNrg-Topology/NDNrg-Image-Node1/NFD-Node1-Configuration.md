@@ -374,6 +374,7 @@ rib
   ;   ; checking part of a rule consists of `checker`, which defines the conditions that a
   ;   ; VALID packet MUST have. See comments in checker section for more details.
   ;
+  <pre>
   ;   rule
   ;   {
   ;     id "RIB Command Interest"
@@ -445,7 +446,9 @@ rib
   ;     type any
   ;   }
   ; }
+</pre>
 
+<pre>
   ; The following prefix_announcement_validation accepts any prefix announcement
   prefix_announcement_validation
   {
