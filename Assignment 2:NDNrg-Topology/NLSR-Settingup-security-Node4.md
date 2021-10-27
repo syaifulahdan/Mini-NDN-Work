@@ -194,10 +194,8 @@ $ ping <remote-ip-address>
 </pre>
 
 <pre>
-bertopeng17-4@NDN-Node4-LIPI:~$ <b>ping 192.168.58.3</b>
 bertopeng17-4@NDN-Node4-LIPI:~$ <b>ping 192.168.60.3</b>
-
-
+bertopeng-4@NDN-Node4-LIPI:~$ <b>ping 192.168.58.3</b>
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-ping-remote-pc1.png)
