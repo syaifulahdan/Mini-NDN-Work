@@ -145,30 +145,27 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR
 </pre>
 
-<b>show all configuration NLSR Security Node 2</b>
+<b>show all configuration NLSR Security Node 4</b>
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f root.cert
-OK: certificate with name [/ndn/KEY/%C7%96%E1%E8w%C8-%0B/self/v=1633716835538] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
-OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Operator/op > op.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti op.key > op.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list 
-  /ndn
-  /ndn/ndnrg/uti
-* /ndn/ndnrg/uti/%C1.Router/routerX2
-  /ndn/ndnrg/uti/%C1.Operator/op
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ > root.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f root.cert
+OK: certificate with name [/ndn/KEY/%B9%14%1A%F0%83%D1Wd/self/v=1635358304232] has been successfully installed
+root@NDN-Node4root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi > site.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f site.cert
+OK: certificate with name [/ndn/ndnrg/lipi/KEY/%16%D9%40%8F%DAI%5C%A1/NA/v=1635359359491] has been successfully installed
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# -LIPI:/home/bertopeng17-4/NLSR#
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Operator/op > op.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/lipi op.key > op.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/lipi/%C1.Operator/op/KEY/%11a%1C%7Dnz%01%EB/NA/v=1635359715442] has been successfully installed
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR#
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Router/routerX4 > routerX4.key
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/lipi/%C1.Operator/op routerX4.key > routerX4.cert
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-cert-install -f routerX4.cert
+OK: certificate with name [/ndn/ndnrg/lipi/%C1.Router/routerX4/KEY/%C2%C1%28%14.%23%D8%94/NA/v=1635360239898] has been successfully installed
+root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# 
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/all-configuration-nlsr-security.png)
