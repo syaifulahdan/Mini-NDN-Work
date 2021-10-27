@@ -88,7 +88,7 @@ $ ndnsec-cert-gen -s /ndn/ndnrg/itb op.key > op.cert
 $ ndnsec-cert-install -f op.cert
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-operatorcert-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node4/NLSR-Image-Node4/nslr-install-operatorcert-node4.png)
 
 <pre>
 root@NDN-Node4-LIPI:/home/bertopeng17-4/NLSR# ndnsec-key-gen /ndn/ndnrg/lipi/%C1.Operator/op > op.key
