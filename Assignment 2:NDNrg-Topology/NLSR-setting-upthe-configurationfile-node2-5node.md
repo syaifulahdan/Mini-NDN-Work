@@ -11,8 +11,8 @@ Instructions on how to use the configuration file are already provided at the NL
 general
 {
   network /ndn/                             
-  site /ndnrg/itb                         
-  router /%C1.Router/routerX   
+  site /ndnrg/uti                         
+  router /%C1.Router/routerX2   
 
   lsa-refresh-time 1800         
   lsa-interest-lifetime 4      
@@ -31,16 +31,16 @@ first-hello-interval  10
 
 neighbor
 	{
-	name /ndn/ndnrg/uti/%C1.Router/routerX2 
-	face-uri  udp4://routerX2.uti.ndnrg
+	name /ndn/ndnrg/itb/%C1.Router/routerX 
+	face-uri  udp4://routerX.itb.ndnrg
     	link-cost 15    
 	}
 neighbor
 	{
-	name /ndn/ndnrg/telu/%C1.Router/routerX3
-	face-uri  udp4://routerX3.telu.ndnrg    
-    	;face-uri  udp://192.168.59.4            
-    	link-cost 25       
+	name /ndn/ndnrg/ittj/%C1.Router/routerX5
+	face-uri  udp4://routerX5.ittj.ndnrg    
+    	;face-uri  udp://192.168.57.7            
+    	link-cost 34       
 	}                  
   	
 }
@@ -60,8 +60,8 @@ max-faces-per-prefix 3
 
 advertising
 {
-  prefix /ndn/ndnrg/itb/telmat/residen 
-  prefix /ndn/ndnrg/itb/telmat/labipnet   
+  prefix /ndn/ndnrg/uti/ftik/labnetwork 
+  prefix /ndn/ndnrg/uti/ftik/labict   
     
 }
 
@@ -231,7 +231,7 @@ security
 
   cert-to-publish "op.cert"        
 
-  cert-to-publish "routerX.cert"  
+  cert-to-publish "routerX1.cert"  
 }
 
 
