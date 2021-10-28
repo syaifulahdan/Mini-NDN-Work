@@ -1,7 +1,7 @@
 ### Setting up the configuration file <b>nlsr.conf</b> Router Tel-U (5 Node)
 ***
 Source : https://named-data.net/doc/NLSR/current/beginners-guide.html#ndnnfdusage
-Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router1 <b>(RouterX3)</b>:
+Instructions on how to use the configuration file are already provided at the NLSR’s Router Configuration page [NLSRrtrconf]. Read the information in this page to understand NLSR router configuration. The following text describes the instructions that have been modified at the default <b>nlsr.conf</b> file for Router3 <b>(RouterX3)</b>:
 ***
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Topology/network-telu.png)
 
@@ -11,8 +11,8 @@ Instructions on how to use the configuration file are already provided at the NL
 general
 {
   network /ndn/                             
-  site /ndnrg/uti                         
-  router /%C1.Router/routerX2   
+  site /ndnrg/telu                         
+  router /%C1.Router/routerX3   
 
   lsa-refresh-time 1800         
   lsa-interest-lifetime 4      
@@ -31,16 +31,16 @@ first-hello-interval  10
 
 neighbor
 	{
-	name /ndn/ndnrg/itb/%C1.Router/routerX 
-	face-uri  udp4://routerX.itb.ndnrg
-    	link-cost 15    
+	name /ndn/ndnrg/lipi/%C1.Router/routerX4 
+	face-uri  udp4://routerX2.uti.ndnrg
+    	link-cost 28    
 	}
 neighbor
 	{
-	name /ndn/ndnrg/ittj/%C1.Router/routerX5
-	face-uri  udp4://routerX5.ittj.ndnrg    
-    	;face-uri  udp://192.168.57.7            
-    	link-cost 34       
+	name /ndn/ndnrg/itb/%C1.Router/routerX
+	face-uri  udp4://routerX.itb.ndnrg    
+    	;face-uri  udp://192.168.59.4            
+    	link-cost 25       
 	}                  
   	
 }
@@ -60,8 +60,8 @@ max-faces-per-prefix 3
 
 advertising
 {
-  prefix /ndn/ndnrg/uti/ftik/labnetwork 
-  prefix /ndn/ndnrg/uti/ftik/labict   
+  prefix /ndn/ndnrg/telu/fte/lab1 
+  prefix /ndn/ndnrg/telu/fte/lab2   
     
 }
 
@@ -231,11 +231,10 @@ security
 
   cert-to-publish "op.cert"        
 
-  cert-to-publish "routerX1.cert"  
+  cert-to-publish "routerX3.cert"  
 }
-
 
 
 </pre>
 
-View Detail file Configuration : [[nlsr-uti-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nlsr-uti-5-node.conf)
+View Detail file Configuration : [[nlsr-uti-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/nlsr-telu-5-node.conf)
