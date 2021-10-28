@@ -237,4 +237,4 @@ security
 
 </pre>
 
-View Detail file Configuration : [[nlsr-uti-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/nlsr-telu-5-node.conf)
+View Detail file Configuration : [[nlsr-telu-5-node.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/nlsr-telu-5-node.conf)
