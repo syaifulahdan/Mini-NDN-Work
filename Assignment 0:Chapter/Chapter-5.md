@@ -53,7 +53,7 @@ To uninstall ndn-tools:
     sudo ./waf uninstall
 *** 
  
-### 3.1. Install NDN Essential Tools Node 1 (ITB) 
+### 5.1. Install NDN Essential Tools Node 1 (ITB) 
    ***
    - Installing Peek [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
    - Installing Chunk [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
