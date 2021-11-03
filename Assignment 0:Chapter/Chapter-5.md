@@ -19,10 +19,17 @@ Source : [[named-data.net]](https://named-data.net/codebase/platform/) ndn-tools
 
 ## ndn-tools Build Instructions
 ***
-Prerequisites
+### Prerequisites
 * Install the ndn-cxx library and its prerequisites. Please see Getting Started with ndn-cxx for how to install ndn-cxx. Note: If you have installed ndn-cxx from a binary package, please make sure development headers are installed (e.g., if using Ubuntu PPA, the libndn-cxx-dev package is needed).
 * libpcap
 <pre>
  sudo apt install libpcap-dev
  </pre>
-* 
+ 
+ ### Build Steps 
+ <pre>
+ ./waf configure
+ ./waf
+ sudo ./waf install
+<?pre>
+ 
