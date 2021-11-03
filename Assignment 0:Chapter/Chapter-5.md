@@ -16,3 +16,8 @@ Source : [[named-data.net]](https://named-data.net/codebase/platform/) ndn-tools
 
 ![[dissect-wireshark]](https://github.com/named-data/ndn-tools/blob/master/tools/dissect-wireshark): Wireshark extension to inspect the TLV structure of NDN packets
 ***
+
+## ndn-tools Build Instructions
+***
+Prerequisites
+* nstall the ndn-cxx library and its prerequisites. Please see Getting Started with ndn-cxx for how to install ndn-cxx. Note: If you have installed ndn-cxx from a binary package, please make sure development headers are installed (e.g., if using Ubuntu PPA, the libndn-cxx-dev package is needed).
