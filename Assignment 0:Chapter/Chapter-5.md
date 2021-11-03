@@ -1,6 +1,6 @@
 ***
 ## NDN Essential Tools 
-![[named-data.net]](https://named-data.net/codebase/platform/) ndn-tools is a collection of basic tools for Named Data Networking. Tools in this collection include:
+[[named-data.net]](https://named-data.net/codebase/platform/) ndn-tools is a collection of basic tools for Named Data Networking. Tools in this collection include:
 ***
   
     
