@@ -114,7 +114,7 @@ $ cd ndn-cxx
 $ ./waf configure
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/8-ndncxx-waf-configure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDN-Installation/7-ndncxx-waf-configure5.png)
 Show Progess ndn-cxx waf configure [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDN-Installation/ndncxx-waf-configure-progress.txt) 
 
 **Noted :** 
