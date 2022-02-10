@@ -1,0 +1,40 @@
+bertopeng17-2@ndn-node5-ittj:~$ cd ndn-cxx/
+bertopeng17-2@ndn-node5-ittj:~/ndn-cxx$ ./waf configure
+Setting top to                           : /home/bertopeng17-2/ndn-cxx 
+Setting out to                           : /home/bertopeng17-2/ndn-cxx/build 
+Building static library                  : no 
+Building shared library                  : yes 
+Build platform                           : linux 
+Host platform                            : linux 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+Checking C++ compiler version            : 7.5.0 
+Checking supported CXXFLAGS              : -std=c++14 
+Checking supported LINKFLAGS             : -fuse-ld=gold 
+Checking for std::to_string              : yes 
+Checking for program 'doxygen'           : /usr/bin/doxygen 
+Checking for program 'tar'               : /bin/tar 
+Checking for program 'sphinx-build'      : not found 
+Checking for program 'sh'                : /bin/sh 
+Checking for program 'dot'               : /usr/bin/dot 
+Checking for library atomic              : yes 
+Checking for library pthread             : yes 
+Checking for library rt                  : yes 
+Checking for function getpass            : yes 
+Checking for netlink                     : yes 
+Checking for NETLINK_EXT_ACK             : yes 
+Checking for IFA_FLAGS                   : yes 
+Checking for program 'pkg-config'        : /usr/bin/pkg-config 
+Checking for 'sqlite3'                   : yes 
+Checking for OpenSSL version             : "OpenSSL 1.1.1  11 Sep 2018" 
+Checking if OpenSSL library works        : yes 
+Checking for program 'dpkg-architecture' : /usr/bin/dpkg-architecture 
+Checking boost includes                  : 1.65.1 
+Checking boost libs                      : boost_stacktrace_backtrace 
+Checking for boost linkage               : ok 
+Checking boost libs                      : boost_system boost_program_options boost_chrono boost_date_time boost_filesystem boost_thread boost_log boost_stacktrace_backtrace 
+Checking the flags needed to use pthreads : -pthread 
+Checking for boost linkage                : ok 
+Checking supported CXXFLAGS               : -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color 
+Checking supported LINKFLAGS              : -Wl,-O1 
+'configure' finished successfully (4.649s)
+bertopeng17-2@ndn-node5-ittj:~/ndn-cxx$ 
