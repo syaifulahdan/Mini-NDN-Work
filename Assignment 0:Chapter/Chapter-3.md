@@ -90,7 +90,7 @@
      - Configuring NLSR  [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Configuring-Node2.md)
      - Setup the Security [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-Settingup-security-Node5.md)
      - Configuring The Network
-     - Setting Up the Configuration file : nlsr-uti.conf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node2.md)
+     - Setting Up the Configuration file : <b>nlsr-ITTJ-5 Node.conf</b> [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-setting-upthe-configurationfile-node5-5node.md)
      - Starting NLSR [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NLSR-starting-Node2.md)
    - NFD
       - Configuring the Network [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NFD-configuring-network-node2.md)
