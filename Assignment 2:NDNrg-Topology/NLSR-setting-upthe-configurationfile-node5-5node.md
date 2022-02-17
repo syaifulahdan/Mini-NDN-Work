@@ -51,7 +51,7 @@ max-faces-per-prefix 3
 advertising
 {
   prefix /ndn/ndnrg/ittj/telkom/tel1
-  prefix /ndn/ndnrg/ittj/telkom/lel2   
+  prefix /ndn/ndnrg/ittj/telkom/tel2   
     
 }
 
