@@ -155,15 +155,17 @@ root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX5.ce
 OK: certificate with name [/ndn/ndnrg/ittj/%C1.Router/routerX5/KEY/%87%10%83%D5%F5%A1%F9A/NA/v=1645112442211] has been successfully installed
 root@ndn-node5-ittj:/home/bertopeng17-2/NLSR#
 
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list 
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-list
   /ndn
   /ndn/ndnrg/uti
-* /ndn/ndnrg/uti/%C1.Router/routerX2
-  /ndn/ndnrg/uti/%C1.Operator/op
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+  /ndn/ndnrg/ittj
+* /ndn/ndnrg/ittj/%C1.Router/routerX5
+  /ndn/ndnrg/ittj/%C1.Operator/op
+  /localhost/operator
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
+
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/all-configuration-nlsr-security.png)
 
 
 
