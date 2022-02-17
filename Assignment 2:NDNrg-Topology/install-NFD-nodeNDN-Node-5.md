@@ -30,6 +30,6 @@ Show Progess nfd waf [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob
 <pre>
 $ sudo ./waf install
 </pre>
- ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NDNrg-Image-NFD-2/5-nfd2-waf-install.png)
+ ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NFD-5/nfd5-waf-install.png)
  
  Show Progess nfd waf install [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/nfd2-waf-install-install-progress.txt)
