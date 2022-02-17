@@ -28,7 +28,7 @@ $ ndnsec-cert-dump -i /ndn/ > root.cert
 $ ndnsec-cert-install -f root.cert
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-rootcert-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NSLR-5/nslr-install-rootcert-node5.png)
 <pre>
 root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
 root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
