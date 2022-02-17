@@ -104,13 +104,13 @@ ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
 <pre>
 ndnsec-cert-install -f routerX.cert
 </pre>
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-routertcert-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NSLR-5/nslr-install-routertcert-node5.png)
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/ittj/%C1.Router/routerX5 > routerX5.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/ittj/%C1.Operator/op routerX5.key > routerX5.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX5.cert
+OK: certificate with name [/ndn/ndnrg/ittj/%C1.Router/routerX5/KEY/%87%10%83%D5%F5%A1%F9A/NA/v=1645112442211] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR#
 
 </pre>
 
@@ -132,24 +132,29 @@ root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR
 </pre>
 
-<b>show all configuration NLSR Security Node 2</b>
+<b>show all configuration NLSR Security Node 5/b>
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f root.cert
-OK: certificate with name [/ndn/KEY/%C7%96%E1%E8w%C8-%0B/self/v=1633716835538] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
-OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Operator/op > op.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti op.key > op.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Operator/op/KEY/%E8%D08%09%85%EB%FD%1D/NA/v=1633718199068] has been successfully installed
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti/%C1.Router/routerX2 > routerX2.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/uti/%C1.Operator/op routerX2.key > routerX2.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX2.cert
-OK: certificate with name [/ndn/ndnrg/uti/%C1.Router/routerX2/KEY/%26%F7%D1%03m%C04z/NA/v=1633718745400] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ > root.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-dump -i /ndn/ > root.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f root.cert
+OK: certificate with name [/ndn/KEY/%02%B3%00%3D%DA%9Ab%DC/self/v=1645110298663] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/ittj > site.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
+OK: certificate with name [/ndn/ndnrg/ittj/KEY/%0A%93%23c%19SH2/NA/v=1645111639961] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/ittj/%C1.Operator/op > op.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/ittj op.key > op.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f op.cert
+OK: certificate with name [/ndn/ndnrg/ittj/%C1.Operator/op/KEY/%A8%C1~%1CS%D6%81%5B/NA/v=1645112200983] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/ittj/%C1.Router/routerX5 > routerX5.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ndnrg/ittj/%C1.Operator/op routerX5.key > routerX5.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f routerX5.cert
+OK: certificate with name [/ndn/ndnrg/ittj/%C1.Router/routerX5/KEY/%87%10%83%D5%F5%A1%F9A/NA/v=1645112442211] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR#
+
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list 
   /ndn
   /ndn/ndnrg/uti
