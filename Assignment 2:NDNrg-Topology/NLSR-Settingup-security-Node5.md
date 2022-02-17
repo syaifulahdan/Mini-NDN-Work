@@ -56,12 +56,12 @@ $ ndnsec-cert-install -f site.cert
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NSLR-5/nslr-install-sitecert-node5.png)
 <pre>
-root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/ittj > site.key
 root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
 root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
-OK: certificate with name [/ndn/ndnrg/uti/KEY/n%12%85x%DA%FA%0C%A3/NA/v=1645110872413] has been successfully installed
+OK: certificate with name [/ndn/ndnrg/ittj/KEY/%0A%93%23c%19SH2/NA/v=1645111639961] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
 
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
 </pre>
 
 7. At the operator server, generate the operator key:
