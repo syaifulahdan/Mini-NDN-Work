@@ -16,7 +16,6 @@ Tabel Of Content
 
 <pre>
 [nodes]
-[nodes]
 jakarta: _ radius=107,0007857 angle=356.680854
 bandung: _ radius=107.8313820 angle=356.336204
 tasik: _ radius=108.4655794 angle=356.114135
