@@ -52,16 +52,16 @@ magelang:semarang delay=5ms
 jogjakarta:klaten delay=7ms
 </pre>
 
-Download : [[minindn.topo-custom-5.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-5.conf)
+Download : [[minindn.topo-custom-10.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-10.conf)
 
-Next, copy the topology file: **minindn.topo-custom-5.conf** into the mini-ndn/topologies directory.
+Next, copy the topology file: **minindn.topo-custom-10.conf** into the mini-ndn/topologies directory.
 
 ### <b>2. Running Topology</b>   
 
 run mini-ndn with the following command
 
 <pre>
-& sudo python examples/mnndn.py topologies/minindn.topo-custom-5.conf
+& sudo python examples/mnndn.py topologies/minindn.topo-custom-10.conf
 </pre>
 ![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/running-ct5nodes.png)
 
