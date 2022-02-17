@@ -26,6 +26,8 @@ klaten: _ radius=110.9311298 angle=355.999261
 medan: _ radius=98.72597954 angle=2.08602249
 padang: _ radius=100.4108292 angle=359.459762
 jogjakarta: _ radius=110.0943746 angle=355.959737
+
+
 [links]
 jakarta:bandung delay=8ms
 bandung:tasik delay=7ms
