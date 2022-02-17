@@ -54,12 +54,13 @@ $ ndnsec-cert-gen -s /ndn/ site.key > site.cert
 $ ndnsec-cert-install -f site.cert
 </pre>
 
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-install-sitecert-node2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NSLR-5/nslr-install-sitecert-node5.png)
 <pre>
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
-OK: certificate with name [/ndn/ndnrg/uti/KEY/%D0%93%3F%E6%14%BB%22j/NA/v=1633717793473] has been successfully installed
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-key-gen /ndn/ndnrg/uti > site.key
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-gen -s /ndn/ site.key > site.cert
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# ndnsec-cert-install -f site.cert
+OK: certificate with name [/ndn/ndnrg/uti/KEY/n%12%85x%DA%FA%0C%A3/NA/v=1645110872413] has been successfully installed
+
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# 
 </pre>
 
