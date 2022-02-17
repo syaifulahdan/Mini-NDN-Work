@@ -66,12 +66,12 @@ root@ndn-node5-ittj:/home/bertopeng17-2/NLSR#
 
 7. At the operator server, generate the operator key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Operator/op > op.key
+$ ndnsec-key-gen /ndn/ndnrg/ittj/%C1.Operator/op > op.key
 </pre>
 
 8.Copy the operator key to the site server and generate the certificate for the operator server:
 <pre>
-$ ndnsec-cert-gen -s /ndn/ndnrg/itb op.key > op.cert
+$ ndnsec-cert-gen -s /ndn/ndnrg/ittj op.key > op.cert
 </pre>
 
 9. Copy the operator certificate to the operator server and install it:
@@ -92,17 +92,17 @@ root@ndn-node5-ittj:/home/bertopeng17-2/NLSR#
 
 10. At the router, generate the router key:
 <pre>
-$ ndnsec-key-gen /ndn/ndnrg/itb/%C1.Router/routerX > routerX.key
+$ ndnsec-key-gen /ndn/ndnrg/ittj/%C1.Router/router5 > router5.key
 </pre>
 
 11. Copy the router key to the operator server and generate the certificate for the router:
 <pre>
-ndnsec-cert-gen -s /ndn/ndnrg/itb/%C1.Operator/op routerX.key > routerX.cert
+ndnsec-cert-gen -s /ndn/ndnrg/ittj/%C1.Operator/op routerX5.key > routerX5.cert
 </pre>
 
 12. Copy the router certificate to the router and install it:
 <pre>
-ndnsec-cert-install -f routerX.cert
+ndnsec-cert-install -f routerX5.cert
 </pre>
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NSLR-5/nslr-install-routertcert-node5.png)
 <pre>
@@ -126,10 +126,10 @@ $ ndnsec-list
 <pre>
 root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR# ndnsec-list 
   /ndn
-  /ndn/ndnrg/uti
-* /ndn/ndnrg/uti/%C1.Router/routerX2
-  /ndn/ndnrg/uti/%C1.Operator/op
-root@NDN-Node2-UTI:/home/bertopeng17-2/NLSR
+  /ndn/ndnrg/ittj
+* /ndn/ndnrg/ittj/%C1.Router/routerX5
+  /ndn/ndnrg/ittj/%C1.Operator/op
+root@ndn-node5-ittj:/home/bertopeng17-2/NLSR# 
 </pre>
 
 <b>show all configuration NLSR Security Node 5/b>
@@ -190,28 +190,7 @@ $ ping <remote-ip-address>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/nslr-ping-remote-pc1.png)
 
-<pre>
-bertopeng17-2@NDN-Node2-UTI:~$  ping 192.168.56.101
-PING 192.168.56.101 (192.168.56.101) 56(84) bytes of data.
-64 bytes from 192.168.56.101: icmp_seq=1 ttl=64 time=1.68 ms
-64 bytes from 192.168.56.101: icmp_seq=2 ttl=64 time=0.972 ms
-64 bytes from 192.168.56.101: icmp_seq=3 ttl=64 time=0.878 ms
-64 bytes from 192.168.56.101: icmp_seq=4 ttl=64 time=0.886 ms
-64 bytes from 192.168.56.101: icmp_seq=5 ttl=64 time=0.392 ms
-64 bytes from 192.168.56.101: icmp_seq=6 ttl=64 time=1.07 ms
-64 bytes from 192.168.56.101: icmp_seq=7 ttl=64 time=1.05 ms
-64 bytes from 192.168.56.101: icmp_seq=8 ttl=64 time=0.985 ms
-64 bytes from 192.168.56.101: icmp_seq=9 ttl=64 time=1.07 ms
-64 bytes from 192.168.56.101: icmp_seq=10 ttl=64 time=0.976 ms
-64 bytes from 192.168.56.101: icmp_seq=11 ttl=64 time=0.303 ms
-64 bytes from 192.168.56.101: icmp_seq=12 ttl=64 time=1.00 ms
 
---- 192.168.56.101 ping statistics ---
-44 packets transmitted, 44 received, 0% packet loss, time 43408ms
-rtt min/avg/max/mdev = 0.282/0.863/1.688/0.295 ms
-bertopeng17-2@NDN-Node2-UTI:~$ 
-
-</pre>
 
 <b>Starting and configuring NFD</b>
 
