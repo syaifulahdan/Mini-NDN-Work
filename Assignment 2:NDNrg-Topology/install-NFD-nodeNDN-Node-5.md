@@ -57,3 +57,14 @@ sudo ./waf install
 <pre>
 $ CXXFLAGS="-O2" ./waf configure --prefix=/usr --sysconfdir=/etc
 </pre>
+
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node5/NDNrg-Image-NFD-5/debugsymbol2.png)
+
+Running Starting If you have installed NFD from source code, it is recommended to start NFD with the nfd-start script:
+<pre>
+nfd-start
+</pre>
+
+<pre>
+$ nfd-start
+</pre>
