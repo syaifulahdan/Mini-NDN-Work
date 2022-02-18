@@ -68,9 +68,9 @@ makasar:manado delay=17ms
 balikpapan:jayapura delay=13ms
 </pre>
 
-Download : [[minindn.topo-custom-10.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-10.conf)
+Download : [[minindn.topo-custom-15.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-15.conf)
 
-Next, copy the topology file: **minindn.topo-custom-10.conf** into the mini-ndn/topologies directory.
+Next, copy the topology file: **minindn.topo-custom-15.conf** into the mini-ndn/topologies directory.
 
 ### <b>2. Running Topology</b>   
 
