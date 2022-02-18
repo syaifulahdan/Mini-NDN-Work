@@ -28,7 +28,7 @@ Tabel Of Content
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-7.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-8.png)
 
-pre>
+<pre>
 [nodes]
 [nodes]
 banda-aceh: _ radius=6348531,309 angle=95,3180
