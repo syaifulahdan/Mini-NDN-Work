@@ -4,7 +4,7 @@ Mini-NDN-Custom Topology Inherent (33 Node)
 Tabel Of Content
 
 1. [Penentuan Titik Koordinat](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#1-penentuan-titik-koordinat) 
-2. [Penentuan jarak, Delay dan Bandwith](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#1-penentuan-titik-koordinat) 
+2. [Penentuan jarak, Delay dan Bandwith](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#2-penentuan-jarak-delay-dan-bandwith) 
 
 3. [Running Topology](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
 4. [Ping Node](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
