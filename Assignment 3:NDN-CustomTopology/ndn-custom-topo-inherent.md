@@ -100,7 +100,7 @@ denpasar:mataram delay=0,5ms
 denpasar:kupang delay=4,6ms
 </pre>
 
-Download : [[minindn.topo-custom-10.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-10.conf)
+Download : [[minindn.topo-inherent.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-inherent.conf)
 
 Next, copy the topology file: **minindn.topo-custom-10.conf** into the mini-ndn/topologies directory.
 
