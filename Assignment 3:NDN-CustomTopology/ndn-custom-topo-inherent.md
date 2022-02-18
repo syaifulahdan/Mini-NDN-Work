@@ -27,42 +27,77 @@ Tabel Of Content
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-56.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-7.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-8.png)
-<pre>
+
+pre>
 [nodes]
-jakarta: _ radius=107,0007857 angle=356.680854
-bandung: _ radius=107.8313820 angle=356.336204
-tasik: _ radius=108.4655794 angle=356.114135
-purwokerto: _ radius=109.4820089 angle=356.111480
-magelang: _ radius=110.4711825 angle=356.117822
-semarang: _ radius=110.6613764 angle=356.368302
-klaten: _ radius=110.9311298 angle=355.999261
-medan: _ radius=98.72597954 angle=2.08602249
-padang: _ radius=100.4108292 angle=359.459762
-jogjakarta: _ radius=110.0943746 angle=355.959737
+[nodes]
+banda-aceh: _ radius=6348531,309 angle=95,3180
+medan: _ radius=6218966,849 angle=98,6832
+padang: _ radius=6165191,979 angle=100,4200
+jambi: _ radius=6008343,767 angle=0103,6897
+pekanbaru: _ radius=6121799,488 angle=101,4425
+bengkulu: _ radius=6067429,421 angle=102,3119
+palembang: _ radius=5940306,46 angle=104,7826
+bandar-lampung: _ radius=5893310,374 angle=105,2679
+serang: _ radius=5829965,231 angle=91,6518
+jkt-ui: _ radius=5783367,44 angle=106,8297
+jkt-dikti: _ radius=5785492,732 angle=106,8280
+bandung: _ radius=5723100,389 angle=107,6122
+semarang: _ radius=5505650,198 angle=110,4312
+jogjakarta: _ radius=5495855,106 angle=110,4268
+surabaya: _ radius=5297747,653 angle=112,7460
+malang: _ radius=5300136,127 angle=112,6273
+pontianak: _ radius=5635707,494 angle=109,3363
+palangkaraya: _ radius=5222915,24 angle=113,9068
+banjarmasin: _ radius=5147091,297 angle=114,6009
+samarinda: _ radius=4872832,074 angle=117,1440
+gorontalo: _ radius=4163332,249 angle=122,3887
+manado: _ radius=3757477,627 angle=124,8394
+palu: _ radius=4526275,571 angle=119,8767
+makasar: _ radius=5523638,754 angle=119,4379
+kendari: _ radius=4133570,405 angle=122,5181
+denpasar: _ radius=5032151,98 angle=115,2218
+mataram: _ radius=5032151,98 angle=115,2218
+kupang: _ radius=3907345,816 angle=123,6064
+ternate: _ radius=3273647,687 angle=127,3616
+ambon: _ radius=3087269,572 angle=128,1971
+manokwari: _ radius=4037893,026 angle=140,6748
+jayapura: _ radius=4025088,225 angle=140,6748
+host: _ radius=4507134,354 angle=134,535
 
 
 [links]
-jakarta:bandung delay=8ms
-bandung:tasik delay=7ms
-tasik:purwokerto delay=8ms
-purwokerto:magelang delay=3ms
-magelang:jogjakarta delay=3ms
-jogjakarta:semarang delay=5ms
-semarang:klaten delay=3ms
-medan:padang delay=8ms
-padang:jakarta delay=11ms
-jakarta:medan delay=13ms
-jakarta:tasik delay=8ms
-bandung:purwokerto delay=15ms
-bandung:padang delay=16ms
-bandung:medan delay=17ms
-tasik:magelang delay=7ms
-tasik:jogjakarta delay=10ms
-purwokerto:jogjakarta delay=5ms
-purwokerto:semarang delay=5ms
-purwokerto:klaten delay=6ms
-magelang:semarang delay=5ms
-jogjakarta:klaten delay=7ms
+banda-aceh:medan delay=2,1ms
+medan:pekanbaru delay=2,3ms
+medan:padang delay=2,7ms
+padang:jambi delay=1,8ms
+pekanbaru:palembang delay=2,6ms
+palembang:bengkulu delay=2,5ms
+pekanbaru:bandar-lampung delay=1,4ms
+jambi:bandar-lampung delay=2,3ms
+serang:bandar-lampung delay=0,6ms
+serang:jkt-ui delay=0,4ms
+jkt-ui:jkt-dikti delay=0,1ms
+jkt-ui:bandung delay=0,5ms
+bandung:jogjakarta delay=1,6ms
+jogjakarta:malang delay=1,2ms
+jogjakarta:semarang delay=0,4ms
+semarang:surabaya delay=1,2ms
+surabaya:malang delay=0,4ms
+banda-aceh:pontianak delay=8,2ms
+pontianak:palangkaraya delay=2,8ms
+palangkaraya:banjarmasin delay=0,7ms
+banjarmasin:samarinda delay=2,1ms
+banjarmasin:surabaya delay=2,4ms
+samarinda:manado delay=4,3ms
+gorontalo:manado delay=1,3ms
+gorontalo:palu delay=1,6ms
+palu:makasar delay=2,3ms
+makasar:kendari delay=1,8ms
+makasar:surabaya delay=3,8ms
+denpasar:surabaya delay=1,5ms
+denpasar:mataram delay=0,5ms
+denpasar:kupang delay=4,6ms
 </pre>
 
 Download : [[minindn.topo-custom-10.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-custom-10.conf)
@@ -101,6 +136,7 @@ run mini-ndn with the following command
 mini-ndn> surabaya ndnping makasar
 </pre>
 ![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/ct5nodes-ping-surabaya-makasar.png)
+
 <pre>
 mini-ndn> surabaya ndnping makasar
 PING /10.0.0.30
