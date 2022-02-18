@@ -73,6 +73,10 @@ Next, copy the topology file: **minindn.topo-custom-10.conf** into the mini-ndn/
 <p text-align=justify>
 untuk mengimplementasikan NLSR routing dan Routing berbasis koordinat perlunya nilai delay yang dipengaruhi berdasarkan media transmisi yang digunakan dan jarak yang ditempuh dari setiap node yang tehubung ke node lain pada percobaan dengan menggunakan topologi inherent kami menggunakan 32 Node yang titiknya sudah ditentukan oleh Inherent Dikti karena itu kami tinggal menambahkan Nilai Delay yang sudah dihitung berdasarkan kesesuaian jarak dan mediat transmisi yang digunakan yaitu dengan menggunakan Fiber Optik Single mode, kapasitas bandwith yang pada setiap node sudah ditentukan berdasarkan skema pembagian bandwith yang tertera pada jaringan Inherent. </p text-align=justify>
 
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1b.png)
+
 ### <b>2. Running Topology</b>   
 
 run mini-ndn with the following command
