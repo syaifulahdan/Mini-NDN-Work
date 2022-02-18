@@ -71,7 +71,7 @@ palu: _ radius=4526275,571 angle=119,8767
 makasar: _ radius=5523638,754 angle=119,4379
 kendari: _ radius=4133570,405 angle=122,5181
 denpasar: _ radius=5032151,98 angle=115,2218
-mataram: _ radius=5032151,98 angle=115,2218
+mataram: _ radius=5032151,99 angle=115,2218
 kupang: _ radius=3907345,816 angle=123,6064
 ternate: _ radius=3273647,687 angle=127,3616
 ambon: _ radius=3087269,572 angle=128,1971
