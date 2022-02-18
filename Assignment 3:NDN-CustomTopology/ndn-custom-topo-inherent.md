@@ -28,8 +28,22 @@ Tabel Of Content
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-7.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-8.png)
 
+
+### <b>2. Penentuan jarak, Delay dan Bandwith</b>   
+<p text-align=justify>
+untuk mengimplementasikan NLSR routing dan Routing berbasis koordinat perlunya nilai delay yang dipengaruhi berdasarkan media transmisi yang digunakan dan jarak yang ditempuh dari setiap node yang tehubung ke node lain pada percobaan dengan menggunakan topologi inherent kami menggunakan 32 Node yang titiknya sudah ditentukan oleh Inherent Dikti karena itu kami tinggal menambahkan Nilai Delay yang sudah dihitung berdasarkan kesesuaian jarak dan mediat transmisi yang digunakan yaitu dengan menggunakan Fiber Optik Single mode, kapasitas bandwith yang pada setiap node sudah ditentukan berdasarkan skema pembagian bandwith yang tertera pada jaringan Inherent. </p text-align=justify>
+
+
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1b.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-2.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-3.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-3b.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-45.png)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-6.png)
+
+
 <pre>
-[nodes]
 [nodes]
 banda-aceh: _ radius=6348531,309 angle=95,3180
 medan: _ radius=6218966,849 angle=98,6832
@@ -103,21 +117,6 @@ denpasar:kupang delay=4,6ms
 Download : [[minindn.topo-inherent.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-inherent.conf)
 
 Next, copy the topology file: **minindn.topo-inherent.conf** into the mini-ndn/topologies directory.
-
-### <b>2. Penentuan jarak, Delay dan Bandwith</b>   
-<p text-align=justify>
-untuk mengimplementasikan NLSR routing dan Routing berbasis koordinat perlunya nilai delay yang dipengaruhi berdasarkan media transmisi yang digunakan dan jarak yang ditempuh dari setiap node yang tehubung ke node lain pada percobaan dengan menggunakan topologi inherent kami menggunakan 32 Node yang titiknya sudah ditentukan oleh Inherent Dikti karena itu kami tinggal menambahkan Nilai Delay yang sudah dihitung berdasarkan kesesuaian jarak dan mediat transmisi yang digunakan yaitu dengan menggunakan Fiber Optik Single mode, kapasitas bandwith yang pada setiap node sudah ditentukan berdasarkan skema pembagian bandwith yang tertera pada jaringan Inherent. </p text-align=justify>
-
-
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1b.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-2.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-3.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-3b.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-45.png)
-![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-6.png)
-
-
 
 
 
