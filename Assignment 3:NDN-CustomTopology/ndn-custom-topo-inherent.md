@@ -102,7 +102,7 @@ denpasar:kupang delay=4,6ms
 
 Download : [[minindn.topo-inherent.conf]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/minindn.topo-inherent.conf)
 
-Next, copy the topology file: **minindn.topo-custom-10.conf** into the mini-ndn/topologies directory.
+Next, copy the topology file: **minindn.topo-inherent.conf** into the mini-ndn/topologies directory.
 
 ### <b>2. Penentuan jarak, Delay dan Bandwith</b>   
 <p text-align=justify>
