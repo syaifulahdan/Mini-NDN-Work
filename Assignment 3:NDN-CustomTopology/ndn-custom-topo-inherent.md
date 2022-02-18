@@ -14,7 +14,7 @@ Tabel Of Content
  
 ### <b>1. Create Custom Topology Inherent</b>   
 
-[!alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/inherent-bb.jpg)
+![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/inherent-bb.jpg)
 
 <pre>
 [nodes]
