@@ -16,7 +16,10 @@ Tabel Of Content
  
 ### <b>1. Determination of Coordinate Points </b>  
 
-Mini-NDN uses a configuration file describing the topology and its parameters to setup a network. https://minindn.memphis.edu/experiment.html
+Mini-NDN uses a configuration file describing the topology and its parameters to setup a network.
+
+https://minindn.memphis.edu/experiment.html
+https://minindn.memphis.edu/howtos.html#add-a-node-in-root-namespace
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/inherent-bb.jpg)
 
