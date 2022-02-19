@@ -4,7 +4,7 @@ Mini-NDN-Custom Topology Inherent (33 Node)
 Tabel Of Content
 
 1. [Penentuan Titik Koordinat](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#1-penentuan-titik-koordinat) 
-2. [Penentuan jarak, Delay dan Bandwith](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#2-penentuan-jarak-delay-dan-bandwith) 
+2. [Determination of distance, delay and bandwidth](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#2-penentuan-jarak-delay-dan-bandwith) 
 
 3. [Running Topology](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#2-running-topology)
 4. [Ping Node](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-5.md#2-running-topology)
@@ -18,7 +18,7 @@ Tabel Of Content
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/inherent-bb.jpg)
 
-<p text-align=justify> Titik koordinat adalah titik yang berpedoman pada garis latitude dan longitude suatu daerah. Kaitannya dengan latitude dan longitude adalah, kedua garis lintang dan bujur inilah (latitude = garis lintang, longitude = garis bujur) yang menentukan di perolehnya suatu nilai derajat dari suatu titik yang diukur. Titik Koordinat sekolah diperlukan untuk menentukan suatu lokasi node yang akan digunakan secara detail. Dengan mengetahui titik koordinat setiap node kita bisa mengetahui alamat dan letak geografis suatu daerah. Dari titik koordinat tersebut akan didapatkan radius,jarak, delay . Beberapa tolopologi membutuhkan titik koordinat yang nanti akan digunakan untuk implementasi routing berbasis koordinat, tidak semua topologi pada percobaan yang dilakukan menggunakan data koordinat, pada eksperimen ini topologi yang memerlukan data koordinat adalah topologi inherent yang kita jadikan topologi utama untuk dibahas. Untuk menentukan titik koordinat kami menggunakan alat bantu yaitu google map yang nantinya dapat diketahui berapa ukuran jarak yang dapat di estimasi dari setiap titik node yang akan dihubungkan dengan titik node </p text-align=justify> 
+<p text-align=justify> Coordinate points are points that are guided by the latitude and longitude lines of an area. The relation with latitude and longitude is, these two latitudes and longitudes (latitude = latitude, longitude = longitude) determine the degree value obtained from a point being measured. School coordinates are needed to determine a node location that will be used in detail. By knowing the coordinates of each node, we can find out the address and geographic location of an area. From these coordinate points, the radius, distance, delay will be obtained. Some topologies require coordinate points which will later be used for the implementation of coordinate-based routing, not all topologies in the experiments carried out use coordinate data, in this experiment the topologies that require coordinate data are inherent topologies that we make the main topology to be discussed. To determine the coordinates, we use a tool, namely a google map which can later be known how much distance can be estimated from each node point that will be connected to the node point. </p text-align=justify> 
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-1.png)
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-2.png)
@@ -29,9 +29,9 @@ Tabel Of Content
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/koordinat-area-8.png)
 
 
-### <b>2. Penentuan jarak, Delay dan Bandwith</b>   
+### <b>2. Determination of distance, delay and bandwidth</b>   
 <p text-align=justify>
-untuk mengimplementasikan NLSR routing dan Routing berbasis koordinat perlunya nilai delay yang dipengaruhi berdasarkan media transmisi yang digunakan dan jarak yang ditempuh dari setiap node yang tehubung ke node lain pada percobaan dengan menggunakan topologi inherent kami menggunakan 32 Node yang titiknya sudah ditentukan oleh Inherent Dikti karena itu kami tinggal menambahkan Nilai Delay yang sudah dihitung berdasarkan kesesuaian jarak dan mediat transmisi yang digunakan yaitu dengan menggunakan Fiber Optik Single mode, kapasitas bandwith yang pada setiap node sudah ditentukan berdasarkan skema pembagian bandwith yang tertera pada jaringan Inherent. </p text-align=justify>
+To implement NLSR routing and coordinate-based routing, the delay value is influenced by the transmission media used and the distance traveled from each connected node to other nodes in the experiment using the inherent topology, we use 32 nodes whose points have been determined by the Inherent Dikti. just add the Delay Value that has been calculated based on the suitability of the distance and transmission media used, namely by using Single Mode Optical Fiber, the bandwidth capacity of each node has been determined based on the bandwidth sharing scheme listed on the Inherent network.. </p text-align=justify>
 
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/bandwith-area-1.png)
@@ -121,7 +121,7 @@ Next, copy the topology file: **minindn.topo-inherent.conf** into the mini-ndn/t
 
 
 
-### <b>2. Running Topology</b>   
+### <b>3. Running Topology</b>   
 
 run mini-ndn with the following command
 
