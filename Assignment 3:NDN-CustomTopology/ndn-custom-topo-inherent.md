@@ -14,7 +14,7 @@ Tabel Of Content
 ***
 
  
-### <b>1. Penentuan Titik Koordinat</b>   
+### <b>1. Determination of Coordinate Points </b>   
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/inherent-bb.jpg)
 
