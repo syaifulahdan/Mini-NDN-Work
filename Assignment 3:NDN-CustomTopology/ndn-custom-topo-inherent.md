@@ -139,7 +139,7 @@ run mini-ndn with the following command
 </pre>
 ![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/running-inherentnodes.png)
 
-### <b>3. Ping Node</b>   
+### <b>4. Ping Node</b>   
 <pre>
 mini-ndn> surabaya ndnping makasar
 </pre>
@@ -147,4 +147,8 @@ mini-ndn> surabaya ndnping makasar
 
 <pre>
 mini-ndn> surabaya ndnping makasar
+</pre>
+### <b>5. View forwarder status on Nodes:</b>   
+<pre>
+mini-ndn> a nfdc status report
 </pre>
