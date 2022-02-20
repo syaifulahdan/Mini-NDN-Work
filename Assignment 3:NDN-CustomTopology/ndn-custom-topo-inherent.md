@@ -156,6 +156,10 @@ mini-ndn> a nfdc status report
 <pre>
 mini-ndn> aceh nfdc status report
 </pre>
+
+![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/nfdcstatusreport.png)
+
+
 <pre>
 mini-ndn> aceh nfdc status report
 General NFD status:
