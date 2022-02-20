@@ -12,7 +12,7 @@
 
  - <b>Chapter 4:</b> Mini-NDN Custom Topology [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-4.md)  
  - <b>Chapter 5:</b> NDN Essential Tools  [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-5.md)  
-     - 5.1. Install NDN Essential Tools Node 1 (ITB) [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%204:NDN-Essential-Tools/install-nodeNDN-Node-1.md)
-     - 5.1. Install NDN Essential Tools Node 3 (Tel-U) [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%204:NDN-Essential-Tools/install-nodeNDN-Node-3.md)
+     - 5.1. Install NDN Essential Tools Node 1 (ITB) [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-5.md#51-install-ndn-essential-tools-node-1-itb)
+     - 5.1. Install NDN Essential Tools Node 3 (Tel-U) [[Read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-5.md#53-install-ndn-essential-tools-node-3-tel-u)
 
  ****
