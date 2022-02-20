@@ -48,18 +48,18 @@ sudo apt-get install git
 </pre>
 
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get update
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt-get install git
-bertopeng17-1@NDN-Node1-ITB:~$ sudo apt install python-pip
+bertopeng17-3@NDN-Node3-TELU:~$ sudo apt-get update
+bertopeng17-3@NDN-Node3-TELU:~$ sudo apt-get install git
+bertopeng17-3@NDN-Node3-TELU:~$ sudo apt install python-pip
 </pre>
 
 first install the dependency file ndn-cxx 
 <pre>
-bertopeng17-1@NDN-Node1-ITB:~$sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
+bertopeng17-3@NDN-Node3-TELU:~$sudo apt install g++ pkg-config python3-minimal libboost-all-dev libssl-dev libsqlite3-dev
 </pre>
 
 <pre>
-bertopeng17-1@git clone https://github.com/named-data/ndn-cxx.git
+bertopeng17-3@git clone https://github.com/named-data/ndn-cxx.git
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/gitclone.png)
