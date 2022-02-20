@@ -150,6 +150,70 @@ mini-ndn> surabaya ndnping makasar
 mini-ndn> surabaya ndnping makasar
 </pre>
 ### <b>5. Run NFD on local machine and register route</b>   
+https://minindn.memphis.edu/howtos.html#run-nfd-on-local-machine-and-register-route
+
+Start NFD on the local machine by using:
+<pre>
+sudo nfd
+</pre>
+![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/sudonfd.png)
+
+
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~/mini-ndn$ <b>sudo nfd</b>
+[sudo] password for bertopeng17-1: 
+NFD version 0.7.1-35-g2c61bad9 starting
+Built with GNU C++ version 7.5.0, with GNU libstdc++ version 20191114, with Boost version 1.65.1, with libpcap version 1.8.1, with WebSocket++ version 0.8.1, with ndn-cxx version 0.7.1-45-g3ffae260
+1645378952.967417  INFO: [nfd.FaceTable] Added face id=255 remote=null:// local=null://
+1645378952.967496  INFO: [nfd.FaceTable] Added face id=254 remote=contentstore:// local=contentstore://
+1645378952.967544  INFO: [nfd.CsPolicy] setLimit 10
+1645378952.967613  INFO: [nfd.StrategyChoice] setDefaultStrategy /localhost/nfd/strategy/best-route/v=5
+1645378952.967689  INFO: [nfd.FaceTable] Added face id=1 remote=internal:// local=internal://
+1645378952.968228  WARN: [nfd.CommandAuthenticator] 'certfile any' is intended for demo purposes only and SHOULD NOT be used in production environments
+1645378952.968500  INFO: [nfd.StrategyChoice] changeStrategy(/ndn/broadcast) /localhost/nfd/strategy/best-route/v=5 -> /localhost/nfd/strategy/multicast/v=4
+1645378952.968543  INFO: [nfd.StrategyChoice] changeStrategy(/localhost) /localhost/nfd/strategy/best-route/v=5 -> /localhost/nfd/strategy/multicast/v=4
+1645378952.968582  INFO: [nfd.StrategyChoice] changeStrategy(/localhost/nfd) /localhost/nfd/strategy/multicast/v=4 -> /localhost/nfd/strategy/best-route/v=5
+1645378952.968594  INFO: [nfd.CsPolicy] setLimit 65536
+1645378952.968599  INFO: [nfd.CsPolicy] setLimit 65536
+1645378952.968619  INFO: [nfd.EthernetFactory] enabling multicast on 01:00:5e:00:17:aa
+1645378952.968656  INFO: [nfd.TcpChannel] [tcp4://0.0.0.0:6363] Creating channel
+1645378952.968710  INFO: [nfd.TcpChannel] [tcp6://[::]:6363] Creating channel
+1645378952.968765  INFO: [nfd.UdpChannel] [udp4://0.0.0.0:6363] Creating channel
+1645378952.968800  INFO: [nfd.UdpChannel] [udp6://[::]:6363] Creating channel
+1645378952.968835  INFO: [nfd.UdpFactory] enabling multicast on 224.0.23.170:56363
+1645378952.968850  INFO: [nfd.UdpFactory] enabling multicast on [ff02::1234]:56363
+1645378952.968944  INFO: [nfd.UnixStreamChannel] [unix:///run/nfd.sock] Creating channel
+1645378952.969032  INFO: [nfd.WebSocketChannel] [ws://0.0.0.0:9696] Creating channel
+1645378952.969133  INFO: [nfd.WebSocketChannel] [ws://[::]:9696] Creating channel
+1645378952.969230  WARN: [nfd.CommandAuthenticator] 'certfile any' is intended for demo purposes only and SHOULD NOT be used in production environments
+1645378952.969254  INFO: [nfd.CommandAuthenticator] authorize module=faces signer=any
+1645378952.969259  INFO: [nfd.CommandAuthenticator] authorize module=fib signer=any
+1645378952.969264  INFO: [nfd.CommandAuthenticator] authorize module=cs signer=any
+1645378952.969270  INFO: [nfd.CommandAuthenticator] authorize module=strategy-choice signer=any
+1645378952.969886  INFO: [nfd.EthernetChannel] [dev://enp0s3] Creating channel
+1645378952.973447  INFO: [nfd.RibManager] Start monitoring face create/destroy events
+1645378953.124054  INFO: [nfd.FaceTable] Added face id=256 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s3
+1645378953.126900  INFO: [nfd.EthernetChannel] [dev://enp0s8] Creating channel
+1645378953.222749  INFO: [nfd.FaceTable] Added face id=257 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s8
+1645378953.223443  INFO: [nfd.EthernetChannel] [dev://enp0s9] Creating channel
+1645378953.311300  INFO: [nfd.FaceTable] Added face id=258 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s9
+1645378953.312498  INFO: [nfd.EthernetChannel] [dev://enp0s10] Creating channel
+1645378953.393727  INFO: [nfd.FaceTable] Added face id=259 remote=ether://[01:00:5e:00:17:aa] local=dev://enp0s10
+1645378953.394242  INFO: [nfd.FaceTable] Added face id=260 remote=fd://40 local=unix:///run/nfd.sock
+1645378953.396264  INFO: [nfd.FaceTable] Added face id=261 remote=udp4://224.0.23.170:56363 local=udp4://10.0.2.15:53231
+1645378953.397214  INFO: [nfd.FaceTable] Added face id=262 remote=udp4://224.0.23.170:56363 local=udp4://192.168.56.101:37309
+1645378953.398133  INFO: [nfd.FaceTable] Added face id=263 remote=udp4://224.0.23.170:56363 local=udp4://192.168.59.3:50841
+1645378953.399013  INFO: [nfd.FaceTable] Added face id=264 remote=udp4://224.0.23.170:56363 local=udp4://10.0.5.15:59260
+1645378953.400046  INFO: [nfd.FaceTable] Added face id=265 remote=udp6://[ff02::1234%enp0s3]:56363 local=udp6://[fe80::58ac:acc1:5451:d1f5%enp0s3]:38584
+1645378953.400974  INFO: [nfd.FaceTable] Added face id=266 remote=udp6://[ff02::1234%enp0s8]:56363 local=udp6://[fe80::7b0:7fef:4440:22fd%enp0s8]:60024
+1645378953.401964  INFO: [nfd.FaceTable] Added face id=267 remote=udp6://[ff02::1234%enp0s9]:56363 local=udp6://[fe80::3deb:4d19:76d5:a247%enp0s9]:49279
+1645378953.402950  INFO: [nfd.FaceTable] Added face id=268 remote=udp6://[ff02::1234%enp0s10]:56363 local=udp6://[fe80::e0db:2f5c:a1e4:b5cb%enp0s10]:40851
+1645379136.599902  INFO: [nfd.Nfd] Network change detected, reloading face section of the config file...
+1645379163.551089  INFO: [nfd.Nfd] Network change detected, reloading face section of the config file...
+
+</pre>
+
+
 ### <b>6. View forwarder status on Nodes:</b>   
 <pre>
 mini-ndn> a nfdc status report
@@ -225,7 +289,7 @@ Strategy choices:
 mini-ndn> 
 </pre>
 
-### <b>6. View routing status on nodes</b>   
+### <b>7. View routing status on nodes</b>   
 <pre>
 mini-ndn> a nlsrc status
 </pre>
@@ -294,7 +358,7 @@ Strategy choices:
   prefix=/localhost strategy=/localhost/nfd/strategy/multicast/v=4
   prefix=/ndn/broadcast strategy=/localhost/nfd/strategy/multicast/v=4
   prefix=/localhost/nfd strategy=/localhost/nfd/strategy/best-route/v=5
-mini-ndn> 
+mini-ndn> a
 mini-ndn> aceh nlsrc status
 Request timed out (code: 1, error: Timeout exceeded)
 mini-ndn> 
