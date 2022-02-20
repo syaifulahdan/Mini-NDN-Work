@@ -223,3 +223,8 @@ Strategy choices:
   prefix=/localhost/nfd strategy=/localhost/nfd/strategy/best-route/v=5
 mini-ndn> 
 </pre>
+
+### <b>6. View routing status on nodes</b>   
+<pre>
+mini-ndn> a nlsrc status
+</pre>
