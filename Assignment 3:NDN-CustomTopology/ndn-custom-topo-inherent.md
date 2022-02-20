@@ -9,6 +9,7 @@ Tabel Of Content
 3. [Running Topology](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#3-running-topology)
 4. [Ping Node](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#3-ping-node)
 5. [View forwarder status on Nodes](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#5-view-forwarder-status-on-nodes)
+6. [View routing status on nodes:](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#5-view-forwarder-status-on-nodes)
 
 [Back](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-4.md)
 
