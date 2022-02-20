@@ -62,7 +62,7 @@ bertopeng17-3@NDN-Node3-TELU:~$sudo apt install g++ pkg-config python3-minimal l
 bertopeng17-3@git clone https://github.com/named-data/ndn-cxx.git
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/gitclone.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/6-gitclone-ndncxx.png)
 
 <pre>
 bertopeng17-3@NDN-Node3-TELU:~$cd ndn-cxx
@@ -97,13 +97,13 @@ bertopeng17-1@./waf configure
 bertopeng17-1@./waf
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/ndncxx-waf.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20finish.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/8-ndncxx-waf.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/8-ndncxx-waf-finish.png)
 
 
 <pre>
 bertopeng17-1@sudo ./waf install
 </pre>
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20install.png)
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/waf%20install%20succes.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/9-ndncxx-waf-install-1.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/9-ndncxx-waf-install-finish.png)
 
