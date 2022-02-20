@@ -138,7 +138,7 @@ Next, copy the topology file: **minindn.topo-inherent.conf** into the mini-ndn/t
 run mini-ndn with the following command
 
 <pre>
-& sudo python examples/mnndn.py topologies/minindn.topo-custom-inherent.conf
+& sudo python examples/mnndn.py topologies/minindn.topo-inherent.conf
 </pre>
 ![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/running-inherentnodes.png)
 
