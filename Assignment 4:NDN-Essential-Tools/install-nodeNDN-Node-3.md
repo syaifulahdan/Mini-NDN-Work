@@ -65,8 +65,8 @@ bertopeng17-1@git clone https://github.com/named-data/ndn-cxx.git
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/gitclone.png)
 
 <pre>
-bertopeng17-1@cd ndn-cxx
-bertopeng17-1@NDN-Node1-ITB:~/ndn-cxx$ 
+bertopeng17-3@NDN-Node3-TELU:~$cd ndn-cxx
+bertopeng17-3@NDN-Node3-TELU:~/ndn-cxx$ 
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/cdndncxx.png)
