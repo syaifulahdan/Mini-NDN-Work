@@ -153,3 +153,7 @@ mini-ndn> surabaya ndnping makasar
 <pre>
 mini-ndn> a nfdc status report
 </pre>
+<pre>
+mini-ndn> aceh nfdc status report
+</pre>
+
