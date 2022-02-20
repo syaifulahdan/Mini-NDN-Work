@@ -149,7 +149,8 @@ mini-ndn> surabaya ndnping makasar
 <pre>
 mini-ndn> surabaya ndnping makasar
 </pre>
-### <b>5. View forwarder status on Nodes:</b>   
+### <b>5. Run NFD on local machine and register route</b>   
+### <b>6. View forwarder status on Nodes:</b>   
 <pre>
 mini-ndn> a nfdc status report
 </pre>
