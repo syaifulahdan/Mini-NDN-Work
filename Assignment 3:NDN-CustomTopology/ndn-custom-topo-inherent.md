@@ -230,7 +230,7 @@ mini-ndn> a nlsrc status
 </pre>
 
 <pre>
-mini-ndn> aceh nlsrc status
+mini-ndn> <b>aceh nlsrc status</b>
 </pre>
 <pre>
 mini-ndn> aceh nfdc status report
