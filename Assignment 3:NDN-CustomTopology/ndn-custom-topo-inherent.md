@@ -412,3 +412,36 @@ vsat vsat-eth0:ui-eth3 vsat-eth1:ternate-eth0 vsat-eth2:ambon-eth0 vsat-eth3:jay
 c0
 </pre>
 
+Node “medan” is connected to “root-eth0”. Now issue “ifconfig medan-eth0” on node “medan”:
+<pre>
+mini-ndn> <b>aceh ifconfig aceh-eth0</b>
+aceh-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.1  netmask 255.255.255.252  broadcast 10.0.0.3
+        inet6 fe80::c9e:f4ff:fe57:ac04  prefixlen 64  scopeid 0x20<link>
+        ether 0e:9e:f4:57:ac:04  txqueuelen 1000  (Ethernet)
+        RX packets 19  bytes 1434 (1.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 19  bytes 1434 (1.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</pre>
+
+As learned from the previous step, the IP address of root-eth0 is 10.0.0.1
+<pre>
+mini-ndn> <b>aceh ping 10.0.0.1</b>
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.101 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.082 ms
+64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=0.083 ms
+64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=0.078 ms
+64 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=0.082 ms
+64 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=0.078 ms
+64 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=0.081 ms
+64 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=0.087 ms
+64 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=0.081 ms
+^C
+--- 10.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9195ms
+rtt min/avg/max/mdev = 0.078/0.084/0.101/0.007 ms
+mini-ndn> 
+</pre>
