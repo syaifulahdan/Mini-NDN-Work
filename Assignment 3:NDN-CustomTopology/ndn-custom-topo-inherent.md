@@ -9,8 +9,8 @@ Tabel Of Content
 4. [Ping Node](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#4-ping-node)
 5. [Run NFD on local machine and register route](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#5-run-nfd-on-local-machine-and-register-route)
 6. [View forwarder status on Nodes](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#6-view-forwarder-status-on-nodes)
-7. [View routing status on nodes:](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#7-view-routing-status-on-nodes)
-
+7. [View routing status on nodes](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#7-view-routing-status-on-nodes)
+8. [Check connection](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/ndn-custom-topo-inherent.md#7-view-routing-status-on-nodes)
 [Back](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%200:Chapter/Chapter-4.md)
 
 ***
@@ -364,3 +364,50 @@ mini-ndn> aceh nlsrc status
 Request timed out (code: 1, error: Timeout exceeded)
 mini-ndn> 
 </pre>
+
+### <b>8. Check connection</b>   
+<pre>
+mini-ndn>net
+</pre>
+
+![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/checkconection.png)
+
+
+<pre>
+mini-ndn> <b>net</pre>
+aceh aceh-eth0:medan-eth0 aceh-eth1:pontianak-eth0
+ambon ambon-eth0:vsat-eth2
+bandung bandung-eth0:ui-eth2 bandung-eth1:jogjakarta-eth0
+banjarmasin
+bengkulu bengkulu-eth0:palembang-eth1 bengkulu-eth1:mataram-eth1
+denpasar denpasar-eth0:surabaya-eth3 denpasar-eth1:mataram-eth0 denpasar-eth2:kupang-eth0
+dikti dikti-eth0:ui-eth1 dikti-eth1:semarang-eth0
+gorontalo gorontalo-eth0:manado-eth0 gorontalo-eth1:palu-eth0
+jambi jambi-eth0:padang-eth1 jambi-eth1:lampung-eth1
+jayapura jayapura-eth0:vsat-eth3
+jogjakarta jogjakarta-eth0:bandung-eth1 jogjakarta-eth1:malang-eth0 jogjakarta-eth2:semarang-eth1
+kendari kendari-eth0:makasar-eth1 kendari-eth1:kupang-eth1
+kupang kupang-eth0:denpasar-eth2 kupang-eth1:kendari-eth1
+lampung lampung-eth0:palembang-eth2 lampung-eth1:jambi-eth1 lampung-eth2:serang-eth0
+makasar makasar-eth0:palu-eth1 makasar-eth1:kendari-eth0 makasar-eth2:surabaya-eth2
+malang malang-eth0:jogjakarta-eth1 malang-eth1:surabaya-eth1
+manado manado-eth0:gorontalo-eth0 manado-eth1:samarinda-eth0
+manokwari manokwari-eth0:vsat-eth4
+mataram mataram-eth0:denpasar-eth1 mataram-eth1:bengkulu-eth1
+medan medan-eth0:aceh-eth0 medan-eth1:pekanbaru-eth0 medan-eth2:padang-eth0
+padang padang-eth0:medan-eth2 padang-eth1:jambi-eth0
+palangkaraya
+palembang palembang-eth0:pekanbaru-eth1 palembang-eth1:bengkulu-eth0 palembang-eth2:lampung-eth0
+palu palu-eth0:gorontalo-eth1 palu-eth1:makasar-eth0
+pekanbaru pekanbaru-eth0:medan-eth1 pekanbaru-eth1:palembang-eth0
+pontianak pontianak-eth0:aceh-eth1
+samarinda samarinda-eth0:manado-eth1
+semarang semarang-eth0:dikti-eth1 semarang-eth1:jogjakarta-eth2 semarang-eth2:surabaya-eth0
+serang serang-eth0:lampung-eth2 serang-eth1:ui-eth0
+surabaya surabaya-eth0:semarang-eth2 surabaya-eth1:malang-eth1 surabaya-eth2:makasar-eth2 surabaya-eth3:denpasar-eth0
+ternate ternate-eth0:vsat-eth1
+ui ui-eth0:serang-eth1 ui-eth1:dikti-eth0 ui-eth2:bandung-eth0 ui-eth3:vsat-eth0
+vsat vsat-eth0:ui-eth3 vsat-eth1:ternate-eth0 vsat-eth2:ambon-eth0 vsat-eth3:jayapura-eth0 vsat-eth4:manokwari-eth0
+c0
+</pre>
+
