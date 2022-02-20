@@ -232,3 +232,69 @@ mini-ndn> a nlsrc status
 <pre>
 mini-ndn> aceh nlsrc status
 </pre>
+<pre>
+mini-ndn> aceh nfdc status report
+General NFD status:
+                version=0.7.1-35-g2c61bad9
+              startTime=20220220T171608.360000
+            currentTime=20220220T171950.925000
+                 uptime=222 seconds
+       nNameTreeEntries=19
+            nFibEntries=2
+            nPitEntries=8
+   nMeasurementsEntries=0
+             nCsEntries=4
+           nInInterests=26
+          nOutInterests=26
+                nInData=23
+               nOutData=16
+               nInNacks=0
+              nOutNacks=0
+    nSatisfiedInterests=15
+  nUnsatisfiedInterests=3
+Channels:
+  tcp4://0.0.0.0:6363
+  tcp6://[::]:6363
+  udp4://0.0.0.0:6363
+  udp6://[::]:6363
+  dev://aceh-eth0
+  dev://aceh-eth1
+  unix:///run/aceh.sock
+  ws://0.0.0.0:9696
+  ws://[::]:9696
+Faces:
+  faceid=1 remote=internal:// local=internal:// congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 23d 0n 6320B} out={25i 0d 0n 2084B}} flags={local permanent point-to-point local-fields}
+  faceid=254 remote=contentstore:// local=contentstore:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
+  faceid=255 remote=null:// local=null:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
+  faceid=256 remote=ether://[01:00:5e:00:17:aa] local=dev://aceh-eth0 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
+  faceid=257 remote=ether://[01:00:5e:00:17:aa] local=dev://aceh-eth1 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
+  faceid=258 remote=fd://34 local=unix:///run/aceh.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={17i 0d 0n 1141B} out={1i 14d 0n 3707B}} flags={local on-demand point-to-point local-fields congestion-marking}
+  faceid=259 remote=udp4://224.0.23.170:56363 local=udp4://10.0.0.1:59930 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=260 remote=udp4://224.0.23.170:56363 local=udp4://10.0.0.5:50268 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=261 remote=udp6://[ff02::1234%aceh-eth0]:56363 local=udp6://[fe80::c9e:f4ff:fe57:ac04%aceh-eth0]:40846 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=262 remote=udp6://[ff02::1234%aceh-eth1]:56363 local=udp6://[fe80::6cdc:76ff:fed3:d5c1%aceh-eth1]:56003 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=264 remote=udp4://10.0.0.2:6363 local=udp4://10.0.0.1:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent point-to-point congestion-marking}
+  faceid=266 remote=udp4://10.0.0.6:6363 local=udp4://10.0.0.5:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent point-to-point congestion-marking}
+  faceid=267 remote=fd://43 local=unix:///run/aceh.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={7i 0d 0n 312B} out={0i 0d 0n 0B}} flags={local on-demand point-to-point congestion-marking}
+FIB:
+  /localhost/nfd/rib nexthops={faceid=258 (cost=0)}
+  /localhost/nfd nexthops={faceid=1 (cost=0)}
+RIB:
+  /localhost/nfd routes={nexthop=258 origin=app cost=0 flags=child-inherit expires=never}
+CS information:
+  capacity=65536
+     admit=on
+     serve=on
+  nEntries=4
+     nHits=0
+   nMisses=26
+Strategy choices:
+  prefix=/ strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/localhost strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/ndn/broadcast strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/localhost/nfd strategy=/localhost/nfd/strategy/best-route/v=5
+mini-ndn> 
+mini-ndn> aceh nlsrc status
+Request timed out (code: 1, error: Timeout exceeded)
+mini-ndn> 
+</pre>
