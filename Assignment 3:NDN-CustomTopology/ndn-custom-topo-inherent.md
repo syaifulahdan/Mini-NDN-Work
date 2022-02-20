@@ -375,7 +375,8 @@ mini-ndn>net
 
 
 <pre>
-mini-ndn> <b>net</pre>
+mini-ndn> <b>net</b>
+</pre>
 aceh aceh-eth0:medan-eth0 aceh-eth1:pontianak-eth0
 ambon ambon-eth0:vsat-eth2
 bandung bandung-eth0:ui-eth2 bandung-eth1:jogjakarta-eth0
