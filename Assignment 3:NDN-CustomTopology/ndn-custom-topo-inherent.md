@@ -228,3 +228,7 @@ mini-ndn>
 <pre>
 mini-ndn> a nlsrc status
 </pre>
+
+<pre>
+mini-ndn> aceh nlsrc status
+</pre>
