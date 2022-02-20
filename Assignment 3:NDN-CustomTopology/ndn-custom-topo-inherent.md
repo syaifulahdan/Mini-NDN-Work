@@ -137,7 +137,7 @@ run mini-ndn with the following command
 <pre>
 & sudo python examples/mnndn.py topologies/minindn.topo-custom-10.conf
 </pre>
-![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-5-Nodes/running-ct5nodes.png)
+![[alt image]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%203:NDN-CustomTopology/CustomTopology-Image-Inherent/running-inherentnodes.png)
 
 ### <b>3. Ping Node</b>   
 <pre>
