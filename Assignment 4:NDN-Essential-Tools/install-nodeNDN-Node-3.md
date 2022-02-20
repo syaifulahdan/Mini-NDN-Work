@@ -91,7 +91,7 @@ To disable the build of the shared library and build only the static library, us
 bertopeng17-1@./waf configure
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDN-Installation-1/wafconfigure.png)
+![alt tag](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node3/NDN-Installation/7-ndncxx-waf-configure.png)
 
 <pre>
 bertopeng17-1@./waf
