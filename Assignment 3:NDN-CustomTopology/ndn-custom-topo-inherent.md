@@ -55,50 +55,63 @@ To implement NLSR routing and coordinate-based routing, the delay value is influ
 <pre>
 [nodes]
 aceh: _ radius=6348531.309 angle=95.3180
+vsataceh: _ radius=6748538.309 angle=95.3180
 medan: _ radius=6218966.849 angle=98.6832
 padang: _ radius=6165191.979 angle=100.4200
 jambi: _ radius=6008343.767 angle=0103.6897
 pekanbaru: _ radius=6121799.488 angle=101.4425
-bengkulu: _ radius=6067429.421 angle=102.3119
+bngkl: _ radius=6067429.421 angle=102.3119
+vsatbngkl: _ radius=7067429.421 angle=102.3119
 palembang: _ radius=5940306.46 angle=104.7826
 lampung: _ radius=5893310.374 angle=105.2679
 serang: _ radius=5829965.231 angle=91.6518
 ui: _ radius=5783367.44 angle=106.8297
+vsatui: _ radius=5783364.44 angle=106.8297
 dikti: _ radius=5785492.732 angle=106.8280
 bandung: _ radius=5723100.389 angle=107.6122
 semarang: _ radius=5505650.198 angle=110.4312
 jogjakarta: _ radius=5495855.106 angle=110.4268
 surabaya: _ radius=5297747.653 angle=112.7460
 malang: _ radius=5300136.127 angle=112.6273
-pontianak: _ radius=5635707.494 angle=109.3363
-palangkaraya: _ radius=5222915.24 angle=113.9068
-banjarmasin: _ radius=5147091.297 angle=114.6009
-samarinda: _ radius=4872832.074 angle=117.1440
+ponti: _ radius=5635707.494 angle=109.3363
+vsatponti: _ radius=5735708.494 angle=109.3363
+plraya: _ radius=5222915.24 angle=113.9068
+banjarm: _ radius=5147091.297 angle=114.6009
+smr: _ radius=4872832.074 angle=117.1440
+vsatsmr: _ radius=5872832.074 angle=117.1440
 gorontalo: _ radius=4163332.249 angle=122.3887
 manado: _ radius=3757477.627 angle=124.8394
+vsatmanado: _ radius=4757477.627 angle=124.8394
 palu: _ radius=4526275.571 angle=119.8767
 makasar: _ radius=5523638.754 angle=119.4379
-kendari: _ radius=4133570.405 angle=122.5181
+kndri: _ radius=4133570.405 angle=122.5181
+vsatkndri: _ radius=5133570.405 angle=122.5181
 denpasar: _ radius=5032151.98 angle=115.2218
-mataram: _ radius=5032151.99 angle=115.2218
-kupang: _ radius=3907345.816 angle=123.6064
+mtrm: _ radius=5032151.99 angle=115.2218
+vsatmtrm: _ radius=6032151.99 angle=115.2218
+kpng: _ radius=3907345.816 angle=123.6064
+vsatkpng: _ radius=4907345.816 angle=123.6064
 ternate: _ radius=3273647.687 angle=127.3616
 ambon: _ radius=3087269.572 angle=128.1971
 manokwari: _ radius=4037893.026 angle=140.6748
 jayapura: _ radius=4025088.225 angle=140.6748
-vsat: _ radius=4507134.354 angle=134.535
+satelit: _ radius=4507134.354 angle=134.535
 [links]
 aceh:medan delay=2.1ms bw=8 
+aceh:vsataceh delay=5.2ms bw=1
 medan:pekanbaru delay=2.3ms bw=8
 medan:padang delay=2.7ms bw=8
 padang:jambi delay=1.8ms bw=8
 pekanbaru:palembang delay=2.6ms bw=8
-palembang:bengkulu delay=2.5ms bw=8
+palembang:bngkl delay=2.5ms bw=8
+vsatbngkl:bngkl delay=1.8ms bw=1
+palembang:dikti delay=2.5ms bw=8
 lampung:palembang delay=1.4ms bw=8
 lampung:jambi delay=2.3ms bw=8
 serang:lampung delay=0.6ms bw=8
 serang:ui delay=0.4ms bw=8
 ui:dikti delay=0.1ms bw=155
+vsatui:ui delay=0.1ms bw=8
 ui:bandung delay=0.5ms bw=155
 dikti:semarang delay=0.1ms bw=155
 bandung:jogjakarta delay=1.6ms bw=155
@@ -106,23 +119,33 @@ jogjakarta:malang delay=1.2ms bw=155
 jogjakarta:semarang delay=0.4ms bw=155
 semarang:surabaya delay=1.2ms bw=155
 surabaya:malang delay=0.4ms bw=155
+surabaya:banjarm delay=1.4ms bw=8
 gorontalo:manado delay=1.3ms bw=8
 gorontalo:palu delay=1.6ms bw=8
 palu:makasar delay=2.3ms bw=8
-makasar:kendari delay=1.8ms bw=8
+makasar:kndri delay=1.8ms bw=8
 makasar:surabaya delay=3.8ms bw=8
 denpasar:surabaya delay=1.5ms bw=8
-denpasar:mataram delay=0.5ms bw=8
-denpasar:kupang delay=4.6ms bw=8
-kendari:kupang delay=1.8ms bw=1
-aceh:pontianak delay=8.2ms bw=1
-samarinda:manado delay=4.3ms bw=1
-bengkulu:mataram delay=1.8 bw=1
-vsat:ui delay=1.2ms bw=2
-vsat:ternate delay=1.2ms bw=2
-vsat:ambon delay=1.2ms bw=2
-vsat:jayapura delay=1.2ms bw=2
-vsat:manokwari delay=1.2ms bw=2
+denpasar:mtrm delay=0.5ms bw=8
+denpasar:kpng delay=4.6ms bw=8
+kpng:vsatkpng delay=1.3ms bw=1
+vsatkndri:vsatkpng delay=1.8ms bw=1
+smr:vsatsmr delay=4.3ms bw=1
+vsatsmr:vsatmanado delay=4.3ms bw=1
+manado:vsatmanado delay=4.3ms bw=1
+plraya:ponti delay=1.6ms bw=8
+plraya:banjarm delay=1.6ms bw=8
+smr:banjarm delay=1.6ms bw=8
+vsatbngkl:vsatmtrm delay=1.8 bw=1
+mtrm:vsatmtrm delay=1.8 bw=1
+vsatponti:vsataceh delay=1.2ms bw=1
+vsatponti:ponti delay=0.1ms bw=8
+satelit:vsatui delay=1.2ms bw=2
+satelit:ternate delay=1.2ms bw=2
+satelit:ambon delay=1.2ms bw=2
+satelit:jayapura delay=1.2ms bw=2
+satelit:manokwari delay=1.2ms bw=2
+
 
 </pre>
 
