@@ -23,7 +23,7 @@ mini-ndn> nfdc status report
 
 will show the results as below
 
-[[Detail Status]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-a.txt)
+[[Detail Status nfdc node a]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-a.txt)
 
 <b>2. Detail status of routing on the node:</b>
 <pre>
