@@ -1,1 +1,102 @@
-
+mini-ndn> c nfdc status report
+General NFD status:
+                version=22.02
+              startTime=20220830T160219.780000
+            currentTime=20220830T170942.849000
+                 uptime=4043 seconds
+       nNameTreeEntries=59
+            nFibEntries=17
+            nPitEntries=3
+   nMeasurementsEntries=0
+             nCsEntries=302
+           nInInterests=1007
+          nOutInterests=1089
+                nInData=352
+               nOutData=413
+               nInNacks=0
+              nOutNacks=4
+    nSatisfiedInterests=391
+  nUnsatisfiedInterests=6
+Channels:
+  tcp4://0.0.0.0:6363
+  tcp6://[::]:6363
+  unix:///run/c.sock
+  dev://c-eth0
+  udp4://0.0.0.0:6363
+  udp6://[::]:6363
+  ws://0.0.0.0:9696
+  ws://[::]:9696
+Faces:
+  faceid=1 remote=internal:// local=internal:// congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 103d 0n 50696B} out={171i 0d 0n 22226B}} flags={local permanent point-to-point local-fields}
+  faceid=254 remote=contentstore:// local=contentstore:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
+  faceid=255 remote=null:// local=null:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
+  faceid=256 remote=ether://[01:00:5e:00:17:aa] local=dev://c-eth0 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=1500 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access}
+  faceid=257 remote=fd://28 local=unix:///run/c.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={121i 39d 0n 27109B} out={39i 54d 0n 38634B}} flags={local on-demand point-to-point local-fields congestion-marking}
+  faceid=258 remote=udp4://224.0.23.170:56363 local=udp4://10.0.0.6:54176 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=259 remote=udp6://[ff02::1234%c-eth0]:56363 local=udp6://[fe80::acaa:61ff:fe0c:aeeb%c-eth0]:36415 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={non-local permanent multi-access congestion-marking}
+  faceid=260 remote=udp4://10.0.0.5:6363 local=udp4://10.0.0.6:6363 congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={308i 112d 0n 86811B} out={296i 89d 2n 75637B}} flags={non-local permanent point-to-point congestion-marking}
+  faceid=262 remote=fd://34 local=unix:///run/c.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={356i 86d 0n 75721B} out={363i 160d 2n 123444B}} flags={local on-demand point-to-point local-fields congestion-marking}
+  faceid=265 remote=fd://35 local=unix:///run/c.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={218i 14d 0n 38602B} out={222i 107d 0n 84700B}} flags={local on-demand point-to-point local-fields congestion-marking}
+  faceid=266 remote=fd://36 local=unix:///run/c.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={3i 0d 0n 137B} out={0i 2d 0n 599B}} flags={local on-demand point-to-point congestion-marking}
+FIB:
+  /localhop/ndn/nlsr/sync/v=10 nexthops={faceid=262 (cost=0), faceid=265 (cost=0), faceid=260 (cost=10)}
+  /localhost/nfd/rib nexthops={faceid=257 (cost=0)}
+  /ndn/d-site/%C1.Router/cs/d nexthops={faceid=260 (cost=30)}
+  /ndn/a-site/%C1.Router/cs/a nexthops={faceid=260 (cost=10)}
+  /ndn/d-site/d nexthops={faceid=260 (cost=30)}
+  /ndn/c-site/%C1.Router/cs/c/nlsr/KEY nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /ndn/a-site/a nexthops={faceid=260 (cost=10)}
+  /localhop/ndn/nlsr/LSA nexthops={faceid=262 (cost=0), faceid=265 (cost=0), faceid=260 (cost=10)}
+  /ndn/c-site/KEY nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /ndn/b-site/%C1.Router/cs/b nexthops={faceid=260 (cost=20)}
+  /ndn/c-site/%C1.Router/cs/c/nlsr nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /ndn/c-site/%C1.Operator nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /localhost/nfd nexthops={faceid=1 (cost=0)}
+  /ndn/b-site/b nexthops={faceid=260 (cost=20)}
+  /ndn/c-site/%C1.Router/cs/c/KEY nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /localhost/nlsr nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+  /ndn/c-site/%C1.Router/cs/c/nlsr/INFO nexthops={faceid=262 (cost=0), faceid=265 (cost=0)}
+RIB:
+  /ndn/a-site/a routes={nexthop=260 origin=nlsr cost=10 flags=capture expires=3198s}
+  /ndn/a-site/%C1.Router/cs/a routes={nexthop=260 origin=nlsr cost=10 flags=capture expires=never}
+  /ndn/b-site/b routes={nexthop=260 origin=nlsr cost=20 flags=capture expires=3198s}
+  /ndn/b-site/%C1.Router/cs/b routes={nexthop=260 origin=nlsr cost=20 flags=capture expires=3198s}
+  /ndn/c-site/KEY routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /ndn/c-site/%C1.Router/cs/c/KEY routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /ndn/c-site/%C1.Router/cs/c/nlsr routes={nexthop=262 origin=app cost=0 flags=child-inherit expires=never, nexthop=265 origin=app cost=0 flags=child-inherit expires=never}
+  /ndn/c-site/%C1.Router/cs/c/nlsr/KEY routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /ndn/c-site/%C1.Router/cs/c/nlsr/INFO routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /ndn/c-site/%C1.Operator routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /ndn/d-site/d routes={nexthop=260 origin=nlsr cost=30 flags=capture expires=3198s}
+  /ndn/d-site/%C1.Router/cs/d routes={nexthop=260 origin=nlsr cost=30 flags=capture expires=3198s}
+  /localhop/ndn/nlsr/LSA routes={nexthop=262 origin=app cost=0 flags=capture expires=never, nexthop=260 origin=nlsr cost=10 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=capture expires=never}
+  /localhop/ndn/nlsr/sync/v=10 routes={nexthop=262 origin=app cost=0 flags=child-inherit expires=never, nexthop=260 origin=nlsr cost=10 flags=capture expires=never, nexthop=265 origin=app cost=0 flags=child-inherit expires=never}
+  /localhost/nfd routes={nexthop=257 origin=app cost=0 flags=child-inherit expires=never}
+  /localhost/nlsr routes={nexthop=262 origin=app cost=0 flags=child-inherit expires=never, nexthop=265 origin=app cost=0 flags=child-inherit expires=never}
+CS information:
+  capacity=65536
+     admit=on
+     serve=on
+  nEntries=302
+     nHits=56
+   nMisses=956
+Strategy choices:
+  prefix=/ strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/b-site/%C1.Operator strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/d-site/%C1.Operator strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/localhop/ndn/nlsr/sync/v=10 strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/ndn/d-site/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/b-site/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/localhost strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/ndn/a-site/%C1.Router/cs/a/nlsr/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/b-site/%C1.Router/cs/b/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/d-site/%C1.Router/cs/d/nlsr/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/broadcast strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/localhop/ndn/nlsr/LSA strategy=/localhost/nfd/strategy/multicast/v=4
+  prefix=/localhost/nfd strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/a-site/%C1.Operator strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/d-site/%C1.Router/cs/d/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/a-site/%C1.Router/cs/a/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/b-site/%C1.Router/cs/b/nlsr/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  prefix=/ndn/a-site/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+mini-ndn> 
