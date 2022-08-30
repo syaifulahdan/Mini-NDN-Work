@@ -25,6 +25,8 @@ will show the results as below
 
 [[Detail Status nfdc node a]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-a.txt)
 
+[[Detail Status nfdc node b]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-b.txt)
+
 <b>2. Detail status of routing on the node:</b>
 <pre>
 mini-ndn> a nfdc status report
@@ -58,7 +60,16 @@ Channels:
   tcp6://[::]:6363
   unix:///run/a.sock
   dev://a-eth0
+  dev://a-eth1Channels:
+  tcp4://0.0.0.0:6363
+  tcp6://[::]:6363
+  unix:///run/a.sock
+  dev://a-eth0
   dev://a-eth1
+  udp4://0.0.0.0:6363
+  udp6://[::]:6363
+  ws://0.0.0.0:9696
+  ws://[::]:9696
   udp4://0.0.0.0:6363
   udp6://[::]:6363
   ws://0.0.0.0:9696
