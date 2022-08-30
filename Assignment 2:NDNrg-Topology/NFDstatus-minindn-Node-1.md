@@ -27,6 +27,10 @@ will show the results as below
 
 [[Detail Status nfdc node b]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-b.txt)
 
+[[Detail Status nfdc node c]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-c.txt)
+
+[[Detail Status nfdc node d]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node1/NDNrg-Image-NFD-1-Works/nfd-status-node-d.txt)
+
 <b>2. Detail status of routing on the node:</b>
 <pre>
 mini-ndn> a nfdc status report
