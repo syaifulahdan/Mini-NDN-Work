@@ -28,9 +28,9 @@ will show the results as below
 <b>2. Detail status of routing on the node:</b>
 <pre>
 mini-ndn> a nfdc status report
-</pre>
 
-<b>General NFD status:</b>
+
+General NFD status:
                 version=22.02
               startTime=20220830T160218.540000
             currentTime=20220830T163233.112000
@@ -137,3 +137,4 @@ Strategy choices:
   prefix=/ndn/b-site/%C1.Router/cs/b/nlsr/KEY strategy=/localhost/nfd/strategy/best-route/v=5
 mini-ndn> 
 
+</pre>
