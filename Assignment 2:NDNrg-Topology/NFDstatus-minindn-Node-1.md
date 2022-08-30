@@ -28,8 +28,9 @@ will show the results as below
 <b>2. Detail status of routing on the node:</b>
 <pre>
 mini-ndn> a nfdc status report
+</pre>
 
-
+<pre>
 General NFD status:
                 version=22.02
               startTime=20220830T160218.540000
@@ -48,6 +49,10 @@ General NFD status:
               nOutNacks=17
     nSatisfiedInterests=348
   nUnsatisfiedInterests=32
+  
+  </pre>
+  
+  <pre>
 Channels:
   tcp4://0.0.0.0:6363
   tcp6://[::]:6363
@@ -58,6 +63,10 @@ Channels:
   udp6://[::]:6363
   ws://0.0.0.0:9696
   ws://[::]:9696
+  
+  </pre>
+  
+  <pre>
 Faces:
   faceid=1 remote=internal:// local=internal:// congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={0i 125d 0n 56253B} out={152i 0d 0n 21649B}} flags={local permanent point-to-point local-fields}
   faceid=254 remote=contentstore:// local=contentstore:// mtu=8800 counters={in={0i 0d 0n 0B} out={0i 0d 0n 0B}} flags={local permanent point-to-point}
@@ -74,6 +83,11 @@ Faces:
   faceid=267 remote=fd://41 local=unix:///run/a.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={232i 84d 0n 56113B} out={213i 141d 4n 83171B}} flags={local on-demand point-to-point local-fields congestion-marking}
   faceid=274 remote=fd://44 local=unix:///run/a.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={60i 18d 0n 18561B} out={23i 58d 0n 28164B}} flags={local on-demand point-to-point local-fields congestion-marking}
   faceid=275 remote=fd://45 local=unix:///run/a.sock congestion={base-marking-interval=100ms default-threshold=65536B} mtu=8800 counters={in={3i 0d 0n 137B} out={0i 2d 0n 614B}} flags={local on-demand point-to-point congestion-marking}
+  
+  </pre>
+  
+  
+  <pre>
 FIB:
   /localhop/ndn/nlsr/sync/v=10 nexthops={faceid=267 (cost=0), faceid=274 (cost=0), faceid=264 (cost=10), faceid=266 (cost=10)}
   /localhost/nfd/rib nexthops={faceid=258 (cost=0)}
@@ -92,6 +106,10 @@ FIB:
   /ndn/a-site/%C1.Router/cs/a/KEY nexthops={faceid=267 (cost=0), faceid=274 (cost=0)}
   /localhost/nlsr nexthops={faceid=267 (cost=0), faceid=274 (cost=0)}
   /ndn/a-site/KEY nexthops={faceid=267 (cost=0), faceid=274 (cost=0)}
+  
+  </pre>
+  
+  <pre>
 RIB:
   /ndn/a-site/KEY routes={nexthop=267 origin=app cost=0 flags=capture expires=never, nexthop=274 origin=app cost=0 flags=capture expires=never}
   /ndn/a-site/%C1.Router/cs/a/KEY routes={nexthop=267 origin=app cost=0 flags=capture expires=never, nexthop=274 origin=app cost=0 flags=capture expires=never}
@@ -109,6 +127,9 @@ RIB:
   /localhop/ndn/nlsr/sync/v=10 routes={nexthop=267 origin=app cost=0 flags=child-inherit expires=never, nexthop=264 origin=nlsr cost=10 flags=capture expires=never, nexthop=266 origin=nlsr cost=10 flags=capture expires=never, nexthop=274 origin=app cost=0 flags=child-inherit expires=never}
   /localhost/nfd routes={nexthop=258 origin=app cost=0 flags=child-inherit expires=never}
   /localhost/nlsr routes={nexthop=267 origin=app cost=0 flags=child-inherit expires=never, nexthop=274 origin=app cost=0 flags=child-inherit expires=never}
+</pre>
+
+<pre>
 CS information:
   capacity=65536
      admit=on
@@ -116,6 +137,11 @@ CS information:
   nEntries=280
      nHits=24
    nMisses=614
+   
+   </pre>
+   
+   
+   <pre>
 Strategy choices:
   prefix=/ strategy=/localhost/nfd/strategy/best-route/v=5
   prefix=/ndn/b-site/%C1.Operator strategy=/localhost/nfd/strategy/best-route/v=5
@@ -135,6 +161,7 @@ Strategy choices:
   prefix=/ndn/d-site/%C1.Router/cs/d/KEY strategy=/localhost/nfd/strategy/best-route/v=5
   prefix=/ndn/c-site/%C1.Router/cs/c/KEY strategy=/localhost/nfd/strategy/best-route/v=5
   prefix=/ndn/b-site/%C1.Router/cs/b/nlsr/KEY strategy=/localhost/nfd/strategy/best-route/v=5
+  
 mini-ndn> 
 
 </pre>
