@@ -2,9 +2,9 @@
 
 ndnpeek and ndnpoke
 
-    ndnpeek is a consumer program that sends interest packets and expects data packets
+ndnpeek is a consumer program that sends interest packets and expects data packets
     
-    ndnpoke is a producer program that provides data packages and corresponding interest packages
+ndnpoke is a producer program that provides data packages and corresponding interest packages
     
     
 usage example:
