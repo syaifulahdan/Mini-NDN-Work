@@ -72,9 +72,9 @@ ndn:/< prefix >/ping/< client-identifier >/< seq >
 
 where:
 
-    <prefix> is the server prefix that contains zero or more NameComponents.
-    <seq> is one NameComponent whose value is an unsigned 64-bit integer, represented as a decimal number in ASCII encoding.
-    <client-identifier> is one NameComponent with arbitrary value.
+    - <prefix> is the server prefix that contains zero or more NameComponents.
+    - <seq> is one NameComponent whose value is an unsigned 64-bit integer, represented as a decimal number in ASCII encoding.
+    - <client-identifier> is one NameComponent with arbitrary value.
 
 If a client expresses multiple probe Interests, it is RECOMMENDED for those Interests to have consecutive increasing integers in <seq> field.
 
