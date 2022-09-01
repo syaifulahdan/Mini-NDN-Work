@@ -39,5 +39,5 @@ bertopeng17-1@NDN-Node1-ITB:~$
 
 A list of the available options can be found with man ndnping.
 <pre>
-$man ndnping
+man ndnping
 </pre>
