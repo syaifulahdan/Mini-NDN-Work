@@ -19,7 +19,7 @@ bertopeng17-3@NDN-Node3-TELU:~$ export NDN_LOG=nlsr.*=TRACE && nlsr -f /home/ber
 or
 
 <pre>
-sudo NDN_LOG='nlsr.*=DEBUG' nlsr -f /home/bertopeng17-1/NLSR/nlsr-telu-5-node.conf
+sudo NDN_LOG='nlsr.*=DEBUG' nlsr -f /home/bertopeng17-3/NLSR/nlsr-telu-5-node.conf
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/NDNrg-Image-Node2/NLSR-Image-Node2/NLSR-start-node2-1.png)
