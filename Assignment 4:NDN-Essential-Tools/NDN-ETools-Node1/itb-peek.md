@@ -1,4 +1,4 @@
-***ndn-tools: Use of peek
+#ndn-tools: Use of peek
 
 ndnpeek and ndnpoke
     ndnpeek is a consumer program that sends interest packets and expects data packets
