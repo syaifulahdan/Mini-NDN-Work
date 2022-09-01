@@ -10,3 +10,9 @@ The client can be invoked by calling ndnping with a name to ping. For example, t
 <pre>
 ndnping /ndn/ndnrg/itb
 </pre>
+
+There are also a variety of options to control the behavior of the ping client. For example, to send only Ten pings to /ndn/ndnrg/itb, displaying a timestamp with each received Data or timeout, type:
+
+<pre>
+ndnping -c 10 -t /ndn/ndnrg/itb
+</pre>
