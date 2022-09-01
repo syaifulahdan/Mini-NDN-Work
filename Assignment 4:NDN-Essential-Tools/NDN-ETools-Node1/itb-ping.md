@@ -41,3 +41,16 @@ A list of the available options can be found with man ndnping.
 <pre>
 man ndnping
 </pre>
+
+### Using the Server
+The server can be invoked by calling ndnpingserver with a name to listen for pings to. For example, to listen for pings to /edu/arizona, one would execute:
+
+<pre>
+ndnpingserver /ndn/ndnrg/itb
+</pre>
+
+There are also a variety of options to control the behavior of the ping server. For example, to satisfy only 4 ping requests before exiting, execute the following:
+
+<pre>
+ndnpingserver -c 10 -t /ndn/ndnrg/itb
+</pre>
