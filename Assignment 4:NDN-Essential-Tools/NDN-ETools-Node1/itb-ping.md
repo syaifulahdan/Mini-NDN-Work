@@ -69,3 +69,17 @@ ndn:/< prefix >/ping/< seq >
 ndn:/< prefix >/ping/< client-identifier >/< seq >
 
 </pre>
+
+where:
+
+    <prefix> is the server prefix that contains zero or more NameComponents.
+    <seq> is one NameComponent whose value is an unsigned 64-bit integer, represented as a decimal number in ASCII encoding.
+    <client-identifier> is one NameComponent with arbitrary value.
+
+If a client expresses multiple probe Interests, it is RECOMMENDED for those Interests to have consecutive increasing integers in <seq> field.
+
+If a client uses the name structure with <client-identifier> field, it is RECOMMENDED to use one or more printable characters only, to make it easier for a human operator to read the logs. A client implementation MAY restrict this field to be non-empty and have printable characters only.
+
+The probe Interest SHOULD NOT carry CanBePrefix element.
+
+The probe Interest SHOULD carry MustBeFresh element. A client implementation MAY allow the operator to remove MustBeFresh element.
