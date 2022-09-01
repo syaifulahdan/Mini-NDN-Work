@@ -16,3 +16,23 @@ There are also a variety of options to control the behavior of the ping client. 
 <pre>
 ndnping -c 10 -t /ndn/ndnrg/itb
 </pre>
+
+Output :
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~$ ndnping -c 10 -t /ndn/ndnrg/itb
+PING /ndn/ndnrg/itb
+20220901T160038.469159 - nack from /ndn/ndnrg/itb: seq=13412160586476130027 time=1.47185 ms reason=NoRoute
+20220901T160039.470289 - nack from /ndn/ndnrg/itb: seq=13412160586476130028 time=0.997727 ms reason=NoRoute
+20220901T160040.470597 - nack from /ndn/ndnrg/itb: seq=13412160586476130029 time=1.03456 ms reason=NoRoute
+20220901T160041.471422 - nack from /ndn/ndnrg/itb: seq=13412160586476130030 time=1.48906 ms reason=NoRoute
+20220901T160042.479329 - nack from /ndn/ndnrg/itb: seq=13412160586476130031 time=0.69076 ms reason=NoRoute
+20220901T160043.481077 - nack from /ndn/ndnrg/itb: seq=13412160586476130032 time=1.34651 ms reason=NoRoute
+20220901T160044.490041 - nack from /ndn/ndnrg/itb: seq=13412160586476130033 time=0.284181 ms reason=NoRoute
+20220901T160045.495071 - nack from /ndn/ndnrg/itb: seq=13412160586476130034 time=0.929024 ms reason=NoRoute
+20220901T160046.495401 - nack from /ndn/ndnrg/itb: seq=13412160586476130035 time=0.825621 ms reason=NoRoute
+20220901T160047.496306 - nack from /ndn/ndnrg/itb: seq=13412160586476130036 time=0.873221 ms reason=NoRoute
+
+--- /ndn/ndnrg/itb ping statistics ---
+10 packets transmitted, 0 received, 10 nacked, 0% lost, 100% nacked, time 0 ms
+bertopeng17-1@NDN-Node1-ITB:~$ 
+</pre>
