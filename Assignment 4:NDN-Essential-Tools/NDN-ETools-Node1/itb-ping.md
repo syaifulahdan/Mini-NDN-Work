@@ -70,6 +70,29 @@ ndn:/< prefix >/ping/< client-identifier >/< seq >
 
 </pre>
 
+<pre>
+bertopeng17-1@NDN-Node1-ITB:~$ ndnping ndn:/ndn/ndnrg/itb/ping
+PING /ndn/ndnrg/itb/ping
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911114 time=1.36751 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911115 time=0.855821 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911116 time=0.907511 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911117 time=0.746847 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911118 time=0.792157 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911119 time=0.882581 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911120 time=0.861887 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911121 time=0.745577 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911122 time=0.926996 ms reason=NoRoute
+nack from /ndn/ndnrg/itb/ping: seq=5755161568521911123 time=0.756735 ms reason=NoRoute
+^C
+--- /ndn/ndnrg/itb/ping ping statistics ---
+10 packets transmitted, 0 received, 10 nacked, 0% lost, 100% nacked, time 0 ms
+bertopeng17-1@NDN-Node1-ITB:~$ 
+
+</pre>
+
+
+
+
 where:
 
     - <prefix> is the server prefix that contains zero or more NameComponents.
