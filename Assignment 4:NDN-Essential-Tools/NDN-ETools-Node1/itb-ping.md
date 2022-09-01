@@ -52,5 +52,18 @@ ndnpingserver /ndn/ndnrg/itb
 There are also a variety of options to control the behavior of the ping server. For example, to satisfy only 4 ping requests before exiting, execute the following:
 
 <pre>
-ndnpingserver -c 10 -t /ndn/ndnrg/itb
+ndnpingserver -p 10 -t /ndn/ndnrg/itb
+</pre>
+
+A list of the available options can be found with man ndnpingserver.
+
+### ndnping Protocol
+This section briefly describes ndnping's protocol, in order to allow alternate implementations to be compatible with this implementation. The current protocol version is ndnping protocol version 1. This version number will be incremented in case there's an incompatible change.
+
+### Probe Interests
+The client expresses probe Interests that are intended to be forwarded to the server without being aggregated. The Interests MUST have one of the following name structures:
+
+<pre>
+ndn:/<prefix>/ping/<seq>
+ndn:/<prefix>/ping/<client-identifier>/<seq>
 </pre>
