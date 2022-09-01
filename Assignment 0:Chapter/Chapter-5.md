@@ -54,7 +54,8 @@ To uninstall ndn-tools:
     sudo ./waf uninstall
  </pre>   
     
-    PROBLEM libndn-cxx not found https://named-data.net/doc/ndn-cxx/current/releases.html#all-ndn-cxx-releases
+    PROBLEM libndn-cxx not found 
+    https://named-data.net/doc/ndn-cxx/current/releases.html#all-ndn-cxx-releases
 
 <pre>
 sudo add-apt-repository ppa:named-data/ppa
