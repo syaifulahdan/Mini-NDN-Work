@@ -36,3 +36,8 @@ PING /ndn/ndnrg/itb
 10 packets transmitted, 0 received, 10 nacked, 0% lost, 100% nacked, time 0 ms
 bertopeng17-1@NDN-Node1-ITB:~$ 
 </pre>
+
+A list of the available options can be found with man ndnping.
+<pre>
+$man ndnping
+</pre>
