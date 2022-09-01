@@ -79,7 +79,7 @@ pip3 install git+https://github.com/sphinx-doc/sphinx
 ## 5.1. Usage NDN Essential Tools Node 1 (ITB) 
    ***
    
-   - Usage example: Peek [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
+   - Usage example: Peek [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%204:NDN-Essential-Tools/NDN-ETools-Node1/itb-peek.md)
    - Usage example: Chunk [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
    - Usage example: Ping [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
    - Usage example: Dump [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
