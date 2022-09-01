@@ -51,12 +51,9 @@ in ndn-tools source directory:
 To uninstall ndn-tools:
 
     sudo ./waf uninstall
-*** 
- 
-## 5.1. Install NDN Essential Tools Node 1 (ITB) 
-   ***
-   
-PROBLEM libndn-cxx not found
+    
+    
+    PROBLEM libndn-cxx not found
 https://named-data.net/doc/ndn-cxx/current/releases.html#all-ndn-cxx-releases
 
 <pre>
@@ -71,6 +68,17 @@ sudo apt-get install sphinxsearch
 sphinx-build --version
 pip3 install git+https://github.com/sphinx-doc/sphinx
 </pre>
+    
+    
+*** 
+ 
+ 
+ 
+ 
+## 5.1. Install NDN Essential Tools Node 1 (ITB) 
+   ***
+   
+
 
 - Installing Peek [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
    - Installing Chunk [[read]](https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%202:NDNrg-Topology/install-nodeNDN-Node-1.md)
