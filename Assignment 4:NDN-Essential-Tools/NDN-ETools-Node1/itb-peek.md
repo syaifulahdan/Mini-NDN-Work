@@ -11,3 +11,8 @@ usage example:
     </pre>
 
 <img src="https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%204:NDN-Essential-Tools/NDN-ETools-Node1/Image-ndn-tools-Node1/ndnpoke-itb.png" width="500">
+    Execute in another terminal:
+    <pre>
+    ndnpeek -p/localhost/demo/hello
+</pre>
+<img src="https://github.com/syaifulahdan/Mini-NDN-Work/blob/main/Assignment%204:NDN-Essential-Tools/NDN-ETools-Node1/Image-ndn-tools-Node1/ndnpeek-itb.png" width="500">
