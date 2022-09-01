@@ -64,6 +64,8 @@ This section briefly describes ndnping's protocol, in order to allow alternate i
 The client expresses probe Interests that are intended to be forwarded to the server without being aggregated. The Interests MUST have one of the following name structures:
 
 <pre>
+
 ndn:/<prefix>/ping/<seq>
 ndn:/<prefix>/ping/<client-identifier>/<seq>
+
 </pre>
