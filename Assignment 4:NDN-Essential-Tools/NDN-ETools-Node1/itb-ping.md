@@ -65,7 +65,7 @@ The client expresses probe Interests that are intended to be forwarded to the se
 
 <pre>
 
-ndn:/<<prefix>>/ping/<<seq>>
+ndn:/<< prefix >>/ping/<< seq >>
 ndn:/<prefix>/ping/<client-identifier>/<seq>
 
 </pre>
